@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.ChildrenwearStories" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Childrenwear Stories</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ChildrenwearStories
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Childrenwear Stories
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ChildrenwearStories
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Childrenwear Stories
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ChildrenwearStories
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Childrenwear Stories
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ChildrenwearStories
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Childrenwear Stories
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ChildrenwearStories
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Childrenwear Stories
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27273756">
+                <Value>Disney Princess TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273757">
+                <Value>Thomas &amp; Friends TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273758">
+                <Value>Star Wars TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273759">
+                <Value>Peppa Pig TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273760">
+                <Value>Spiderman TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273761">
+                <Value>Batman TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273762">
+                <Value>Avengers TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273763">
+                <Value>Justice League TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273764">
+                <Value>Transformers TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273765">
+                <Value>Paw Patrol TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273766">
+                <Value>Peter Rabbit TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273767">
+                <Value>Alice in Wonderland TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273768">
+                <Value>Harry Potter TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273769">
+                <Value>Marvel TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273770">
+                <Value>Paddington TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273771">
+                <Value>Playstation TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273772">
+                <Value>Xbox TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273773">
+                <Value>Snoopy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273774">
+                <Value>Winnie TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273775">
+                <Value>Toy Story TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273776">
+                <Value>Gruffalo TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273777">
+                <Value>Iron Man TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273778">
+                <Value>My Little Pony TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273779">
+                <Value>Pokemon TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273780">
+                <Value>Minecraft TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273781">
+                <Value>Frozen TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273782">
+                <Value>Superman TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273783">
+                <Value>Mickey TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273784">
+                <Value>Minnie TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273785">
+                <Value>Winnie the Pooh TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273786">
+                <Value>Tatty Teddy TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273787">
+                <Value>Snoopy TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273788">
+                <Value>Mr Men TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273789">
+                <Value>Disney TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273790">
+                <Value>Minions TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273791">
+                <Value>Jurassic Park TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273792">
+                <Value>NASA TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273793">
+                <Value>Jurassic World TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273794">
+                <Value>E.T. TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273795">
+                <Value>Lady and the Tramp TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273796">
+                <Value>Lion King TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273797">
+                <Value>Tatty TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273798">
+                <Value>Emoji TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273799">
+                <Value>Thomas TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273800">
+                <Value>Lego Batman TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273801">
+                <Value>Mickey Mouse TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273802">
+                <Value>Minnie Mouse TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273803">
+                <Value>England FA TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273804">
+                <Value>Despicable Me TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273805">
+                <Value>Pusheen TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273806">
+                <Value>Manchester United TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273807">
+                <Value>Chelsea TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273808">
+                <Value>Liverpool TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273809">
+                <Value>Arsenal TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273810">
+                <Value>Man City TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273811">
+                <Value>Barcelona TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273812">
+                <Value>Hulk TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273813">
+                <Value>Secret Life of Pets TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273814">
+                <Value>Black Panther TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273815">
+                <Value>PJ Masks TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273816">
+                <Value>Aristocats TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273817">
+                <Value>Dalmations TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273818">
+                <Value>Dumbo TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273819">
+                <Value>Donald Duck TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273820">
+                <Value>Aladdin TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273821">
+                <Value>Daisy Duck TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273822">
+                <Value>Miffy TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273823">
+                <Value>Thumper TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273824">
+                <Value>DC Originals TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273825">
+                <Value>Incredible Hulk TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273826">
+                <Value>Paddington Bear TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273827">
+                <Value>Toystory TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273828">
+                <Value>Goofy TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273829">
+                <Value>Na</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273830">
+                <Value>Frozen TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273831">
+                <Value>Peter Rabbit TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273832">
+                <Value>Snoopy  TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273833">
+                <Value>Space Jam TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273834">
+                <Value>Natural History Museum TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273835">
+                <Value>Roald Dahl TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273836">
+                <Value>Thomas and Friends TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273837">
+                <Value>Cars TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273838">
+                <Value>Angry Birds TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273839">
+                <Value>Hello Kitty TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273840">
+                <Value>Mr Men &amp; Little Miss</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273841">
+                <Value>Roald Dahl &amp; NHM TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273842">
+                <Value>Disney Winne The pooh.</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273843">
+                <Value>Thomas  TM</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273844">
+                <Value>Fireman Sam TM</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

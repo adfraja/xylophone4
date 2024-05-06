@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <EntityCrossReferenceType ID="REF_SupplierToSupplierAlternativePayee" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" ParentChildRelation="NONE" MultiValued="false">
+            <Name QualifierID="std.lang.all">Alternative Payee</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="AttributeHelpText">If alternative payee field is maintained, payment goes to an alternative payee and not to the real creditor. Is in this field an alternative supplier number entered, an alternative supplier number will be payed during the automatic payment run. Payment goes strictly to the alternative payee.</Value>
+            </MetaData>
+            <AttributeLink AttributeID="AT_ReplicationActionFlag"></AttributeLink>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier"></TargetUserTypeLink>
+        </EntityCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

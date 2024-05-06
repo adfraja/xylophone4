@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="LeafPublishingEx" UserTypeID="OutboundEndpoint user-type root" PreProcessorPluginID="Default" ProcessPluginID="Export" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultOutboundErrorReporter" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="31536000000" MaximumNumberOfFailedBackgroundProcesses="1000" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="WEBPUBLISHING" EnableRetry="false" UseCrossContext="true" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="DirectoryDeliveryPlugin" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries>
+
+PreProcessorPluginConfiguration:
+<Parameters/>
+
+PostProcessorPluginConfiguration:
+<Parameters/>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1000</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="Directory" Type="java.lang.String">/opt/stibo/oiep-delivery</Parameter>
+  <Parameter ID="FileName" Type="java.lang.String">$filename-$timestamp.$extension</Parameter>
+  <Parameter ID="zipContent" Type="java.lang.Boolean">false</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <DerivedEventType>salesItemRepublish</DerivedEventType>
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <EventType>17</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="Context1" ECatalogID="" EffectiveDate="" ExecutionMode="" ExportDerivedAttrs="false" ExportSelectedProducts="false" InheritProductData="true" LeafProductExport="true" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" Since="" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main">
+        <Delivery Name="File"/>
+        <Format Name="GenericXML">
+          <Parameter Name="DocType"/>
+          <Parameter Name="Sample">&lt;SalesItemWebFeed&gt;&lt;SalesItem STEPID=&quot;[?Target ID?]&quot;&gt;&lt;?Record?&gt;&lt;EAN&gt;&lt;?Target EAN?&gt;&lt;/EAN&gt;&lt;ConsumerShortDescription&gt;&lt;?Target CSD?&gt;&lt;/ConsumerShortDescription&gt;&lt;Specs&gt;&lt;Value&gt;&lt;?MultiTarget?&gt;&lt;AttributeName&gt;&lt;?Target AttrName?&gt;&lt;/AttributeName&gt;&lt;AttributeSTEPID&gt;&lt;?Target AttrID?&gt;&lt;/AttributeSTEPID&gt;&lt;Value&gt;&lt;?Target AttrValue?&gt;&lt;/Value&gt;&lt;/Value&gt;&lt;/Specs&gt;&lt;/SalesItem&gt;&lt;/SalesItemWebFeed&gt;</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product">
+          <CompositeMap Target="Value">
+            <Map Target="AttrID">
+              <Expression>
+                <AttributeGroupSource Aspect="ID" AttributeGroupID="CategorySpecificAttributes" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="AttrName">
+              <Expression>
+                <AttributeGroupSource Aspect="Name" AttributeGroupID="CategorySpecificAttributes" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="AttrValue">
+              <Expression>
+                <AttributeGroupSource Aspect="ValueAndUnit" AttributeGroupID="CategorySpecificAttributes" MultiValueSeparator="|"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeGroupSource Aspect="ValueAndUnit" AttributeGroupID="CategorySpecificAttributes" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <Map Target="CSD">
+            <Expression>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="ConsumerShortDescription" MultiValueSeparator=";"/>
+            </Expression>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="ConsumerShortDescription" MultiValueSeparator=";"/>
+            </Trigger>
+          </Map>
+          <Map Target="EAN">
+            <Expression>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="EAN" MultiValueSeparator=";"/>
+            </Expression>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="EAN" MultiValueSeparator=";"/>
+            </Trigger>
+          </Map>
+          <Map Target="ID">
+            <Expression>
+              <IDSource/>
+            </Expression>
+            <Trigger>
+              <IDSource/>
+            </Trigger>
+          </Map>
+        </ProductMapping>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>SalesItem</ObjectType>
+    <Postprocessor ID="MultiContextSplitter">H4sIAAAAAAAAAE3MsQ6CMBCA4Z2nuNxu0c2hLYkxJGwO6H6BC9aUO1IKkbeXSR3/5M9nq/cYYeU0BxWHJ3NEYOm0DzI4vLf14YyVL+yNEo2c988XAL+E5uqw02lr5MkpZO4fFBeeEdptYocvWslEksFcVCOToM9pYVt+hR0v//UPno2UQZIAAAA=</Postprocessor>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Outbound Integration Endpoints"></SetupGroupLink>
+            <Name>Leaf Publishing Ex</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX32DG2IboamAAAAA</ScheduleSpecification>
+            <PreProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PreProcessorPluginConfiguration>
+            <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAH2QuwrCQBBFe79iGdIm0c4iD1ARbEQwfsCajDKy2Vk2Q0j8etfGBz7KA4dzmcnKoTWqR98R2xxmyRQU2pobsuccDtU6nkNZTLKd9rpFCV4xUeqJarPKYUUea2E/gqpGhzlcdK8To+052YsPJShSdpJ2QkdOmdDFDRoKq2OWPlJfwmsyuA38uxudgmKDEkdCLXaiW5dEOAja+0X/81dyS7ZBlc+BBbNBbaE4adPhW+cFwjduHWB2okIBAAA=</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+ConsumerSuspended=
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="SalesItem"/>
+  </ObjectTypeRules>
+  <ObjectTypeRules ActionID="LPRepublishSalesItemDescendants" ConditionID="LPAlwaysFalse">
+    <ObjectType ObjectTypeID="Level3"/>
+    <ObjectType ObjectTypeID="SalesItemFamily"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=Context1;Context2;Context3
+linkType=WebsiteLink
+objecttype=Level3;SalesItem;SalesItemFamily
+reftype=Accessory;ManualDE;ManualEN;PrimaryProductImage;ProductImage;SimilarProduct;SituationImage -->
+                <Configuration>H4sIAAAAAAAAANVV23LaMBB9z1d4/J4SQi/pjEXGw6VlhiQMkORZ2AtRkSWPViLQr69sy6bG0NC35Anr7EV7ds+KEBH0HJKUUw0kuN0m3NuAQiYF8dufrnwPRCRjJlbEf5wPL2/82+5FMJsPJpcTJWMT6ZFYSpVQbSO8KaDkGxgJzgRMYYnEX1KO4HtDybl8fbCpFYthZhYueu8x2KZS6T4otoE41FpVpu6F5wVhVig6rxn7DcS/Y4IlJvG9vhS6uKDHKSJbsiivZy7zKFsIKEvDhmhlinxlxlaevFVkt8xaJ6h1A0w5092sMLYwGsZMrHGu2GplKxarQ/OHaOmeC2aNeJP8QXc/AMV6xcfl4+RQd/VGIuImhgm1ytFOOE4sB0nPaZx1MwmomcEURAyxw0f2e/ssVfyTgaIqetk1FHVPE2iAD4tfEOn5LoUfSprUGpAEe3BqOGBe6xGshnr7z1Gf+DNqnUYakpLqGTm9MMqoZuHjyRRSs+AMX6pMfcDIUqZCo+/ZPsRs7x3yV7rDYTWus0ob0oTxXVHgvwLGsAHeOUmkCbneFhNvtNwN992LPii9//epdHHHHssy59GlcHPIdFrOpPZIto7uV3VNNccG39Lijj0lERth+cN93PREuQEsT32qqZWfprbdCt+6NWi5Y6GesqdnrPpeOHav15hS28kwTZXcVFv/KNj715GlndV57l/DkyPQcefIthq2mvSK33Ydvirx6zreLvEyjSW1zjaUPMMCWSEoZ5L5+urMWKx6A78h1aPRsH0nBw+K81CwzFOGUQSIUh3g1+SOCkN5f1DHOw4f3Nfxz2SiWELVruxcQldQd/lCTtu+khmzxVHlXOrWb9aqTT6Gv2P/ALAwSzHTCQAA</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAH1Vx47bSBC971cM5qoDsygBMwYoZjFTzDeGZs6Z+vqd8azhNWy4b/3eq0a9KnTVG7uCdn70IC7SImb3vhtnumvTIlvGcC669ts/Ly9vf8BflHCOc6quraMH0/trGtYTeP1Uf+o/H/0kviHEG/Tz9ht7/itL/s4yYCxWkPyEp7AGkziDxgT9EtXFlL9Bv4m+YrWoBPEX8PgR9Qb9D/2S6d0092MXg2nqxheReX9VlnouPtzPYP8oVV3MMxhfvwn4JFI/Dospk3GmlRtN4QHaLuq+wDGay3613/lNOwvnG30NbQ0RpSoC3sPEIEK5tgMU+z6w4dvuCndMZX2tgZmniK9yiuD+4cinQ2U7NL5eLh4ln1hiGTYYrUdCqfpAw1PuBgCb9LPfxas71Ww1cbFDa1anXHvfmU+5Ca8QZOtth9pG8D3d9zfoF4c/yv69xUrYhhkYvzr9q0MZcT33FCk38/o8nzZIZYQJ4IjosDacdf0QDkZalZZQH7jNL1TjooOjDjpG2jsrizCZmGgElfGIaWuJw+2EoGZ1AKPo1kd/StJ1loOEMQOy6PJrMDgypREs70kKJkdai5aE2Dk4p0qwZOb9Raf6E/ls7yIpeqehmJwMZ7zy/rAxut+vd1dyffQpxZlrRyx9h6iWVpa4juibo8/uYVY6I1LMvT3oIDwQhyNVxcYzBM8Eq56cY7Ms2XSjwTbvt7bvC/eWPSyqehx5eY5VIMQ4noph+5Rrj4WT5OKxy81wO9kMnMiFFbHnlzPCL6aqOhirxqFCBpTL4EXkw0FVjm5zbxArRKneIBY4Q0kTRD5PW1ofKhfBZI/YZcrsak/nG8LJuDE1QhglVFVPXbsixxLtqFmwBeYXqybyeig6MXHoPrHFyKProoLJt4Ui6KeFXwXKkOT5kg9CAoUj146XNApqJVPVrWHQDufPlVrxfsFbrhFPBJI26LWPeVZ6cqsWY+lYVJyTZOIGRmO3ZaGu+XJXJrGg9YnvOymU6UZ2RpcIvErVEwRrmzLpwYXgwXrkSHNrEqeMeQoDClTKaVBUTYLuKs9td7Zd9cUkeX5T0/TYxotex1QAZpITOgY2O9UM0WjLOphh0VMsJZ6VaSsb6uA8AgUdij4OQtOBJqQJ3PvVLSPUkdbB7KtTmnccwyZXqV0EVb2jrPEwB97XBMdZtiS+M/eUFRtE2S/qyjRHB+qyfrCag/e8BGmWn5+TqDFKNg8kYtvyfCWe+FoRyyOEh2kpNtvwvSdsy+eE3VMRwu9EQob6fp7TEwb1ho7reHpk5q5ZbpcXVdeNDQcFTKQOIZc8as7Lz9scSm3ZHr51mavYDshj0VWD3LHM5/UoxBcgLCS5JF0hHAJHdNElkQkfH3RfKMq82grIMA7IO3sLac/ERdo3hLQ4air34+GmmItAm6djis6FNIlH60PR91P7UVaiyPO9pjOK+hitf/jxn8Me+uMW+G8U/21T/At6+mAwTAYAAA==</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <ContextLink ContextID="Context2"></ContextLink>
+            <ContextLink ContextID="Context3"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="VISH_SKU" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="VISH_SKU-[id]">
+            <Name>VISH_SKU</Name>
+            <UserTypeLink UserTypeID="VIGA_Prod"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

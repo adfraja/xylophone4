@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD324003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">material according norm_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD324003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;material according norm_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD324003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;material according norm_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD324003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;material according norm_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD324003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;material according norm_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD324003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;material according norm_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD324</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD324003</Value>
+            </MetaData>
+            <ValueGroup ID="AAM943002">
+                <Value QualifierID="std.lang.all">S-Bi57Sn43</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN281002">
+                <Value QualifierID="std.lang.all">S-Pb49Sn48Bi3</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN282002">
+                <Value QualifierID="std.lang.all">S-Pb50Sn50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN283002">
+                <Value QualifierID="std.lang.all">S-Pb50Sn50E</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN284002">
+                <Value QualifierID="std.lang.all">S-Pb50Sn50Sb</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN311002">
+                <Value QualifierID="std.lang.all">S-Pb55Sn45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN314002">
+                <Value QualifierID="std.lang.all">S-Pb58Sn40Sb2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN317002">
+                <Value QualifierID="std.lang.all">S-Pb60Sn40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN320002">
+                <Value QualifierID="std.lang.all">S-Pb65Sn35</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN323002">
+                <Value QualifierID="std.lang.all">S-Pb69Sn30Sb1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN324002">
+                <Value QualifierID="std.lang.all">S-Pb74Sn25Sb1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN325002">
+                <Value QualifierID="std.lang.all">S-Pb78SN20Sb2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN326002">
+                <Value QualifierID="std.lang.all">S-Pb90Sn10</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN327002">
+                <Value QualifierID="std.lang.all">S-Pb92Sn8</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN328002">
+                <Value QualifierID="std.lang.all">S-Pb93Sn5Ag2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN329002">
+                <Value QualifierID="std.lang.all">S-Pb95Ag5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN330002">
+                <Value QualifierID="std.lang.all">S-Pb98Ag2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN331002">
+                <Value QualifierID="std.lang.all">S-Pb98Sn2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN457002">
+                <Value QualifierID="std.lang.all">S-Sn50In50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN458002">
+                <Value QualifierID="std.lang.all">S-Sn50Pb32Cd18</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN459002">
+                <Value QualifierID="std.lang.all">S-Sn50Pb49Cu1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN460002">
+                <Value QualifierID="std.lang.all">S-Sn60Pb36Ag4</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN461002">
+                <Value QualifierID="std.lang.all">S-Sn60Pb38Cu2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN462002">
+                <Value QualifierID="std.lang.all">S-Sn60Pb40E</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN463002">
+                <Value QualifierID="std.lang.all">S-Sn60Pb40Sb</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN464002">
+                <Value QualifierID="std.lang.all">S-Sn62Pb36Ag2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN465002">
+                <Value QualifierID="std.lang.all">S-Sn63Pb37</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN466002">
+                <Value QualifierID="std.lang.all">S-Sn63Pb37E</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN467002">
+                <Value QualifierID="std.lang.all">S-Sn63Pb37Sb</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN468002">
+                <Value QualifierID="std.lang.all">S-Sn95Sb5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN469002">
+                <Value QualifierID="std.lang.all">S-Sn96Ag4</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN470002">
+                <Value QualifierID="std.lang.all">S-Sn97Ag3</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN471002">
+                <Value QualifierID="std.lang.all">S-Sn97Cu3</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

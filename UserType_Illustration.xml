@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Illustration" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Illustration</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asKwePHiOXPmrFq16vTp08uXL9+/f//ChQtnzJhx8ODBU6dOHThwYMmSJXPnzj158uSKFSsWLVp0/Pjx2bNn79mzZ+nSpRs3bpw1a1ZjU9Pu3bvb29vXr1+/Zs2aCRMmrFy5sr6+vqKiorWlpba2dseOHdu3b588efKCBQsOHz5cXFxcUlJSVVXd1dW1bNmysrKyLVu2zJw5c+vWrUeOHJk3b15vb295efl/MGAgBBR/sjAyMJgw6IA4ID8xsE05cFhRiONAn7ubwiWrC1rGN84YMOuINbQzLus56NHAeVBRo5hD64DZtxk7738wV3CbcfLdD+s7gsI3Ugv1G/KkDCXLmhqbRQx1yoybKiuM9QyV+mcUNCgais9onmUsZCg0oWFBfgOrIWvexMJ+LkOu/ImTGjg2b9i9k1VVgJeTk/kIMyevgP5OEzV1bTkNBVkxeQlNQ2llQ0cGawCTodDQdwEAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>application/illustrator</MIMEType>
+            <MIMEType>application/postscript</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

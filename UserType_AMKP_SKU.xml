@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="AMKP_SKU" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>AMKP_SKU</Name>
+            <UserTypeLink UserTypeID="AMKP_Folder"></UserTypeLink>
+            <AttributeLink AttributeID="AMKP_Color"></AttributeLink>
+            <AttributeLink AttributeID="AMKP_Lang"></AttributeLink>
+            <AttributeLink AttributeID="AMKP_Price"></AttributeLink>
+            <AttributeLink AttributeID="AMKP_serialnumber"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

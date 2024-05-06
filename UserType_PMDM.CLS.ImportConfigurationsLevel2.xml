@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.CLS.ImportConfigurationsLevel2" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Import Configurations Level 2</Name>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.CLS.ImportConfigurationsLevel1"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

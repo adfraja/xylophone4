@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="MultiRevisionScreen"><!-- Definition:
+<portal-config portalId="microportal" xmlns="http://stibosystems.com/step/portal-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <screens>
+    <loginscreen/>
+    <screen id="homepage" type="HomePage"/>
+    <screen id="main" type="Main">
+      <component id="CornerBar" type="CornerBar">
+        <parameter-list id="Items">
+          <component id="Items" type="CornerBarDesignModeAction">
+            <parameter id="TooltipText" value="i18n.stibo.CornerBar.DesignMode.Tooltip.Text"/>
+          </component>
+          <component id="Items" type="CornerBarLogoutAction">
+            <parameter id="TooltipText" value="i18n.stibo.CornerBar.Logout.Tooltip.Text"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="BottomHeight" value="64"/>
+      <parameter id="DefaultSidePanel" value="SHOWN"/>
+      <parameter id="LeftWidth" value="248"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter id="RightWidth" value="120"/>
+      <parameter id="TopHeight" value="64"/>
+      <parameter-list id="Left">
+        <component id="Left" type="StackPanel">
+          <parameter id="StackHeaderHeight" value="48"/>
+          <parameter-list id="Items">
+            <component id="Items" type="StackPanelItem">
+              <component id="Content" type="TreeNavigator">
+                <parameter id="ShowLeaves" value="true"/>
+                <parameter id="showRecycle" value="true"/>
+                <parameter-list id="RootNodeURLs">
+                  <parameter value="step://product?id=MultupleRevisionScreen"/>
+                </parameter-list>
+              </component>
+              <parameter id="CssClass" value="stb-StackPanelItem"/>
+              <parameter id="HeaderCssClass" value="stb-StackPanelHeader"/>
+              <parameter id="Title" value="i18n.stibo.portal.server.components.layout.StackPanelItemServerComponent.default.title"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="nodeEditor"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ProductCondition"/>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="RepresentationList">
+        <component id="RepresentationList" type="DynamicTableLayoutSettings">
+          <parameter id="AllowWrapOfCellContent" value="true"/>
+          <parameter id="AllowWrapOfHeaderTitle" value="false"/>
+        </component>
+      </parameter-list>
+      <parameter-list id="Right"/>
+    </screen>
+    <screen id="nodeEditor" type="NodeDetails">
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component id="Actions" type="ApproveAction">
+            <parameter id="ButtonLabel" value="i18n.stibo.portal.server.components.value.ApproveActionServerComponent.default.button.Label"/>
+            <parameter id="ButtonType" value="ICON_AND_TEXT"/>
+            <parameter id="EnforceValidity" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="TabControl">
+        <parameter id="DirtyWarning" value="false"/>
+        <parameter-list id="TabPages">
+          <component id="TabPages" type="SubScreenTabPage">
+            <parameter id="DetailsScreen" value="productdetails"/>
+            <parameter id="Lazy" value="false"/>
+            <parameter id="Title" value="Multi revision screen"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowTitle" value="true"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+    </screen>
+    <screen id="productdetails" type="MultiRevisionScreen">
+      <component id="EditorTable" type="MultiRevisionEditor">
+        <parameter id="DisplayModeHeight" value="600"/>
+        <parameter id="GroupsInitiallyOpen" value="false"/>
+        <parameter id="PropertyDirection" value="HORIZONTAL"/>
+        <parameter id="ShowDetails" value="false"/>
+        <parameter id="ShowEmptyGroupHeaders" value="true"/>
+        <parameter id="ShowGroupHeaders" value="true"/>
+        <parameter id="ShowOnlyValidAttributes" value="true"/>
+        <parameter id="readOnly" value="false"/>
+        <parameter-list id="Headers">
+          <component id="Headers" type="IDHeader">
+            <parameter id="EnableLink" value="true"/>
+          </component>
+          <component id="Headers" type="NameHeader"/>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="Attribute" value="MultiRevAttr_1"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="nowrap" value="false"/>
+          </component>
+          <component id="Headers" type="ApprovedHeader"/>
+          <component id="Headers" type="RevisionHeader"/>
+        </parameter-list>
+      </component>
+      <parameter id="AllowGroupFiltering" value="true"/>
+      <parameter id="ShowHideEqualsButton" value="true"/>
+      <parameter id="ShowMarkDifferentButton" value="true"/>
+      <parameter id="ShowTitle" value="true"/>
+      <parameter id="Title" value="i18n.stibo.MultiRevisionScreen.Title"/>
+    </screen>
+  </screens>
+</portal-config> -->
+            <SetupGroupLink SetupGroupID="Uncategorized Setup Group"></SetupGroupLink>
+            <Configuration>H4sIAAAAAAAAAL1ZW2/iOBR+769AeW9ou6NVNepFFOiCxKUqTDval8okBqwaO2sbKPPr59gmgUAuDt3pPDXm3G/fsSdaTiiRcxze3tx/LGhthYUknN16l/6FV8Ms4CFhs1vvx/jx/NqrSYVYiChn+NZj3Lu/O7uJuFCIngecTcmsBjKYvPXmSkXf63WpyITLjVR4If2AL+AAR/UUh2dZvn9IkrCt12t//ZfPxax+dXFxWf/Z742COV6gc8K0BQH2alZIN7z1FiQQ3H6CMEm+S0Pb4wFSxhV3Y2qpL/9Dht7dWQ3+3chAYMyk/TInlM/AGnNc3zu2JzWiDUOEeTW1iSBYff33jsyQRkigBVZYGOoxjzqYzObKq60QXQLP39+8eiHLA1eKL6pyPWNJfmE0oTjhUWKJS7haeIqWVI1IiJ8QwzThHXWGr4MyldrCVxKqecJ2eXVRwtTD0wOeq2/X+TznUMdqp82FUGs4SIohheKIoMTZHtU2jSOFgnfr/zFfhg+GvoNRiMVBmo5dKbK0q4s2R2WGyZb8yGZ9XCAkw35relPKJkVSJsZLNTnfibVEee7kSB4TtVeA5PKa+aZBfduCvsQCZpGf+CV9ijZ8qfy0OyND1oyp/NCWqa+M+GomlbhpolcmMZ2HJmcK/o4zMYbRMEArMkOKi5JEZNgn53z9jINNUNK5DqJGIKqH0QrLT0ja6zjO1YCH+Mdzr6hKcwxKoo31mI4ED5eBuge5fcjkMqL4Ga+IRqWRma1ORtbTVpZkrZ6kraDFyojKdeaKKGY9KirBsHhAIi6r3UGGyorDpGiQJHpagCAz1oeENwINsUWD6RDkOFUkGuMPldX7iQZ/p8Lf8viGKW9mlibHxa8en8GE+WM+WfGf96ekWnKLLKMU+iiKYL/LqoaDiCWUMaqYXtyeOoKhbd84RgyS2w6JHoUVkBBGKvBAgirA4R7P1vonO2SSH/Lz8Kd6OmuK4khgCYLM3tqD4/K0ZPBsXWxtGILVeKwXvZ6BzhFWKifZGdlqUMrXrwJFw6kF+DRiTxGVuXiRL6qJKU1QsQR5TgjtTd3u39kL+ZwvcIRmOA5RB76f9Dcoz2TYYlGIFSI0KR4NS+QAkwo3WY226eg5LNyaqQPbdvu/JYT6YQmrPqvCn7tgZZjvj7PWpaws/iP4MnokFA5131f0p4/Ee4tMp1hATl1cShe7nRZje3XJyMV2mhShYGJKK85pWT1n8LYXkdqYSNjOKF+iDoTA+ImwUJsWEdiiTSygM3zu/jscjBs9R1uGjG5eECVhQylBJkvlsNIdiDGeyC6DSYgo3QyjvSHtGpYWkREs6BqwD++jF0cXvQx+AYHUrpyUjxNTsZu8Ma/T7pAoshXYbW3vP84LQ5uZmUzYu9PyXXW3ObBvAJqLb2jF/C/awqouMr6Gce8GFhnsz6COO1VDjgBzvxm+dFsODZ4jIumnREI8a/Qvb5cVRG0TzgNE8SMXC2Rw+FPOddlKN32XzWEQKxyaLJ3ubF8/68Hs3EV8wNXu0F3Qdg4YiP9QHUyjr6jxRgRIvcLhZ+o8BpF8GSfs3cX7yN4GHDcrnMTI9P+vFLkrwZ7awwcVl82gzaZcBNjAEFElXZvhyCsSrLQhju4ju8dV2Ah0wQme9Sp3VKCAu04K08w7sABteml0RIuEOr43LSd259r+4D5Te+jX6QMxnXozyWpiW/E1WfqucvQYbGslfaE72Ja/8mqbjrndLJOQx59u6bXXf8fsxsTpOVT1BcEa2EOTvWd1lxdRQ+qnlOa9h06MCt/qqIJcFTq71MMxBCkR0W0OB2+NQett3P45/qpiSc/j+Evend2k/yMIDgDHiLr7DX5KR9sgGwAA</Configuration>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>

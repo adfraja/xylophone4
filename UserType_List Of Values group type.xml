@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="List Of Values group type" Referenced="true">
+            <Name>List Of Values Group Type</Name>
+            <UserTypeLink UserTypeID="List Of Values group type"></UserTypeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

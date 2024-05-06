@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC147012" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Energy efficiency class_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC147012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Energy efficiency class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC147012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Energy efficiency class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC147012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Energy efficiency class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC147012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Energy efficiency class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC147012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Energy efficiency class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC147</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC147012</Value>
+            </MetaData>
+            <ValueGroup ID="AAA617004">
+                <Value QualifierID="std.lang.all">A+</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA821004">
+                <Value QualifierID="std.lang.all">A++</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN633005">
+                <Value QualifierID="std.lang.all">Not applicable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT828002">
+                <Value QualifierID="std.lang.all">B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV187002">
+                <Value QualifierID="std.lang.all">A+++</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA264007">
+                <Value QualifierID="std.lang.all">E</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA267005">
+                <Value QualifierID="std.lang.all">G</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA915008">
+                <Value QualifierID="std.lang.all">A</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA941007">
+                <Value QualifierID="std.lang.all">C</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA943009">
+                <Value QualifierID="std.lang.all">D</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA963006">
+                <Value QualifierID="std.lang.all">F</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

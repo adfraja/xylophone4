@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="WikiMetadataEndpoint" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="Export" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="DBA" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="WikiDelivery" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.ScheduleDefinition$ScheduleEveryMinute" every="1"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">7</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1000</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="WikiAPIPath" Type="java.lang.String">xwiki/rest/wikis/xwiki/</Parameter>
+  <Parameter ID="WikiMainSpace" Type="java.lang.String">STEP/</Parameter>
+  <Parameter ID="WikiPassword" Type="com.stibo.passwordparameter.PasswordParameter">eRAjNzxQJ81jAUVjF4v9QIFvvd8b9ub5TXADqh9AB1M=</Parameter>
+  <Parameter ID="WikiUrl" Type="com.stibo.util.integrationendpoints.ConfigParameter"/>
+  <Parameter ID="WikiViewPath" Type="java.lang.String">xwiki/bin/view/</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <EventType>17</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="GL" ECatalogID="" EffectiveDate="" ExecutionMode="" ExportDerivedAttrs="false" ExportSelectedProducts="false" InheritProductData="true" LeafProductExport="false" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="false" ScheduleDate="" SelfContainedReferences="false" Since="" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main">
+        <Delivery Name="File"/>
+        <Format Name="AdvancedSTEPXML">
+          <Parameter Name="Recorder">&lt;STEP-ProductInformation DefinitionsAsComments=&quot;true&quot;&gt;&lt;UserTypes             ExportSize=&quot;Selected&quot;/&gt;&lt;Keys                  ExportSize=&quot;Selected&quot;/&gt;&lt;CrossReferenceTypes   ExportSize=&quot;Selected&quot;/&gt;&lt;UnitList              ExportSize=&quot;Selected&quot;/&gt;&lt;ListsOfValues         ExportSize=&quot;Selected&quot;/&gt;&lt;ListOfValuesGroupList ExportSize=&quot;Selected&quot;/&gt;&lt;IntegrationEndpoints  ExportSize=&quot;Selected&quot;/&gt;&lt;EventProcessors       ExportSize=&quot;Selected&quot;/&gt;&lt;DataContainerTypes    ExportSize=&quot;Selected&quot;/&gt;&lt;SetupGroups           ExportSize=&quot;Selected&quot;/&gt;&lt;SetupEntities         ExportSize=&quot;Selected&quot;/&gt;&lt;AttributeGroupList    ExportSize=&quot;Selected&quot;/&gt;&lt;AttributeList         ExportSize=&quot;Selected&quot;/&gt;&lt;ActionSetList         ExportSize=&quot;Selected&quot;/&gt;&lt;EventQueues           ExportSize=&quot;Selected&quot;/&gt;&lt;STEPWorkflows         ExportSize=&quot;Selected&quot;/&gt;&lt;StatusFlags           ExportSize=&quot;Selected&quot;/&gt;&lt;BusinessLibraries     ExportSize=&quot;Selected&quot;/&gt;&lt;BusinessRules         ExportSize=&quot;Selected&quot;/&gt;&lt;MatchCodes            ExportSize=&quot;Selected&quot;/&gt;&lt;MatchingAlgorithms    ExportSize=&quot;Selected&quot;/&gt;&lt;PortalConfigurations  ExportSize=&quot;Selected&quot;/&gt;&lt;UserGroupList         ExportSize=&quot;Selected&quot;/&gt;&lt;UserList              ExportSize=&quot;Selected&quot;/&gt;&lt;AttributeTransformationGroups ExportSize=&quot;Selected&quot;&gt;&lt;AttributeTransformationGroup&gt;&lt;AttributeTransformation ExportSize=&quot;Selected&quot;/&gt;&lt;/AttributeTransformationGroup&gt;&lt;/AttributeTransformationGroups&gt;&lt;DimensionList ExportSize=&quot;Selected&quot;&gt;&lt;Dimension&gt;&lt;DimensionPoint ExportSize=&quot;Selected&quot;/&gt;&lt;/Dimension&gt;&lt;/DimensionList&gt;&lt;ContextList           ExportSize=&quot;Selected&quot;/&gt;&lt;TableTypeGroupList        ExportSize=&quot;Selected&quot;/&gt;&lt;/STEP-ProductInformation&gt;</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product"/>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>Asset Push EventQueue</ObjectType>
+    <ObjectType>stibo.normalattribute</ObjectType>
+    <ObjectType>stibo.grouping attribute</ObjectType>
+    <ObjectType>std.attribute transformation type</ObjectType>
+    <ObjectType>stibo.businessrule.action</ObjectType>
+    <ObjectType>stibo.businessrule.condition</ObjectType>
+    <ObjectType>stibo.businessrule.function</ObjectType>
+    <ObjectType>stibo.businessrule.library</ObjectType>
+    <ObjectType>Context qualifier</ObjectType>
+    <ObjectType>CP-Link-Type user-type root</ObjectType>
+    <ObjectType>Dimension qualifier</ObjectType>
+    <ObjectType>Real qualifier</ObjectType>
+    <ObjectType>Domain user-type root</ObjectType>
+    <ObjectType>InboundEndpoint user-type root</ObjectType>
+    <ObjectType>Unique Key</ObjectType>
+    <ObjectType>List Of Values group type</ObjectType>
+    <ObjectType>Match Code</ObjectType>
+    <ObjectType>Matching Algorithm</ObjectType>
+    <ObjectType>OutboundEndpoint user-type root</ObjectType>
+    <ObjectType>stibo.portal Type</ObjectType>
+    <ObjectType>Reference-Type user-type root</ObjectType>
+    <ObjectType>stibo.taskstatus Type</ObjectType>
+    <ObjectType>stibo.STEPWorkflow Type</ObjectType>
+    <ObjectType>table column type</ObjectType>
+    <ObjectType>table column type group</ObjectType>
+    <ObjectType>table row type</ObjectType>
+    <ObjectType>table row type group</ObjectType>
+    <ObjectType>table type</ObjectType>
+    <ObjectType>table type group</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>Unit Group</ObjectType>
+    <ObjectType>Operator user-type root</ObjectType>
+    <ObjectType>Group user-type root</ObjectType>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Wiki Setup Group"></SetupGroupLink>
+            <Name>WikiMetadataEndpoint</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IKTM1JTSnNSXVLTMvMyS4BmqMCEXIGGVvpm5pWWpCoBjYGCVJAo0B4lfaAt+jBrADtwci2GAAAA</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QzQqCQBSF9z7FcPdNtqqFGkgFLoIKe4CbXmxivCPOKPn2jdAvtGjR8sA933e40fJaa9FTa5XhGGYyBEFcmFJxFcMx30wWsEyCaIct1uT8XRII8YoiW8WwwsHm5kAOFa97YmdB5ENDMVywR6mRK5mxo4paSObR9Nn+wqKxv++ooxRdcfYzHqzC1NI6dTKyc0pLNQJbdH43cdkYn61MjdGEfJc9yZDMwjD8WdxxqWlL1mJF9j/6D/db8O+8Aan33ESDAQAA</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAI2RUU+DMBSF3/crmr7bSqIJJMCCThJMZpiD6WuByorQYtsV9Ndbo8wZs2xvPb2n3zm59edj1wJDpWKCB9BBlxBQXoqK8TqAeRZfuHAezvyUSNJRbX3hDIBfCZJFAJ/YK8tlC0H23tMAlqJDSrNCoJ1mLWJc01oSbQMor3phtUK3gr+weo+BoY/34kjChtEhJXo7xTTEENQSXqO1lrYuDMfB2nDBODbWi08jl4TxdU9Kepy5zu7SM0hRmpzTTVKl8ddJ4e+L0+SUKDUIWf3fbv8z6ac3aPIe7JU+Rs3Dx7i6d50myjdNfGW8VRIbU7mFtyuus+do8bb1ohtnGfwpcyDsn38CyG7jTigCAAA=</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Discard" DaysRetained="7"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+ConsumerSuspended=
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="Asset Push Configuration"/>
+    <ObjectType ObjectTypeID="Asset Push EventQueue"/>
+    <ObjectType ObjectTypeID="CP-Link-Type user-type root"/>
+    <ObjectType ObjectTypeID="Context qualifier"/>
+    <ObjectType ObjectTypeID="Dimension qualifier"/>
+    <ObjectType ObjectTypeID="Domain user-type root"/>
+    <ObjectType ObjectTypeID="Group user-type root"/>
+    <ObjectType ObjectTypeID="InboundEndpoint user-type root"/>
+    <ObjectType ObjectTypeID="List Of Values group type"/>
+    <ObjectType ObjectTypeID="Match Code"/>
+    <ObjectType ObjectTypeID="Matching Algorithm"/>
+    <ObjectType ObjectTypeID="Operator user-type root"/>
+    <ObjectType ObjectTypeID="OutboundEndpoint user-type root"/>
+    <ObjectType ObjectTypeID="Real qualifier"/>
+    <ObjectType ObjectTypeID="Reference-Type user-type root"/>
+    <ObjectType ObjectTypeID="Unique Key"/>
+    <ObjectType ObjectTypeID="Unit"/>
+    <ObjectType ObjectTypeID="Unit Group"/>
+    <ObjectType ObjectTypeID="std.attribute transformation type"/>
+    <ObjectType ObjectTypeID="stibo.STEPWorkflow Type"/>
+    <ObjectType ObjectTypeID="stibo.businessrule.action"/>
+    <ObjectType ObjectTypeID="stibo.businessrule.condition"/>
+    <ObjectType ObjectTypeID="stibo.businessrule.function"/>
+    <ObjectType ObjectTypeID="stibo.businessrule.library"/>
+    <ObjectType ObjectTypeID="stibo.grouping attribute"/>
+    <ObjectType ObjectTypeID="stibo.normalattribute"/>
+    <ObjectType ObjectTypeID="stibo.portal Type"/>
+    <ObjectType ObjectTypeID="stibo.taskstatus Type"/>
+    <ObjectType ObjectTypeID="table column type"/>
+    <ObjectType ObjectTypeID="table column type group"/>
+    <ObjectType ObjectTypeID="table row type"/>
+    <ObjectType ObjectTypeID="table row type group"/>
+    <ObjectType ObjectTypeID="table type"/>
+    <ObjectType ObjectTypeID="table type group"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <CustomValues/>
+      <Name/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=GL
+objecttype=Asset Push Configuration;Asset Push EventQueue;CP-Link-Type user-type root;Context qualifier;Dimension qualifier;Domain user-type root;Group user-type root;InboundEndpoint user-type root;List Of Values group type;Match Code;Matching Algorithm;Operator user-type root;OutboundEndpoint user-type root;Real qualifier;Reference-Type user-type root;Unique Key;Unit;Unit Group;std.attribute transformation type;stibo.STEPWorkflow Type;stibo.businessrule.action;stibo.businessrule.condition;stibo.businessrule.function;stibo.businessrule.library;stibo.grouping attribute;stibo.normalattribute;stibo.portal Type;stibo.taskstatus Type;table column type;table column type group;table row type;table row type group;table type;table type group -->
+                <Configuration>H4sIAAAAAAAAANVX23LbNhB9z1dg+C5L8t0zWmc0tuNqmtSqraTPELmSUYMAg4tj9+sL3sTKS0lU0ofkTdo9h9gFdrEHY2vRzTDNJHcIo/cvqWTPaKzQCqLhwSBiqGKdCLWE6PPsQ+88en/5bvQwu5n2pkYnPnYTtdAm5S4w2D1aLZ9xoqRQeI8LC9GCS4sR+6Cl1N/uwqeNSPDBzyt2g7h5ybRx12jEMyZj58zKdfmOsdE4D9RWqAfxD0L0SSiR+rTw14h+Ae6X6BBpf0OolyObSeEu84XE3Dv8KNSTnRmxXIYI1PKt+5fYoiYXm2/EzuSvJLdWLERcWH+FFNcj3loO61A2UbH0CU65QeUgcsZjVBXLm4922bgA8ymaB28zVAkmlX0Sfr/8pU3ym0DDTfz4SirqD54iMd7N/8bYzV4zvDXaZ8FhYdQY771EW8TaYluzsubn5Boi68RcH8y9DQdhrQmUg4VXcZ5Kmfw28ifu4kd2pRPcjf2sxFeP7Hd83Y0tUmTeoum53Gu0drtZd1nYUafN3sS8Gdjdgn3h0qNly2L1nN9xB8JhsLFcaiPcY7qbE+odQ4nF2Cuc+0ZbXFxs6u0ju3kOlfqnR98h0qtpL7/Avm/Ne+SSffVchh5AsxvfUlW8Y01dixRVfq3ss17oNocv7gdDlGIeWrJDfU7UXHuV3Kgk00K5vbfT8bnEjhVWYmMtfaoKSlmf30Hs1KNd+sy7/yN9o7/tERa77Za1dckBr6ccc4Yr24ydbsuVleG4fbKOO2/ZbI+DqrPa75T2YbQUbqxVIrq1V8nOR2Lo6G6JlZR83oW59bQI47kj8VqnXKgfueBCXy/E0hu+T3LLakCyVR10Zaq8UuQb2qhPRio1VVO61A5keFcy4aeXT6MavVE11YhWsVRtcq5f6g1fE8+1cV1Nrcbh6pBI9LWn+ntltLWEVpRNu6sc7KvlvXU6/a9t1K++XJ53vQsdZF5z1Hlv2IzHCOMsM/p5pfjy2+unP/mQdh5n12fBlyqBo+p/XM5fuP1YGXTRH3nTw6Z2JsgBtEobghvCFi1D0QPYIAwpdAg7ZhulHMK6NqKII9gq+CjhGBqtTL0nubeFdQrNmKTeM9g5GCnpHDZc/RR6ARslHwEfApFrFDNo++BqzlH8sA1fv2Qo/LANXuk/ij6CTZOFYo+hdZZQ4AmQWUxBp9CqRijwDIjeo6BzCipVB4VewLqeIYgjaFHqFDWANl1EcUNolBD1HsJbnUQwx9AqNwjuBNpelwR2CttFPiGcwcZnJMGeQ/NyJs4LoI/KCvQv7eb5wosTAAA=</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAJ1WW7OiPBZ9n19Bfa9Ut6goWNXTVQLeuAgCKvoWIEIk3JIA4q//9Jz5Zqaqu87xNG9hr7VXLivZ+8eihQXzKhihC4oWt6okTC2LC0oaAhgqi5//4rgfv/nPWYBF6Rxjv68g/fdfF4Ap/OuJfuKfSZ+Bn8PJj8H/Rr9Epx9GpV+jdniF0fuPOaWQcU5DU+4NtWtgA38M/g/xC4UyFJbfi5LkAAPGCAob9hIlIWVToSLhXmbF3/8L5RgBBb08Vd92jj0Qr4iGDUUFpJQ0GH4H0ZP7ZVpUFjH6I+alKf5MEqOQANJ/zHt4icEb4+oG4IfzIPkE7nwzUZF9ew64hkLy7bmJHClL9jFRQzks6HPXX1RyIcCvYrUyB6j40nw2RVg2Rbwo4qpEBfsSd1+guoGcAT/ZWxNRxtkX7gBwAyn35t0XTPd2oTm1jF/BPe/CHCclQSzNP8bbDfvzNb/76/n6PI7F/3QNLrxAAosIft0p70oM0IwywBr6gto7xfMXzrEk2QWX3QskBkIMuajETf7KU/AL/P08XyGRx3xeFfgH+3r2VzO/mvXh7s/9z7jV55nsCj5qVEm+dPxveT9nvFdCCxQggeS9IP5ci3Qz/+czDkdv7ABLUXm5p4LT+EehBWC3Oam9ry5xoutwGDzqw3KPcTcz7LyVhPqoHSX/RJrovqoH4RgONX68lfx1MZkrhtXjlRC3QTg1Qxkq+QX1mYVoDebn2sgCw2r1kxGOzH4BQdcjQ1XEs62TZaj4sdk7vQuqtqnnN9taGVa6cpVuqAAPX/t0ddjXYrpJ212WzpKNn/h0s9wPe4hlNyvjUslOZTe1hcpH87Fxnrmiwp99gFCQ+9Yp88bdcIm1fjJP9D7ZWed7sjl5ydqWUxr2+ehq7mN3RnR3lcWTeTDW+YNWLgx5V9+zDFeDHbpto/Skumd0HYnhefGg6er5ioyrqVdwno20xvAl83AT1p6t6fZ175TyOt12ixPItQm5dbxhCn5dR3mlJl5gJKul14+jcRAMY9Pnw7K29KumojL01KNB1+INX6JAa/FBXEqbg+mk/C1TUObf1+ManSXDsaApGDaRhgCAW3zl98fGKqxZpPUnGB4kM1N9echvcDtazA1BNQfyFgySNVyJqJFXhZdXMRY07I5acS6A6XlLBGZPEx47U8/MZkiS/XZhXoxRZkpCRfi5YW6XFg/GtrvU9bS8VqfiJnd0utCrrR4XQXwI7kFa7xTQSXES2ittWAybMXWKLlfTGcGT7Ug6ZfdD17RnKC9CxjYXyaGnHU+XM/E6CelWa6dEu413rtNc7q7I16M0rYl0v24hxoPwvj9et2dzVntlXZnBKpQUFEsa7+6HcjA19lJ3iySi5FGSO7olDgbxhE2qS3l7iPuM9HLIBKI0wjWs2bm9a614odNpw59HaMcurXu8purdg+lZMZ3FmhUiYY4qVmkKt0Hse5W4XssqFqBwDI1gnLubIXGXsTkcTZq4q2svTvZ2PLOvI+fU65UeTsa3dTBGg6yYlXwK9t19QPO9qMQ3WidHHKx9o4BnefFIU1JltLkFs24UVgMFL90gg1sfZKU9xBavik5NCuqQyHInI7JaDpOmbeVNMIvvd1Hxlk6dCVTt5vNHJ/qbm//sjQe/bZr/07l+1Fj/De/iZRJ7CwAA</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="GL"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

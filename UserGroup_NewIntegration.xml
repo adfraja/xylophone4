@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="NewIntegration" ReadOnly="false">
+            <Name>NewIntegration</Name>
+            <PrivilegeRule ActionSetID="All user actions" ClassificationID="Classification 1 root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" EntityID="Entity hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="All user actions" ProductID="Product hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SORIANA_145"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <Unit ID="unece.unit.LBR" Referenced="true" ParentID="Mass">
+            <Name>lb</Name>
+            <UnitConversion BaseUnitID="unece.unit.GRM" Factor="453.59237" Offset="0"></UnitConversion>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="UnitDescription">pound</Value>
+            </MetaData>
+        </Unit>
+    </UnitList>
+</STEP-ProductInformation>

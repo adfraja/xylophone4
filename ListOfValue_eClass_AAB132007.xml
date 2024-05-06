@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB132007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Design of fixation of cutting plate</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB132007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Design of fixation of cutting plate
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB132007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Design of fixation of cutting plate
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB132007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Design of fixation of cutting plate
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB132007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Design of fixation of cutting plate
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB132007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Design of fixation of cutting plate
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB132</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB132007</Value>
+            </MetaData>
+            <ValueGroup ID="AAI858005">
+                <Value QualifierID="std.lang.all">screw-on clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI859005">
+                <Value QualifierID="std.lang.all">hole clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI860005">
+                <Value QualifierID="std.lang.all">with wedge behind the insert</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI861005">
+                <Value QualifierID="std.lang.all">with wedge before the insert</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI862005">
+                <Value QualifierID="std.lang.all">top clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI863005">
+                <Value QualifierID="std.lang.all">from top into notch</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI864005">
+                <Value QualifierID="std.lang.all">top clamp and through hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI865005">
+                <Value QualifierID="std.lang.all">top clamp and on hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA951006">
+                <Value QualifierID="std.lang.all">Screwed on through the bore, with counter-bore</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB083004">
+                <Value QualifierID="std.lang.all">with countersinking for screws with 40° to 40° taper angle, single side</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB085004">
+                <Value QualifierID="std.lang.all">with countersinking for screws with 70° to 90° taper angle, single-sided</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB092004">
+                <Value QualifierID="std.lang.all">with cylindrical bore</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB110004">
+                <Value QualifierID="std.lang.all">without drilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB187004">
+                <Value QualifierID="std.lang.all">Special clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB188004">
+                <Value QualifierID="std.lang.all">Special clamp, e.g. prismatic design for self-clamping</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB242004">
+                <Value QualifierID="std.lang.all">Clamped over bore, with cylindrical bore</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB258005">
+                <Value QualifierID="std.lang.all">Clamped from above, without bore</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB259004">
+                <Value QualifierID="std.lang.all">Clamped from above and over bore, with cylindrical bore</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

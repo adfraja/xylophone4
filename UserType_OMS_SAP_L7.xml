@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OMS_SAP_L7" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>OMS Level 7</Name>
+            <Icon>H4sIAAAAAAAAAKVPS0sCYRS9M46D+WrSCitr8sX4QauESFoV0gOiEnIRUdTGyBa1ypZREUogCG2KNloQKLQ1qEWboIVEEC0qKvAH1EatbL77NfYXOot7zz3n3MUZGRvuDy46QIIHAHaB7AAxhDRA2TvDOGVFRKigJsYRLzSLYhNFt8oSyHKIUYpQxSYVo4gRSjUrouVrCF8YoNStYkI7PzGHrMjYC1OBqqAilBG0xx8EpKDSOlcZY/BvuL6Fv91TH/VOID5ehZOhy/3UzUnvcuxw4i5d9naG834SG/Vmxl1L58H1vsJc6aYYPX71TT/9nD2/zZeqtx+nBYtIiNXPEduqCBaZyKZtArOwn+Y5Qe/nBdDLcf2RjzTPyA2ctWuXgzah0bxqEyxDhPf4c5xd5GUePOZGwezJr4mdSivRGaRMh8k4qSPtiqxb8elSpEEx2FvueaNh26BIxinFV/n6rk1WPmsMCpsOR3ZhcMslWZ0b/E7S5nQ7+7uz2es9hzJ8JQkw8AsvmJj4vAEAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="OMS_SAP_L6"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="BulkUpdateConfigurationRoot" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="BulkUpdateConfigurationRoot">
+            <Name>Bulk Update Configurations Root</Name>
+            <Icon>H4sIAAAAAAAAAJ1TPWzTQBR2GoGgtKJQCQHTyV0QIvbZcZzaaqgS/7SRmhAlkchY1740VmOfsa/E7ULEhsTChITEUImZhQ2E0hEWBjaYQExMiIGBqZzTuCBUFYmT7Lv37vvee/d+HjTqK7PTV6cZhpmtrupNus8l35ks/V/LnW/R7QoxOqSFu2RghYgpO3gDgapnbaImspydO2/REsNku267Qzq1NdXGHmclGC72AiZZS8txYNlbiIANtOn6JfbbqxELXKfE3i7UYC3QUM9d3Q1Ra7fetne3bMVhl2+CpVilBjxELBB7fT9S4xI7tqvSc6LmWTCGkK0SexhUp9YAGg4RKHAwZ0NZALLECRJUJOUGEKEAeUHkYTEnQLVQVKEAJoul3kKnqzZ1c+KLSiW2R0ig8vxgMOAGeQ6Hm7ygKAoPRV4UcxSRi3Z8YsU5P1pILegoskM3IC72QSJbG3iblFg2fYIX1GpHhv1okiiaMj62Al7gIO95fIqOSBN1T0ZH7Z0A8U0U4e3QpvXoLvzh6mRqAqTRqLdClxbF6uvY3vaQT6p6iaU3nOM6qmAuwopeliVNLhuSIFRkSTYl0xTyUtFYrIipjeO4ZT2vlA3TkMuSJgiGpGiiaMpiERr5or5Yyafcqh8Ry7dRynV/c/UTuaoWIovgsI1xP+2ARg8THPVwALRWgRPAbdd38CBKyjOJFIXuXeSYIfbAOL+qe4z/f7/7kOv8T854Ggz/V7OkKtqByfGo9alwNDzIpxMT0tH4+f3HHh2ri421tnHwdXjPZQ7eM6OnzMF4rWiPdHp7mjTrrbGCeTF6NqIauaqX2/HHjXUjO9N4cmFqONW4NJ89Nwdh5tTlfeb6uzcz88PMy7Nwj+lP9YaZx/gzA/aZDw8zrz+h6EsyyVWjrj+vrN//BedNiQk2BAAA</Icon>
+            <UserTypeLink UserTypeID="ConfigurationsRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="PMDM.OIEP.BPSExport" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="Export" QueueForEndpoint="OutboundQueueBPS" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="DirectoryDeliveryPlugin" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleWeekly" daysOfWeek_0="2" daysOfWeek_1="3" daysOfWeek_2="4" daysOfWeek_3="5" daysOfWeek_4="6" startAt="01/21/2022 21:00:00.0"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">10000</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="Directory" Type="java.lang.String">/home/BPS</Parameter>
+  <Parameter ID="FileName" Type="java.lang.String">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+  <Parameter ID="zipContent" Type="java.lang.Boolean">false</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="PDX" ECatalogID="" EffectiveDate="" ExecutionMode="" ExportSelectedProducts="false" InheritProductData="true" LeafProductExport="true" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main">
+        <Delivery Name="File">
+          <Parameter Name="FileNameTemplate">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+        </Delivery>
+        <Format Name="Excel2">
+          <Parameter Name="ExcelVersion">ExcelVersion97</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product">
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <ConstantSource Constant="STEP_ID"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <IDSource Aspect="ID"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <IDSource Aspect="ID"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <ConstantSource Constant="Name"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <NameSource/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <NameSource/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <ConstantSource Constant="Department ID"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <Substring Count="3" Start="1">
+                  <EntityRefSource Aspect="Name" MultiDataSeparator=";" Type="PMDM.ERT.StrokeNumber"/>
+                </Substring>
+              </Expression>
+            </Map>
+            <Trigger>
+              <EntityRefSource Aspect="ID" MultiDataSeparator=";" Type="PMDM.ERT.StrokeNumber"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ItemName" ForceCalculation="true" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ItemName" ForceCalculation="true" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ItemName" ForceCalculation="true" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ArticleTypes" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ArticleTypes" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ArticleTypes" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ArticleCategory" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ArticleCategory" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ArticleCategory" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.BMC" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.BMC" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.BMC" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.BrandRefID" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.BrandRefID" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.BrandRefID" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <ConstantSource Constant="Stroke Number"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <EntityRefSource Aspect="Name" MultiDataSeparator=";" Type="PMDM.ERT.StrokeNumber"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <EntityRefSource Aspect="ID" MultiDataSeparator=";" Type="PMDM.ERT.StrokeNumber"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.DescriptionShort" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DescriptionShort" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DescriptionShort" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="ProductLongDescription" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="ProductLongDescription" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="ProductLongDescription" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.Colour" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Colour" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Colour" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.DateofDelivery" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DateofDelivery" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DateofDelivery" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.RRP" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.RRP" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.RRP" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.VATRate" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.VATRate" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.VATRate" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CostPrice" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CostPrice" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CostPrice" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="SeasonLaunchPhase" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="SeasonLaunchPhase" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="SeasonLaunchPhase" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.Brands" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Brands" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Brands" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ProductType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductType" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SellingPriceStructure" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SellingPriceStructure" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SellingPriceStructure" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CoreNewness" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CoreNewness" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CoreNewness" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.Character" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Character" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Character" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SupplierSeriesNo" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierSeriesNo" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierSeriesNo" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SupplierName" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierName" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierName" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.TransitMode" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.TransitMode" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.TransitMode" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ReprocessingComplexity" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ReprocessingComplexity" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ReprocessingComplexity" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.DisplayType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DisplayType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.DisplayType" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.VATRateAtSize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.VATRateAtSize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.VATRateAtSize" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SupplierType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SupplierType" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.Costpriceatsize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Costpriceatsize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.Costpriceatsize" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SPatSize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SPatSize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SPatSize" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ProductCountryOfOrigin" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductCountryOfOrigin" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductCountryOfOrigin" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.KWIndicator" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.KWIndicator" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.KWIndicator" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SizePrimarySize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizePrimarySize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizePrimarySize" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SizeSecondarySize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizeSecondarySize" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizeSecondarySize" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.SizeRange" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizeRange" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.SizeRange" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CartonQuantity" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonQuantity" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonQuantity" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.EcomPackType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomPackType" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomPackType" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CartonHeightmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonHeightmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonHeightmm" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CartonWidthmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonWidthmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonWidthmm" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CartonLengthmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonLengthmm" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonLengthmm" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.CartonWeightg" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonWeightg" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.CartonWeightg" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.EcomProductHeight" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductHeight" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductHeight" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.EcomProductWidth" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductWidth" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductWidth" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.EcomProductLength" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductLength" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.EcomProductLength" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+          <CompositeMap Target="Column">
+            <Map Target="ColumnHeader">
+              <Expression>
+                <AttributeSource Aspect="Name" AttributeID="PMDM.AT.ProductWeight" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Map Target="ColumnValue">
+              <Expression>
+                <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductWeight" MultiValueSeparator=";"/>
+              </Expression>
+            </Map>
+            <Trigger>
+              <AttributeSource Aspect="ValueAndUnit" AttributeID="PMDM.AT.ProductWeight" MultiValueSeparator=";"/>
+            </Trigger>
+          </CompositeMap>
+        </ProductMapping>
+        <ProductSelection>
+          <URL>step://product?id=Product+hierarchy+root</URL>
+        </ProductSelection>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>PMDM.PRD.InternalMasterProduct</ObjectType>
+    <ObjectType>PMDM.PRD.InternalSourceRecord</ObjectType>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="PMDM.BPSOutbound"></SetupGroupLink>
+            <Name>Export for BPS</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAG2QwQqCQBCG7z7FMnRed1frEI4SdO/QoWOYjrS0Kjhr5Nu3hUkHhzkM3wc/zJ8Vr9aJJw1s+w5BSwVFHmXU+cES55EQ33sSlSuZEaq+leztrZejt05ydad6dFRTYzvrQ4Y8z+i4oM0PXYgeboIQOk9dTnxqPvhqENJ1oxGSdZMi7NZNgrD9M+zLwR88gtKxCauMEUbvlQobPl6NUAgG4tBFvJTxBslNISwtAQAA</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULZ3dh7jnDJPmt0aKj1irDKcQyAkFcmkpxncKxWE/nkGeTZIctNuTCXjYR4hXFZpnCEntbmAM5VLzqiJ0FUfRXSuGCHUqNXMsNO6qphSxKZmP7C4uG/t6TpwW68hzOeLJK00jr1MlI75SWagC26MLdxNXVhGzlwhhNyA/ZSIYsjsL8bPZcadqStViT/Y//w/0Wwj/v8U40W4QBAAA=</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAH2QuwrCQBBF+3zFMqTQIhvtLJIIUUSLSCCxlsWMcWUfYXeRxK93bXzgY7oLZ85lJpn3UpALGsu1SmFKJ0BQHXTDVZvCrl5FM5hnQVIywyQ6z2UBIc9INssUltzgwWkzAKmHDlM4swujgqmWVs54E2TxSUuM87JK4sfuF9OKC9z6/FsUHj2iPBKFjku0jsluNPiJiiJqmv16TaWk1o5piL1Ddb/rf+eVdwutPOo+W3OtBTIF2ZEJi2+el+B/cgP9tTtnSAEAAA==</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+ConsumerSuspended=
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="PMDM.PRD.InternalMasterProduct"/>
+    <ObjectType ObjectTypeID="PMDM.PRD.InternalSourceRecord"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=Context1
+objecttype=PMDM.PRD.InternalMasterProduct;PMDM.PRD.InternalSourceRecord -->
+                <Configuration>H4sIAAAAAAAAANVUTXObMBC951cw3GOS6aUHcMZjkpaZumEMSc4yrF01QmK0kuv013cNwtSGNs4tOYH2S++t3u4MEUwOVS2YgSi82VXC24JGrmTkX0+ufA9koUouN5H/kN9dfvZvphdhlt+ml6lWpS1MItdKV8xQhrcEVGILiRRcwhLWGPlrJhB8704JoX7dU2nNS8jsymX3Ebe7WmkTg+ZbKGfG6INreuF54WwPFF1Uxn9D5C+45JWtfC9W0rQXzAVD5GteNHhy1WQRENBEg1KMtm29rmLQFA/a6sQs+Ae1aYi14Ga6B8ZX1sA3Lp8x13yzIcRyc+r+EC3tueC+Ea+SP+nuB6B4jHhcPk4Ox6FeIgthS0gZKcc44TixnBQ9p3EUZivQmcUaZAmlsyf0v3tSuvzKQTNd/HgZKOo7q2BgvF/9hMLkLzV80crW5MAo7I1LKwAbrCO2I6vX/yZx5KeLeDFJl/EkkQa0ZGLBkH4csZb/m/IzZXVBb1oQx659A0xDk6PZNn/A3sF59/oLu+i3bi2XN7a3upqj+nTPs5dM91RH+yoYlfrhmsPzDvh2Hneca4U4SGt26LjrkQkL2J1iZhhNhGHUbo2v3RoG7tiqp+vpGVPXC4dG7BlrRp2c1bVW28MAPkj+/nVEtPc4z93Sj47AJ3cuqNWwM9G8/V47s2pmztDMRf8f+0H81TDh7zl38X8AiNBlXVoIAAA=</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>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</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

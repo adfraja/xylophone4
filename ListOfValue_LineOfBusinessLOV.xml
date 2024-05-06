@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ListsOfValues>
+        <ListOfValue ID="LineOfBusinessLOV" ParentID="List Of Values group root" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LineOfBusinessLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LineOfBusinessLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LineOfBusinessLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LineOfBusinessLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LineOfBusinessLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="Agricultural Chemicals, Nec">
+                <Value>Agricultural Chemicals, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Alkalies And Chlorine">
+                <Value>Alkalies And Chlorine</Value>
+            </ValueGroup>
+            <ValueGroup ID="Apparel And Accessories, Nec">
+                <Value>Apparel And Accessories, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bags: Plastic, Laminated, And Coated">
+                <Value>Bags: Plastic, Laminated, And Coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="Biological Products, Except Diagnostic">
+                <Value>Biological Products, Except Diagnostic</Value>
+            </ValueGroup>
+            <ValueGroup ID="Boatbuilding And Repairing">
+                <Value>Boatbuilding And Repairing</Value>
+            </ValueGroup>
+            <ValueGroup ID="Book Publishing">
+                <Value>Book Publishing</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bottled And Canned Soft Drinks">
+                <Value>Bottled And Canned Soft Drinks</Value>
+            </ValueGroup>
+            <ValueGroup ID="Broadwoven Fabric Mills, Manmade">
+                <Value>Broadwoven Fabric Mills, Manmade</Value>
+            </ValueGroup>
+            <ValueGroup ID="Canned Fruits And Specialties">
+                <Value>Canned Fruits And Specialties</Value>
+            </ValueGroup>
+            <ValueGroup ID="Carpets And Rugs">
+                <Value>Carpets And Rugs</Value>
+            </ValueGroup>
+            <ValueGroup ID="Coated Fabrics, Not Rubberized">
+                <Value>Coated Fabrics, Not Rubberized</Value>
+            </ValueGroup>
+            <ValueGroup ID="Commercial Printing, Lithographic">
+                <Value>Commercial Printing, Lithographic</Value>
+            </ValueGroup>
+            <ValueGroup ID="Commercial Printing, Nec">
+                <Value>Commercial Printing, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Computer Peripheral Equipment, Nec">
+                <Value>Computer Peripheral Equipment, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Concrete Products, Nec">
+                <Value>Concrete Products, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Construction Machinery">
+                <Value>Construction Machinery</Value>
+            </ValueGroup>
+            <ValueGroup ID="Consumer Charcoal">
+                <Value>Consumer Charcoal</Value>
+            </ValueGroup>
+            <ValueGroup ID="Costume Jewelry">
+                <Value>Costume Jewelry</Value>
+            </ValueGroup>
+            <ValueGroup ID="Current-Carrying Wiring Devices">
+                <Value>Current-Carrying Wiring Devices</Value>
+            </ValueGroup>
+            <ValueGroup ID="Curtains And Draperies">
+                <Value>Curtains And Draperies</Value>
+            </ValueGroup>
+            <ValueGroup ID="Dental Equipment And Supplies">
+                <Value>Dental Equipment And Supplies</Value>
+            </ValueGroup>
+            <ValueGroup ID="Diagnostic Substances">
+                <Value>Diagnostic Substances</Value>
+            </ValueGroup>
+            <ValueGroup ID="Dry, Condensed And Evaporated Dairy Products">
+                <Value>Dry, Condensed And Evaporated Dairy Products</Value>
+            </ValueGroup>
+            <ValueGroup ID="Electrical Equipment And Supplies, Nec">
+                <Value>Electrical Equipment And Supplies, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Electronic Coils And Transformers">
+                <Value>Electronic Coils And Transformers</Value>
+            </ValueGroup>
+            <ValueGroup ID="Electronic Computers">
+                <Value>Electronic Computers</Value>
+            </ValueGroup>
+            <ValueGroup ID="Fabric Dress And Work Gloves">
+                <Value>Fabric Dress And Work Gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="Fabricated Metal Products, Nec">
+                <Value>Fabricated Metal Products, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Fabricated Rubber Products, Nec">
+                <Value>Fabricated Rubber Products, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Fabricated Structural Metal">
+                <Value>Fabricated Structural Metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="Flavoring Extracts And Syrups, Nec">
+                <Value>Flavoring Extracts And Syrups, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Fluid Milk">
+                <Value>Fluid Milk</Value>
+            </ValueGroup>
+            <ValueGroup ID="Food Preparations, Nec">
+                <Value>Food Preparations, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Food Products Machinery">
+                <Value>Food Products Machinery</Value>
+            </ValueGroup>
+            <ValueGroup ID="Gypsum Products">
+                <Value>Gypsum Products</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hardware, Nec">
+                <Value>Hardware, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Household Cleaning Supplies">
+                <Value>Household Cleaning Supplies</Value>
+            </ValueGroup>
+            <ValueGroup ID="Industrial Inorganic Chemicals, Nec">
+                <Value>Industrial Inorganic Chemicals, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Industrial Machinery, Nec">
+                <Value>Industrial Machinery, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Jewelry, Precious Metal">
+                <Value>Jewelry, Precious Metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="Knitting Mills, Nec">
+                <Value>Knitting Mills, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Lace And Warp Knit Fabric Mills">
+                <Value>Lace And Warp Knit Fabric Mills</Value>
+            </ValueGroup>
+            <ValueGroup ID="Leather Goods, Nec">
+                <Value>Leather Goods, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Machine Tools, Metal Cutting Type">
+                <Value>Machine Tools, Metal Cutting Type</Value>
+            </ValueGroup>
+            <ValueGroup ID="Magnetic And Optical Recording Media">
+                <Value>Magnetic And Optical Recording Media</Value>
+            </ValueGroup>
+            <ValueGroup ID="Manifold Business Forms">
+                <Value>Manifold Business Forms</Value>
+            </ValueGroup>
+            <ValueGroup ID="Manufacturing Industries, Nec">
+                <Value>Manufacturing Industries, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Meat Packing Plants">
+                <Value>Meat Packing Plants</Value>
+            </ValueGroup>
+            <ValueGroup ID="Metal Coating And Allied Services">
+                <Value>Metal Coating And Allied Services</Value>
+            </ValueGroup>
+            <ValueGroup ID="Metal Foil And Leaf">
+                <Value>Metal Foil And Leaf</Value>
+            </ValueGroup>
+            <ValueGroup ID="Metal Stampings, Nec">
+                <Value>Metal Stampings, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Millwork">
+                <Value>Millwork</Value>
+            </ValueGroup>
+            <ValueGroup ID="Miscellaneous Metalwork">
+                <Value>Miscellaneous Metalwork</Value>
+            </ValueGroup>
+            <ValueGroup ID="Miscellaneous Publishing">
+                <Value>Miscellaneous Publishing</Value>
+            </ValueGroup>
+            <ValueGroup ID="Musical Instruments">
+                <Value>Musical Instruments</Value>
+            </ValueGroup>
+            <ValueGroup ID="Narrow Fabric Mills">
+                <Value>Narrow Fabric Mills</Value>
+            </ValueGroup>
+            <ValueGroup ID="Newspapers">
+                <Value>Newspapers</Value>
+            </ValueGroup>
+            <ValueGroup ID="Nitrogenous Fertilizers">
+                <Value>Nitrogenous Fertilizers</Value>
+            </ValueGroup>
+            <ValueGroup ID="Nonclay Refractories">
+                <Value>Nonclay Refractories</Value>
+            </ValueGroup>
+            <ValueGroup ID="Nonferrous Die-Castings Except Aluminum">
+                <Value>Nonferrous Die-Castings Except Aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="Nonferrous Foundries, Nec">
+                <Value>Nonferrous Foundries, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Ordnance And Accessories, Nec">
+                <Value>Ordnance And Accessories, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Paints And Allied Products">
+                <Value>Paints And Allied Products</Value>
+            </ValueGroup>
+            <ValueGroup ID="Paper Mills">
+                <Value>Paper Mills</Value>
+            </ValueGroup>
+            <ValueGroup ID="Periodicals">
+                <Value>Periodicals</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pharmaceutical Preparations">
+                <Value>Pharmaceutical Preparations</Value>
+            </ValueGroup>
+            <ValueGroup ID="Plastics Products, Nec">
+                <Value>Plastics Products, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Printed Circuit Boards">
+                <Value>Printed Circuit Boards</Value>
+            </ValueGroup>
+            <ValueGroup ID="Printing Ink">
+                <Value>Printing Ink</Value>
+            </ValueGroup>
+            <ValueGroup ID="Professional Grade Cleaning Supplies">
+                <Value>Professional Grade Cleaning Supplies</Value>
+            </ValueGroup>
+            <ValueGroup ID="Radio And T.V. Communications Equipment">
+                <Value>Radio And T.V. Communications Equipment</Value>
+            </ValueGroup>
+            <ValueGroup ID="Rubber And Plastics Hose And Beltings">
+                <Value>Rubber And Plastics Hose And Beltings</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sausages And Other Prepared Meats">
+                <Value>Sausages And Other Prepared Meats</Value>
+            </ValueGroup>
+            <ValueGroup ID="Service Industry Machinery, Nec">
+                <Value>Service Industry Machinery, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sheet Metalwork">
+                <Value>Sheet Metalwork</Value>
+            </ValueGroup>
+            <ValueGroup ID="Shipbuilding And Repairing">
+                <Value>Shipbuilding And Repairing</Value>
+            </ValueGroup>
+            <ValueGroup ID="Signs And Advertising Specialties">
+                <Value>Signs And Advertising Specialties</Value>
+            </ValueGroup>
+            <ValueGroup ID="Silverware And Plated Ware">
+                <Value>Silverware And Plated Ware</Value>
+            </ValueGroup>
+            <ValueGroup ID="Small Arms">
+                <Value>Small Arms</Value>
+            </ValueGroup>
+            <ValueGroup ID="Special Dies, Tools, Jigs, And Fixtures">
+                <Value>Special Dies, Tools, Jigs, And Fixtures</Value>
+            </ValueGroup>
+            <ValueGroup ID="Special Industry Machinery, Nec">
+                <Value>Special Industry Machinery, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sporting And Athletic Goods, Nec">
+                <Value>Sporting And Athletic Goods, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Surgical And Medical Instruments">
+                <Value>Surgical And Medical Instruments</Value>
+            </ValueGroup>
+            <ValueGroup ID="Switchgear And Switchboard Apparatus">
+                <Value>Switchgear And Switchboard Apparatus</Value>
+            </ValueGroup>
+            <ValueGroup ID="Toilet Preparations">
+                <Value>Toilet Preparations</Value>
+            </ValueGroup>
+            <ValueGroup ID="Transformers, Except Electric">
+                <Value>Transformers, Except Electric</Value>
+            </ValueGroup>
+            <ValueGroup ID="Women's And Misses' Outerwear, Nec">
+                <Value>Women's And Misses' Outerwear, Nec</Value>
+            </ValueGroup>
+            <ValueGroup ID="Women's Handbags And Purses">
+                <Value>Women's Handbags And Purses</Value>
+            </ValueGroup>
+            <ValueGroup ID="Women's, Junior's, And Misses' Dresses">
+                <Value>Women's, Junior's, And Misses' Dresses</Value>
+            </ValueGroup>
+            <ValueGroup ID="Wood Partitions And Fixtures">
+                <Value>Wood Partitions And Fixtures</Value>
+            </ValueGroup>
+            <ValueGroup ID="Wood Products, Nec">
+                <Value>Wood Products, Nec</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

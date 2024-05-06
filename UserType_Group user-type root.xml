@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Group user-type root" Referenced="true">
+            <Name>User Group</Name>
+            <AttributeLink AttributeID="AddressTypeaheadEntityReferences"></AttributeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.GDSNProviderGLN"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ProviderGLN"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

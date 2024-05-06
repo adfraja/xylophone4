@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="PMDM.ATG.ProductImageReferences" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="PMDM.ATG.ProductMaintenance">
+            <Name QualifierID="std.lang.all">Product Image References</Name>
+            <Configuration>H4sIAAAAAAAAAH2OQQrCMBBF9z1FyAES3aeF2qgIFgRD95FOdWiblGSKeHurYty5m8f//zGqJAp4mQn2wc9Tg3DX0KFDQu/YzofRUgMhLpTztVjxImNM/SqRGRuuQEkTK+s2sG2RoM15Z4cIXL5HlR/m0cXXvdARXZ9Gn4glPuicn2pdi9KI882TeUxfi0waJf/9XmRP8dFoXdsAAAA=</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

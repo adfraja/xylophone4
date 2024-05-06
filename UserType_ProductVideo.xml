@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ProductVideo" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Product Video</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4voBh1qxZixcvPn369Jw5c1atWnXw4MEDBw7s379/+fLlCxcunDFjxqlTpyQlJXV0dGbPnm1kZKSmpiYtLS0lJSUmLn7y5Mk9e/ZoaGgcP358yZIlK1asUFJSFuDnNzMzW7Rokbm5uaGhoYODg4KCgqKi4ty5cyUkJGxsbDZu3Kivr+/o6GhgaODq6qqiquLs4sLHy6unr2duZtbV1dXZ2WlpaSkqKgaEW7du9fBw19XVbW9vLy4u5uHhFhYWWrly5YcPH6ZOnbpmzRojY+Pa2trdu3evX79eTExs5syZxiYmIiIiQkKCrS0tVVXVIiLCgoKCtnZ2O3bs4Ofn5+Pj5+TkVFdX4+HhERIS0tLSlpeXl5OXt7aylpWRLSkpkZGR4eXl4eXl/fz5s7mF+YQJE/R0dfX09Ldv366ooGhra2tgYCApIWFibCwuIW5tY71ly5YjR44sXbr048eP0lLSJiamlpYWWppaKsrKsrKy6hrqJqamVlZWMjLSs2bN1tbWlpWTk5GRFRAQ6O/vt7Wx0dPTXbZs2eTJkw8fPqyiolJWVtbY1FRRUSEsIqxvYGBnby8sJMTJyQUECxYsYGdnV1FRFRIUFBMFgfr6ekNDo0+fPrW0tAiLiDg7OZmYmFhYWsjJyc2bN6+3t/c/GDCMAtxA8ScLIwPDAgYdEAeUJxg4/jOIahQYJDgsb2Z35ykIcGHUYJhvVev1QZOBjYfRSuXFkgvB6u6MtxROOCxQ4WdpZMr5cuWhoLKetNjFhAPqLAutqo6wfGhR6OLTmNjH0FHgysxiaW6X8sFlQeB0uw61GiYFpkmtbJ09fz6YpJwS1pp0rmaW1tKubnZ9n4qoy00nJ5nkH/Pj/czoN0dq3rGcG44tjmI74z4t+LnoWKe6oofaxAPJqWtU5fkt7mQGHQxm9RFWeSP48WTvfJEys7+MhQcuN0rybGuZcVn5GKeC3AaNUykHJjMKCVpI7mVZIcQumRqwQiMhmknWSHvdrItPFrJwiJl1yEuUNB5qYmXaxB3h8JBJ+tGCogxBzRIPTwGvtkkPGh5y9ij4MzIyWAMARC3ubjQEAAA=</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelHeight"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelSize"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.AssetFileName"></AttributeLink>
+            <MIMEType>video/avi</MIMEType>
+            <MIMEType>video/mp4</MIMEType>
+            <MIMEType>video/mpeg</MIMEType>
+            <MIMEType>video/quicktime</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="table column type" Referenced="true">
+            <Name>Table Column Type</Name>
+            <UserTypeLink UserTypeID="table column type group"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

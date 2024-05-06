@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="GatewayEndpoint user-type root">
+            <Name>Gateway Integration Endpoint Type</Name>
+            <UserTypeLink UserTypeID="AssetAnalyzer.SetupGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="GatewayEndpoints"></UserTypeLink>
+            <UserTypeLink UserTypeID="Outbound Integration Endpoints"></UserTypeLink>
+            <UserTypeLink UserTypeID="SBALroot"></UserTypeLink>
+            <UserTypeLink UserTypeID="drajgateway"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

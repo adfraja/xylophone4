@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB149007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Tooth form</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB149007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tooth form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB149007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tooth form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB149007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tooth form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB149007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tooth form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB149007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tooth form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB149</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB149007</Value>
+            </MetaData>
+            <ValueGroup ID="AAA674004">
+                <Value QualifierID="std.lang.all">thin</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH376002">
+                <Value QualifierID="std.lang.all">gross</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI908005">
+                <Value QualifierID="std.lang.all">arc tooth</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI909005">
+                <Value QualifierID="std.lang.all">arc tooth with pre cutter and trimmer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI910005">
+                <Value QualifierID="std.lang.all">arc tooth with alternating chamfer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI911005">
+                <Value QualifierID="std.lang.all">angular tooth</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI912005">
+                <Value QualifierID="std.lang.all">angular tooth with alternating chamfer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK447005">
+                <Value QualifierID="std.lang.all">normal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP847002">
+                <Value QualifierID="std.lang.all">triangle-group toothing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ298002">
+                <Value QualifierID="std.lang.all">planer toothing</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA135004">
+                <Value QualifierID="std.lang.all">Herringbone tooth shape</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA136004">
+                <Value QualifierID="std.lang.all">Parabolic tooth shape B</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA027002">
+                <Value QualifierID="std.lang.all">1</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="MandatoryProdToClassLink" Inherited="false" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="true" MultiValued="true">
+            <Name>MandatoryProdToClassLink</Name>
+            <AttributeGroupLink AttributeGroupID="TestMandatoryReferenceComponents"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="ProductWithMandatoryReferences"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="AutoTestClassification"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.PRD.EXT.Packaging" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>PMDM.PRD.EXT.Packaging</Name>
+            <UserTypeLink UserTypeID="PMDM.PRD.PackagingHierarchy"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

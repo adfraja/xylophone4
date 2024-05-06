@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="eClass_BAJ283003">
+            <Name QualifierID="std.lang.all">eClass dynamic viscosity</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">shearing stress divided by shear rate at a constant flow corresponding to a material constant in the flow law for Newtonian fluids</Value>
+                <Value AttributeID="EclassID">BAJ283</Value>
+                <Value AttributeID="EclassPrimaryKey">BAJ283003</Value>
+            </MetaData>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB750008" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Construction form</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB750008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB750008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB750008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB750008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB750008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction form
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB750</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB750008</Value>
+            </MetaData>
+            <ValueGroup ID="AAA011002">
+                <Value QualifierID="std.lang.all">Standard</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA268004">
+                <Value QualifierID="std.lang.all">Plate tapered slide valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA269002">
+                <Value QualifierID="std.lang.all">Sleeve slider</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA270004">
+                <Value QualifierID="std.lang.all">Flat plate slider</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA271002">
+                <Value QualifierID="std.lang.all">Slider fixed wedge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA272002">
+                <Value QualifierID="std.lang.all">Slider flexible wedge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA273004">
+                <Value QualifierID="std.lang.all">Needle valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA274004">
+                <Value QualifierID="std.lang.all">Lab valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA275002">
+                <Value QualifierID="std.lang.all">Bottle valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA276004">
+                <Value QualifierID="std.lang.all">Drainage valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA277004">
+                <Value QualifierID="std.lang.all">Drainage valve with expansion bellows</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA278002">
+                <Value QualifierID="std.lang.all">Shuttle valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA279004">
+                <Value QualifierID="std.lang.all">High pressure valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA280004">
+                <Value QualifierID="std.lang.all">Sampling valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA281002">
+                <Value QualifierID="std.lang.all">Sleeve Y valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA282004">
+                <Value QualifierID="std.lang.all">Piston valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA283004">
+                <Value QualifierID="std.lang.all">Diaphragm valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA284004">
+                <Value QualifierID="std.lang.all">Screw down stop globe valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA285002">
+                <Value QualifierID="std.lang.all">Y valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA286002">
+                <Value QualifierID="std.lang.all">Y valve with expansion bellows</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA287004">
+                <Value QualifierID="std.lang.all">screw down stop globe valve with expansion bellows</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA288005">
+                <Value QualifierID="std.lang.all">Disk, concentric</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA289004">
+                <Value QualifierID="std.lang.all">Disk, eccentric</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA290004">
+                <Value QualifierID="std.lang.all">Disk, double eccentric</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA291002">
+                <Value QualifierID="std.lang.all">ball valve with constriction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA292002">
+                <Value QualifierID="std.lang.all">tap cock with constriction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA293002">
+                <Value QualifierID="std.lang.all">ball valve with pressure relieving</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA294002">
+                <Value QualifierID="std.lang.all">tap cock with pressure relief</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA295002">
+                <Value QualifierID="std.lang.all">Sleeve ball valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA296004">
+                <Value QualifierID="std.lang.all">3-way ball valve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA297004">
+                <Value QualifierID="std.lang.all">3-way tap cock</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA298004">
+                <Value QualifierID="std.lang.all">3-way tap cock with constriction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA299004">
+                <Value QualifierID="std.lang.all">3-way ball valve with constriction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR374002">
+                <Value QualifierID="std.lang.all">twin cable end sleeve</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN653002">
+                <Value QualifierID="std.lang.all">safety valve in angle design</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN654002">
+                <Value QualifierID="std.lang.all">safety valve in angle design (with 2 outlets)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN655002">
+                <Value QualifierID="std.lang.all">safety valve in straight form</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

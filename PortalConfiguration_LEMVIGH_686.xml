@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="LEMVIGH_686"><!-- Definition:
+<portal-config portalId="customerportal" xmlns="http://stibosystems.com/step/portal-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <screens>
+    <loginscreen>
+      <parameter id="PortalTitle" value="STEP Web UI"/>
+    </loginscreen>
+    <screen id="Name and ID" type="NodeDetails">
+      <component id="Main" type="NodeEditor">
+        <parameter id="LabelLayout" value="LEFT"/>
+        <parameter-list id="Rows">
+          <component id="Rows" type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+          </component>
+          <component id="Rows" type="NameValue">
+            <parameter id="CssClass" value="stibo-NameValue"/>
+            <parameter id="Label" value="i18n.stibo.NameValue.Label"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReadOnly" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="Name and ID"/>
+    </screen>
+    <screen id="Node details" type="NodeDetails">
+      <component id="Main" type="TabControl">
+        <parameter id="DirtyWarning" value="false"/>
+        <parameter-list id="TabPages">
+          <component id="TabPages" type="TabPage">
+            <component id="TabContent" type="TabControl">
+              <parameter id="DirtyWarning" value="false"/>
+              <parameter-list id="TabPages">
+                <component id="TabPages" type="TabPage">
+                  <component id="TabContent" type="MultiReference">
+                    <component id="NodeList" type="NodeList">
+                      <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+                      <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+                      <parameter id="DefaultSortingOrder" value="None"/>
+                      <parameter id="EnableDefaultSorting" value="true"/>
+                      <parameter id="HideSelectAllButton" value="false"/>
+                      <parameter id="HideStandardButtons" value="false"/>
+                      <parameter id="ID" value="eeadabbbaeecbae"/>
+                      <parameter id="IncludeLabels" value="true"/>
+                      <parameter id="LookupScreenTypeForNavigation" value="true"/>
+                      <parameter id="PageSize" value="50"/>
+                      <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+                      <parameter id="ToolbarHeight" value="30"/>
+                      <parameter id="UseDetailsOverlay" value="false"/>
+                      <parameter-list id="Actions">
+                        <component id="Actions" type="AddReferenceAction">
+                          <parameter id="ContextHelp" value="i18n.stibo.portal.multireference.AddReferenceAction.ContextHelp"/>
+                          <parameter id="Label" value="i18n.stibo.portal.multireference.AddReferenceAction.Title"/>
+                          <parameter id="NavigateToCreatedObject" value="false"/>
+                          <parameter id="ShowClassificationRoots" value="false"/>
+                          <parameter id="ShowCreateFromTemplateTab" value="false"/>
+                          <parameter id="ShowCreateTab" value="false"/>
+                        </component>
+                        <component id="Actions" type="RemoveReferenceAction">
+                          <parameter id="ContextHelp" value="i18n.stibo.portal.multireference.RemoveReferenceAction.ContextHelp"/>
+                          <parameter id="Label" value="i18n.stibo.portal.multireference.RemoveReferenceAction.Title"/>
+                        </component>
+                      </parameter-list>
+                      <parameter-list id="DisplayModes">
+                        <component id="DisplayModes" type="MultiEditDisplayMode">
+                          <component id="Dimensions" type="CompareDisplayModeDimensions">
+                            <parameter id="RowHeaderHeight" value="200"/>
+                          </component>
+                          <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode"/>
+                          <parameter id="DisplayModeHeight" value="600"/>
+                          <parameter id="EnableFiltering" value="true"/>
+                          <parameter id="EnableFreezePanes" value="false"/>
+                          <parameter id="EnableItemSelection" value="false"/>
+                          <parameter id="EnableUserConfigurableView" value="true"/>
+                          <parameter id="GroupsInitiallyOpen" value="false"/>
+                          <parameter id="HeaderTitleInformation" value="CHECKBOX_ONLY="/>
+                          <parameter id="HideSidePanel" value="false"/>
+                          <parameter id="PropertyDirection" value="HORIZONTAL"/>
+                          <parameter id="ReloadAfterSave" value="false"/>
+                          <parameter id="ShowDetails" value="true"/>
+                          <parameter id="ShowEmptyGroupHeaders" value="true"/>
+                          <parameter id="ShowGroupHeaders" value="true"/>
+                          <parameter id="ShowOnlyValidAttributes" value="false"/>
+                          <parameter id="Title" value="i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode"/>
+                          <parameter id="UseImmediateSave" value="false"/>
+                          <parameter id="showTopItemDetailsOnLoad" value="true"/>
+                          <parameter-list id="Headers">
+                            <component id="Headers" type="ThumbnailHeader"/>
+                            <component id="Headers" type="IDHeader">
+                              <parameter id="EnableLink" value="true"/>
+                            </component>
+                            <component id="Headers" type="NameHeader"/>
+                            <component id="Headers" type="ObjectTypeHeader"/>
+                            <component id="Headers" type="ReferenceTypeHeader"/>
+                          </parameter-list>
+                        </component>
+                      </parameter-list>
+                    </component>
+                    <parameter id="DisplaySuppressions" value="true"/>
+                    <parameter id="Height" value="0"/>
+                    <parameter id="ReferenceDirection" value="References"/>
+                    <parameter id="UseGloballyConfiguredReferenceType" value="false"/>
+                    <parameter-list id="ReferenceTypes">
+                      <parameter value="LEMVIGH-686"/>
+                    </parameter-list>
+                  </component>
+                  <parameter id="Lazy" value="false"/>
+                  <parameter id="Title" value="i18n.stibo.portal.server.components.tabs.TabPageServerComponent.default.title"/>
+                </component>
+              </parameter-list>
+            </component>
+            <parameter id="Lazy" value="false"/>
+            <parameter id="Title" value="i18n.stibo.portal.server.components.tabs.TabPageServerComponent.default.title"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowTitle" value="true"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+    </screen>
+    <screen id="homepage" type="HomePage">
+      <parameter id="CssClass" value="stibo-HomePage"/>
+      <parameter id="DisableTitle" value="false"/>
+      <parameter id="PagingEnabled" value="false"/>
+      <parameter id="Title" value="Welcome to the STEP Web UI"/>
+      <parameter-list id="Content">
+        <component id="Content" type="WidgetGrid">
+          <parameter-list id="Widgets">
+            <component id="Widgets" type="TextWidget">
+              <parameter id="CssClass" value="stb-staticText"/>
+              <parameter id="DoubleWidth" value="false"/>
+              <parameter id="Text" value="Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help."/>
+              <parameter id="Title" value="Welcome"/>
+            </component>
+            <component id="Widgets" type="UserWidget">
+              <parameter id="Title" value="i18n.stibo.UserWidgetServerComponent.Title"/>
+              <parameter id="UserDetailsScreen" value="userdetails"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="login" type="LoginScreen"/>
+    <screen id="main" type="Main">
+      <parameter id="BottomHeight" value="64"/>
+      <parameter id="DefaultSidePanel" value="SHOWN"/>
+      <parameter id="InfoAlertCloseDelay" value="3"/>
+      <parameter id="LeftWidth" value="-1"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter id="RightWidth" value="120"/>
+      <parameter id="TopHeight" value="64"/>
+      <parameter-list id="Left">
+        <component id="Left" type="PrimaryNavigation">
+          <parameter-list id="MenuItems">
+            <component id="MenuItems" type="GlobalNavigationSearch">
+              <parameter id="Icon" value="search"/>
+              <parameter id="Label" value="Global Search"/>
+              <parameter-list id="SearchConfigurations">
+                <component id="SearchConfigurations" type="GlobalNavigationSearchConfiguration">
+                  <parameter id="Title" value="Name/Id/Attributes"/>
+                  <parameter-list id="SearchPlugins">
+                    <component id="SearchPlugins" type="NameOrIdOrAttributes">
+                      <parameter id="ForceIDNameSearch" value="false"/>
+                      <parameter id="SearchInDataContainers" value="false"/>
+                    </component>
+                  </parameter-list>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="MenuItems" type="TreeItem">
+              <parameter id="HideLeaves" value="false"/>
+              <parameter id="Icon" value="account_tree"/>
+              <parameter id="Label" value="i18n.stibo.webui.primarynavigation.TreeItem.Label"/>
+              <parameter id="ShowLeaves" value="false"/>
+              <parameter id="showRecycle" value="false"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Node details"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AlwaysTrueCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="userdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="UserCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Name and ID"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AlwaysTrueCondition"/>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="userdetails" type="UserDetails">
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component type="SaveAction">
+            <parameter id="CssClass" value="SaveButton"/>
+          </component>
+          <component type="ResetAction">
+            <parameter id="CssClass" value="ResetButton"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="NodeEditor">
+        <parameter-list id="Rows">
+          <component id="UserId" type="IdValue">
+            <parameter id="Label" value="User ID"/>
+          </component>
+          <component id="UserEmail" type="UserEmail">
+            <parameter id="Label" value="Email Address"/>
+            <parameter id="Mandatory" value="True"/>
+          </component>
+          <component id="UserPassword" type="UserPassword">
+            <parameter id="NewPasswordLabel" value="New password"/>
+            <parameter id="OldPasswordLabel" value="Old password"/>
+            <parameter id="RepeatPasswordLabel" value="Repeat new password"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>
+  </screens>
+  <theme/>
+</portal-config> -->
+            <SetupGroupLink SetupGroupID="WebUIs"></SetupGroupLink>
+            <Name>LEMVIGH_686</Name>
+            <Configuration>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</Configuration>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="CHAB_OIEP_Eventbased" Description="checking for performance analysis" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="Export" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="STEPSYS" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="EmailDeliveryPlugin2" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleWeekly" daysOfWeek_0="3" startAt="11/21/2023 16:12:00.0"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">10</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="BodyText" Type="com.stibo.util.integrationendpoints.LongTextParameter">Please find enclosed the latest product data delivery</Parameter>
+  <Parameter ID="EmailAddress" Type="java.lang.String">chab@stibosystems.com</Parameter>
+  <Parameter ID="FileNameTemplate" Type="java.lang.String">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+  <Parameter ID="Subject" Type="java.lang.String">EmailDeliverySubjectDefault</Parameter>
+  <Parameter ID="zipContent" Type="java.lang.Boolean">true</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <DerivedEventType>LOV</DerivedEventType>
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <EventType>17</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="Seton Belgium - French (2120/10/F)" ECatalogID="" EffectiveDate="" EffectiveDateTimeZoneID="Asia/Calcutta" ExecutionMode="" ExportDerivedAttrs="false" ExportSelectedProducts="true" InheritProductData="true" LeafProductExport="false" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main" isSorted="false">
+        <Delivery Name="File">
+          <Parameter Name="FileNameTemplate">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+        </Delivery>
+        <Format Name="STEPXML">
+          <Parameter Name="AssetContentChooser">None</Parameter>
+          <Parameter Name="Configuration"/>
+          <Parameter Name="CrossContextChooser">No</Parameter>
+          <Parameter Name="DataObjects"/>
+          <Parameter Name="DefinitionsAsComments">No</Parameter>
+          <Parameter Name="ExportValidAndAbsent">No</Parameter>
+          <Parameter Name="FlattenHierarchy">No</Parameter>
+          <Parameter Name="GlobalSettings"/>
+          <Parameter Name="IncludeActualPageData">No</Parameter>
+          <Parameter Name="IncludeAssetPush">None</Parameter>
+          <Parameter Name="IncludeAssetPushEventQueue">None</Parameter>
+          <Parameter Name="IncludeAssets">None</Parameter>
+          <Parameter Name="IncludeAttributeDefinitions">None</Parameter>
+          <Parameter Name="IncludeAttributeGroupDefinitions">None</Parameter>
+          <Parameter Name="IncludeAttributeTransformations">No</Parameter>
+          <Parameter Name="IncludeAutoPageReferences">No</Parameter>
+          <Parameter Name="IncludeBaskets">No</Parameter>
+          <Parameter Name="IncludeBulkUpdateConfigurations">No</Parameter>
+          <Parameter Name="IncludeBusinessRules">None</Parameter>
+          <Parameter Name="IncludeClassifications">None</Parameter>
+          <Parameter Name="IncludeCollectionDefinitions">No</Parameter>
+          <Parameter Name="IncludeComponentModels">No</Parameter>
+          <Parameter Name="IncludeContextDefinitions">No</Parameter>
+          <Parameter Name="IncludeContextQualifiers">No</Parameter>
+          <Parameter Name="IncludeDataContainerTypeDefinitions">None</Parameter>
+          <Parameter Name="IncludeDataContainers">No</Parameter>
+          <Parameter Name="IncludeDerivedEventTypes">No</Parameter>
+          <Parameter Name="IncludeECatalogues">No</Parameter>
+          <Parameter Name="IncludeEntities">Minimum</Parameter>
+          <Parameter Name="IncludeEntityAttributeValues">Yes</Parameter>
+          <Parameter Name="IncludeEventProcessors">None</Parameter>
+          <Parameter Name="IncludeEventQueues">No</Parameter>
+          <Parameter Name="IncludeExportConfigurations">None</Parameter>
+          <Parameter Name="IncludeImageConversion">None</Parameter>
+          <Parameter Name="IncludeImportConfigurations">None</Parameter>
+          <Parameter Name="IncludeInheritedValues">No</Parameter>
+          <Parameter Name="IncludeIntegrationEndpoints">None</Parameter>
+          <Parameter Name="IncludeKeys">No</Parameter>
+          <Parameter Name="IncludeKeysChooser">No</Parameter>
+          <Parameter Name="IncludeLOVDefinitions">None</Parameter>
+          <Parameter Name="IncludeMatchCodes">No</Parameter>
+          <Parameter Name="IncludeMatchingAlgorithms">None</Parameter>
+          <Parameter Name="IncludeOverriddenProducts">No</Parameter>
+          <Parameter Name="IncludePaginationRules">No</Parameter>
+          <Parameter Name="IncludePlannedPages">No</Parameter>
+          <Parameter Name="IncludePortalConfigurations">None</Parameter>
+          <Parameter Name="IncludePrivilegeDefinitions">No</Parameter>
+          <Parameter Name="IncludeProductAttributeValues">Yes</Parameter>
+          <Parameter Name="IncludeProducts">Minimum</Parameter>
+          <Parameter Name="IncludePublication">No</Parameter>
+          <Parameter Name="IncludePublicationGroup">No</Parameter>
+          <Parameter Name="IncludePublicationSections">No</Parameter>
+          <Parameter Name="IncludeSTEPWorkflowProfiles">None</Parameter>
+          <Parameter Name="IncludeSTEPWorkflowTaskInfo">No</Parameter>
+          <Parameter Name="IncludeSTEPWorkflows">None</Parameter>
+          <Parameter Name="IncludeSetupEntities">None</Parameter>
+          <Parameter Name="IncludeSetupGroups">None</Parameter>
+          <Parameter Name="IncludeStatusFlags">None</Parameter>
+          <Parameter Name="IncludeSystemSetup">No</Parameter>
+          <Parameter Name="IncludeTableDefinitions">No</Parameter>
+          <Parameter Name="IncludeTableTypeDefinitions">None</Parameter>
+          <Parameter Name="IncludeTables">No</Parameter>
+          <Parameter Name="IncludeTags">No</Parameter>
+          <Parameter Name="IncludeTransformationLookupTableConfigurations">None</Parameter>
+          <Parameter Name="IncludeTranslationConfigurations">None</Parameter>
+          <Parameter Name="IncludeTypeDefinitions">None</Parameter>
+          <Parameter Name="IncludeUnitDefinitions">None</Parameter>
+          <Parameter Name="IncludeUserDefinitions">None</Parameter>
+          <Parameter Name="IncludeValidation">No</Parameter>
+          <Parameter Name="Publishing"/>
+        </Format>
+        <ProductMapping SelectedURLType="product"/>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>CHAB_L3</ObjectType>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Outbound Integration Endpoints"></SetupGroupLink>
+            <Name>CHAB OIEP Eventbased</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAEWOwQrCMAyG73uKUjx3bQcexrohePfgwaPMLcNi10KTiX17q8wZcggfyZ+v6V6zY0+IaIM3XAnJu7ZowFO0gG3B2HdObHA9ouFDmAWSvQWxkHUChzuMi4MRJust5QxxXtFxQ7sfugA8XOI5dC2kPtKB8l9V6txSV0zta6VrKbPJf3HsE56mz/1VGl7xMjuWm+QbXsmCHMUAAAA=</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QQQrCMBBF954izN6oOxdNBVHBhaBSDzC2Q4ykk9Kkxd7eFLQquHDh8sP89z6TLG6lFS3V3jhWMJNTEMS5KwxrBadsM57DIh0le6yxpBDv0pEQryi2KwUr7HzmjhTQ8LolDh5E1lWk4IotSous5ZYDaaohnSaTof2FRX3/0FBDSwz5Jc54snJXSh/M2ckmGCtND6wxxN3EReVi9nLpnCXkh2wgQzr7XdtwYWlH3qMm/x/5h/stxGfeAUz8AzSBAQAA</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAH2ST0/CQBDF73yKzYaDHrrqzQMtikgwEUNCPZuhO5Ql+6fpTgn10zslBDWB7u0ls7/35mVG44OzYo91NMGn8kHdS4G+CNr4MpWf+Sx5lONsMFpCDQ6J57KBEL9SvE1T+erA2Geta4xRirytMJU72IOy4Eu1opphMiu2sH6KZNYhtpHQRVUEN7o7oy6AV816hwVdZx6dp2gNb9Cepqe4gcZSP3kSdJvj4YzmKOqYTTVkrDKesKyBuBT0ugqso3oPvuz+nEkyW1qEiGJjvO5qsyGiFrRFYYEwkqjqoJuChAYCoU85+5N9m+olsL2/sPYkBDb0MqO6wX7MzFj8YJ2jq7ow1zscbnjU82gyJOM4NbjqpuWXLBaJ1l/zuXJcTrxVQ14efXcp/7z/CL6OHySZXwNSAgAA</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Read" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="CHAB_L3"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=GL
+objecttype=CHAB_L3 -->
+                <Configuration>H4sIAAAAAAAAANVUTXPbIBC951cw3FO1k0sPkjOKnQ/NuI3HVtJjB0trlwaBhgXX6a8vkiCqLXXi3pIb7BfvLW83RQSTQ1ULZiCJL/eVIDvQyJVM6KcPHykBWaiSy21CH/Kb88/0cnIWr/LrxflCq9IWJpMbpStmXAZZAiqxg0wKLmEJG0zohgkESm6UEOrXvSuteQkru/bZfcT1vlbazEDzHZSpMfrFNTkjJE4boOijVvw3JPQLl7yyFSUzJU33wFQwRL7hRYsnV22WAwLa0XApRtuuXqgYtcWjrrpjFv2D2iTGWnAzaYDxtTUw5/IJc823W4dYbo/d76KlPRdsGvEq+aPuvgOKh4jH5ePlcBhKMlkIW8KCOeUYLxwvlqOiJzQukyXsvyld3nHQTBc/ngfK+coqGBjv1z+hMPlzDbda2do5MIl749IKwBbTiO3ASvpjNkvo9C69+j6/CIQG2UOTB9S1Y4DTM3/ziohD9P/uEZ83tklCzVHF+I9oPjcKa+fvDRKNiu/lmeAe8g0ef51qhThIa7fauOuRCQsYbjNm2NSRZ67dGl97NY78tVNP6OkJc9ALxw3DE9bMdTKta63cV/mQB8nfvo4c7QbnqXvz0RO48PfCtRr2Jrmde4Nqp824aUv8aHrHH9uy5EqfBwAA</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAH1Vx67cRhC8+ysEX3kguUtyl8CzAOacMy8Gc85x+fXeZ8mQAQma21Q1Zqp6GlMfzJ71qzVmSZVXCXOOw7xSQ59XxTZHazX0X//48uXjF/gXJVqTkmhb+zVmy19/5lG7ZH9+Vn/Wfx76SXyF0Q/wx+4nFvst+/iZpbO52rP0Byxr7gf4E/qtWIvrLPkGUDxB/i3fP8D/Yd/v+9ebEvVRkc3fLH7lkUUg/lsSHNi+HqslhQNwemg00pDwdrtQ4VVVNt8N0xks7QY1Cy+MiROVdIEwGgz2kC9IlX6OjRX0N4uIr3RFFhYvedy+PdvqERSs6T4ZFc/uTysvyxzH3KUdGUQQD19YMgKVI8kPVzbleagVjavSFGGkPRxTy56xcIoyUYBkU8uBXBeSEa7vgJq+Z/fUzsDb2OegEqAAC4quaxksBRUC6vPQrBBxF2yOIlsRgwVFPaIEFUcs52XOcepNVJJz5FMVWgekFWdGHVteNAAhWncNtyS9Sa+AeCiztwh5Ue+9ALliDJ1BNBvdxqGKynHVwqrnSlieB4sCQ4sQbQeOJtdnl1MydMBNucGpPNnE6g1smPiJo0D+qDw9GOmFqBf3QnuYDq0cyLkp1qSxl2REdCh0bw3GnQB9tEDK7Q6YShKInQtc1/m2CCyPCA10GZOGx5m7HG/vZL/v9YrInimv631DuwoDxLvan+JQMkNyKjSIl0EDB27BdbtInW8ht+hCSE9YSlcE8GcSC6bRRXnpgnR6nK3aKX1R1lzMNB3EdxCpabE/w0aNt5W7ld3Az6n+HgQUUdthLuUQqtYd2XREbvBhEi8E8o/JGJyFlp0+C55sWdiw0TBW18GwofQA3dtjz2BhEkDDehqW7aHDi5a7S0SrrQ6CDiqBwhu34+XB2tS9QtHA17oZkBgBF1M/zBk+xeW4kMJJCMBmamvlknF6YHwY0hFoSTPbx109cbx4ywWdFKSUWq14dsFpeEpLRQDayYbuql6LnUuYmIXX4T+M2p8TVMixhmkJO3WKkH2LW2t1VNazvqmHimRIwu5xYlTdLr2Hzrku/jSN0QYN/OaO4tHGe8ag17sFEa63ecBuZKNAmirJp9nywwucCMakGe+ScyNBFvJtj+W7rT0Y6ZzHW/bAZ3I/+yWlG3V3VX3edHfeRsOBH/mWqYUcOGaUmwmGxyEiHY8ZoBhac5+avJH+eEMAuU0I+NKt1p4ihZkBj4TSQwxUyFH7XFqY0brvIKezTBk4wOgEuc63oE5SKT+Gw8UryOssMObJzyw1yFfcSizguFiMVRR6zPxWFSgXTZJq9G1IUurdavRRF/K59h6PDRSX26Fq24ImFZvamoml9BBdr/IFNSjcX4qMvhJaj/kGyAbuTty4FCPxeanQYBfPi1sph73F6iSLvdzYmudS65zCKJVvhybQ+mnBM2jSiJEoAooS60IyTNQAdek4qV/P1EoKU0zUz7xh7628GvgxzXoKO8M1naV0TzIijx64r7NLpvNGN0rTi5z4Zsh8LLrha8uwOZzz14vSRH97MKJCGlWyps/gpp9gNrCn8gj95z22r9dzlX0pyerJWRWrpcIW9zg+h1MxGd02v5CnL+bt6r4b88LN1ODue771ETlwB7ICD/TGbxnP6jDDivL7KQ6CeGfAL37oz1QCfxlX3zPjd5H2DzM9w7v1BgAA</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="GL"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="DnBPremisesUsageFunctionDetail" ParentID="DnBLOVs" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="en-US">DnBPremisesUsageFunctionDetail</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DnBPremisesUsageFunctionDetail
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="12058">
+                <Value>Manufacturing</Value>
+            </ValueGroup>
+            <ValueGroup ID="15439">
+                <Value>Warehousing</Value>
+            </ValueGroup>
+            <ValueGroup ID="22973">
+                <Value>Accounting</Value>
+            </ValueGroup>
+            <ValueGroup ID="22974">
+                <Value>Administrative</Value>
+            </ValueGroup>
+            <ValueGroup ID="22975">
+                <Value>Animal Hide Tanning</Value>
+            </ValueGroup>
+            <ValueGroup ID="22976">
+                <Value>Board Of Directors</Value>
+            </ValueGroup>
+            <ValueGroup ID="22977">
+                <Value>Breeding</Value>
+            </ValueGroup>
+            <ValueGroup ID="22978">
+                <Value>Cargo</Value>
+            </ValueGroup>
+            <ValueGroup ID="22979">
+                <Value>Clinic</Value>
+            </ValueGroup>
+            <ValueGroup ID="22980">
+                <Value>College</Value>
+            </ValueGroup>
+            <ValueGroup ID="22981">
+                <Value>Crop Production</Value>
+            </ValueGroup>
+            <ValueGroup ID="22982">
+                <Value>Dairy Processing</Value>
+            </ValueGroup>
+            <ValueGroup ID="22983">
+                <Value>Delegation</Value>
+            </ValueGroup>
+            <ValueGroup ID="22984">
+                <Value>Dentist Clinic</Value>
+            </ValueGroup>
+            <ValueGroup ID="22985">
+                <Value>Diagnostics</Value>
+            </ValueGroup>
+            <ValueGroup ID="22986">
+                <Value>Distribution</Value>
+            </ValueGroup>
+            <ValueGroup ID="22987">
+                <Value>Exporting</Value>
+            </ValueGroup>
+            <ValueGroup ID="22988">
+                <Value>Faculty Department </Value>
+            </ValueGroup>
+            <ValueGroup ID="22989">
+                <Value>Foreign Trade</Value>
+            </ValueGroup>
+            <ValueGroup ID="22990">
+                <Value>Forestry Department</Value>
+            </ValueGroup>
+            <ValueGroup ID="22991">
+                <Value>Freezing</Value>
+            </ValueGroup>
+            <ValueGroup ID="22992">
+                <Value>Gas Processing Plant</Value>
+            </ValueGroup>
+            <ValueGroup ID="22993">
+                <Value>Government Activity</Value>
+            </ValueGroup>
+            <ValueGroup ID="22994">
+                <Value>Horse Breeding</Value>
+            </ValueGroup>
+            <ValueGroup ID="22995">
+                <Value>Hospital</Value>
+            </ValueGroup>
+            <ValueGroup ID="22996">
+                <Value>Importing</Value>
+            </ValueGroup>
+            <ValueGroup ID="22997">
+                <Value>Investigation</Value>
+            </ValueGroup>
+            <ValueGroup ID="22998">
+                <Value>Kindergarten</Value>
+            </ValueGroup>
+            <ValueGroup ID="22999">
+                <Value>Locked, Unmanned Storage</Value>
+            </ValueGroup>
+            <ValueGroup ID="23000">
+                <Value>Lubrication Service</Value>
+            </ValueGroup>
+            <ValueGroup ID="23001">
+                <Value>Main Office</Value>
+            </ValueGroup>
+            <ValueGroup ID="23002">
+                <Value>Maintenance</Value>
+            </ValueGroup>
+            <ValueGroup ID="23003">
+                <Value>Manufacturing Silos</Value>
+            </ValueGroup>
+            <ValueGroup ID="23004">
+                <Value>Marketing</Value>
+            </ValueGroup>
+            <ValueGroup ID="23005">
+                <Value>Milling</Value>
+            </ValueGroup>
+            <ValueGroup ID="23006">
+                <Value>Milling Rice</Value>
+            </ValueGroup>
+            <ValueGroup ID="23008">
+                <Value>Oil Drilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="23009">
+                <Value>Oil Refinery</Value>
+            </ValueGroup>
+            <ValueGroup ID="23010">
+                <Value>Operating Headquarters</Value>
+            </ValueGroup>
+            <ValueGroup ID="23011">
+                <Value>Passenger Bus Transportation</Value>
+            </ValueGroup>
+            <ValueGroup ID="23012">
+                <Value>Pharmacy</Value>
+            </ValueGroup>
+            <ValueGroup ID="23013">
+                <Value>Primary School</Value>
+            </ValueGroup>
+            <ValueGroup ID="23014">
+                <Value>Printing</Value>
+            </ValueGroup>
+            <ValueGroup ID="23015">
+                <Value>Processing</Value>
+            </ValueGroup>
+            <ValueGroup ID="23016">
+                <Value>Production Of Electric Power</Value>
+            </ValueGroup>
+            <ValueGroup ID="23017">
+                <Value>Production Of Hydroelectric Power</Value>
+            </ValueGroup>
+            <ValueGroup ID="23018">
+                <Value>Public Relations</Value>
+            </ValueGroup>
+            <ValueGroup ID="23019">
+                <Value>Purchasing</Value>
+            </ValueGroup>
+            <ValueGroup ID="23021">
+                <Value>Raising Poultry</Value>
+            </ValueGroup>
+            <ValueGroup ID="23022">
+                <Value>Receipt Of Official Correspondence</Value>
+            </ValueGroup>
+            <ValueGroup ID="23023">
+                <Value>Refinery</Value>
+            </ValueGroup>
+            <ValueGroup ID="23024">
+                <Value>Refining Sugar</Value>
+            </ValueGroup>
+            <ValueGroup ID="23025">
+                <Value>Repackaging</Value>
+            </ValueGroup>
+            <ValueGroup ID="23026">
+                <Value>Research</Value>
+            </ValueGroup>
+            <ValueGroup ID="23027">
+                <Value>Reservations</Value>
+            </ValueGroup>
+            <ValueGroup ID="23028">
+                <Value>Retail</Value>
+            </ValueGroup>
+            <ValueGroup ID="23029">
+                <Value>Sales</Value>
+            </ValueGroup>
+            <ValueGroup ID="23030">
+                <Value>Sanatorium</Value>
+            </ValueGroup>
+            <ValueGroup ID="23031">
+                <Value>Secondary School</Value>
+            </ValueGroup>
+            <ValueGroup ID="23032">
+                <Value>Selling Confectionaries</Value>
+            </ValueGroup>
+            <ValueGroup ID="23033">
+                <Value>Selling Optical Goods</Value>
+            </ValueGroup>
+            <ValueGroup ID="23034">
+                <Value>Sports</Value>
+            </ValueGroup>
+            <ValueGroup ID="23035">
+                <Value>Tea Drying</Value>
+            </ValueGroup>
+            <ValueGroup ID="23036">
+                <Value>Workers Quarters</Value>
+            </ValueGroup>
+            <ValueGroup ID="23065">
+                <Value>raising cattle</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

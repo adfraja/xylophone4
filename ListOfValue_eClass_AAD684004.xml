@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD684004" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Description of batteries</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD684004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description of batteries
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD684004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description of batteries
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD684004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description of batteries
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD684004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description of batteries
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD684004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description of batteries
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD684</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD684004</Value>
+            </MetaData>
+            <ValueGroup ID="AAC658002">
+                <Value QualifierID="std.lang.all">4 LR 44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC659002">
+                <Value QualifierID="std.lang.all">4 LR 61</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC692002">
+                <Value QualifierID="std.lang.all">4 SR 44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC933002">
+                <Value QualifierID="std.lang.all">6 LR 61</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE152002">
+                <Value QualifierID="std.lang.all">CR 1220</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE157002">
+                <Value QualifierID="std.lang.all">CR 1616</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE158002">
+                <Value QualifierID="std.lang.all">CR 1620</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE159002">
+                <Value QualifierID="std.lang.all">CR 17345</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE161002">
+                <Value QualifierID="std.lang.all">CR 2016</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE162002">
+                <Value QualifierID="std.lang.all">CR 2025</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE166002">
+                <Value QualifierID="std.lang.all">CR 2032</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE167002">
+                <Value QualifierID="std.lang.all">CR 2320</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE168002">
+                <Value QualifierID="std.lang.all">CR 2430</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE169002">
+                <Value QualifierID="std.lang.all">CR 2450</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK629002">
+                <Value QualifierID="std.lang.all">LR 14</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK631002">
+                <Value QualifierID="std.lang.all">LR 43</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK632002">
+                <Value QualifierID="std.lang.all">LR 44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK634002">
+                <Value QualifierID="std.lang.all">LR 54</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK635002">
+                <Value QualifierID="std.lang.all">LR 55</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK636002">
+                <Value QualifierID="std.lang.all">LR 6</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK638002">
+                <Value QualifierID="std.lang.all">LR 9</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM483002">
+                <Value QualifierID="std.lang.all">R 03</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM517002">
+                <Value QualifierID="std.lang.all">R14 S</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM520002">
+                <Value QualifierID="std.lang.all">R20 P</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN418002">
+                <Value QualifierID="std.lang.all">SR 43</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN419002">
+                <Value QualifierID="std.lang.all">SR 44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN421002">
+                <Value QualifierID="std.lang.all">SR 48</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN430002">
+                <Value QualifierID="std.lang.all">SR 54</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN433002">
+                <Value QualifierID="std.lang.all">SR 55</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN439002">
+                <Value QualifierID="std.lang.all">SR 59</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN440002">
+                <Value QualifierID="std.lang.all">SR 60</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN442002">
+                <Value QualifierID="std.lang.all">SR 62</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN445002">
+                <Value QualifierID="std.lang.all">SR 63</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN446002">
+                <Value QualifierID="std.lang.all">SR 64</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN447002">
+                <Value QualifierID="std.lang.all">SR 65</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN448002">
+                <Value QualifierID="std.lang.all">SR 66</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN449002">
+                <Value QualifierID="std.lang.all">SR 67</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN450002">
+                <Value QualifierID="std.lang.all">SR 68</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS947002">
+                <Value QualifierID="std.lang.all">LR20</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS950002">
+                <Value QualifierID="std.lang.all">LR03</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS951002">
+                <Value QualifierID="std.lang.all">LR1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS954002">
+                <Value QualifierID="std.lang.all">Nickel cadmium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS955002">
+                <Value QualifierID="std.lang.all">Small lead</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS956002">
+                <Value QualifierID="std.lang.all">Alkali manganese</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS957002">
+                <Value QualifierID="std.lang.all">Nickel Metallhydrid</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS958002">
+                <Value QualifierID="std.lang.all">Lithium Ion/Lithium polymer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS959002">
+                <Value QualifierID="std.lang.all">Lithium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS960002">
+                <Value QualifierID="std.lang.all">Zinc air</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS961002">
+                <Value QualifierID="std.lang.all">Alkali Mangan/Nickel zinc</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS962002">
+                <Value QualifierID="std.lang.all">Zinc cabbage</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV394002">
+                <Value QualifierID="std.lang.all">R1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV395002">
+                <Value QualifierID="std.lang.all">CR-P2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV396002">
+                <Value QualifierID="std.lang.all">6AS6</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV397002">
+                <Value QualifierID="std.lang.all">R6P</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV398002">
+                <Value QualifierID="std.lang.all">3LR12</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV399002">
+                <Value QualifierID="std.lang.all">3R12P</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV400002">
+                <Value QualifierID="std.lang.all">3R12S</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV401002">
+                <Value QualifierID="std.lang.all">R14P</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV402002">
+                <Value QualifierID="std.lang.all">R20S</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV403002">
+                <Value QualifierID="std.lang.all">6F22</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV404002">
+                <Value QualifierID="std.lang.all">6LP3146</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV405002">
+                <Value QualifierID="std.lang.all">4LR25X</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV406002">
+                <Value QualifierID="std.lang.all">4LR25-2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV407002">
+                <Value QualifierID="std.lang.all">4R25X</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV408002">
+                <Value QualifierID="std.lang.all">4R25Y</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV409002">
+                <Value QualifierID="std.lang.all">4R25-2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV410002">
+                <Value QualifierID="std.lang.all">R40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV411002">
+                <Value QualifierID="std.lang.all">LR41</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV412002">
+                <Value QualifierID="std.lang.all">PR41</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV413002">
+                <Value QualifierID="std.lang.all">SR41</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV414002">
+                <Value QualifierID="std.lang.all">SR42</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV415002">
+                <Value QualifierID="std.lang.all">PR44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV416002">
+                <Value QualifierID="std.lang.all">PR48</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV417002">
+                <Value QualifierID="std.lang.all">LR53</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV418002">
+                <Value QualifierID="std.lang.all">SR57</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV419002">
+                <Value QualifierID="std.lang.all">SR58</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV420002">
+                <Value QualifierID="std.lang.all">SR69</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV421002">
+                <Value QualifierID="std.lang.all">PR70</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV422002">
+                <Value QualifierID="std.lang.all">6F100</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV423002">
+                <Value QualifierID="std.lang.all">CR15H270</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV424002">
+                <Value QualifierID="std.lang.all">LR8D425</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV425002">
+                <Value QualifierID="std.lang.all">CR1025</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV426002">
+                <Value QualifierID="std.lang.all">CR1216</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV427002">
+                <Value QualifierID="std.lang.all">BR1225</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV428002">
+                <Value QualifierID="std.lang.all">CR2012</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV429002">
+                <Value QualifierID="std.lang.all">BR2016</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV430002">
+                <Value QualifierID="std.lang.all">BR2320</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV431002">
+                <Value QualifierID="std.lang.all">BR2325</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV432002">
+                <Value QualifierID="std.lang.all">CR2325</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV433002">
+                <Value QualifierID="std.lang.all">CR2330</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV434002">
+                <Value QualifierID="std.lang.all">CR2354</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV435002">
+                <Value QualifierID="std.lang.all">BR3032</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV436002">
+                <Value QualifierID="std.lang.all">CR3032</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV437002">
+                <Value QualifierID="std.lang.all">2EP3863</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV438002">
+                <Value QualifierID="std.lang.all">CR11108</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV439002">
+                <Value QualifierID="std.lang.all">2CR13252</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV440002">
+                <Value QualifierID="std.lang.all">CR14250</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV441002">
+                <Value QualifierID="std.lang.all">BR17335</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV442002">
+                <Value QualifierID="std.lang.all">CR17450</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

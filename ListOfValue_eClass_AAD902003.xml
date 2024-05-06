@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD902003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Precautionary statements_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD902003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Precautionary statements_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD902003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Precautionary statements_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD902003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Precautionary statements_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD902003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Precautionary statements_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD902003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Precautionary statements_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD902</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD902003</Value>
+            </MetaData>
+            <ValueGroup ID="AAU585002">
+                <Value QualifierID="std.lang.all">If medical advice is needed, have product container or label at hand</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU586002">
+                <Value QualifierID="std.lang.all">Keep out of reach of children</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU587002">
+                <Value QualifierID="std.lang.all">Read label before use</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU588002">
+                <Value QualifierID="std.lang.all">Obtain special instructions before use</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU589002">
+                <Value QualifierID="std.lang.all">Do not handle until all safety precautions have been read and understood</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU590002">
+                <Value QualifierID="std.lang.all">Keep away from heat/sparks/open flames/hot surfaces – No smoking</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU591002">
+                <Value QualifierID="std.lang.all">Do not spray on an open flame or other igntion source</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU592002">
+                <Value QualifierID="std.lang.all">Keep/Store away from clothing/…/combustible materials</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU593002">
+                <Value QualifierID="std.lang.all">Take any precaustion to avoid mixinn with combustibles</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU594002">
+                <Value QualifierID="std.lang.all">Do not allow contact with air</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU595002">
+                <Value QualifierID="std.lang.all">Keep away from any possible contact with water, because of possible flash fire</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU596002">
+                <Value QualifierID="std.lang.all">Keep wetted with …</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU597002">
+                <Value QualifierID="std.lang.all">Handle under inert gas</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU598002">
+                <Value QualifierID="std.lang.all">Protect from moisture</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU599002">
+                <Value QualifierID="std.lang.all">Keep container tightly closed</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU600002">
+                <Value QualifierID="std.lang.all">Keep only in original container</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU601002">
+                <Value QualifierID="std.lang.all">Keep cool</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU602002">
+                <Value QualifierID="std.lang.all">Ground/bond container and receiving equipment</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU603002">
+                <Value QualifierID="std.lang.all">Use explosion-proof electrical/ventilating/light/…/equipment</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU604002">
+                <Value QualifierID="std.lang.all">Use only non-sparking tools</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU605002">
+                <Value QualifierID="std.lang.all">Take precautionary measures against static discharge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU606002">
+                <Value QualifierID="std.lang.all">Keep reduction valves free from grease and oil</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU607002">
+                <Value QualifierID="std.lang.all">Do not subject to grinding/shock/…/friction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU608002">
+                <Value QualifierID="std.lang.all">Pressurized container – Do not pierce or burn, even after use</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU609002">
+                <Value QualifierID="std.lang.all">Do not breathe dust/fume/gas/mist/vapours/spray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU610002">
+                <Value QualifierID="std.lang.all">Avoid breathing dust/fume/gas/mist/vapours/spray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU611002">
+                <Value QualifierID="std.lang.all">Do not get in eyes, on skin, or on clothing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU612002">
+                <Value QualifierID="std.lang.all">Avoid contact during pregnancy/while nursing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU613002">
+                <Value QualifierID="std.lang.all">Wash … thoroughly after handling</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU614002">
+                <Value QualifierID="std.lang.all">Do not eat, drink or smoke when using this product</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU615002">
+                <Value QualifierID="std.lang.all">Use only outdoors or in a well-ventilated area</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU616002">
+                <Value QualifierID="std.lang.all">Contaminated work clothing should not be allowed out of the workplace</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU617002">
+                <Value QualifierID="std.lang.all">Avoid release to the environment</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU618002">
+                <Value QualifierID="std.lang.all">Wear protective gloves/protective clothing/eye protection/face protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU619002">
+                <Value QualifierID="std.lang.all">Use personal protective equipment as required</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU620002">
+                <Value QualifierID="std.lang.all">Wear cold insulating gloves/face shield/eye protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU621002">
+                <Value QualifierID="std.lang.all">Wear fire/flame resistant/retardant clothing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU622002">
+                <Value QualifierID="std.lang.all">Wear respiratory protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU623002">
+                <Value QualifierID="std.lang.all">In case of inadequate ventilation wear respiratory protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU624002">
+                <Value QualifierID="std.lang.all">Handle under inert gas. Protect from moisture</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU625002">
+                <Value QualifierID="std.lang.all">Keep cool. Protect from sunlight</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU626002">
+                <Value QualifierID="std.lang.all">IF SWALLOWED:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU627002">
+                <Value QualifierID="std.lang.all">IF ON SKIN:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU628002">
+                <Value QualifierID="std.lang.all">IF ON SKIN (or hair):</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU629002">
+                <Value QualifierID="std.lang.all">IF INHALED:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU630002">
+                <Value QualifierID="std.lang.all">IF IN EYES:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU631002">
+                <Value QualifierID="std.lang.all">IF ON CLOTHING:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU632002">
+                <Value QualifierID="std.lang.all">IF exposed:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU633002">
+                <Value QualifierID="std.lang.all">IF exposed or concerned:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU634002">
+                <Value QualifierID="std.lang.all">IF exposed or you feel unwell:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU635002">
+                <Value QualifierID="std.lang.all">Immediately call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU636002">
+                <Value QualifierID="std.lang.all">Call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU637002">
+                <Value QualifierID="std.lang.all">Call a POISON CENTER or doctor/physician if you feel unwell</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU638002">
+                <Value QualifierID="std.lang.all">Get medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU640002">
+                <Value QualifierID="std.lang.all">Get Medical advice/attention if you feel unwell</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU641002">
+                <Value QualifierID="std.lang.all">Get immediate medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU642002">
+                <Value QualifierID="std.lang.all">Specific treatment is urgent (see … on this label)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU643002">
+                <Value QualifierID="std.lang.all">Specific treatment (see … on this label)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU644002">
+                <Value QualifierID="std.lang.all">Specific measures (see … on this label)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU645002">
+                <Value QualifierID="std.lang.all">Rinse mouth</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU646002">
+                <Value QualifierID="std.lang.all">Do NOT induce vomiting</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU647002">
+                <Value QualifierID="std.lang.all">If skin irritation occurs:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU648002">
+                <Value QualifierID="std.lang.all">If skin irritation or a rash occurs:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU649002">
+                <Value QualifierID="std.lang.all">Immerse in cool water/wrap in wet bandages</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU650002">
+                <Value QualifierID="std.lang.all">Brush off loose particles from skin</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU651002">
+                <Value QualifierID="std.lang.all">Thaw frosted parts with lukewarm water. Do not rub affected areas</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU652002">
+                <Value QualifierID="std.lang.all">If eye irritation persists:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU653002">
+                <Value QualifierID="std.lang.all">Remove contact lenses if present and easy to do. continue rinsing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU654002">
+                <Value QualifierID="std.lang.all">Remove victim to fresh air and keep in a position comfortable for breathing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU655002">
+                <Value QualifierID="std.lang.all">If breathing is difficult, remove victim to fresh air, comfortable for breathing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU656002">
+                <Value QualifierID="std.lang.all">If experiencing respiratory symptoms:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU657002">
+                <Value QualifierID="std.lang.all">Gently wash with soap and water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU658002">
+                <Value QualifierID="std.lang.all">Rinse continuously with water for several minutes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU659002">
+                <Value QualifierID="std.lang.all">Wash with soap and water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU660002">
+                <Value QualifierID="std.lang.all">Rinse skin with water/shower</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU661002">
+                <Value QualifierID="std.lang.all">Rinse immediately clothing and skin with plenty of water before removing clothes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU662002">
+                <Value QualifierID="std.lang.all">Remove/Take off immediately all contaminated clothing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU663002">
+                <Value QualifierID="std.lang.all">Take off contaminated clothing and wash before reuse</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU664002">
+                <Value QualifierID="std.lang.all">Wash contaminated clothing before reuse</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU665002">
+                <Value QualifierID="std.lang.all">In case of fire:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU666002">
+                <Value QualifierID="std.lang.all">In case of major fire and large quantities:</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU667002">
+                <Value QualifierID="std.lang.all">Explosion risk in case of fire</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU668002">
+                <Value QualifierID="std.lang.all">DO NOT fight fire when fire reaches explosives</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU669002">
+                <Value QualifierID="std.lang.all">Fight fire with normal precautions from a reasonable distance</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU670002">
+                <Value QualifierID="std.lang.all">Fight fire remotely due to the risk of explosion</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU671002">
+                <Value QualifierID="std.lang.all">Stop leak if safe to do so</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU672002">
+                <Value QualifierID="std.lang.all">Leaking gas fire – do not extinguish unless leak can be stopped safely</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU673002">
+                <Value QualifierID="std.lang.all">Use … for extinction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU674002">
+                <Value QualifierID="std.lang.all">Evacuate area</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU675002">
+                <Value QualifierID="std.lang.all">Eliminate all ignition sources if safe to do so</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU676002">
+                <Value QualifierID="std.lang.all">Absorb spillage to prevent material damage.</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU677002">
+                <Value QualifierID="std.lang.all">Collect spillage</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU678002">
+                <Value QualifierID="std.lang.all">IF SWALLOWED: Immediately call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU679002">
+                <Value QualifierID="std.lang.all">IF SWALLOWED: Call a POISON CENTER or doctor/physician if you feel unwell</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU680002">
+                <Value QualifierID="std.lang.all">IF SWALLOWED: Rinse mouth. Do NOT induce vomiting</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU681002">
+                <Value QualifierID="std.lang.all">IF ON SKIN: Immerse in cool water/wrap in wet bandages</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU682002">
+                <Value QualifierID="std.lang.all">IF ON SKIN: Gently wash with soap and water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU683002">
+                <Value QualifierID="std.lang.all">IF ON SKIN: Wash with soap and water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU684002">
+                <Value QualifierID="std.lang.all">IF ON SKIN (or hair): Remove all contaminated clothing. Rinse skin with water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU685002">
+                <Value QualifierID="std.lang.all">IF INHALED: Remove victim to fresh air in a position comfortable for breathing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU686002">
+                <Value QualifierID="std.lang.all">IF INHALED: If breathing is difficult, remove victim to fresh air</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU687002">
+                <Value QualifierID="std.lang.all">IF IN EYES: Rinse continuously with water. Remove contact lenses</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU688002">
+                <Value QualifierID="std.lang.all">IF ON CLOTHING: Rinse immediately clothing and skin with plenty of water</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU689002">
+                <Value QualifierID="std.lang.all">IF exposed: Call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU690002">
+                <Value QualifierID="std.lang.all">IF exposed or concerned: Get medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU691002">
+                <Value QualifierID="std.lang.all">IF exposed or you feel unwell: Call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU692002">
+                <Value QualifierID="std.lang.all">If skin irritation occurs: Get medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU693002">
+                <Value QualifierID="std.lang.all">If skin irritation or a rash occurs: Get medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU694002">
+                <Value QualifierID="std.lang.all">Brush off loose particles from skin. Immerse in cool water/wrap in wet bandages</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU695002">
+                <Value QualifierID="std.lang.all">In case of eye irritation: Get medical advice/attention</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU696002">
+                <Value QualifierID="std.lang.all">In case of respiratory tract symptoms: Call a POISON CENTER or doctor/physician</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU697002">
+                <Value QualifierID="std.lang.all">In case of fire: Stop leak if safe to do so</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU698002">
+                <Value QualifierID="std.lang.all">In case of fire: Use … for extinction</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU699002">
+                <Value QualifierID="std.lang.all">In case of fire: Evacuate area</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU700002">
+                <Value QualifierID="std.lang.all">In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU701002">
+                <Value QualifierID="std.lang.all">In case of major fire: Evacuate area. Fight fire remotely, risk of explosion</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU702002">
+                <Value QualifierID="std.lang.all">Store …</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU703002">
+                <Value QualifierID="std.lang.all">Store in a dry place</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU704002">
+                <Value QualifierID="std.lang.all">Store in a well ventilated place</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU705002">
+                <Value QualifierID="std.lang.all">Store in a closed container</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU706002">
+                <Value QualifierID="std.lang.all">Store locked up</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU707002">
+                <Value QualifierID="std.lang.all">Store in a corrosive resistant/… container with a resistant inner liner</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU708002">
+                <Value QualifierID="std.lang.all">Maintain air gap between stacks/pallets</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU709002">
+                <Value QualifierID="std.lang.all">Protect from sunlight</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU710002">
+                <Value QualifierID="std.lang.all">Store at temperatures not exceeding … °C/… °F</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU711002">
+                <Value QualifierID="std.lang.all">Do not expose to temperatures exceeding 50 °C/122 °F</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU712002">
+                <Value QualifierID="std.lang.all">Store bulk masses greater than … kg/… lbs at temperatures not exceeding … oC/…oF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU713002">
+                <Value QualifierID="std.lang.all">Store away from other materials</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU714002">
+                <Value QualifierID="std.lang.all">Store contents under …</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU715002">
+                <Value QualifierID="std.lang.all">Store in a dry place. Store in a closed container</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU716002">
+                <Value QualifierID="std.lang.all">Store in a well ventilated place. Keep container tightly closed</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU717002">
+                <Value QualifierID="std.lang.all">Store in a well ventilated place. Keep cool</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU718002">
+                <Value QualifierID="std.lang.all">Protect from sunlight. Store in a well ventilated place</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU719002">
+                <Value QualifierID="std.lang.all">Protect from sunlight. Do not expose to temperatures exceeding 50 °C/122 °F</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU720002">
+                <Value QualifierID="std.lang.all">Store at temperatures not exceeding … °C/… °F. Keep cool</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU721002">
+                <Value QualifierID="std.lang.all">Dispose of contents/container to …</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

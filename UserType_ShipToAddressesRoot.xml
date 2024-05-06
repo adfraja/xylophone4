@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ShipToAddressesRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="ShipToAddressesRoot">
+            <Name>Ship-to Addresses Root</Name>
+            <Icon>H4sIAAAAAAAAAJ1UTWjUQBSOP2CtVq1gxYoQ0oOCbpLZzW42oWvZJlldNG3dXbTeNpvMtqFNJiZTNy2IUOtBhOpRQY8tePAfD2JB24PgyYM/qIeiFxFBiwfBi9RJ3a0ipQcfZGbezPve/8uFvp5DLc3tzRRFteQPqwWyb4u+pnVk3RfbWiTbLqz14yKq4prhQyproQqk844xAAvQsEZPPYOdFLWuapf6cb9+VDaRwxqRDBs6HhVRZ1foGeYQxHQFDthuhll49JihbSvDnEjqvO4pcNA+PObD4lhPyRwbMiWL6TpId4YyUeBAbNChM+wGcphhlvTK5Bxdcwy9JIKHMsxvp/r1PlpBPqSTLB8z+RSgUwILBF4SpAN0nAc8B+IcL8YALydFmQd0nRhizbeqckHN1W0RLsMMYuzJHFer1dhagkX+AAckSeL4OBePx4hELBh1sRHG3KCjoUGFgenbHraRS0e8UUEjOMMwjRAcT9eXFbtBPVEkZVxoeBxgec5xuIZ0gAuwurp0UBr1IFeAARrxTVKPasdfplaHRoLEG7nXt0lRjGEVmSMOdHFezTDkhbVsSxYVJQ0EISUqItAEAKS0JkpaUk1JSXIlpBo6VsJmcymtG8QFEaQBIGgpnU1l1XRCTQi5pBaXGti8G2DDNWEDa//BJlbFyooPDYz8EkLDjQ7oG0QYBYPIo5VikgX0Cdu1UC2IylP3FPr2aWjlfOTQS/mV7RXsp1VB0NLd2TRfjzubU7NiopuELopSQmXqWOt/csYRZ7h/mqVxRTowOi63PmGWhwe6ZGJ8Mhpn9JntZKx29x0taRX/3MS1B4S7+XR+enp6YWFhcXFR13Wyfn7xySYPG3Ghp7hYJ6rYG0ZYEm22FL6zJo9teUI3KZvmPv7snWnDF0923ZmZ2An2XmnfM36kjEu3D5R3vOpcc+/bhrHKzPH7l9veHFftu5PvP0x9b/lxSdlfPrtNvjFBzWVef13/cn529k5r09Tzty0/b13/0lqm2javvTr08Pzt6CeQ13rUW93l8V+qCnXdcQQAAA==</Icon>
+            <UserTypeLink UserTypeID="CustomerDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CMDMWebUIDisplay" ShowInWorkbench="true" ManuallySorted="false" ParentID="Display"></AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

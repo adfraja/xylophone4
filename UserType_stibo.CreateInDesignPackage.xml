@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.CreateInDesignPackage">
+            <UserTypeLink UserTypeID="stibo.Background Process user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

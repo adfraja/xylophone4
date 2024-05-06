@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Dimension qualifier" Referenced="true">
+            <Name>Dimension</Name>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

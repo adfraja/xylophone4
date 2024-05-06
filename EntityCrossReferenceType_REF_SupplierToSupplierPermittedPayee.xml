@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <EntityCrossReferenceType ID="REF_SupplierToSupplierPermittedPayee" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" ParentChildRelation="NONE" MultiValued="true">
+            <Name QualifierID="std.lang.all">Permitted Payee</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="AttributeHelpText">Permitted Payee can be used to add multiple alternative payees, so that the business partners can perform transactions by choosing an alternative payee.</Value>
+            </MetaData>
+            <AttributeLink AttributeID="AT_ReplicationActionFlag"></AttributeLink>
+            <AttributeGroupLink AttributeGroupID="SAKM"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier"></TargetUserTypeLink>
+        </EntityCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

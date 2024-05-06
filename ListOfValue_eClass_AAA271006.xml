@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAA271006" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Nominal pressure series</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA271006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Nominal pressure series
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA271006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Nominal pressure series
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA271006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Nominal pressure series
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA271006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Nominal pressure series
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA271006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Nominal pressure series
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAA271</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAA271006</Value>
+            </MetaData>
+            <ValueGroup ID="AAA047004">
+                <Value QualifierID="std.lang.all">PN 40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA048002">
+                <Value QualifierID="std.lang.all">ANSI 150</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA049002">
+                <Value QualifierID="std.lang.all">ANSI 300</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA086004">
+                <Value QualifierID="std.lang.all">PN 10</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA087004">
+                <Value QualifierID="std.lang.all">PN 16</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA088004">
+                <Value QualifierID="std.lang.all">PN 25</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA195004">
+                <Value QualifierID="std.lang.all">PN 160</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA196004">
+                <Value QualifierID="std.lang.all">PN 250</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA197004">
+                <Value QualifierID="std.lang.all">PN 320</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA198004">
+                <Value QualifierID="std.lang.all">PN 400</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT612002">
+                <Value QualifierID="std.lang.all">PN 63</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT613002">
+                <Value QualifierID="std.lang.all">PN 100</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT614002">
+                <Value QualifierID="std.lang.all">Class 50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT615002">
+                <Value QualifierID="std.lang.all">Class 75</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT616002">
+                <Value QualifierID="std.lang.all">Class 125</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT617002">
+                <Value QualifierID="std.lang.all">Class 150</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT618002">
+                <Value QualifierID="std.lang.all">Class 175</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT619002">
+                <Value QualifierID="std.lang.all">Class 200</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT620002">
+                <Value QualifierID="std.lang.all">Class 250</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT621002">
+                <Value QualifierID="std.lang.all">Class 300</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT622002">
+                <Value QualifierID="std.lang.all">Class 400</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT623002">
+                <Value QualifierID="std.lang.all">Class 600</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT624002">
+                <Value QualifierID="std.lang.all">Class 800</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT625002">
+                <Value QualifierID="std.lang.all">Class 900</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT626002">
+                <Value QualifierID="std.lang.all">Class 1500</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT627002">
+                <Value QualifierID="std.lang.all">Class 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT628002">
+                <Value QualifierID="std.lang.all">Class 2500</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT629002">
+                <Value QualifierID="std.lang.all">Class 3000</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT630002">
+                <Value QualifierID="std.lang.all">Class 6000</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT631002">
+                <Value QualifierID="std.lang.all">PN 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT632002">
+                <Value QualifierID="std.lang.all">PN 2.5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT633002">
+                <Value QualifierID="std.lang.all">PN 6</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT634002">
+                <Value QualifierID="std.lang.all">PN 325</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT635002">
+                <Value QualifierID="std.lang.all">PN 700</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT636002">
+                <Value QualifierID="std.lang.all">PN 1000</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT637002">
+                <Value QualifierID="std.lang.all">PN 1600</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT638002">
+                <Value QualifierID="std.lang.all">PN 3600</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

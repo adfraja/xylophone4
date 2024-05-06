@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="OrganizationWordAliasTable"><!-- Definition:
+<Configuration IgnoreCase="false">
+  <ValuePair>
+    <FromValue>s&amp;op</FromValue>
+    <ToValue>sales and operations</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>bus</FromValue>
+    <ToValue>business</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>psc</FromValue>
+    <ToValue>professional services corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>corp</FromValue>
+    <ToValue>corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>busi</FromValue>
+    <ToValue>business</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pllc</FromValue>
+    <ToValue>professional limited liability company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>unltd</FromValue>
+    <ToValue>unlimited</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>hq</FromValue>
+    <ToValue>headquarters</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>coy</FromValue>
+    <ToValue>company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>imp</FromValue>
+    <ToValue>imports</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>sc</FromValue>
+    <ToValue>service corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pty ltd</FromValue>
+    <ToValue>proprietary limited</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>dpc</FromValue>
+    <ToValue>design professional corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pte ltd</FromValue>
+    <ToValue>private limited</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>assoc</FromValue>
+    <ToValue>association</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>whol</FromValue>
+    <ToValue>wholesale</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>exp</FromValue>
+    <ToValue>exports</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>ltd</FromValue>
+    <ToValue>limited</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>inc</FromValue>
+    <ToValue>incorporated</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>assn</FromValue>
+    <ToValue>association</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>cpn</FromValue>
+    <ToValue>corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>llc</FromValue>
+    <ToValue>limited liability corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pvt ltd</FromValue>
+    <ToValue>private limited</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>spa</FromValue>
+    <ToValue>societa per azioni</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>&amp;</FromValue>
+    <ToValue>and</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>rnd</FromValue>
+    <ToValue>research and development</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>wrldwd</FromValue>
+    <ToValue>worldwide</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>co</FromValue>
+    <ToValue>company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>vc</FromValue>
+    <ToValue>venture capital</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>mfg</FromValue>
+    <ToValue>manufacturing</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>agcy</FromValue>
+    <ToValue>agency</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pa</FromValue>
+    <ToValue>professional association</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>r&amp;d</FromValue>
+    <ToValue>research and development</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>rc</FromValue>
+    <ToValue>retail company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>mgmt</FromValue>
+    <ToValue>management</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>rd</FromValue>
+    <ToValue>research and development</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>pc</FromValue>
+    <ToValue>professional corporation</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>cptal</FromValue>
+    <ToValue>capital</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>plp</FromValue>
+    <ToValue>private label product</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>wll</FromValue>
+    <ToValue>with limited liability</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>lc</FromValue>
+    <ToValue>limited company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>chtd</FromValue>
+    <ToValue>chartered</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>s&amp;m</FromValue>
+    <ToValue>sales and marketing</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>l3c</FromValue>
+    <ToValue>low-profit limited liability company</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>wrhse</FromValue>
+    <ToValue>warehouse</ToValue>
+  </ValuePair>
+</Configuration>
+ -->
+            <Name>Organization Word Alias Table</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">4571</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 16:50:37</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="MatchingLookupTables"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAL1Yy67TQAzd36+I7oId6oIlpZsrIbFjgdi7EzexmNf1TBLK1+OkBVRBTDXTdlWlHvmMj48fyfYl+AN1A0Om4JtPnQ+ML5Dww/MBbMLn3VPTbL+CHfAzEM9P8vyRg1v+26U34OL7ELebP/+dznwJ5xNgMTXg2yZEPMGk7eaXdfa+uXCvgO2HtI4jRvKYSn3HZNZ9Rw4HcS1XB9sk5JGMxGQCx3CKqBB09rCOWu9/5uR+jFl7LWWWHGVs5Rf2ZCkfhTsXwR8LoQdvc7uOLeYTYKH7/nXdd4/Qvg7AGbmUOBOOWtJriCGn6EmMgXPprbX6OJfEDSoiijbU3IquIhNm4GNTl+U2KhG1mKjzzYWKbxEd/i86GmE+VBUZpBSU2BYz1cQx9cGu+5+tOLf9Qu/4XRGxGCtErJJfRzp5hXIxnsVTk1R/z5yaqLivl746LP41H6prbcyPqLUUQemLkhNpVY0sPg38kFioEGXZspTs+9Lrs1cYYkwIbPple2txRBuiQ59LuwbbdlLgpjAfoLa0b5hwr7E6KtodhZCBZfZBpAy2EMEdunUIB344gBEY8l1p++iMsnVAh96UsqNVwMUArW9SvBTC4yTLSuJZKpts5SbrOpfVxEtmau7/OKq0berGa5SJS6Gt1npVJUarbB+/Zwbs0c7bYTuY4nZotR2Kcv/3a1Pp7L1i9NbJ2PTapDX98r5UPmOXqnfXfGNwwN8wl7dJ+07jKkxvZylTvvkb7cR9QkUOwNiHISmjcbu5+JSze/oJyIJS0NsRAAA=</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>

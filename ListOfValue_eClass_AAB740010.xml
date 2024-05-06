@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB740010" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Tolerance class</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB740010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tolerance class
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB740010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tolerance class
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB740010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tolerance class
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB740010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tolerance class
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB740010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tolerance class
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB740</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB740010</Value>
+            </MetaData>
+            <ValueGroup ID="CAA264007">
+                <Value QualifierID="std.lang.all">E</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA267005">
+                <Value QualifierID="std.lang.all">G</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA001002">
+                <Value QualifierID="std.lang.all">Yes</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA027002">
+                <Value QualifierID="std.lang.all">1</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA028002">
+                <Value QualifierID="std.lang.all">2</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA059002">
+                <Value QualifierID="std.lang.all">0</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA915008">
+                <Value QualifierID="std.lang.all">A</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA941007">
+                <Value QualifierID="std.lang.all">C</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA963006">
+                <Value QualifierID="std.lang.all">F</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB017006">
+                <Value QualifierID="std.lang.all">H</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB038006">
+                <Value QualifierID="std.lang.all">K</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB063006">
+                <Value QualifierID="std.lang.all">L</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB068006">
+                <Value QualifierID="std.lang.all">M</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB241004">
+                <Value QualifierID="std.lang.all">U</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB336006">
+                <Value QualifierID="std.lang.all">N</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

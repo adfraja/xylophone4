@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="TestVideoAsset"><!-- Definition:
+<portal-config portalId="userportal" xmlns="http://stibosystems.com/step/portal-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <screens>
+    <loginscreen>
+      <parameter id="PortalTitle" value="STEP User Portal"/>
+    </loginscreen>
+    <screen id="ClassificationScreen" type="ClassificationScreen">
+      <component id="NodeList" type="NodeList">
+        <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+        <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+        <parameter id="DefaultSortingOrder" value="Ascending"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter id="HideStandardButtons" value="false"/>
+        <parameter id="ID" value="nodelist123"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="25"/>
+        <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter id="UseDetailsOverlay" value="false"/>
+        <parameter-list id="Actions">
+          <component type="UploadAssetAction">
+            <component id="UploadAssetParameters" type="UploadAssetParameters">
+              <component id="ClassificationPickerConfiguration" type="NodePickerDialog">
+                <component id="RootNodePlugin" type="StaticRootNodes">
+                  <parameter-list id="RootNodeURLs">
+                    <parameter value="step://classification?id=DynamicClassFolder"/>
+                  </parameter-list>
+                </component>
+                <parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+                <parameter-list id="TabPages">
+                  <component type="BrowseTab"/>
+                </parameter-list>
+              </component>
+              <parameter id="ObjectTypeSelectionShown" value="false"/>
+              <parameter id="ShowIdChoiceOptions" value="false"/>
+              <parameter-list id="ObjectTypes">
+                <parameter value="DEFAULT"/>
+              </parameter-list>
+            </component>
+            <parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-Asset-Upload"/>
+            <parameter id="Label" value="i18n.stibo.UploadAssetAction.Label"/>
+            <parameter id="ShowIdChoiceOptions" value="false"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="DisplayModes">
+          <component type="MultiEditDisplayMode">
+            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="GroupsInitiallyOpen" value="false"/>
+            <parameter id="ReloadAfterSave" value="false"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ShowEmptyGroupHeaders" value="true"/>
+            <parameter id="ShowGroupHeaders" value="true"/>
+            <parameter id="ShowOnlyValidAttributes" value="false"/>
+            <parameter id="UseImmediateSave" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="HideAssets" value="false"/>
+      <parameter id="HideLinkedProducts" value="false"/>
+    </screen>
+    <screen id="NodeDetails" type="NodeDetails">
+      <component id="Main" type="NodeEditor">
+        <parameter id="LabelLayout" value="LEFT"/>
+        <parameter-list id="Rows">
+          <component id="Rows" type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+          </component>
+          <component id="Rows" type="NameValue">
+            <parameter id="CssClass" value="stibo-NameValue"/>
+            <parameter id="Label" value="i18n.stibo.NameValue.Label"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReadOnly" value="false"/>
+          </component>
+          <component id="Rows" type="ObjectType">
+            <parameter id="Label" value="i18n.stibo.ObjectType.Label"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReadOnly" value="false"/>
+          </component>
+          <component id="Rows" type="AssetImageValue">
+            <component id="PopUpRepresentation" type="ThumbnailInfo">
+              <parameter id="Size" value="MEDIUM"/>
+            </component>
+            <component id="Representation" type="ThumbnailInfo">
+              <parameter id="Size" value="FULL"/>
+            </component>
+            <component id="UploadAssetParameters" type="UploadAssetParameters">
+              <component id="ClassificationPickerConfiguration" type="NodePickerDialog">
+                <component id="RootNodePlugin" type="StaticRootNodes">
+                  <parameter-list id="RootNodeURLs">
+                    <parameter value="step://classification?id=DynamicClassFolder"/>
+                  </parameter-list>
+                </component>
+                <parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+                <parameter-list id="TabPages">
+                  <component id="TabPages" type="BrowseTab"/>
+                </parameter-list>
+              </component>
+              <parameter id="ObjectTypeSelectionShown" value="false"/>
+              <parameter id="ShowIdChoiceOptions" value="false"/>
+              <parameter-list id="ObjectTypes">
+                <parameter value="DEFAULT"/>
+              </parameter-list>
+            </component>
+            <parameter id="ContextHelp" value="i18n.stibo.AssetImageValue.default.ContextHelp"/>
+            <parameter id="Label" value="i18n.stibo.AssetImageValue.default.Label"/>
+            <parameter id="ProcessDescription" value="{Configuration} ({ItemCount} files)"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowTitle" value="true"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+    </screen>
+    <screen id="homepage" type="HomePage">
+      <parameter id="CssClass" value="stibo-HomePage"/>
+      <parameter id="DisableTitle" value="false"/>
+      <parameter id="Title" value="Stibo User Porta"/>
+      <parameter-list id="Content">
+        <component type="WidgetGrid">
+          <parameter-list id="Widgets">
+            <component type="UserWidget">
+              <parameter id="AboutScreen" value="AboutScreen"/>
+              <parameter id="Title" value="Welcome"/>
+              <parameter id="UserDetailsScreen" value="userdetails"/>
+            </component>
+            <component type="SearchWidget">
+              <component id="SearchBelowPlugin" type="StaticRootNodes">
+                <parameter-list id="RootNodeURLs">
+                  <parameter value="step://product?id=Product+hierarchy+root"/>
+                  <parameter value="step://classification?id=Image+Hierarchy+%28Sample%29"/>
+                </parameter-list>
+              </component>
+              <parameter id="LastSearchLabel" value="Previous searches"/>
+              <parameter id="Screen" value="GenericSearch"/>
+              <parameter id="Title" value="Search"/>
+            </component>
+            <component type="LinksWidget">
+              <parameter id="Title" value="Quick links"/>
+              <parameter-list id="Rows">
+                <component type="Navigation">
+                  <parameter id="Label" value="Browse"/>
+                  <parameter id="Screen" value="NodeDetails"/>
+                </component>
+                <component type="Navigation">
+                  <parameter id="CssClass" value="stibo-Navigation"/>
+                  <parameter id="Label" value="Basket"/>
+                  <parameter id="Screen" value="basketdetails"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="login" type="LoginScreen">
+      <parameter id="BottomHeight" value="-1"/>
+      <parameter id="BottomStyle" value="stb-inout-bottom"/>
+      <parameter id="CenterStyle" value="stb-inout-center"/>
+      <parameter id="LeftStyle" value="stb-inout-left"/>
+      <parameter id="LeftWidth" value="-1"/>
+      <parameter id="PortalTitle" value="STEP User Portal"/>
+      <parameter id="RightStyle" value="stb-inout-right"/>
+      <parameter id="RightWidth" value="-1"/>
+      <parameter id="TopHeight" value="-1"/>
+      <parameter id="TopStyle" value="stb-inout-top"/>
+    </screen>
+    <screen id="main" type="Main">
+      <component id="CornerBar" type="CornerBar">
+        <parameter-list id="Items">
+          <component id="Items" type="CornerBarDesignModeAction">
+            <parameter id="TooltipText" value="Design mode"/>
+          </component>
+          <component id="Items" type="CornerBarContextSelector"/>
+          <component id="Items" type="CornerBarWorkspaceSelector"/>
+          <component id="Items" type="BackgroundProcessNotification">
+            <parameter id="TooltipText" value="i18n.stibo.CornerBar.Notifications.Tooltip.Text"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="BottomHeight" value="80"/>
+      <parameter id="DefaultSidePanel" value="HIDDEN"/>
+      <parameter id="InfoAlertCloseDelay" value="0"/>
+      <parameter id="LeftWidth" value="300"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter id="RightWidth" value="120"/>
+      <parameter id="TopHeight" value="40"/>
+      <parameter-list id="Bottom"/>
+      <parameter-list id="Left">
+        <component id="Left" type="StackPanel">
+          <parameter id="StackHeaderHeight" value="20"/>
+          <parameter-list id="Items">
+            <component id="Items" type="StackPanelItem">
+              <component id="Content" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="TreeNavigator">
+                    <parameter id="HideLeaves" value="false"/>
+                    <parameter id="ShowLeaves" value="true"/>
+                    <parameter id="showRecycle" value="false"/>
+                    <parameter-list id="RootNodeURLs">
+                      <parameter value="step://classification?id=DynamicClassFolder"/>
+                    </parameter-list>
+                  </component>
+                </parameter-list>
+              </component>
+              <parameter id="CssClass" value="stb-StackPanelItem"/>
+              <parameter id="HeaderCssClass" value="stb-StackPanelHeader"/>
+              <parameter id="Title" value="Tree"/>
+            </component>
+            <component id="Items" type="StackPanelItem">
+              <component id="Content" type="SearchPanel">
+                <parameter id="CommandsAtTop" value="false"/>
+                <parameter id="CommandsCssClass" value="stb-TopButtonPanel"/>
+                <parameter id="ID" value="SearchID2"/>
+                <parameter id="ResultScreenID" value="power-search-result-statistics"/>
+                <parameter-list id="Criteria">
+                  <component id="Criteria" type="ValueCriteria">
+                    <parameter id="AllowSearchForBlank" value="false"/>
+                    <parameter id="ContextHelp" value="Search for Name, ID and attribute values"/>
+                    <parameter id="DocumentContentOptionTitle" value="Also search in documents"/>
+                    <parameter id="ID" value="PW"/>
+                    <parameter id="Label" value="Main search"/>
+                    <parameter id="MatchCase" value="false"/>
+                    <parameter id="MatchDocumentContent" value="false"/>
+                    <parameter id="MatchID" value="true"/>
+                    <parameter id="MatchName" value="true"/>
+                    <parameter id="MaxSuggestions" value="10"/>
+                    <parameter id="PowerSearch" value="false"/>
+                    <parameter id="QueryCompletion" value="true"/>
+                    <parameter id="QueryCompletionDelay" value="500"/>
+                    <parameter id="ShowDocumentContentOption" value="true"/>
+                  </component>
+                  <component id="Criteria" type="SearchBelowCriteria">
+                    <parameter id="ContextHelp" value="Select the hierarchy node you want the to search from"/>
+                    <parameter id="ID" value="BEL"/>
+                    <parameter id="Label" value="Search below"/>
+                    <parameter-list id="RootNodeURLs">
+                      <parameter value="step://classification?id=Image+Hierarchy+%28Sample%29"/>
+                      <parameter value="step://product?id=Product+hierarchy+root"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Criteria" type="ObjectTypeCriteria">
+                    <parameter id="AllOption" value="true"/>
+                    <parameter id="AllOptionLabel" value="[all]"/>
+                    <parameter id="ContextHelp" value="Select one or more Product Types to search for"/>
+                    <parameter id="ID" value="PROD"/>
+                    <parameter id="IncludeChildObjectTypes" value="true"/>
+                    <parameter id="IncludeRootObjectTypes" value="false"/>
+                    <parameter id="Label" value="Product types"/>
+                    <parameter id="MultiValued" value="true"/>
+                    <parameter id="NoneOption" value="true"/>
+                    <parameter id="NoneOptionLabel" value="[none]"/>
+                    <parameter-list id="ObjectTypes">
+                      <parameter value="Product user-type root"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Criteria" type="ObjectTypeCriteria">
+                    <parameter id="AllOption" value="true"/>
+                    <parameter id="AllOptionLabel" value="[all]"/>
+                    <parameter id="ContextHelp" value="Select one or more Asset Types to search for"/>
+                    <parameter id="ID" value="ASSET"/>
+                    <parameter id="IncludeChildObjectTypes" value="true"/>
+                    <parameter id="IncludeRootObjectTypes" value="true"/>
+                    <parameter id="Label" value="Asset types"/>
+                    <parameter id="MultiValued" value="true"/>
+                    <parameter id="NoneOption" value="true"/>
+                    <parameter id="NoneOptionLabel" value="[none]"/>
+                    <parameter-list id="ObjectTypes">
+                      <parameter value="Asset user-type root"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Criteria" type="AttributeGroupValueCriteria">
+                    <parameter id="AttributeGroup" value="Uncategorized"/>
+                    <parameter id="ContextHelp" value="Here you can select additional search criteria related to assets. Once you have selected a criteria from the list you can continue adding criteria by clickking the green plus-icon"/>
+                    <parameter id="CssClass" value="stb-AttributeGroupCriteria"/>
+                    <parameter id="ID" value="MULTI2"/>
+                    <parameter id="IncludeInheritedValues" value="false"/>
+                    <parameter id="Label" value="Additional Asset criteria"/>
+                    <parameter id="LazyLoad" value="false"/>
+                    <parameter id="MatchCase" value="false"/>
+                    <parameter id="PerformOrSearch" value="true"/>
+                  </component>
+                </parameter-list>
+              </component>
+              <parameter id="CssClass" value="stb-StackPanelItem"/>
+              <parameter id="HeaderCssClass" value="stb-StackPanelHeader"/>
+              <parameter id="Title" value="Advanced search"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="ClassificationScreen"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ClassificationCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="NodeDetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AlwaysTrueCondition"/>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Preferences">
+        <component id="Preferences" type="ScreenPreference">
+          <parameter id="Screen" value="NodeDetails"/>
+          <parameter id="SidePanel" value="SHOWN"/>
+        </component>
+        <component id="Preferences" type="ScreenPreference">
+          <parameter id="Screen" value="ClassificationScreen"/>
+          <parameter id="SidePanel" value="SHOWN"/>
+        </component>
+      </parameter-list>
+      <parameter-list id="Right"/>
+      <parameter-list id="Top"/>
+    </screen>
+  </screens>
+  <theme>
+    <property id="background-color" value="FFFFFF"/>
+    <property id="background-image" value="images/stibo_diamonds.png"/>
+    <property id="button-color" value="777574"/>
+    <property id="button-disabled-color" value="d3d1d1"/>
+    <property id="content-background-color" value="FFFFFF"/>
+    <property id="default-font-size" value="11px"/>
+    <property id="error-red" value="CD181B"/>
+    <property id="hover-color" value="ECEBEB"/>
+    <property id="logo" value="images/stibo_logo.png"/>
+    <property id="outline-color" value="A8A8A8"/>
+    <property id="primary-color" value="777574"/>
+    <property id="text-color" value="4C4C4C"/>
+    <property id="warning-yellow" value="F0B902"/>
+    <property id="widget-color" value="777574"/>
+  </theme>
+</portal-config> -->
+            <SetupGroupLink SetupGroupID="Uncategorized Setup Group"></SetupGroupLink>
+            <Configuration>H4sIAAAAAAAAAO0ca2/bOPJz+yt0Bha4Q8/Oo7tot0hbOLbTGHAeWzvNAYfDgZZomxdJ1JFUUnex//2GpN4iJdlN2j3sNigQyzPDeXE4Mxwlipc+4RvsvT15/znwnXvMOKHh297R4LDn4NClHgnXb3s3i7P+657DBQo95NMQv+2FtPf+3fOTiDKB/L5LwxVZO0Aj5G97GyGiNwcHXJAl5VsucMAHLg3gAY4OShg9jfLmMycZ2sPDw+Dh5YCy9cHx4eHRwT8uZnN3gwPUJ6HkwMU9RxOZem97McdMfwJanLzhCnRGXSSUJN15cUqfBp+513v3/NnJX/r95w78W2wId4acY5EAOhowZmolB75FzhIx7CxBQQ7AxZGDfJ8+gAqdOSznSF65I6gTIBIK+O8gSY8P1AJT4WwQd0LqRAwz/N+YcCIwUI0QE86K0cARG+y4DOsF6crpzeMo8glmmjHec8BAhaenSIA64LHrw0pkRbRWgCZ3PMxdRiLsOcCHJKxYvNaiedSNAww8SnDFXb8vlQEoGIccfn124tM1GEQ9kJ+fnQCfKMAC1iVgGE1pQYQP9rpHfgxOM19Mrp0b0EKyTu9AUTqokJI6BzVFjo/vsdRzEIFKQ6GZSLlQq0hN9hyxjYD6hfz9neLWcSrcLGh0jsl6IzJefjyUqxuBT6kQNKjAv7bDf8ScfMFoWZBUsBhb4cd4hWJfzImHr1GI/QzrfDoeTy6teNNwRYc+ZmLkU47H2EfbDLWBOynGLfHEJgM+OraDz/CqAv3y0Ajdh9Ah8hWaQbRKm2HARs0AkrXMwACSO0b2beIKc4HcO63bHL4mqoI6x8jDrGLson5s3ExlLCmRr7GkQWo8yccVxBpvmq0R5yO5dTPGuFj2c0IaqMyqyflLm3ABm6cVpWVhJUGdRln6EQ0F/J7K/wkcFwKQXzeLkYMrOIxWED0/QRgs7qwV8rmBf4tn0oeqiYysKriET6mfS3RP1khQZkSu8co39OEjdrduFz4N+HPAn2F0j7klgHSRlIpL6uGbjzOzxJVlM7NieTyWz4f3QHC8DVFAXOUEZ9Q3ullC9KDMTieJzyH2VSRuUNjJQWYug91b1rci27/4P9jFQ+9epkIeJBqIuZvvsaHnauWO23lEgwCSEz4UMszvsJnTE1YemOrcn44z9Ig+gNG1BvpMwfS5TFog3XN5B7opV0btAKOnMRxboRaxnVqBM62b6fi4a6QaMUj2GEFdolUGm0ZWuWYjgRqrv8SYbUH6yMdyx5dziZ8ODzsGrnGSJyaecRVJYhVH9TlNnFRmmmlmabSOYYUZWhYSJJniWT3eiH8hU+AKm3vHaKO4O4ZsRWwo6wLtI2eUnfoovNuLKcXIZ3GO/ajies6KMucSQP/uTMeqLEBCMLKMBdaAXQ1wgT7P4/Uac1U55ClkVxdRBhghvt/JeC13uJZoL3y1emFf7mAjhSo1uA9yYcnr2444lT3ZYdnGc7E1bGi1nmJwxd2Ch9nrfOwKVUhuoPSUlLdQy3rY2dLYeUCh/k5ksUAWtHvFgMS/l5Lv3a1xOpl9z7RqGqA1fnGeaujFD8ev50ha/Ifjn218NSwQMerFrpCUr/WvLzLtv2DA+9ckbV/nXVfL/4BDLOD3R3Mu2VeBqBZQhp1EXEcuwItuRe2JamV/Q7ZA1NHp7bXDQ9ePPSwdJBe1Uzbb4t+pZELR60bhElSjT6MyrX+G8MW/uh9Ke51o+W4pKqK7L6cCy/ZYX0rtfK3nNobjj1fj3Uw82hDfM9l4twPfaB/k+13Nk9v4yU+GJ967uov6e925O1AqG1OL9YfZtlrcb7Nph/P5ZPHnrm3etcM0wf/AaBztURSatu85ZjqFc5GsvNReRp5HpETIT/eum6zjMCgkBfbktk7uNpyr0NUUNugeJyQAAuVI2d2G8sh0MRe4IWGM1XLhOgdfbh3XJ+7dnXwq0dbqOiDyY94ngPVNCpOysjMSNyHkenhNGfkCwWmvKJIrV++wVO7O1L5sZxR5e0mV7J1puMFyVe+TrhT3qtwwg4geXFWrt/2KqIub2WJqbKYY8IzdnLLBRo1K/ab9Rjs9A4INuNapYyFmp4ilsSF/UCDf6VKjqRmaUR1jTtbhBRRKQ1fFuork1cs4Cgd4tIBYk5lIU4D8wKt4h01rXdhKAppOQarpRScKt5Td8Qi5eHcap8i9W4OvhR4kuC7m/JKKrBbcXUHk6HU4UNfYg4y7QZEkHyRoA4XXrkSrLxnczuAqFyiKIAJz+41cBpE2HFT/NnnaeDGnADPRR6UyOvmy9X4OjK8jacslXQEutX5pvez7qkp32LZPphrZmxhjgYjPn1IjQ/8BbfkCQvdjaMPqeAaerxleQQoCOUSDoxWBSgrNv2jUae0ifn5+dXtpU+gOdujiCt+f+bb91dmEJweFIY7ClMaGBjhCa5zKdw6fr+XnuuVtBzjEvX6GZh2sIFxOYZQvICpJS+Ot2lyuU5hQaZ5HSK8TjKbVkt4Sb43FB0Y8iw1zahq0YWtqipI5Ddp2+Thc0lhUTF18ttuF4y32gZX2yQHJX7ITKmvLUtEzxaqmnKkqvs4muymgsv4HDKcmcefdLkwrjtENaYa40KDVnh6+JzTmSb1kahBUokKhOX/tx+t8ymku7zfdtC9tKtj36mM/dov5CXviT3rhr5U8I+Ed7+ZkZT/5JYbCFOpYQG9yltYJlRpHyURKPXU0MtU1S7Cgl533lAGP5lv6xjrpUUVYIn6HhSV8GAlYDpECF3uoQnGxoyqa/fXpqsLSaSxHKi8QA+7VOKo+m+vzlGoSMw01M/khsYNpxFMP9c3FtrABZKlNQjhk+sts5K+OaZhJ7B+ZQRc0sq0g9MCghbwNi6XTijaBKrOANsbqg5I2yBGYCjMbP6761ozZfYjWxJ1tRV9OStqUbZE+dyb48PwZOFjRbYoBJt3thUeW3EuOVJRlaxybLYMW6uHCUnPM7jEbpRtkoHFsFCfhijIXf0I+gaJm2zFllGzfIhbKSs2GUa328k0lmZ3AatTcismDzgxtwVjZCrPJWakD3ukwaRhznOrmXnMjohz9CipPsAcaoJrNdQrEKQN7dHuKcsgJjQ6SfMTIuwp9q413Ez9b9GsUkHPejH4h37oAf2nkfXfF5Xcj31Jz+aqdVPdEsqvOuso7O7hO0r4b6xcmSlc5v46K74D85vz1V9kCHNE4FL85K+Jj/rc23zDcuRTUVWF04OlXBwZFtD0tYSNtNkulZ0Gjm+gjjhjm6Vsi2fj0Jg6WIcRi+bZCa4VGvuQR/WIynt5c7FMaajd9XG7Obma1SaGuvNxEPkWeUvB1ukLme+Yv21iDM2fqjTaUuMl1YuutTIVCvvF0K1t2eoBo2J1M1wvjeuk3npwNb2aGC9zWUq7SmCzVjtdQasmzvrADi4es/npMEOS07fPJjclFkVQ1pbAym5bcu5bvexbwO5XcXaf72+/tm0tAgyALtJQ9vE6vZWSw6ZWKqkTh6bdoC3zdnUmeL5czZWOv1XjvkBVeNetKOvIFivSlv05Zq3rjgoR32EvaOHbEshGk181A1OLeUp+t6atcaq7eFWWenqBvCFbV44rSuzjSsssAc0ZZoWK3XSJXT2xwmlIwP/6pAfqGp9WDfOeoOAjfxmzhglqOukqHODp+2YCQvvkHhRtUD1dMbrx8ngYqQTnp0ICvQ/fQ962nun43dcBVHTTILMkHAYJokPRfB6kNq+VSmgNU1rEzNAllw70sVlcrjXyMWHYYPZ0wlXVaGAKhz4ivD+wn5aiwkJ0leaW7RNXXE18emlHyKKuv4a3FYC0T6XJtb/W5Gp1Oqf3OKU1187kQI2WHw1Rb6fQKjNVPNKif9DWrLdnto6Zv3yNreuzMb+8U9M/07Y+avv3eEzazdGPCI0gALmq2rUmmZpBlH6+A0tZHUYFjJVvB6L5l6tCw9yZBJLZqeE2/MNo80Wo8p/V509C3NOK2tCi6HYlGfbULnTWVd1TWvnoqcFf7kwC1N94quGpNPg2JgEjjb68i3BJiDXzLRptqR2fjirvJDrnsNAiwR5DAbV72iAXOQf6HQU7EBgc4gYkYjTATW8WbdKK+S32a57w/juRPylYZfEPBnyrwk9HkdHJqhk+Sq/4K3LXPi9n/0VH02YzzoNv4/S2WL2TmvZ/D058Pj80oESMBYtsKY69evfrp1Y9mDDh1aL5xZMON679H82/5zSDKM/4yHo2FT0JcWWn4Wv6YMTBjlPVZ4bWI0fjo9ZFFYa4eX+kvs0HFylJn6p8ZuYCkRDILCH4Y0NDjdiGXqj7cQZsP6lZ+B4T9xNNseXqgqIrpvfSOvCONeXKQOPxJ+c8JwQMIJUS8+x84AXcvZUkAAA==</Configuration>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>

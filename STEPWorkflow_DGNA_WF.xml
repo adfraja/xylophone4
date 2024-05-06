@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="DGNA_WF" Referenced="true"><!-- Definition:
+<scxml name="DGNA_WF" initial="Start" version="0.9">
+  <transition/>
+  <assignee id="STEPSYS" type="user"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=650.0 h=581.0  </editorLayout>
+  <final id="Done" name="Done" discontinued="false">
+    <editorLayout>   node-size-and-position x=280.0 y=330.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="acn-54e38ae0-43d2-4922-9b11-2b17d45a5bb1"/>
+  </final>
+  <state id="Edit" name="Edit" discontinued="false">
+    <transition event="Submit" target="Review">
+      <editorLayout>   edge-path [Review]  x=270.0 y=210.0  </editorLayout>
+    </transition>
+    <editorLayout>   node-size-and-position x=280.0 y=150.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Review" name="Review" discontinued="false">
+    <transition target="Done"/>
+    <transition event="Reject" target="Edit">
+      <editorLayout>   edge-path [Edit]  x=400.0 y=210.0  </editorLayout>
+    </transition>
+    <editorLayout>   node-size-and-position x=280.0 y=240.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Start" name="Start" discontinued="false">
+    <transition target="Edit"/>
+    <editorLayout>   node-size-and-position x=280.0 y=60.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml>
+<workflowViews>
+  <restriction displaySequence="0" includeSubgroups="false">
+    <mapping displaySequence="0" stateID="Start" viewID="DGNA_WF_View"/>
+    <mapping displaySequence="1" stateID="Edit" viewID="DGNA_WF_View"/>
+    <mapping displaySequence="2" stateID="Review" viewID="DGNA_WF_View"/>
+    <mapping displaySequence="3" stateID="Done" viewID="DGNA_WF_View"/>
+  </restriction>
+  <view id="DGNA_WF_View" automaticSort="false" defaultSortColumn="0">
+    <aspect id="id"/>
+    <aspect id="name"/>
+    <attributeGroup id="DGNA_Attr_Group" mandatory="false" readOnly="false"/>
+  </view>
+</workflowViews> -->
+            <SetupGroupLink SetupGroupID="DGNA_SG"></SetupGroupLink>
+            <Name>DGNA_WF</Name>
+            <ValidUserTypeLink UserTypeID="DGNA_Lev2"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJ1UXU/bMBR936/w/J7mow0UlBQhvoQ0DUSBaZom5Ca3xVtiZ7bT0v36XTtpKYWVbC91fR2fe8+514fVRl4KbjgzcCVOFOCaTlmhIdFVwc0IniCrDYwzxSvziZfcQH6t+JwXMAOdGlWvviy4NiCuxGVZSWVA3VX5NpjOnsoiTdxCuEtbpHRsmDKUCFZCSk8vPh8/fDmnZA5KcylSGvQOKMELQqf00Zjq0PcXi0Vv0e9JNfOjIIj9YN93mHSUfPQ8QoiQOXia/waPidyrpMZUUpCnNOgFZOl+F+lebNfHNB6GuBLPG30giVFMNF+PEn9j8wHPmNZ8JgAIz7Hq27Pr8dcxJWZZYd21BoXp/dU37oI2qADJuc6kMFzUgPecHrSB2CTebN4lEA0bCnsNhzBoOETxmsImB4KgMzApPcu5BX/BKPFdfV0qddfbQluojnWGcbdCYQ4C6xzXk9KmWtV9A3MOi3U6yGfgVcw8km/NyXdic+03uaIwaMH/m2ibr6W6lf1dstHg37pyKgVsd+VtXW7gB2QburxowoYqNu40GQTdNZlywYq/a+KqXD3PpuKOevT7O/RAJGHUkkxqzQVozTJ72yZkmfDiAfSHDAJv0M8jb3AQRd7BJAy9aBLu54OYxZNJaKVrUSwhR8Mxs14waj3HdjBNjqzjrC0F3zslIDKZczFL6d3tuTekBAUROSsQMaVL0PQIsYSODhdS/ZwWcnGPSLpxokOMv3AjbfhE9jJZUssN2dm0jXqNoT3cu7nKYcrqwozRIU9kUZfW3yhh6MIlMzyz8ZX2DZADY7rC7js4nlP/7RPboJdnxig+QfO+ULKunos5xviDi1GChp9fiWK5bnhpNTBSrSMtYuJbRu1/BRqhXb/QxrOizgEf7sxC6jUSzlNVsOUYftUoNViiG8WVrKpQfOKm8PJ0bYY2i91uyfYay98F1vhVR6xwN9bKEjqiRbvRmsfUEav/rP6G5HbEX80lBpt5/wP7MRCC0gcAAA==</Configuration>
+            <LocalBusinessRule ID="acn-54e38ae0-43d2-4922-9b11-2b17d45a5bb1" Scope="Local" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (RemoveObjectFromWorkflowAction):
+Workflow=
+Message=Removed from DGNA_WF
+ -->
+                <Name>Remove OBJ_TYPE from Step WF</Name>
+                <Description>Remove OBJ_TYPE from Step WF</Description>
+                <Configuration>H4sIAAAAAAAAAHWQMU/DMBBG9/6K0+0kdGOwUxVVQQxAVYo6Ria9WC6ObdlOgH+PW0OVCnV9Jz8/fU4PUplGOKcVhUZ1TWtNpyQLCcTK5XNmnC2+eg0j+aCs4TgvbhHItHavjOT4tq1v7nBRzdj9EJShEDaDpmoGcAbrkw6m94weVxw31NuRXt4P1Mba235n/Uen7eeyjek7PIqSai286CmmhgymCI6av2cI229HHA9iFIUWRhav0adQrFh5fnHF8ZTihKTrity6hy51wurhedns6n/aCTjFsvJyh7RUeTnV7+o/hPpaHZUBAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

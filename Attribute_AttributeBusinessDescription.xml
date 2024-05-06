@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AttributeBusinessDescription" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Business Description</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">Business Description</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">Business Description</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AttributeBusinessDescription
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Business Description
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AttributeBusinessDescription
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AttributeBusinessDescription
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AttributeBusinessDescription
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AttributeBusinessDescription
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">AttributeBusinessDescription</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">AttributeBusinessDescription</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">AttributeBusinessDescription</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">AttributeBusinessDescription</Value>
+                    <Value Derived="true" DerivedContextID="GL">AttributeBusinessDescription</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">Business Description</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">Business Description</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AttributeMetadata"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataDictionary"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataDictionaryDisplay"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertClassify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MDMExpertView"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

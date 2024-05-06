@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_Function" ParentID="LOVG_ContactLOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Function LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="40" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_Function
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Function LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_Function
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Function LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_Function
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Function LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_Function
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Function LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_Function
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Function LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="01">
+                <Value QualifierID="std.lang.all">A-customer</Value>
+            </ValueGroup>
+            <ValueGroup ID="02">
+                <Value QualifierID="std.lang.all">B-customer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AR">
+                <Value QualifierID="std.lang.all">" contect</Value>
+            </ValueGroup>
+            <ValueGroup ID="C0">
+                <Value QualifierID="std.lang.all">Housing Marketer</Value>
+            </ValueGroup>
+            <ValueGroup ID="C1">
+                <Value QualifierID="std.lang.all">Admin (Real Estate)</Value>
+            </ValueGroup>
+            <ValueGroup ID="C2">
+                <Value QualifierID="std.lang.all">Project Developer</Value>
+            </ValueGroup>
+            <ValueGroup ID="C3">
+                <Value QualifierID="std.lang.all">Construction manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="C4">
+                <Value QualifierID="std.lang.all">Builder Representati</Value>
+            </ValueGroup>
+            <ValueGroup ID="C5">
+                <Value QualifierID="std.lang.all">Investor</Value>
+            </ValueGroup>
+            <ValueGroup ID="C6">
+                <Value QualifierID="std.lang.all">Purchase Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="CM">
+                <Value QualifierID="std.lang.all">Contract Management</Value>
+            </ValueGroup>
+            <ValueGroup ID="D0">
+                <Value QualifierID="std.lang.all">Excec.Director/Owner</Value>
+            </ValueGroup>
+            <ValueGroup ID="D1">
+                <Value QualifierID="std.lang.all">Inactive</Value>
+            </ValueGroup>
+            <ValueGroup ID="D2">
+                <Value QualifierID="std.lang.all">First Employee</Value>
+            </ValueGroup>
+            <ValueGroup ID="D3">
+                <Value QualifierID="std.lang.all">Apprentice</Value>
+            </ValueGroup>
+            <ValueGroup ID="D4">
+                <Value QualifierID="std.lang.all">Kitchen Mechanic</Value>
+            </ValueGroup>
+            <ValueGroup ID="D5">
+                <Value QualifierID="std.lang.all">Substitution Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="D6">
+                <Value QualifierID="std.lang.all">Sales</Value>
+            </ValueGroup>
+            <ValueGroup ID="D7">
+                <Value QualifierID="std.lang.all">Excec.Sales Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="D8">
+                <Value QualifierID="std.lang.all">Marketing</Value>
+            </ValueGroup>
+            <ValueGroup ID="D9">
+                <Value QualifierID="std.lang.all">Customer Service</Value>
+            </ValueGroup>
+            <ValueGroup ID="DA">
+                <Value QualifierID="std.lang.all">Purchasing</Value>
+            </ValueGroup>
+            <ValueGroup ID="DB">
+                <Value QualifierID="std.lang.all">Exc.Purchasing Man.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DC">
+                <Value QualifierID="std.lang.all">Accounting</Value>
+            </ValueGroup>
+            <ValueGroup ID="DD">
+                <Value QualifierID="std.lang.all">Exc.Accounting Man.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DE">
+                <Value QualifierID="std.lang.all">Contact Pers. Accom.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DF">
+                <Value QualifierID="std.lang.all">Installation</Value>
+            </ValueGroup>
+            <ValueGroup ID="DG">
+                <Value QualifierID="std.lang.all">Digital Medai</Value>
+            </ValueGroup>
+            <ValueGroup ID="DH">
+                <Value QualifierID="std.lang.all">System Adminstration</Value>
+            </ValueGroup>
+            <ValueGroup ID="DI">
+                <Value QualifierID="std.lang.all">Logistic</Value>
+            </ValueGroup>
+            <ValueGroup ID="F1">
+                <Value QualifierID="std.lang.all">Executive Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="F2">
+                <Value QualifierID="std.lang.all">Personal Assistant</Value>
+            </ValueGroup>
+            <ValueGroup ID="F3">
+                <Value QualifierID="std.lang.all">Associate</Value>
+            </ValueGroup>
+            <ValueGroup ID="F4">
+                <Value QualifierID="std.lang.all">Director</Value>
+            </ValueGroup>
+            <ValueGroup ID="F5">
+                <Value QualifierID="std.lang.all">Company Owner</Value>
+            </ValueGroup>
+            <ValueGroup ID="F6">
+                <Value QualifierID="std.lang.all">Leader</Value>
+            </ValueGroup>
+            <ValueGroup ID="F7">
+                <Value QualifierID="std.lang.all">Representative</Value>
+            </ValueGroup>
+            <ValueGroup ID="F8">
+                <Value QualifierID="std.lang.all">Business administrat</Value>
+            </ValueGroup>
+            <ValueGroup ID="F9">
+                <Value QualifierID="std.lang.all">Others</Value>
+            </ValueGroup>
+            <ValueGroup ID="FA">
+                <Value QualifierID="std.lang.all">Employee</Value>
+            </ValueGroup>
+            <ValueGroup ID="FB">
+                <Value QualifierID="std.lang.all">General manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FC">
+                <Value QualifierID="std.lang.all">Shop manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FD">
+                <Value QualifierID="std.lang.all">Head of department</Value>
+            </ValueGroup>
+            <ValueGroup ID="FE">
+                <Value QualifierID="std.lang.all">Shop area manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FF">
+                <Value QualifierID="std.lang.all">Purchaser general</Value>
+            </ValueGroup>
+            <ValueGroup ID="FG">
+                <Value QualifierID="std.lang.all">Accountant</Value>
+            </ValueGroup>
+            <ValueGroup ID="FH">
+                <Value QualifierID="std.lang.all">Technician</Value>
+            </ValueGroup>
+            <ValueGroup ID="FI">
+                <Value QualifierID="std.lang.all">Project Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FJ">
+                <Value QualifierID="std.lang.all">Regional Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FK">
+                <Value QualifierID="std.lang.all">Purchaser MDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="FL">
+                <Value QualifierID="std.lang.all">Purchaser SDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="FM">
+                <Value QualifierID="std.lang.all">Sales Responsible</Value>
+            </ValueGroup>
+            <ValueGroup ID="FN">
+                <Value QualifierID="std.lang.all">Marketing Responsibl</Value>
+            </ValueGroup>
+            <ValueGroup ID="FO">
+                <Value QualifierID="std.lang.all">Wahrehouse Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FP">
+                <Value QualifierID="std.lang.all">Promoter</Value>
+            </ValueGroup>
+            <ValueGroup ID="FQ">
+                <Value QualifierID="std.lang.all">Main Contact GG</Value>
+            </ValueGroup>
+            <ValueGroup ID="FR">
+                <Value QualifierID="std.lang.all">Logistics Resp.</Value>
+            </ValueGroup>
+            <ValueGroup ID="FS">
+                <Value QualifierID="std.lang.all">Finance Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="FT">
+                <Value QualifierID="std.lang.all">Good recepient Manag</Value>
+            </ValueGroup>
+            <ValueGroup ID="FU">
+                <Value QualifierID="std.lang.all">Opinion leader</Value>
+            </ValueGroup>
+            <ValueGroup ID="G1">
+                <Value QualifierID="std.lang.all">SMS Comunication 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="G2">
+                <Value QualifierID="std.lang.all">SMS Comunication 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="N0">
+                <Value QualifierID="std.lang.all">CEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="N1">
+                <Value QualifierID="std.lang.all">CFO</Value>
+            </ValueGroup>
+            <ValueGroup ID="N2">
+                <Value QualifierID="std.lang.all">Site Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="N3">
+                <Value QualifierID="std.lang.all">Store Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="N4">
+                <Value QualifierID="std.lang.all">Purchaser</Value>
+            </ValueGroup>
+            <ValueGroup ID="N5">
+                <Value QualifierID="std.lang.all">Supplier accounts</Value>
+            </ValueGroup>
+            <ValueGroup ID="N6">
+                <Value QualifierID="std.lang.all">Order confirmation</Value>
+            </ValueGroup>
+            <ValueGroup ID="N7">
+                <Value QualifierID="std.lang.all">Marketing Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="N8">
+                <Value QualifierID="std.lang.all">Category manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="N9">
+                <Value QualifierID="std.lang.all">Department leader</Value>
+            </ValueGroup>
+            <ValueGroup ID="NA">
+                <Value QualifierID="std.lang.all">Sales Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="NB">
+                <Value QualifierID="std.lang.all">Sales Staff</Value>
+            </ValueGroup>
+            <ValueGroup ID="NC">
+                <Value QualifierID="std.lang.all">Team leader</Value>
+            </ValueGroup>
+            <ValueGroup ID="ND">
+                <Value QualifierID="std.lang.all">Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="NE">
+                <Value QualifierID="std.lang.all">Service</Value>
+            </ValueGroup>
+            <ValueGroup ID="R1">
+                <Value QualifierID="std.lang.all">Trademarketing manag</Value>
+            </ValueGroup>
+            <ValueGroup ID="R2">
+                <Value QualifierID="std.lang.all">Regional sales direc</Value>
+            </ValueGroup>
+            <ValueGroup ID="S0">
+                <Value QualifierID="std.lang.all">Depart Manager MDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="S1">
+                <Value QualifierID="std.lang.all">DepartManager SDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="S2">
+                <Value QualifierID="std.lang.all">Sales Staff MDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="S3">
+                <Value QualifierID="std.lang.all">Sales Staff SDA</Value>
+            </ValueGroup>
+            <ValueGroup ID="S4">
+                <Value QualifierID="std.lang.all">Designer/KitchenPlan</Value>
+            </ValueGroup>
+            <ValueGroup ID="S5">
+                <Value QualifierID="std.lang.all">Service Technician</Value>
+            </ValueGroup>
+            <ValueGroup ID="S6">
+                <Value QualifierID="std.lang.all">Company Lawyer</Value>
+            </ValueGroup>
+            <ValueGroup ID="S7">
+                <Value QualifierID="std.lang.all">Purchasing Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="S8">
+                <Value QualifierID="std.lang.all">Logistics Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="S9">
+                <Value QualifierID="std.lang.all">Logistics Staff</Value>
+            </ValueGroup>
+            <ValueGroup ID="SA">
+                <Value QualifierID="std.lang.all">Financial Director</Value>
+            </ValueGroup>
+            <ValueGroup ID="SB">
+                <Value QualifierID="std.lang.all">Accounting Staff</Value>
+            </ValueGroup>
+            <ValueGroup ID="SC">
+                <Value QualifierID="std.lang.all">Marketing Staff</Value>
+            </ValueGroup>
+            <ValueGroup ID="U1">
+                <Value QualifierID="std.lang.all">Owner</Value>
+            </ValueGroup>
+            <ValueGroup ID="U2">
+                <Value QualifierID="std.lang.all">Sales Representative</Value>
+            </ValueGroup>
+            <ValueGroup ID="U3">
+                <Value QualifierID="std.lang.all">CFO</Value>
+            </ValueGroup>
+            <ValueGroup ID="U4">
+                <Value QualifierID="std.lang.all">Accounts/Payable</Value>
+            </ValueGroup>
+            <ValueGroup ID="U5">
+                <Value QualifierID="std.lang.all">Accounts/Payable sup</Value>
+            </ValueGroup>
+            <ValueGroup ID="U6">
+                <Value QualifierID="std.lang.all">President / CEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="U7">
+                <Value QualifierID="std.lang.all">Sales Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="U8">
+                <Value QualifierID="std.lang.all">Service Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="U9">
+                <Value QualifierID="std.lang.all">Appliance Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="UA">
+                <Value QualifierID="std.lang.all">Division Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="UB">
+                <Value QualifierID="std.lang.all">Showroom Manager </Value>
+            </ValueGroup>
+            <ValueGroup ID="UC">
+                <Value QualifierID="std.lang.all">Vice President</Value>
+            </ValueGroup>
+            <ValueGroup ID="UD">
+                <Value QualifierID="std.lang.all">VP Sales</Value>
+            </ValueGroup>
+            <ValueGroup ID="UE">
+                <Value QualifierID="std.lang.all">Buyer</Value>
+            </ValueGroup>
+            <ValueGroup ID="UF">
+                <Value QualifierID="std.lang.all">Assistant</Value>
+            </ValueGroup>
+            <ValueGroup ID="UG">
+                <Value QualifierID="std.lang.all">Designer</Value>
+            </ValueGroup>
+            <ValueGroup ID="UH">
+                <Value QualifierID="std.lang.all">COO</Value>
+            </ValueGroup>
+            <ValueGroup ID="UI">
+                <Value QualifierID="std.lang.all">Operations Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="UJ">
+                <Value QualifierID="std.lang.all">Marketing Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="UK">
+                <Value QualifierID="std.lang.all">Warehouse Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="UL">
+                <Value QualifierID="std.lang.all">Director</Value>
+            </ValueGroup>
+            <ValueGroup ID="UM">
+                <Value QualifierID="std.lang.all">Architect</Value>
+            </ValueGroup>
+            <ValueGroup ID="UN">
+                <Value QualifierID="std.lang.all">Builder</Value>
+            </ValueGroup>
+            <ValueGroup ID="WA">
+                <Value QualifierID="std.lang.all">Lawyer</Value>
+            </ValueGroup>
+            <ValueGroup ID="WB">
+                <Value QualifierID="std.lang.all">Administrator</Value>
+            </ValueGroup>
+            <ValueGroup ID="WC">
+                <Value QualifierID="std.lang.all">Warehouse Manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="WS">
+                <Value QualifierID="std.lang.all">Warehouse Staff</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZA">
+                <Value QualifierID="std.lang.all">Internal Turnover</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZB">
+                <Value QualifierID="std.lang.all">Sales Demonstrator</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZO">
+                <Value QualifierID="std.lang.all">External Turnover</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

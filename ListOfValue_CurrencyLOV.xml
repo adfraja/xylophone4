@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ListsOfValues>
+        <ListOfValue ID="CurrencyLOV" ParentID="List Of Values group root" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;CurrencyLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;CurrencyLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;CurrencyLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;CurrencyLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;CurrencyLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="ADP">
+                <Value>Andoran peseta</Value>
+            </ValueGroup>
+            <ValueGroup ID="AED">
+                <Value>United Arab Emirates Dirham</Value>
+            </ValueGroup>
+            <ValueGroup ID="AFA">
+                <Value>Afghani</Value>
+            </ValueGroup>
+            <ValueGroup ID="ALL">
+                <Value>Albanian Lek</Value>
+            </ValueGroup>
+            <ValueGroup ID="AMD">
+                <Value>Armenian Dram</Value>
+            </ValueGroup>
+            <ValueGroup ID="ANG">
+                <Value>West Indian Guilder</Value>
+            </ValueGroup>
+            <ValueGroup ID="AON">
+                <Value>Angolan New Kwanza</Value>
+            </ValueGroup>
+            <ValueGroup ID="ARS">
+                <Value>Argentine Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="ATS">
+                <Value>Austrian Schilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="AUD">
+                <Value>Australian Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="AUDN">
+                <Value>Australian dollar extra decimals</Value>
+            </ValueGroup>
+            <ValueGroup ID="AWG">
+                <Value>Aruban Guilder</Value>
+            </ValueGroup>
+            <ValueGroup ID="AZM">
+                <Value>Azerbaijan Manat</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD">
+                <Value>Bosnia-Herzogovinian Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BBD">
+                <Value>Barbados Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BDT">
+                <Value>Bangladesh Taka</Value>
+            </ValueGroup>
+            <ValueGroup ID="BEF">
+                <Value>Belgian Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="BGL">
+                <Value>Bulgarian Lev</Value>
+            </ValueGroup>
+            <ValueGroup ID="BHD">
+                <Value>Bahrain Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BIF">
+                <Value>Burundi Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="BMD">
+                <Value>Bermudan Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BND">
+                <Value>Brunei Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BOB">
+                <Value>Bolivian peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRL">
+                <Value>Brazilian Real (new)</Value>
+            </ValueGroup>
+            <ValueGroup ID="BSD">
+                <Value>Bahaman Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BTN">
+                <Value>Bhutan Ngultrum</Value>
+            </ValueGroup>
+            <ValueGroup ID="BWP">
+                <Value>Botswana Pula</Value>
+            </ValueGroup>
+            <ValueGroup ID="BYR">
+                <Value>Belorussian Ruble</Value>
+            </ValueGroup>
+            <ValueGroup ID="BZD">
+                <Value>Belize Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAD">
+                <Value>Canadian Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="CFP">
+                <Value>French Franc (Pacific Islands)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CHF">
+                <Value>Swiss Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="CLP">
+                <Value>Chilean Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="CLPX">
+                <Value>Chilean Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="CNY">
+                <Value>Chinese Renminbi</Value>
+            </ValueGroup>
+            <ValueGroup ID="COP">
+                <Value>Columbian Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="CRC">
+                <Value>Costa Rica Colon</Value>
+            </ValueGroup>
+            <ValueGroup ID="CUP">
+                <Value>Cuban Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="CVE">
+                <Value>Cape Verde Escudo</Value>
+            </ValueGroup>
+            <ValueGroup ID="CYP">
+                <Value>Cyprus Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="CZK">
+                <Value>Czech Krona</Value>
+            </ValueGroup>
+            <ValueGroup ID="DEM">
+                <Value>German Mark</Value>
+            </ValueGroup>
+            <ValueGroup ID="DJF">
+                <Value>Djibouti Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="DKK">
+                <Value>Danish Krone</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOP">
+                <Value>Dominican Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="DZD">
+                <Value>Algerian Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECS">
+                <Value>Ecuador Sucre</Value>
+            </ValueGroup>
+            <ValueGroup ID="EEK">
+                <Value>Estonian Krone</Value>
+            </ValueGroup>
+            <ValueGroup ID="EGP">
+                <Value>Egyptian Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="ESP">
+                <Value>Spanish Peseta</Value>
+            </ValueGroup>
+            <ValueGroup ID="ETB">
+                <Value>Ethiopian Birr</Value>
+            </ValueGroup>
+            <ValueGroup ID="EUR">
+                <Value>Currency of EMU member states</Value>
+            </ValueGroup>
+            <ValueGroup ID="FIM">
+                <Value>Finnish Mark</Value>
+            </ValueGroup>
+            <ValueGroup ID="FJD">
+                <Value>Fiji Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="FKP">
+                <Value>Falkland Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="FRF">
+                <Value>French Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="GBP">
+                <Value>British Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="GEK">
+                <Value>Georgian Kupon</Value>
+            </ValueGroup>
+            <ValueGroup ID="GHC">
+                <Value>Ghanian Cedi</Value>
+            </ValueGroup>
+            <ValueGroup ID="GIP">
+                <Value>Gibraltar Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="GMD">
+                <Value>Gambian Dalasi</Value>
+            </ValueGroup>
+            <ValueGroup ID="GNS">
+                <Value>Guinea Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="GRD">
+                <Value>Greek Drachma</Value>
+            </ValueGroup>
+            <ValueGroup ID="GTQ">
+                <Value>Guatemalan Quetzal</Value>
+            </ValueGroup>
+            <ValueGroup ID="GWP">
+                <Value>Guinea Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="GYD">
+                <Value>Guyanese Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="HKD">
+                <Value>Hong Kong Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="HNL">
+                <Value>Honduran Lempira</Value>
+            </ValueGroup>
+            <ValueGroup ID="HRK">
+                <Value>Croatian Kuna</Value>
+            </ValueGroup>
+            <ValueGroup ID="HTG">
+                <Value>Haitian Gourde</Value>
+            </ValueGroup>
+            <ValueGroup ID="HUF">
+                <Value>Hungarian Forint</Value>
+            </ValueGroup>
+            <ValueGroup ID="IDR">
+                <Value>Indonesian Rupiah</Value>
+            </ValueGroup>
+            <ValueGroup ID="IEP">
+                <Value>Irish Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="ILS">
+                <Value>Israeli Scheckel</Value>
+            </ValueGroup>
+            <ValueGroup ID="INR">
+                <Value>Indian Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="IQD">
+                <Value>Iraqui Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="IRR">
+                <Value>Iranian Rial</Value>
+            </ValueGroup>
+            <ValueGroup ID="ISK">
+                <Value>Iceland Krona</Value>
+            </ValueGroup>
+            <ValueGroup ID="ITL">
+                <Value>Italian Lira</Value>
+            </ValueGroup>
+            <ValueGroup ID="JMD">
+                <Value>Jamaican Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="JOD">
+                <Value>Jordanian Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="JPY">
+                <Value>Japanese Yen</Value>
+            </ValueGroup>
+            <ValueGroup ID="KES">
+                <Value>Kenyan Shilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="KGS">
+                <Value>Kyrgyzstan Som</Value>
+            </ValueGroup>
+            <ValueGroup ID="KHR">
+                <Value>Cambodian Riel</Value>
+            </ValueGroup>
+            <ValueGroup ID="KMF">
+                <Value>Comoros Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="KPW">
+                <Value>North Korean Won</Value>
+            </ValueGroup>
+            <ValueGroup ID="KRW">
+                <Value>South Korean Won</Value>
+            </ValueGroup>
+            <ValueGroup ID="KRWX">
+                <Value>South Korean Won</Value>
+            </ValueGroup>
+            <ValueGroup ID="KWD">
+                <Value>Kuwaiti Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="KYD">
+                <Value>Cayman Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="KZT">
+                <Value>Kazakhstani Tenge</Value>
+            </ValueGroup>
+            <ValueGroup ID="LAK">
+                <Value>Laotian Kip</Value>
+            </ValueGroup>
+            <ValueGroup ID="LBP">
+                <Value>Lebanese Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="LKR">
+                <Value>Sri Lankan Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="LRD">
+                <Value>Liberian Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="LSL">
+                <Value>Lesotho Loti</Value>
+            </ValueGroup>
+            <ValueGroup ID="LTL">
+                <Value>Lithuanian Lita</Value>
+            </ValueGroup>
+            <ValueGroup ID="LUF">
+                <Value>Luxembourgian Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="LVL">
+                <Value>Latvian Lat</Value>
+            </ValueGroup>
+            <ValueGroup ID="LYD">
+                <Value>Libyan Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="MAD">
+                <Value>Moroccan Dirham</Value>
+            </ValueGroup>
+            <ValueGroup ID="MDL">
+                <Value>Moldavian Lei</Value>
+            </ValueGroup>
+            <ValueGroup ID="MGF">
+                <Value>Madagascan Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="MNT">
+                <Value>Mongolian Tugrik</Value>
+            </ValueGroup>
+            <ValueGroup ID="MOP">
+                <Value>Macao Pataca</Value>
+            </ValueGroup>
+            <ValueGroup ID="MRO">
+                <Value>Mauritanian Ouguiya</Value>
+            </ValueGroup>
+            <ValueGroup ID="MTL">
+                <Value>Maltese Lira</Value>
+            </ValueGroup>
+            <ValueGroup ID="MUR">
+                <Value>Mauritian Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="MVR">
+                <Value>Maldive Rufiyaa</Value>
+            </ValueGroup>
+            <ValueGroup ID="MWK">
+                <Value>Malawi Kwacha</Value>
+            </ValueGroup>
+            <ValueGroup ID="MXN">
+                <Value>Mexican Peso (new)</Value>
+            </ValueGroup>
+            <ValueGroup ID="MYR">
+                <Value>Malaysian Ringgit</Value>
+            </ValueGroup>
+            <ValueGroup ID="MZM">
+                <Value>Mozambique Metical</Value>
+            </ValueGroup>
+            <ValueGroup ID="NGN">
+                <Value>Nigerian Naira</Value>
+            </ValueGroup>
+            <ValueGroup ID="NIC">
+                <Value>Nicaraguan Cordoba</Value>
+            </ValueGroup>
+            <ValueGroup ID="NLG">
+                <Value>Dutch Guilder</Value>
+            </ValueGroup>
+            <ValueGroup ID="NOK">
+                <Value>Norwegian Krone</Value>
+            </ValueGroup>
+            <ValueGroup ID="NPR">
+                <Value>Nepalese Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="NZD">
+                <Value>New Zealand Dollars</Value>
+            </ValueGroup>
+            <ValueGroup ID="OMR">
+                <Value>Omani Rial</Value>
+            </ValueGroup>
+            <ValueGroup ID="PAB">
+                <Value>Panamanian Balboa</Value>
+            </ValueGroup>
+            <ValueGroup ID="PEN">
+                <Value>Peruvian Neuvo Sol</Value>
+            </ValueGroup>
+            <ValueGroup ID="PGK">
+                <Value>Papua New Guinea Kina</Value>
+            </ValueGroup>
+            <ValueGroup ID="PHP">
+                <Value>Philippino Peso</Value>
+            </ValueGroup>
+            <ValueGroup ID="PKR">
+                <Value>Pakistani Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLN">
+                <Value>Polish Zloty (new)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PTE">
+                <Value>Portuguese Escudo</Value>
+            </ValueGroup>
+            <ValueGroup ID="PYG">
+                <Value>Paraguayan Guarani</Value>
+            </ValueGroup>
+            <ValueGroup ID="QAR">
+                <Value>Qatar Riyal</Value>
+            </ValueGroup>
+            <ValueGroup ID="RMB">
+                <Value>Chinese Renminbi Yuan</Value>
+            </ValueGroup>
+            <ValueGroup ID="ROL">
+                <Value>Roumanian Lei</Value>
+            </ValueGroup>
+            <ValueGroup ID="RON">
+                <Value>Romanian Leu</Value>
+            </ValueGroup>
+            <ValueGroup ID="RUB">
+                <Value>Russian Rouble</Value>
+            </ValueGroup>
+            <ValueGroup ID="RUR">
+                <Value>Russian Rubel</Value>
+            </ValueGroup>
+            <ValueGroup ID="RWF">
+                <Value>Rwandan Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="SAR">
+                <Value>Saudi Riyal</Value>
+            </ValueGroup>
+            <ValueGroup ID="SBD">
+                <Value>Solomon Islands Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="SCR">
+                <Value>Seychelles Rupee</Value>
+            </ValueGroup>
+            <ValueGroup ID="SDP">
+                <Value>Sudanese Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="SEK">
+                <Value>Swedish Krona</Value>
+            </ValueGroup>
+            <ValueGroup ID="SGD">
+                <Value>Singapore Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="SHP">
+                <Value>St.Helena Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="SIT">
+                <Value>Slovenian Tolar</Value>
+            </ValueGroup>
+            <ValueGroup ID="SKK">
+                <Value>Slovakian Krona</Value>
+            </ValueGroup>
+            <ValueGroup ID="SLL">
+                <Value>Leone</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOS">
+                <Value>Somalian Shilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="SRG">
+                <Value>Surinam Guilder</Value>
+            </ValueGroup>
+            <ValueGroup ID="STD">
+                <Value>Sao Tome / Principe Dobra</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUR">
+                <Value>Russian Ruble (old)</Value>
+            </ValueGroup>
+            <ValueGroup ID="SVC">
+                <Value>El Salvador Colon</Value>
+            </ValueGroup>
+            <ValueGroup ID="SYP">
+                <Value>Syrian Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="SZL">
+                <Value>Swaziland Lilangeni</Value>
+            </ValueGroup>
+            <ValueGroup ID="THB">
+                <Value>Thailand Bhat</Value>
+            </ValueGroup>
+            <ValueGroup ID="TJR">
+                <Value>Tadzhikistani Ruble</Value>
+            </ValueGroup>
+            <ValueGroup ID="TMM">
+                <Value>Turkmenistani Manat</Value>
+            </ValueGroup>
+            <ValueGroup ID="TND">
+                <Value>Tunisian Dinar</Value>
+            </ValueGroup>
+            <ValueGroup ID="TOP">
+                <Value>Tongan Pa'anga</Value>
+            </ValueGroup>
+            <ValueGroup ID="TPE">
+                <Value>Timor Escudo</Value>
+            </ValueGroup>
+            <ValueGroup ID="TRL">
+                <Value>Turkish Lira</Value>
+            </ValueGroup>
+            <ValueGroup ID="TTD">
+                <Value>Trinidad and Tobago Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="TWD">
+                <Value>New Taiwan Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="TZS">
+                <Value>Tanzanian Shilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="UAH">
+                <Value>Ukraine Hryvnia</Value>
+            </ValueGroup>
+            <ValueGroup ID="UGX">
+                <Value>Uganda Shilling</Value>
+            </ValueGroup>
+            <ValueGroup ID="USA">
+                <Value>Euro conversion bug fix</Value>
+            </ValueGroup>
+            <ValueGroup ID="USD">
+                <Value>American Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="USDN">
+                <Value>United States Dollars (5 decimal places)</Value>
+            </ValueGroup>
+            <ValueGroup ID="UYU">
+                <Value>Uruguayan Peso (new)</Value>
+            </ValueGroup>
+            <ValueGroup ID="VEB">
+                <Value>Venezuelan Bolivar</Value>
+            </ValueGroup>
+            <ValueGroup ID="VND">
+                <Value>Vietnamese Dong</Value>
+            </ValueGroup>
+            <ValueGroup ID="VNDX">
+                <Value>Vietnamese Dong</Value>
+            </ValueGroup>
+            <ValueGroup ID="VUV">
+                <Value>Vanuatu Vatu</Value>
+            </ValueGroup>
+            <ValueGroup ID="WST">
+                <Value>Samoan Tala</Value>
+            </ValueGroup>
+            <ValueGroup ID="XAF">
+                <Value>Gabon C.f.A Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="XCD">
+                <Value>East Carribean Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="XDS">
+                <Value>St. Christopher Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="XEU">
+                <Value>European Currency Unit (E.C.U.)</Value>
+            </ValueGroup>
+            <ValueGroup ID="XOF">
+                <Value>Benin C.f.A. Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="XPF">
+                <Value>CFP Franc</Value>
+            </ValueGroup>
+            <ValueGroup ID="YER">
+                <Value>Yemeni Ryal</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZAR">
+                <Value>South African Rand</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZMK">
+                <Value>Zambian Kwacha</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZRN">
+                <Value>Zaire</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZWD">
+                <Value>Zimbabwean Dollar</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

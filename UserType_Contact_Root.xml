@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Contact_Root" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Contact_Root</Name>
+            <UserTypeLink UserTypeID="Business_Partner_Hierarchy"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

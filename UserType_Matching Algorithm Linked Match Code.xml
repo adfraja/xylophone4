@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Matching Algorithm Linked Match Code">
+            <Name>Matching Algorithm with Linked Match Code</Name>
+            <UserTypeLink UserTypeID="MatchCodesAndMatchingAlgorithms"></UserTypeLink>
+            <UserTypeLink UserTypeID="MatchingAndLinking"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

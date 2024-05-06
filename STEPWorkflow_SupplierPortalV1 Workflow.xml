@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="SupplierPortalV1 Workflow" Referenced="true"><!-- Definition:
+<scxml name="SupplierPortalV1 Workflow" initial="Enrich" version="0.9">
+  <assignee id="Super user" type="group"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=581.0  </editorLayout>
+  <final id="Remove_Object_From_Workflow">
+    <editorLayout>   node-size-and-position x=175.0 y=350.0 w=250.0 h=25.0  </editorLayout>
+    <onentry businessactionid="acn-b2ab0be1-c87b-4a15-bb55-a1870cad6164"/>
+  </final>
+  <state id="Enrich">
+    <transition event="Proceed" target="Marketing"/>
+    <assignee plugin="SupplierLinkAssignee"/>
+    <editorLayout>   node-size-and-position x=250.0 y=50.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Marketing">
+    <transition event="Proceed" target="Verify"/>
+    <assignee plugin="SupplierLinkAssignee"/>
+    <editorLayout>   node-size-and-position x=250.0 y=150.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Verify">
+    <transition event="Reject" target="Enrich">
+      <editorLayout>   edge-path [Enrich]  x=490.0 y=170.0  </editorLayout>
+    </transition>
+    <transition event="Accept" target="Remove_Object_From_Workflow"/>
+    <editorLayout>   node-size-and-position x=250.0 y=250.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml>
+<workflowViews>
+  <restriction>
+    <mapping stateID="Enrich" viewID="DefView"/>
+    <mapping stateID="Marketing" viewID="DefView"/>
+    <mapping stateID="Verify" viewID="DefView"/>
+  </restriction>
+  <view id="DefView" automaticSort="false">
+    <column name="Claim/Release" mandatory="false" readOnly="false">
+      <plugin pluginID="WorkflowTaskColumn"/>
+    </column>
+    <column name="Object" mandatory="false" readOnly="false">
+      <plugin pluginID="WorkflowLinkedName"/>
+    </column>
+    <column name="Assignee" mandatory="false" readOnly="true">
+      <plugin pluginID="WorkflowAssignee"/>
+    </column>
+    <column name="Process Notes" mandatory="false" readOnly="false">
+      <plugin pluginID="WorkflowNoteColumn">
+        <parameter id="MaxEntries" value="5"/>
+        <parameter id="ShowProcessNotes" value="true"/>
+        <parameter id="ShowTransitionMessages" value="true"/>
+      </plugin>
+    </column>
+  </view>
+</workflowViews> -->
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>SupplierPortalV1 Workflow</Name>
+            <ValidUserTypeLink UserTypeID="SalesItem"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAL1VXU/bMBR9R9p/8PKeJikNLSiphIBJSLAiYOxhmpCT3KZeEzuynabdr59jO6VAGR+d1odace4995zr3GNcS3ZOiSRYwoSecFBrPMWFgEhUBZFjWEJaS7hJOankBSmJhOyKkwUpIAcRS153kQUREuiEnpcV4xL4typ7CibSZVnEkV4Q0WWL2DmjnKQzB1FcQuzc1JWKBX6lQHBxF6DvjM+nBWsctAAuCKOx4/cOnT1kfgqKitiZSVkdeV7TNL1mv8d47vV9P/T8oaerOePos+uqcMoycAX5DS6mmVsxoUgwipax3/PRSv838cFgpNZZHI4CtSLXHetqERaC5BQAkUwTBY5qAdxBclUp6jlndaUqeV3ceM/kCak6oZOs1lfZ9EPDJzSEAt/XhPrhJh+NLTmmNg0WQGXsXHGWAmSKFeY5qI1LzOcgCc1bbg/xlt1jZVVR54Q+HMMFofNj+/KxNJ3naWnPdW6WfKPU4J9ovQNOpqv/J3Rd740q+x9ReQ2/IJUPIp98RZDl4FZYztAP8+anGot4cGj7OvRtiZd68rzgcZpCtVHwGkq2gPtJ0vK4/8JZeb8eyyewW7o1JRQXult/x3mlhcEw1IL2bQtNK7e2kFElg69QUgtCQQicthgtA5xSN+njxE8gcNPRMHEHOAjdJAlDFwejoZ/i7CA4GLSyLEqnScsY70XGUcbW0xYEmjiion/UWCV3akcYXzpS+4+8SUiSsF7KSmf8ycC2+bo3pzBtMx2ElSeXWJL0Rllg7GgD7cJ1SsqKuqRImXU2ocWqC7EGelJgUnrXUABuN0vVRSwZX21B0mhmEOw8nJ/GTncit1jMT3Qpx9ss75n6b2dkjnsXKu1wQvZVob2fSntFdUzWA74DlzXGbk3RziUE+sokiF34tAD2mJ7kmDzMVT11H6MFLmpVOHSsQy/P1NdNVHHvTXmmj/rmm7HG0jfsPwJwu/aMy3ZA8y0wkWfUvtznyGvHp3vgIJQgPeqbKSWuKnUToTa0bdx60LRJtTvWT733ZT3cce9MtHeGtxbxmHjkPXMTtav2jeH8AbXMSMKzCQAA</Configuration>
+            <LocalBusinessRule ID="acn-b2ab0be1-c87b-4a15-bb55-a1870cad6164" Scope="Local" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessAction):
+<config>
+  <javaScript>
+node.getWorkflowInstance(workflow).delete("Object automatically removed from Workflow");
+  </javaScript>
+</config> -->
+                <Name>Delete Workflow Instance</Name>
+                <Configuration>H4sIAAAAAAAAAFWQy07DMBBF9/2KkReoXZDADqlJKhBCKhsqWsQycp1J5OIX9iSlf4/BadVszx2dubpO9Z00NXdOSQy1bGthTSu7IkRAlUtxYmWx+tEKBvRBWlOy++yOARphG2m6kn3sXm4f2KqaFU99kAZDeO8VVjOAC9j86+A6T2j9XLJXPvCt8NLROX8UFB+xP0WUbLjnGil+T+AawVTAYHdyWLJDJJnipsu25GNJVhnbYNYhfVr/1Sp7XJtA3AicH0ewyBpUUTm/+e4tLd/2BxQEvCerOUnBlTqBR20HbKD1VsPZlO4XyyK/tBqL59PmRT6dIw6WTxcbx/8F41pQ1ZwBAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

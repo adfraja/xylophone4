@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="Workflow Profiles" UserTypeID="Workflow Profiles">
+            <Name>Workflow Profiles</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

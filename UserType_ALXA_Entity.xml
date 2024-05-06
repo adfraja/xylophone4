@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ALXA_Entity" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>ALXA_Entity</Name>
+            <UserTypeLink UserTypeID="ALXA_Entity_Root"></UserTypeLink>
+            <AttributeLink AttributeID="SAMSE_161_Code4L"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC246007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">impact head material bearing 2_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC246007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;impact head material bearing 2_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC246007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;impact head material bearing 2_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC246007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;impact head material bearing 2_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC246007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;impact head material bearing 2_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC246007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;impact head material bearing 2_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC246</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC246007</Value>
+            </MetaData>
+            <ValueGroup ID="AAA865005">
+                <Value QualifierID="std.lang.all">Copper</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA870005">
+                <Value QualifierID="std.lang.all">Rubber</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA878006">
+                <Value QualifierID="std.lang.all">Polyamide (PA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE094002">
+                <Value QualifierID="std.lang.all">cellulose-acetate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL852002">
+                <Value QualifierID="std.lang.all">nylon</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO653002">
+                <Value QualifierID="std.lang.all">TPE</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP218002">
+                <Value QualifierID="std.lang.all">soft metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA113005">
+                <Value QualifierID="std.lang.all">Plastic</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

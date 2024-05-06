@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Subsidiary" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]">
+            <Name>Subsidiary</Name>
+            <Icon>H4sIAAAAAAAAAAGcAmP9iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIxSURBVDhPfVJNTxoBEN3/67kePfTSXrwZD5qm2CYS4yoaI8qCIgorlB6ARYwLlg8rNUGogLgNH77OG9YoPfQlw07mvTfMzo6Bf/D8/KzP8XiMw8OIBnPihXuLmQbVahXHx3Fks9/x8PCA8/NvGsyz2axy1WrNV08x0yCTyaDd/o1isYR83oHn/dFgzho5at5CG9RqNbiui1wuh8tLF4OBJ//ah+NcajBnjRw1V1dX4qlPG/D99vbCuLtroVQqo9PpIRI5wfz8e8zNvdNgzhq5UslVLT30GpPJBPv7YcTjthBtHB0lsbDwEdFoDL1eT8OyYlL7oBw11NJDr8HNdrtdMSRkQU0sLwdwenqm471FInGqHDXU0kOvYZoh+YcTGa0qi6pgZeULHh8ffdsr+v2+ctRQa1kJbG2FYKyuBrC4+AnBYBThsI1QKCwLG/i2V7BGjppgMKYeeg3P8/QrLC19hWnGcXFRQblc8W2vcN2ycpubcdXSQ69+Rh7O2loIBwdp+Ww/5D1vcXPzUwWMRuNGa45zLROcIxDYVg9hjEYjWc5nGe8Eu7sxpNNF6f4L9/dded5qTPOmXKWDnZ0Ytrfj6qFXJ8jl8nqmlhXF2VkGlUpDJmCTDlqttkzQ1Bo5aqilRyfQXx+FQkGu7RrJpI1UKiWn29ZIJlNiTsn2K/Iajq+eYqZBsViUJZlydRHU63VtYtu25qxtbJj/b0BwaTzR4XCI9fV1DeasPT09+aoXAH8BnUuQ0um30N0AAAAASUVORK5CYIJqhV4EnAIAAA==</Icon>
+            <UserTypeLink UserTypeID="AggregateFolder"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.CLS.ExportConfigurationsLevel1" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Export Configurations Level 1</Name>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.CLS.ExportConfigurationsRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.CLS.SmartSheetConfigurationsRoot"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

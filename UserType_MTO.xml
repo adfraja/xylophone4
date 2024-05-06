@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="MTO" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>STEP MTO</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGDYzMcge4WLO4hFfDEHqyITuyETkwCjwlNuviRWoWY2TkdmyS2c0ke4GBgYlL7y/P//H8hQ/MnCyMDAx6ADZDOAzGBg8blw0nP13i0vz+7+n6DR1XhBgnHCGm8BHWlnE47FGj0BHLsWGja7Ji7IuCE0y+VihwTLlGNH1wj+YSwKcHvsoCBj1sCmc0dBP2Hxlqregy4MDNYAiq1DeJ8AAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="SAP_L8"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

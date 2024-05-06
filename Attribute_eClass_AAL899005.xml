@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="eClass_AAL899005" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">magnetic holder present</Name>
+            <ListOfValueLink ListOfValueID="eClass_AAA001005"></ListOfValueLink>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="GL">magnetic holder present</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="GL">magnetic holder present</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAL899005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;magnetic holder present
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;specification whether or whether not the bit-set is equipped with a magnetic holder
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAL899005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;magnetic holder present
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;specification whether or whether not the bit-set is equipped with a magnetic holder
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAL899005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;magnetic holder present
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;specification whether or whether not the bit-set is equipped with a magnetic holder
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAL899005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;magnetic holder present
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;specification whether or whether not the bit-set is equipped with a magnetic holder
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAL899005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;magnetic holder present
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;specification whether or whether not the bit-set is equipped with a magnetic holder
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">eClass_AAL899005</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">eClass_AAL899005</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">eClass_AAL899005</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">eClass_AAL899005</Value>
+                    <Value Derived="true" DerivedContextID="GL">eClass_AAL899005</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="GL">magnetic holder present</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">magnetic holder present</Value>
+                    <Value Derived="true" DerivedContextID="GL">magnetic holder present</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">specification whether or whether not the bit-set is equipped with a magnetic holder</Value>
+                <Value AttributeID="EclassID">AAL899</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAL899005</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="eClass14.0Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="eClassAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="SalesItem"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

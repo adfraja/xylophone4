@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="AssetRoot" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="AssetsRoot">
+            <Name>AssetRoot</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMqwfy7D/0sM9ZkM/4HgZQOQYAADxZ8sjAwMrAw6IA5ILQOzccSuO/8MvBxXB2xjM/ql4KgokDIz9EDEOp2J2zasPvba+/pn3ddLzy5vXFBgwSLUf/BKpqcnA4M1AA20EiduAAAA</Icon>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="GS1-Purpose"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Purpose"></AttributeLink>
+            <AttributeLink AttributeID="a_ SourceOfTruth"></AttributeLink>
+            <AttributeLink AttributeID="a_DGOwner"></AttributeLink>
+            <AttributeLink AttributeID="a_IntegrationTargets"></AttributeLink>
+            <AttributeLink AttributeID="a_IsMDM"></AttributeLink>
+            <AttributeLink AttributeID="aatestatt"></AttributeLink>
+            <AttributeLink AttributeID="atr_attributeChanges"></AttributeLink>
+            <AttributeLink AttributeID="atr_relevant_for_Onedot"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

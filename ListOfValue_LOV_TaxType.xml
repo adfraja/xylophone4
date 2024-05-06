@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_TaxType" ParentID="BusinessPartnerGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Tax Type LOV</Name>
+            <Validation BaseType="numeric_text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_TaxType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tax Type LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_TaxType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tax Type LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_TaxType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tax Type LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_TaxType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tax Type LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_TaxType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Tax Type LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="&amp;0">
+                <Value>Other Document Type</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;1">
+                <Value>National Identity Document</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;4">
+                <Value>Foreign Resident Card</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;6">
+                <Value>Unique Registry of Taxpayers</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;7">
+                <Value>Passport</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;A">
+                <Value>Diplomatic Identity Certificat</Value>
+            </ValueGroup>
+            <ValueGroup ID="&amp;B">
+                <Value>Country of Resident Identity D</Value>
+            </ValueGroup>
+            <ValueGroup ID="00">
+                <Value>C.I. Policía Federal</Value>
+            </ValueGroup>
+            <ValueGroup ID="01">
+                <Value>C.I. Buenos Aires</Value>
+            </ValueGroup>
+            <ValueGroup ID="02">
+                <Value>C.I. Catamarca</Value>
+            </ValueGroup>
+            <ValueGroup ID="03">
+                <Value>C.I. Córdoba</Value>
+            </ValueGroup>
+            <ValueGroup ID="04">
+                <Value>C.I. Corrientes</Value>
+            </ValueGroup>
+            <ValueGroup ID="05">
+                <Value>C.I. Entre Ríos</Value>
+            </ValueGroup>
+            <ValueGroup ID="06">
+                <Value>C.I. Jujuy</Value>
+            </ValueGroup>
+            <ValueGroup ID="07">
+                <Value>C.I. Mendoza</Value>
+            </ValueGroup>
+            <ValueGroup ID="08">
+                <Value>C.I. La Rioja</Value>
+            </ValueGroup>
+            <ValueGroup ID="09">
+                <Value>C.I. Salta</Value>
+            </ValueGroup>
+            <ValueGroup ID="10">
+                <Value>C.I. San Juan</Value>
+            </ValueGroup>
+            <ValueGroup ID="11">
+                <Value>C.I. San Luis</Value>
+            </ValueGroup>
+            <ValueGroup ID="12">
+                <Value>C.I. Santa Fé</Value>
+            </ValueGroup>
+            <ValueGroup ID="13">
+                <Value>C.I. Santiago del Estero</Value>
+            </ValueGroup>
+            <ValueGroup ID="14">
+                <Value>C.I. Tucumán</Value>
+            </ValueGroup>
+            <ValueGroup ID="16">
+                <Value>C.I. Chaco</Value>
+            </ValueGroup>
+            <ValueGroup ID="17">
+                <Value>C.I. Chubut</Value>
+            </ValueGroup>
+            <ValueGroup ID="18">
+                <Value>C.I. Formosa</Value>
+            </ValueGroup>
+            <ValueGroup ID="19">
+                <Value>C.I. Misiones</Value>
+            </ValueGroup>
+            <ValueGroup ID="20">
+                <Value>C.I. Neuquén</Value>
+            </ValueGroup>
+            <ValueGroup ID="21">
+                <Value>C.I. La Pampa</Value>
+            </ValueGroup>
+            <ValueGroup ID="22">
+                <Value>C.I. Río Negro</Value>
+            </ValueGroup>
+            <ValueGroup ID="23">
+                <Value>C.I. Santa Cruz</Value>
+            </ValueGroup>
+            <ValueGroup ID="24">
+                <Value>C.I. Tierra del Fuego</Value>
+            </ValueGroup>
+            <ValueGroup ID="80">
+                <Value>C.U.I.T.</Value>
+            </ValueGroup>
+            <ValueGroup ID="85">
+                <Value>D.N.R.P.</Value>
+            </ValueGroup>
+            <ValueGroup ID="86">
+                <Value>C.U.I.L.</Value>
+            </ValueGroup>
+            <ValueGroup ID="87">
+                <Value>C.D.I.</Value>
+            </ValueGroup>
+            <ValueGroup ID="89">
+                <Value>L.E.</Value>
+            </ValueGroup>
+            <ValueGroup ID="90">
+                <Value>L.C.</Value>
+            </ValueGroup>
+            <ValueGroup ID="94">
+                <Value>Passport</Value>
+            </ValueGroup>
+            <ValueGroup ID="96">
+                <Value>D.N.I.</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

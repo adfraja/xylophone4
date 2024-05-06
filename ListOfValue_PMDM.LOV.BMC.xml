@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.BMC" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="false" Referenced="true">
+            <Name QualifierID="std.lang.all">BMC</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.BMC
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;BMC
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.BMC
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;BMC
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.BMC
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;BMC
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.BMC
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;BMC
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.BMC
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;BMC
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup>
+                <Value>BABY BOYS ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY BOYS OUTERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY BOYS OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY BOYS TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY BOYS TROUSERS/SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS OUTERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY GIRLS TROUSERS/SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX BODYSUITS &amp; SLEEPSUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX OUTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABY UNISEX TROUSERS/SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BABYWEAR BLANKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BATHING &amp; CHANGING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BATHROOM - BATHMATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BATHROOM - BATHROOM HARDWARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BATHROOM - TOWELS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BB PRAM SHOES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - BEAUTY ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - COSMIETICS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - FRAGRANCES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - HAIR CARE FORMULA</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - READING GLASSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - SKIN CARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - SUN CARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY - TOILETRIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY-BEAUTY GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY-COSMETIC BAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BED-DUVET COVERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BED-NURSERY BEDDING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BED-NUSERY BEDDING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BED-PILLOWCASES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - BEDSPREADS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - DUVETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - MATRESS PROTECTORS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - PILLOWS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - SETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - SHEETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING - VALANCE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS ACTIVITY WEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS BLAZERS &amp; JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS JEANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS KNITWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS OUTERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS PARTY/DRESSING UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS PJ'S/SHORTIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS ROBES/DRESSING GOWNS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS SHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS SOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS SWIMWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS TOPS &amp; T'S</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOYS UNDERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDRENSWEAR ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDRENSWEAR FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDRENSWEAR SOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDRENSWEAR THERMAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDRENSWEAR VESTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>COUPONS &amp; VOUCHERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CW DRESSING UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Frozen Food Display Case</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Frozen Food Mobile Case</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Ice Cream Tubs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Loose Produce (Lincoln)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Refrigeration Plant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Refurbished Brooklands</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Refrig. Equipment/Wine Chillers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Shopfronts/Shopfronts</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Signage/External Signage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Signage/Internal Signage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/WC Cubicles/WC Cubicles</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Construction/Wall Covering/Acrovyn</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Back Stage/Backstage Racking</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Back Stage/Catering Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Back Stage/Cloakroom Equip.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Back Stage/Health &amp; Safety</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Back Stage/Office Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Consumables/Catering Consumable</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Consumables/Cleaning</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Photocopying/Photocopying</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Staff Uniforms/Core</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Stationery/Bespoke Stationary</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Stationery/General Stationary</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Utilities/Electricity</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Utilities/Gas</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Utilities/Water</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Wrapping Materials/Foods Wrap</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp.  Products and Services/Wrapping Materials/GM Wrapping</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp. Products and Services/Staff Uniforms/Non-Core</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp. Products and Services/Stationery/IT Consumables</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Corp. Products and Services/Utilities/Consultancy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - CHINA &amp; CROCKERY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - CUTLERY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - DINING TEXTILES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - GLASSES PACKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - GLASSES SINGLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - MATS, COASTERS &amp; TRAYS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - MUGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - OUTDOOR DINING UTENSILS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - SERVEWARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - TABLE DECORATION</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DINING - TEAPOTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DISCOUNTED PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FD COUPONS ANDVOUCHERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FEEDING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFOOD CONSUMABLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFOOD DEPARTMENTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFOOD TO GO SUSHI</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFROZEN DESERTS &amp; ICE CREAM</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFROZEN MEAT &amp; FISH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FFROZEN PRODUCE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FNT- Kitchens</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - BEDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - INDOOR DINNING FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - MATRESS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - OTHER CABINET FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - OUTDOOR CONSERVATORY FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FURNITURE - UPHOLSTERED FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Catering/Catering Supplies</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Cleaning &amp; Enviornment/Contract Cleaning</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Cleaning &amp; Enviornment/Non Contract Cleaning</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Cleaning &amp; Enviornment/Waste Management &amp; Disposal</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Facilities Other/Chauffeurs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Facilities Other/Hairdressing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Facilities Other/Profit Protection</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Facilities Other/Trolley Collection</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Maintenance/FM Management</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Buildings and Land</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Mechanical " Electrical</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Mechanical &amp; Electrical</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Mechanical Handling</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Planned Maintenance/Refrigeration</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Postage &amp; Porterage/Couriers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Postage &amp; Porterage/Postage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Reactive Maintenance/Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Repairs/Buildings and Land</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Repairs/Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Repairs/Mechanical &amp; Electrical</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Repairs/Refrigeration</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Security/ Health &amp; Safety/Equipment Maint.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Security/ Health &amp; Safety/Guarding</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Security/ Health &amp; Safety/Security Maint.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Facilites/Security/Health &amp; Safety/Training &amp; Consult</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Ambient/Food Podia</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Ambient/Horti Display Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Ambient/Merchandisers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Ambient/Shelving</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Ambient/Trolley and Basket</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/Bakery</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/Café</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/Delicatessen</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/Hot Food To Go (HFTG)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/ISB/coffee to go</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Food Equipment/Hospitality/Restaurant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIFT CARDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS ACTIVITY WEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS BLAZERS &amp; JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS BLOUSES &amp; SHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS JEANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS JEWELLERY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS KNITWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS NIGHTDRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS OUTERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS PARTY/DRESS UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS PJ'S &amp; SHORTIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS ROBES &amp; DRESSING GOWNS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS SOCKS &amp; TIGHTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS SWIMWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS TOPS &amp; T'S</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS TROUSERS &amp; LEGGINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIRLS UNDERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM COUPONS&amp;VOUCHERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM DEPARTMENTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Accessories</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Acrylic Walls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Arms and Bars</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Barcelona</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Cameo</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Column Packs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Fitting Rooms</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Freestanding Walls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Glass Walls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Internal Signage &amp; Graphics</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Jewellery Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Luton Gondolas</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Metal Components</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Microslat</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Perimeter Panels</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Queue Merchandisers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Seating</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Shelving</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Slab Units</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Sundries</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Tables</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Ticketing and Acrylics</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Tills and Wrap Units</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Towers and Merchandisers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/US MCR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Wall Equipment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Equipment/Window L Walls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Logistics/Delivery</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Logistics/Storage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GM Equipment/GM Shopfitting Installation/GM Shopfitting Inst</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GROCERY GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HAMPERS (INCLUDING DIRECT)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HANKIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HARDWARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - BOOKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - CARDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - CRACKERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - FOOD GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - GAMES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - GIFT TAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - NON FOOD GIFT</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - STATIONARY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - TOYS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME - WRAP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACC - PHOTO FRAMES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - ARTIFICAL FLORAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - CANDLEHOLDERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - CANDLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - CHRISTMAS DECORATIONS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - CLOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - DECORATIVE BOWLS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - HOME FRAGRANCE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - MIRROS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - NON ELECTRICAL PHOTO FRAME</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - NON ELECTRICAL TOOLS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - OBJETS D'ART/ORNAMENTAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - OUTDOOR ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - VASES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOME ACCESSORIES - WALL ART</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HORTICULTURE BULBS &amp; SEEDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HORTICULTURE GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY DELI BAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY HOT FOOD TO GO</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY M&amp;S CAFE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY M&amp;S KITCHEN</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY RESTAURANT</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOSPITALITY-RAW MATERIALS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOUSEHOLD ELECTRICALS - AIR CONDITIONING / COOLING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOUSEHOLD ELECTRICALS - BEAUTY ELECTRICALS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOUSEHOLD ELECTRICALS - INDOOR &amp; OUTDOOR TOOLS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOUSEHOLD ELECTRICALS - IRONS / TROUSER PRESS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HOUSEHOLD ELECTRICALS - VACUUM CLEANERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Learning/Development/Conferences/Seminars</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Learning/Development/IT Training</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Learning/Development/Management Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Learning/Development/Training</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Recruitment/Advertising</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Recruitment/Contract Staff (non IT)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Recruitment/Graduates</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Recruitment/Recruitment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Human Resources/Recruitment/Temporary &amp; Agency</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/IT &amp; Telecoms Other/IT Training</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Application Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Data Management</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Disaster Recovery</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Implementation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Market Intelligence</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Printing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Security</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Services/Testing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT &amp; Telecoms/Telecoms/Networks Data / Calls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase - Server/Server</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase -T &amp; NC/Telecoms &amp; Network Comm</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Mainframe/Mainframe</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Off Eqp(Store&amp;HO)/MonitorScreen</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Office Eqp(Store &amp;HO)/Laptop</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Office Eqp(Store &amp;HO)/Desktop</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Office Eqp(Store &amp;HO)/Printer</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Retail Specialist/HHT</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Retail Specialist/POS Till</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Retail Specialist/RFID Unit</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Retail Specialist/Scales</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Retail Specialist/Till Printer</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Capital Purchase-Storage/Storage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Lease/Lease</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Mainframe</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Office Eqp (Stores &amp; HO)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Retail(Stores) Specialist</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Server</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Storage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Hardware/Maintenance &amp; Services/Telecom&amp;Net. Comms&amp;Repair</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/IT Advisory&amp;Consultancy/IT Advisory&amp;Consultancy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/IT C&amp;A/IT Contractors &amp; Agencies (Time &amp; Mat)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/IT Managed Services/IT Managed Services</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/IT Prof. Services/IT Professional Services</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/IT Work Package/IT Work Package</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/Other Services/Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/Telecoms Calls &amp; Lines/Mobiles Calls</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Services/Telecoms Calls &amp; Lines/Telecoms Calls &amp; Lines</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Licenses/Business Applications</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Licenses/Op Sys &amp; Infrastructure</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Licenses/Telecoms " Network Comms.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Licenses/Telecoms &amp; Network Comms.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Maintenance &amp; Services/Business Applications</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Maintenance &amp; Services/Op Sys &amp; Infrastructure</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Maintenance &amp; Services/Telecoms &amp; Network Comms</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IT Software/Software Escrow/Escrow</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KIDS - FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - BAKEWARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - BAR ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - BINS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - CHOPPING BOARDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - CONDIMENTS &amp; DRESSINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - ECO PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - GADGETS &amp; UTENSILS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - KITCHEN KNIVES AND KNIFE SETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - KITCHEN TEXTILIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - LAUNDRY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - OTHER FOOD PREP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - PANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - SCALES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - SPICE RACKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - STORAGE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN - TEAPOTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - COFFEE ELECTRICALS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - ELECTRICAL FOOD PREPARATION</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - KETTLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - MICROWAVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - TOASTERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KITCHEN ELECTRICALS - WHITE GOODS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHTING - BULBS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHTING - CEILING LIGHTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHTING - FLOOR LIGHTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHTING - LAMP SHADES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHTING - TABLE LIGHTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LUGGAGE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Ad Hoc Charges</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Christmas Customer Orders</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Equipment Storage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Food To Go</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Hampers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Home Deliveries</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Horticulture Deliveries</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Vehicle Leasing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Food Logistics/Warehousing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Adhoc Charges</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Depot Damages Income</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Equipment Leasing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Home Deliveries</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Home Delivery Income</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/KPI Payments</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Transport</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Vehicle Leasing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Warehouse Maintenance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM Logistics/Warehousing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/GM logistics/Freight</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Logistics Other/GM Inter Store Transport</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Non Retail Logistics/Equipment Transport</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Logistics/Non Retail Logistics/Equipment Warehousing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>M&amp;S ENERGY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>M&amp;S OUTLETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS BAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS BELTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS BRIEFS &amp; BOXERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS CASUAL SHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS CASUAL T'S &amp; POLOS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS COATS &amp; OUTER JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS CUFFLINKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS DRESSING GOWNS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS FLEECE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS FORMAL JACKETS &amp; BLAZERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS FORMAL/WORKS SHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS GLASSES &amp; SUNGLASSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS GLOVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS HATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS JEANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS JUMPERS &amp; CARDIGANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS KEYRINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS LEISURE/BOTTOMS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS LEISURE/SPORTS TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS PJ'S &amp; LOUNGEWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SCARVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SLIPPERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SUIT JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SUIT TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS SWIMWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS TIES &amp; BRACES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS UMBRELLAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS VESTS &amp; THERMAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS WAISTCOATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS WALLETS &amp; OTHER SMALL LEATHER</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MENS WATCHES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communication/Research/CIU Research</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communication/Research/Market Research</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Corporate Comms/Donations</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Corporate Comms/Events</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Corporate Comms/Sponsorship</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Copywriting</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Design</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Make Up &amp; Hair</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Model</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Photography</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Store Equipment Design</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Stylist</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Creative/Web Design</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Marketing/Internet</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Marketing/Outdoor Advert</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Marketing/Press Advert</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Marketing/Radio Advertis</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Marketing/TV Advertising</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Mktg./Agency Fee</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Mktg./CompetitorActivity</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/External Mktg./Store Launch</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Internet/Agency Fee</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Internet/Digital Media</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Packaging/Law Labs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Public Relations/Agency Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Public Relations/Media Monitoring</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Public Relations/Promotional Mate</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Marketing &amp; Communications/Retail/Visual Merchandising</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Miscellaneous/Sundry Costs/Sundry</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FD OTHR ANIMAL C</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD AIR FRESHERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD BAGS FOR LIFE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD BAGS, FILMS AND FOILS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD BATTERIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD BIN LINERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD CARRIER BAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD CAT CARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD CONSUMABLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD CUT FLOWERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD DENTAL PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD DEORDORANTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD DOG CARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD HAIRCARE PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD HARDWARE PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD HOUSEHOLD CLEANING PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD INDOOR PLANTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD LAUNDRY PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD MAGAZINES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD NEWPAPERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD OUTDOOR PLANTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD PAPER PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD PHARMACY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD SANITY PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD SKINCARE PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NON FOOD VITAMINS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NURSERY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>No Value</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PAPER VOUCHERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PROBIOTIC DRINKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PUBLICATIONS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/External Marketing/Direct Marketing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/External Marketing/Loyalty Trials</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Marketing/Freelance Designers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Marketing/Models</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Marketing/Photoshoots</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Packaging/Design</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Packaging/Packaging Artwork</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Packaging/Packaging Photo Shoots</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Burnley Print</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Design &amp; Artwork</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Décor Distribution</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Décor Print</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/IT Printing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Leaflets</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Point of Sale</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Pre Press Production</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Print Suppliers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Publications</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Print &amp; Paper/Staff Handbooks</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Print and Publications/Visual Merchanising/VM General</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Freelancers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Origination &amp; Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Outsourced Packaging</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Packaging Recycle Levy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Product Carriage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Reprocessing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Research &amp; Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Samples</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Food/Write Offs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM Write Offs/Fabric</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM Write Offs/Trim &amp; Labels</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Agents Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Air Freight</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Commission</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Comp Shop Samples</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Freight In</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/In Store Tailoring</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Merchandise Samples</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Packaging Orig &amp; Dev</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Packaging Recycling Levy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Planned Reprocessing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Product Royalty</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Replacement Packaging</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Reprocessing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Research &amp; Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Selling &amp; Display</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Technology Insurance Premiums</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/GM/Unplanned Reprocessing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Costs/Gift Vouchers/Operating Expenses</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/ Finance/Auditors Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking /Bureau Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking/ATM Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking/Bureau De Change Charges</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking/Cash - Counting</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking/Cash in Transit</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Banking/Charges</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Company Cars/Leasing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Company Cars/Running Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Consultancy/Business</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Consultancy/Finance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Consultancy/International</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Consultancy/Translation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Contact Centre/Operational Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Contact Centre/Support Services</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Emp Standards &amp; Reward/Long Service</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Emp Std &amp; Reward/Christmas Parties</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Emp. Std. &amp; Rewards/Discount</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Employment Standards &amp; Reward/Events</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Employment Standards &amp; Reward/Relocat.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Employment Standards &amp; Reward/Gifts</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Employment Standards &amp; Reward/Outplace</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Finance/Auditors Fees for Non Audit</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Finance/M&amp;S Money Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Cust Entertainment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Entertainment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Grants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Industrial Tribunal</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Retired Staff Association Sub</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/HR Other/Welfare Fund</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Company Car</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Liability</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Marine Insurance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Property</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Terrorism Insurance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Insurance/Warehouse Insurance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/Employment</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/Finance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/General</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/Intellectual Property</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/International</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal Fee/Licences &amp; Trademark</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Legal/Brand Protection</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Breast Screening</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Dental</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Eye Care</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Management Health</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Medical Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Medical Sundries</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Medical Insurance</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Occupational Health/Physiotherapy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Other Finance &amp; ProfessionalOutsourced</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Other Finance &amp; Professional/Outsource</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Other Finance &amp; Professional/Subscript</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Outsourced Services/Administration</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Professional Fees/Consultancy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Professional Fees/Legal Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Professional Fees/Third Party Fixed Pr</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Research/Display/Sales Promotion</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Retail/Backstage Catering Mgmt.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Retail/Backstage Catering Staffing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Retail/Hospitality Mgmt.</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Retail/Hospitality Staffing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Subscriptions/Events</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Subscriptions/News &amp; Magazine</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Subscriptions/Organizations</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Professional Services/Travel/Travel &amp; Accomodation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Business/Business Improvement District</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Business/Business Rates</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Business/Business Rates Refund</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Disposal/Disposal Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Consultancy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Credit Rating Consultants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Highway Consultants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Legal Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Pre-Paid Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Quantity Surveyors &amp; Architects</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Rating Consultants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Registration Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Rent Review Consultants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Town Planning Consultants</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Professional Fees/Valuation Fees</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Acquisition/Land</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Acquisition/Property Deposits</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Acquisition/Right to Lease</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Other/Interest Payable</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Other/Town Centre Management</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Property Other/TownCentre Mgmt. non-Subscription</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Property/Rent Payable/Rent Payable Car Parks</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SAFETY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SERVICES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHOECARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SKIWEAR BOTTOMS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - BLINDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - CURTAIN POLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - CURTAINS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - CUSIONS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - RUGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - THROWS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOFT FURNISHINGS - WALLPAPER</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>STORAGE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SWATCH SERVICES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECH - AUDIO</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - CDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - COMMUNICATIONS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - COMPUTING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - DIGITAL IMAGING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - DVDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - GAMING</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - GIFT EXPERIENCE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - HOME VIDEO / DVD</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - OFFICE ELECTRICAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - PERSONAL ALARM</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY - TELEVISIONS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY-BATTERIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TECHNOLOGY-POWER CHARGERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TRAVEL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TRAVEL ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/Food/Audits</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/Food/Colour Management</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/Food/Packaging Development</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/Food/Projects</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/Food/Testing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Audits</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Colour Management</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Design &amp; Technical Sample</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Fabric</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Model Costs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Projects</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Research</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Technology/GM/Testing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>UNISEX SCHOL JUMPERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>VM Equipment/Visual Merchanising/VM General</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>VM Equipment/Visual Merchanising/VM Mannequins</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>VM Equipment/Visual Merchanising/VM Plinths</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WINE GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS ANGEL BRAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BASQUES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BELTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BLOUSES &amp; SHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BODIES &amp; TEDIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BOXED HATS &amp; HEADRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BRA ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS BRAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS COLD WEATHER SETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS DRESSING GOWNS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS FLEECE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS GILETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS GLASSES &amp; SUNGLASSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS GLOVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS HAIR ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS HANDBAG ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS HANKIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS HOLIDAY/BEACH BAGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS JEANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS JEWELLERY</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS JEWELLERY BOXES &amp; STANDS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS JUMPERS &amp; CARDIGANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS KNICKERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS NIGHT DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS NON BOXED HATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS OVERCOATS &amp; OUTERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS PJ'S &amp; PJ SEPARATES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS PURESE, TRAVEL CARD HOLDERS &amp; WALLETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SARONGS &amp; COVER UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SCARVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SHAPEWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SLIPPERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SLIPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SPORTS BOTTOMS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SUIT DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SUIT JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SUIT SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SUIT TROUSERS &amp; SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS SWIMWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS THERMAL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS TIGHTS &amp; STOCKINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS TRACKSUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS TROUSERS (INC CROPPED) &amp; LEGGINS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS UMBRELLAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS VEST &amp; KNICKER SETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS VESTS &amp; CAMISOLES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS WATCHES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WOMENS WRAPS</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

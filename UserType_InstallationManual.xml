@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="InstallationManual" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Installation Manual</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMpQXl7eMPMCg2TA////GYwWgEgwUPzJwsjAwMqgA+KA1DIwe0ao3NFT1WJs28vsICn2Q0FDU7Y1tmFLicvrXdE/z3m7bDDJ4da5N03wJq84w6SYuU/Wmr38O2/j0c+pMX4TzzDpL5/MsWNt7/ePGioMDNYAXifKQoQAAAA=</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelHeight"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelSize"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.AssetFileName"></AttributeLink>
+            <MIMEType>application/msword</MIMEType>
+            <MIMEType>application/pdf</MIMEType>
+            <MIMEType>text/html</MIMEType>
+            <MIMEType>text/rtf</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

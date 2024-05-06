@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Classifications>
+        <Classification ID="drajImages" UserTypeID="draj_cl_level2" ParentID="draj_classification">
+            <Name>Draj Images</Name>
+        </Classification>
+    </Classifications>
+</STEP-ProductInformation>

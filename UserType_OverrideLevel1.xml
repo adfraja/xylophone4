@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OverrideLevel1" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Override Level 1</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMKgsW+fSHz8////p9y/DyQZYEDxJwsjAwMLgw6IA1LLwGzosevOP4NTDtkB25oUd0kwCPKkzMxMXrku4dSmht+rPvKcLpt9eYcs84EFBRISUq3LU1QZGawBC/w95mwAAAA=</Icon>
+            <UserTypeLink UserTypeID="ProductOverrides"></UserTypeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="Desc_2"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Test_ISODATE3"></AttributeLink>
+            <AttributeLink AttributeID="Test_LOV4"></AttributeLink>
+            <AttributeLink AttributeID="Text_Number2"></AttributeLink>
+            <AttributeLink AttributeID="Text_Test1"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

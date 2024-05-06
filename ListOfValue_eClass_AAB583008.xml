@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB583008" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Type of accessory</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB583008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of accessory
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB583008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of accessory
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB583008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of accessory
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB583008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of accessory
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB583008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of accessory
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB583</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB583008</Value>
+            </MetaData>
+            <ValueGroup ID="AAD471002">
+                <Value QualifierID="std.lang.all">sticker</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD712002">
+                <Value QualifierID="std.lang.all">mounting set</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK942005">
+                <Value QualifierID="std.lang.all">Clamping strap</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK992005">
+                <Value QualifierID="std.lang.all">Screw</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL065005">
+                <Value QualifierID="std.lang.all">Protective cap</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL086005">
+                <Value QualifierID="std.lang.all">4.pole </Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL087005">
+                <Value QualifierID="std.lang.all">Covering cap</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL088005">
+                <Value QualifierID="std.lang.all">Cover</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL089005">
+                <Value QualifierID="std.lang.all">Shunt resistor</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL091005">
+                <Value QualifierID="std.lang.all">Spacer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL092005">
+                <Value QualifierID="std.lang.all">Spacer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL093005">
+                <Value QualifierID="std.lang.all">Axle leadthrough</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL094005">
+                <Value QualifierID="std.lang.all">Adapter plate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL095005">
+                <Value QualifierID="std.lang.all">Addressing plug</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL096005">
+                <Value QualifierID="std.lang.all">Connecting technology</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL097005">
+                <Value QualifierID="std.lang.all">Switch-off delay</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL098005">
+                <Value QualifierID="std.lang.all">Control panel</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL099005">
+                <Value QualifierID="std.lang.all">Contact protection cover</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL101005">
+                <Value QualifierID="std.lang.all">Screen frame</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL102005">
+                <Value QualifierID="std.lang.all">Brake unit</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL103005">
+                <Value QualifierID="std.lang.all">Braking resistance</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL104005">
+                <Value QualifierID="std.lang.all">Coding part</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL105005">
+                <Value QualifierID="std.lang.all">Choke coil</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL106005">
+                <Value QualifierID="std.lang.all">Withdrawable technology </Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL107005">
+                <Value QualifierID="std.lang.all">Feed-in clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL108005">
+                <Value QualifierID="std.lang.all">EMC anti-interference module</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL109005">
+                <Value QualifierID="std.lang.all">Remote potentiometer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL111005">
+                <Value QualifierID="std.lang.all">Free-wheeling diode</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL112005">
+                <Value QualifierID="std.lang.all">Spark hood</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL113005">
+                <Value QualifierID="std.lang.all">Housing flange</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL114005">
+                <Value QualifierID="std.lang.all">Device identification system</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL115005">
+                <Value QualifierID="std.lang.all">Holding strap</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL116005">
+                <Value QualifierID="std.lang.all">Hood for EMC filter</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL117005">
+                <Value QualifierID="std.lang.all">Auxiliary plug connector</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL118005">
+                <Value QualifierID="std.lang.all">Insulating plate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL119005">
+                <Value QualifierID="std.lang.all">Cable fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL120005">
+                <Value QualifierID="std.lang.all">Cable lug</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL121005">
+                <Value QualifierID="std.lang.all">Cable support</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL122005">
+                <Value QualifierID="std.lang.all">Comb bridge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL123005">
+                <Value QualifierID="std.lang.all">Coding sign</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL124005">
+                <Value QualifierID="std.lang.all">Communication and measuring function</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL125005">
+                <Value QualifierID="std.lang.all">Communication module</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL126005">
+                <Value QualifierID="std.lang.all">Contact set</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL128005">
+                <Value QualifierID="std.lang.all">LED + diode + reverse polarity protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL129005">
+                <Value QualifierID="std.lang.all">Arc chamber</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL131005">
+                <Value QualifierID="std.lang.all">Mounting kit</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL132005">
+                <Value QualifierID="std.lang.all">Mounting clip for top-hat rail</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL133005">
+                <Value QualifierID="std.lang.all">Mounting flange</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL134005">
+                <Value QualifierID="std.lang.all">Mounting material</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL135005">
+                <Value QualifierID="std.lang.all">Mounting plate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL136005">
+                <Value QualifierID="std.lang.all">Mounting tool</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL137005">
+                <Value QualifierID="std.lang.all">Neutral conductor clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL138005">
+                <Value QualifierID="std.lang.all">Parameterizing cable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL139005">
+                <Value QualifierID="std.lang.all">PC cable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL140005">
+                <Value QualifierID="std.lang.all">Potentiometer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL141005">
+                <Value QualifierID="std.lang.all">Testing instrument</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL143005">
+                <Value QualifierID="std.lang.all">Reset device</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL144005">
+                <Value QualifierID="std.lang.all">Switching cycles counter</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL145005">
+                <Value QualifierID="std.lang.all">Switching contact</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL146005">
+                <Value QualifierID="std.lang.all">Key actuated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL147005">
+                <Value QualifierID="std.lang.all">Sensor</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL148005">
+                <Value QualifierID="std.lang.all">Safe separation</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL150005">
+                <Value QualifierID="std.lang.all">Software tool</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL151005">
+                <Value QualifierID="std.lang.all">Voltage indicator</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL152005">
+                <Value QualifierID="std.lang.all">Storage module</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL153005">
+                <Value QualifierID="std.lang.all">Coil</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL154005">
+                <Value QualifierID="std.lang.all">Power current connection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL155005">
+                <Value QualifierID="std.lang.all">Plug-in technology</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL156005">
+                <Value QualifierID="std.lang.all">Control line connection</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL158005">
+                <Value QualifierID="std.lang.all">Door adapter</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL159005">
+                <Value QualifierID="std.lang.all">Deflection pulley</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL161005">
+                <Value QualifierID="std.lang.all">Varistor + LED</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL162005">
+                <Value QualifierID="std.lang.all">Connector</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL163005">
+                <Value QualifierID="std.lang.all">Connecting bridge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL164005">
+                <Value QualifierID="std.lang.all">Connecting cable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL165005">
+                <Value QualifierID="std.lang.all">Wiring kit</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL166005">
+                <Value QualifierID="std.lang.all">Converter</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL167003">
+                <Value QualifierID="std.lang.all">Time module drop-out delayed</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL168005">
+                <Value QualifierID="std.lang.all">Time module response delayed</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL169003">
+                <Value QualifierID="std.lang.all">Time module passing-make contact</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL170005">
+                <Value QualifierID="std.lang.all">Time module multi-function</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL171005">
+                <Value QualifierID="std.lang.all">Pull cable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL196006">
+                <Value QualifierID="std.lang.all">482.6 mm (19 inch) mounting set</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL564002">
+                <Value QualifierID="std.lang.all">mounting frame</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP611002">
+                <Value QualifierID="std.lang.all">connection cable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ606002">
+                <Value QualifierID="std.lang.all">mounting base</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV511002">
+                <Value QualifierID="std.lang.all">blind terminal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV512002">
+                <Value QualifierID="std.lang.all">insulating sleeve</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV513002">
+                <Value QualifierID="std.lang.all">insulating bridge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV514002">
+                <Value QualifierID="std.lang.all">test plug</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV515002">
+                <Value QualifierID="std.lang.all">test plug socket</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV516002">
+                <Value QualifierID="std.lang.all">reducing plug</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV517002">
+                <Value QualifierID="std.lang.all">washer</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW875002">
+                <Value QualifierID="std.lang.all">Incable-Controlbox (ICCB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW876002">
+                <Value QualifierID="std.lang.all">Mounting post</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW877002">
+                <Value QualifierID="std.lang.all">RFID card</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW878002">
+                <Value QualifierID="std.lang.all">Water drain hose</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA252004">
+                <Value QualifierID="std.lang.all">Lettering sign</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA725004">
+                <Value QualifierID="std.lang.all">LED</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA757004">
+                <Value QualifierID="std.lang.all">mechanical locking</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA871004">
+                <Value QualifierID="std.lang.all">RC element</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB114002">
+                <Value QualifierID="std.lang.all">Varistor</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC025003">
+                <Value QualifierID="std.lang.all">Terminal panel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC313004">
+                <Value QualifierID="std.lang.all">Filter</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC863002">
+                <Value QualifierID="std.lang.all">Base</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA246002">
+                <Value QualifierID="std.lang.all">Socket</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

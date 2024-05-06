@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.PRD.INT.UnCatLevel1" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Internal UnCatLevel1</Name>
+            <Icon>H4sIAAAAAAAAAAFfAaD+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJklEQVR4XmNgGHTgcFOT+dbU1PVLnJ1fT1ZQ+AvCIDZIDCSHrh4F7C0vT13m4fG8i4/v/51jx/7/+PLlPwiA2EtjY//P8fL9X5hZ898+vv4/XBOIA8LRafVgBSDNMAPOrVnz//W9e2BDPr18CRZfFxn5/8DpJ//r9/+HGALSDOIsbpwK14yM1xUUoBgAwv3JuWBLwYbAGAt9gzA0w1wCAsfmz4eLgdSC9IC9AjNgsqIShuZ9EyaANYMMQRYHqSXKAJjtcz09CRuAzQsgFyA7HYaxegFbIIICEGTAZAMDFHGQWgwDejc++b8oOBJFISwdILsCpAakFsMAEJ6x6CSKIbDEBEpEMM0gNTD1GAbAXAJyIsifoMACYRAbJAazGa8BpGC4AZRgAK14/4gYWMnQAAAAAElFTkSuQmCCEU3ee18BAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.DataSource"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

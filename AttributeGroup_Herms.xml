@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Herms" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="PASE_Att">
+            <Name QualifierID="en-US">Herms</Name>
+            <Configuration>H4sIAAAAAAAAALNxLCkpykwqLUl1L8ovLQjLTC13SU3LzMssyczPU3DLL8pNLAlLLSoG8myVDPUMlOy4FBRsEEqKFUISi9JTS+DGFDsn5jmluqZklqSm2CqVFJWmKumD9Tjn55Tm5hWD2ECeT2ZeNlwPREoBzvd0sVXySC3KjQ8wcobq1odrt9HH52Q7LgBo7A6M0gAAAA==</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

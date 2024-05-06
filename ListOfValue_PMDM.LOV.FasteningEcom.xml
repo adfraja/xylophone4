@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.FasteningEcom" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Fastening Ecom</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.FasteningEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Fastening Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.FasteningEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Fastening Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.FasteningEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Fastening Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.FasteningEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Fastening Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.FasteningEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Fastening Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27272865">
+                <Value>Zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272866">
+                <Value>Button fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272867">
+                <Value>Popper fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272868">
+                <Value>Na</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272869">
+                <Value>Magnet fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272870">
+                <Value>Drawstring fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272871">
+                <Value>Clasp fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272872">
+                <Value>Twistlock fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272873">
+                <Value>Clip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272874">
+                <Value>Droplock fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272875">
+                <Value>Pushlock fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272876">
+                <Value>Press stud fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272877">
+                <Value>Lace up fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272878">
+                <Value>Buckle fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272879">
+                <Value>Riptape fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272880">
+                <Value>Slip on</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272881">
+                <Value>Pull on</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272882">
+                <Value>Back Button fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272883">
+                <Value>Elasticated waist</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272884">
+                <Value>Back zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272885">
+                <Value>Tie Fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272886">
+                <Value>Side zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272887">
+                <Value>Hook and eye fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272888">
+                <Value>Front fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272889">
+                <Value>Earring back fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272890">
+                <Value>Adjustable fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272891">
+                <Value>T bar fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272892">
+                <Value>Safety clasp fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272893">
+                <Value>Hinged fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272894">
+                <Value>Expander</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272895">
+                <Value>Popper and zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272896">
+                <Value>Button and zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272897">
+                <Value>Hook Bar and Zip fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272898">
+                <Value>Over the bump band</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272899">
+                <Value>Popper</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272900">
+                <Value>Belt Fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272901">
+                <Value>Sha</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274669">
+                <Value>Fly front fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274968">
+                <Value>Hook bar zip and elasticated fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275074">
+                <Value>Magnet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275075">
+                <Value>Press stud</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275169">
+                <Value>D ring</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275532">
+                <Value>Drawstring Fastening</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275533">
+                <Value>Hook, Bar and Zip Fastening</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

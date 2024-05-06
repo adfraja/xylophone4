@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC660006" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">protection class_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC660006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;protection class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC660006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;protection class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC660006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;protection class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC660006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;protection class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC660006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;protection class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC660</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC660006</Value>
+            </MetaData>
+            <ValueGroup ID="AAI110002">
+                <Value QualifierID="std.lang.all">I</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI125002">
+                <Value QualifierID="std.lang.all">II</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI126002">
+                <Value QualifierID="std.lang.all">III</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL745002">
+                <Value QualifierID="std.lang.all">not waterproof</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN400002">
+                <Value QualifierID="std.lang.all">splash proof</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL838002">
+                <Value QualifierID="std.lang.all">I (according to DIN EN 62841)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL839002">
+                <Value QualifierID="std.lang.all">II (according to DIN EN 62841)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL840002">
+                <Value QualifierID="std.lang.all">III (according to DIN EN 62841)</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB139002">
+                <Value QualifierID="std.lang.all">waterproof</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB276002">
+                <Value QualifierID="std.lang.all">Class 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB290002">
+                <Value QualifierID="std.lang.all">Class 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB323002">
+                <Value QualifierID="std.lang.all">Class 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC505002">
+                <Value QualifierID="std.lang.all">Class 4</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC506002">
+                <Value QualifierID="std.lang.all">Class 5</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA050004">
+                <Value QualifierID="std.lang.all">without</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

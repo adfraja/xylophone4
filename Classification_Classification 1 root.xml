@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Classifications>
+        <Classification ID="Classification 1 root" UserTypeID="Classification 1 user-type root" Selected="false">
+            <Name>Classification 1 root</Name>
+        </Classification>
+    </Classifications>
+</STEP-ProductInformation>

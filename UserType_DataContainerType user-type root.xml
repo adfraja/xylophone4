@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="DataContainerType user-type root">
+            <Name>Data Container Type</Name>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="AttributeCompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="AttributeHelpText"></AttributeLink>
+            <AttributeLink AttributeID="DABA_CompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.AttributeHelpText"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.HelpText"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.Description"></AttributeLink>
+            <AttributeLink AttributeID="RequiredForSmartSheet"></AttributeLink>
+            <AttributeLink AttributeID="RequiredForSmartSheet_External"></AttributeLink>
+            <AttributeLink AttributeID="RequiredForSmartSheet_Internal"></AttributeLink>
+            <AttributeLink AttributeID="RequiredForSmartSheet_Spirits"></AttributeLink>
+            <AttributeLink AttributeID="Technology"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

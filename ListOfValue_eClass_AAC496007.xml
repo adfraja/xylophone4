@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC496007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">coating_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC496007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;coating_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC496007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;coating_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC496007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;coating_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC496007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;coating_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC496007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;coating_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC496</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC496007</Value>
+            </MetaData>
+            <ValueGroup ID="AAE251002">
+                <Value QualifierID="std.lang.all">continuous soldering tip</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE387002">
+                <Value QualifierID="std.lang.all">diamond</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN646005">
+                <Value QualifierID="std.lang.all">Uncoated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP620002">
+                <Value QualifierID="std.lang.all">non-stick</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP726002">
+                <Value QualifierID="std.lang.all">both sides pimpled</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP729002">
+                <Value QualifierID="std.lang.all">pimpled</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP730002">
+                <Value QualifierID="std.lang.all">pimpled and fingertip sealing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ279002">
+                <Value QualifierID="std.lang.all">hard metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ408002">
+                <Value QualifierID="std.lang.all">carbon coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ453002">
+                <Value QualifierID="std.lang.all">copper, bare</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR156002">
+                <Value QualifierID="std.lang.all">partial coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR174002">
+                <Value QualifierID="std.lang.all">titanium aluminum nitride</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR175002">
+                <Value QualifierID="std.lang.all">titanium nitride</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR263002">
+                <Value QualifierID="std.lang.all">fully coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK545002">
+                <Value QualifierID="std.lang.all">3/4 coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK546002">
+                <Value QualifierID="std.lang.all">1/2 coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK547002">
+                <Value QualifierID="std.lang.all">palm coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA120004">
+                <Value QualifierID="std.lang.all">nickel-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA050004">
+                <Value QualifierID="std.lang.all">without</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

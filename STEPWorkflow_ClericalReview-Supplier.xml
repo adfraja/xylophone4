@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ClericalReview-Supplier" Referenced="true"><!-- Definition:
+<scxml name="ClericalReview-Supplier" initial="Initial" version="0.9">
+  <assignee id="$current" type="user"/>
+  <datamodel>
+    <data id="MatchingAgentRecommendation" attribute="MatchingAgentRecommendation"/>
+    <data id="MatchingAlgorithmID"/>
+  </datamodel>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>
+  <final id="End" discontinued="false">
+    <editorLayout>   node-size-and-position x=358.0 y=223.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="RemoveFromWorkflow"/>
+  </final>
+  <state id="Initial" name="Clerical Review" discontinued="false">
+    <transition target="End"/>
+    <editorLayout>   node-size-and-position x=302.0 y=121.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>ClericalReview-Supplier</Name>
+            <ValidUserTypeLink UserTypeID="Supplier"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAIWSQY/TMBCF7/srjMU1TZpSKCiOhBaQKoEWdYU4e5NpOsIeR/akafn1OE53VyCVvWRkZd68z2+sB3ZbQkbNcEe3HmJVe20CVKE3yDWcoBkY7huPPX9Fiwztd49HNNBBUOyHx06DgYHuaGt75xn8j779d1hoTtaoKhWBydYoOfsbKUhbUPLWgMdGmx0cEcbsfuijFrwUR/ABHSlZLN5LEUdQUPLA3H/I83EcF+Nq4XyXl0Wxzot3eXKRdfUqy4QQ5FrIAv6GTFOb9S5ET0fipIpFIc7pO6q3bzaxHtR6M51FltU3ooq30DaqTTzMJ6GZPT7EWJT8prk5IHUfOyDeQeOsBYpNcbgU2P6/oa7yaV598zT5L4XpnEc+2O2n5865XnginQ4BOwJIytfN4H20kYLPfYQbQswtSh+bkiJwXItoMTSOGGmAKExLmnmvbEPM63g5z1VRpkSX5TJluiyKlGm5fopUVOw1XRSsfQes5GdqJ9TnP9NdE2ui3iNFiKvUs/oltPUmoZXl6jqaoxigP4uHISBBCLqZ1JPHDqw7whfv7E/nf+2Nm9LIL/0TbWJM2NPTqy+P/g9cytJCYwMAAA==</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

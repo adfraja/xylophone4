@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="DnBOrganizationIdentificationNumberType" ParentID="DnBLOVs" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="en-US">DnBOrganizationIdentificationNumberType</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentificationNumberType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="100">
+                <Value>Trade Register Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="10873">
+                <Value>Bank Organisation Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="10875">
+                <Value>Securities &amp; Exchange Commission Central Index Key (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="11659">
+                <Value>Chamber Of Commerce Number (PT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="11694">
+                <Value>Super Person ID (GB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="12444">
+                <Value>Business Registration Number (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="12897">
+                <Value>Tax Identification Number (IN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="12915">
+                <Value>Society Registration Number (IN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="12916">
+                <Value>Trade Registration Number (IN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13064">
+                <Value>Securities &amp; Exchange Commission Number (PK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13065">
+                <Value>Commercial Registration Number (TH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13066">
+                <Value>Company Incorporation Number (LA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13067">
+                <Value>Securities Exchange Commission Number (TH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13068">
+                <Value>Business Registration Number (KH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13069">
+                <Value>Trade Registration Number (PH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13070">
+                <Value>Company Number (MM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13071">
+                <Value>Company Number (KH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13075">
+                <Value>Small Business Administration Profile User Identifier (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13103">
+                <Value>Tax Identification Number (PH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13104">
+                <Value>Tax Identification Number (BN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13105">
+                <Value>Tax Identification Number (MM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13106">
+                <Value>Tax Identification Number (VN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13107">
+                <Value>Tax Identification Number (KH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13108">
+                <Value>Tax Identification Number (BT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13109">
+                <Value>Tax Identification Number (MV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13110">
+                <Value>Tax Identification Number (PK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13111">
+                <Value>Tax Identification Number (ID)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13112">
+                <Value>Tax Identification Number (LA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13113">
+                <Value>Tax Identification Number (LK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13114">
+                <Value>Tax Identification Number (TH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13115">
+                <Value>Tax Identification Number (NP)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13116">
+                <Value>Tax Identification Number (TL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13117">
+                <Value>Tax Identification Number (BD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13141">
+                <Value>Bank Sort Code (AT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13143">
+                <Value>Association Registration Number (AT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13144">
+                <Value>Business Registration Number (FL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13145">
+                <Value>Business Registration Number (CH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13153">
+                <Value>Bank SWIFT Code</Value>
+            </ValueGroup>
+            <ValueGroup ID="13155">
+                <Value>Bank Clearance Number (CH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="13244">
+                <Value>Companies Registry Number (ZA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1332">
+                <Value>Fiscal Code (AD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1334">
+                <Value>Unique Tax Identifier Key (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1335">
+                <Value>Company Number (AU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1336">
+                <Value>Trade Register Number (AT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1337">
+                <Value>Company Incorporation Number (BD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1338">
+                <Value>Registration Number (BT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1339">
+                <Value>Sole Commercial Registry Number (BO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1340">
+                <Value>General Record of Taxpayers (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1341">
+                <Value>State Registry Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1342">
+                <Value>Municipal Registry Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1343">
+                <Value>Registration Number (BN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1344">
+                <Value>Unique Tax Identifier (CL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1345">
+                <Value>CINS Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="1346">
+                <Value>National Tributary Identification Number (CO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1347">
+                <Value>Registry of Fiscal Information Number (CO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1348">
+                <Value>Judicial Number (CR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1349">
+                <Value>Tax Registration Number (CR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1350">
+                <Value>ICO (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1351">
+                <Value>Value Added Tax Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1352">
+                <Value>National Commercial Regsitry Number (DO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1353">
+                <Value>Sole Commercial Registry Number (EC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1354">
+                <Value>National Tributary Identification Number (SV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1355">
+                <Value>Patron (SV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1356">
+                <Value>Sole Commercial Registry Number (GT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1357">
+                <Value>Business Registration Number (HK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1358">
+                <Value>Company Registry Identification Number (HK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1359">
+                <Value>Registration Number (HU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1360">
+                <Value>Tax Identifier (HU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1361">
+                <Value>Value Added Tax Number (HU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1362">
+                <Value>Company Incorporation Number (IN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1363">
+                <Value>Legalisation Number (ID)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1364">
+                <Value>President Decree Number (ID)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1365">
+                <Value>Registration Number (IL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1366">
+                <Value>Value Added Tax Number (IL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1367">
+                <Value>Tax Identification Number (JM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1368">
+                <Value>Registration Number (LI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1369">
+                <Value>Commercial Registry Business Registration Number (MO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1370">
+                <Value>Commercial Registry Company Identification Number (MO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1371">
+                <Value>Business Registration Number (MY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1372">
+                <Value>Company Registration Number (MY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1373">
+                <Value>Registration Number (MV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1374">
+                <Value>Federal Tax Registration Number (MX)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1375">
+                <Value>IVA (MX)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1376">
+                <Value>Registration Number (MM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1377">
+                <Value>Company Incorporation Number (NP)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1378">
+                <Value>Sole Commercial Registry Number (NI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1379">
+                <Value>Company Incorporation Number (PK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1380">
+                <Value>Sole Commerical Registry Number (PA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1381">
+                <Value>Unique Tax Registration (PY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1382">
+                <Value>Sole Commercial Registry Number (PE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1383">
+                <Value>Securities &amp; Exchange Commission Number (PH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1384">
+                <Value>Registration Number (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1385">
+                <Value>Tax Identifier (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1386">
+                <Value>Registration File Number (SG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1387">
+                <Value>Commercial Registry Businesss Number (KR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1388">
+                <Value>Trade Association Export/Import Registration Number (KR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1389">
+                <Value>Company Incoporation Number (LK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1390">
+                <Value>Business Registration Number (TW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1391">
+                <Value>Registration Number (TH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1392">
+                <Value>Tokyo Shoko Research Business Identifier (JP)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1393">
+                <Value>Tax Identification Number (TT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1394">
+                <Value>Unique Tax Registration (UY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1395">
+                <Value>National Tributary ID Number (VE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1396">
+                <Value>Registry of Fiscal Information (VE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1397">
+                <Value>Business Registration Number (VN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1398">
+                <Value>Investment License Code (VN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1399">
+                <Value>Company Number (VN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1413">
+                <Value>Educational Institution Number (VN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14212">
+                <Value>Business Registration Number (GR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14213">
+                <Value>Government Gazette Number (AZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14214">
+                <Value>Government Gazette Number (AL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14215">
+                <Value>Government Gazette Number (AM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14216">
+                <Value>Government Gazette Number (BA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14217">
+                <Value>Government Gazette Number (BY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14218">
+                <Value>Government Gazette Number (HR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14219">
+                <Value>Government Gazette Number (CY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1422">
+                <Value>Business Registration Number (ZW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14220">
+                <Value>Government Gazette Number (EE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14221">
+                <Value>Government Gazette Number (GE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14222">
+                <Value>Government Gazette Number (GI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14223">
+                <Value>Government Gazette Number (IS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14224">
+                <Value>Government Gazette Number (KG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14225">
+                <Value>Government Gazette Number (GR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14226">
+                <Value>Government Gazette Number (KZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14227">
+                <Value>Government Gazette Number (LT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14228">
+                <Value>Government Gazette Number (LV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14229">
+                <Value>Government Gazette Number (MD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1423">
+                <Value>Value Added Tax Number (AT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14230">
+                <Value>Government Gazette Number (MT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14231">
+                <Value>Government Gazette Number (RO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14232">
+                <Value>Government Gazette Number (SI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14233">
+                <Value>Government Gazette Number (TJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14234">
+                <Value>Government Gazette Number (TR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14235">
+                <Value>Government Gazette Number (XT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14236">
+                <Value>Government Gazette Number (MK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14237">
+                <Value>Government Gazette Number (ZW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14238">
+                <Value>Chamber of Commerce (AL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14239">
+                <Value>Chamber of Commerce (AM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1424">
+                <Value>Tax Registration Number (BY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14240">
+                <Value>Chamber of Commerce (BA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14241">
+                <Value>Chamber of Commerce (BY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14242">
+                <Value>Chamber of Commerce (HR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14243">
+                <Value>Chamber of Commerce (EE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14244">
+                <Value>Chamber of Commerce (GE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14245">
+                <Value>Chamber of Commerce (KG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14246">
+                <Value>Chamber of Commerce (GR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14247">
+                <Value>Chamber of Commerce (LT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14248">
+                <Value>Chamber of Commerce (LV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14249">
+                <Value>Chamber of Commerce (MD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1425">
+                <Value>Tax Registration Number (BG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14250">
+                <Value>Chamber of Commerce (MT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14251">
+                <Value>Chamber of Commerce (TJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14252">
+                <Value>Chamber of Commerce (TM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14253">
+                <Value>Chamber of Commerce (UZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14254">
+                <Value>Chamber of Commerce (MK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14255">
+                <Value>Chamber of Commerce (ZW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14256">
+                <Value>Tax Registration Number  (AM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14257">
+                <Value>Tax Registration Number  (HR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14258">
+                <Value>Tax Registration Number  (GE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14259">
+                <Value>Tax Registration Number  (GR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1426">
+                <Value>Business Registration Number (HR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14260">
+                <Value>Tax Registration Number  (TJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14261">
+                <Value>Tax Registration Number  (TM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14262">
+                <Value>Tax Registration Number  (XT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14263">
+                <Value>Tax Registration Number  (ZW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1428">
+                <Value>Tax Registration Number (EE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1429">
+                <Value>Value Added Tax Number (GR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1431">
+                <Value>Tax Registration Number (LV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1432">
+                <Value>Value Added Tax Number (LI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1433">
+                <Value>Tax Registration Number (LT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1434">
+                <Value>Business Registration Number (MK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1435">
+                <Value>Value Added Tax Number (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1436">
+                <Value>Business Registration Number (RO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1437">
+                <Value>Tax Registration Number (RU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1438">
+                <Value>Value Added Tax Number (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1439">
+                <Value>Tax Registration Number (SI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1440">
+                <Value>Value Added Tax Number (CH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1442">
+                <Value>Tax Registration Number (TR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1443">
+                <Value>Tax Registration Number (UA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="14953">
+                <Value>Bank Branch Identifier (ES)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15168">
+                <Value>Tax Registration Number (ZA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15169">
+                <Value>Value Added Tax Number (ZA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15170">
+                <Value>Pay As You Earn Registration number (ZA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15212">
+                <Value>National Identification Number (NA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15213">
+                <Value>National Identification Number (ZA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15214">
+                <Value>National Identification Number (BW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15215">
+                <Value>National Identification Number (SZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="15812">
+                <Value>Office Of Foreign Assets Control Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="15813">
+                <Value>Enterprise Risk And Compliance Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="1697">
+                <Value>CS Database Identification Number (NO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1699">
+                <Value>Register of Business Enterprises Number (NO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17271">
+                <Value>Chamber of Commerce Number (KZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17272">
+                <Value>Chamber of Commerce Number (IS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17273">
+                <Value>Chamber of Commerce Number (AZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17274">
+                <Value>Chamber of Commerce Number (GI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17275">
+                <Value>Chamber of Commerce Number (UA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17276">
+                <Value>Chamber of Commerce Number (SI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17277">
+                <Value>Tax Registration Number (MK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17278">
+                <Value>Tax Registration Number (RO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17279">
+                <Value>Tax Registration Number (UZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17280">
+                <Value>Tax Registration Number (AL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17281">
+                <Value>Tax Registration Number (GI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17282">
+                <Value>Tax Registration Number (BA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17283">
+                <Value>Tax Registration Number (CY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17284">
+                <Value>Tax Registration Number (AZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17285">
+                <Value>Tax Registration Number (KG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17295">
+                <Value>Tax Registration Number (CS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17890">
+                <Value>Business Registration Number  (AU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="17891">
+                <Value>Business Number (AU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1800">
+                <Value>Branch Unit Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18082">
+                <Value>Court Number of Registration (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18083">
+                <Value>Court Number of Registration (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18088">
+                <Value>ICO (SK) </Value>
+            </ValueGroup>
+            <ValueGroup ID="18402">
+                <Value>KSH Number (HU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18518">
+                <Value>National Official Business Register Number (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18519">
+                <Value>National Court Council Number (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18520">
+                <Value>Licence Number (PL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1861">
+                <Value>Business Registration Number (SE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1862">
+                <Value>Branch Registration Number (SE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1863">
+                <Value>Social Security Number (SE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="18631">
+                <Value>Tax Registration Number (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="1864">
+                <Value>Foreign Entity Number (SE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="19923">
+                <Value>Accountant License Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="20009">
+                <Value>Super Person Identifier (IE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2022">
+                <Value>Chamber of Commerce Number (IT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2023">
+                <Value>Fiscal Code (IT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="20656">
+                <Value>National Provider Identifier (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2078">
+                <Value>SIREN (FR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2079">
+                <Value>Chamber of Commerce Number (FR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2080">
+                <Value>Value Added Tax Number (FR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2081">
+                <Value>SIRET (FR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21184">
+                <Value>National Bank Identification Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21185">
+                <Value>Bank Branch Identifier (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21186">
+                <Value>Notary Public Office Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21187">
+                <Value>Board of Trade Registration Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21188">
+                <Value>Notary Public Registration Number (BR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="21289">
+                <Value>Committee on Uniform Security Identification Procedures 6-Digit</Value>
+            </ValueGroup>
+            <ValueGroup ID="21301">
+                <Value>SIX Telekurs G-Key</Value>
+            </ValueGroup>
+            <ValueGroup ID="21328">
+                <Value>DataGraphix Organization Record Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="21329">
+                <Value>Compass Marketing Solutions Organization Unique Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="21449">
+                <Value>International Securities Identification Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="22758">
+                <Value>SK&amp;A Clinic Site Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="22759">
+                <Value>Moody's Issuer Number </Value>
+            </ValueGroup>
+            <ValueGroup ID="22760">
+                <Value>Committee on Uniform Security Identification Procedures 9-Digit</Value>
+            </ValueGroup>
+            <ValueGroup ID="22761">
+                <Value>SK&amp;A Hospital Site Identifier</Value>
+            </ValueGroup>
+            <ValueGroup ID="22957">
+                <Value>National Organization Code (CN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="22958">
+                <Value>Business Registration Number (CN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="22961">
+                <Value>SK&amp;A Hospital Code </Value>
+            </ValueGroup>
+            <ValueGroup ID="22962">
+                <Value>SK&amp;A Health System Code</Value>
+            </ValueGroup>
+            <ValueGroup ID="23096">
+                <Value>Branch Unit Number (NL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23097">
+                <Value>Legal Entity and Partnership Information Number (NL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23608">
+                <Value>Hoover's Company Official Identification Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="23619">
+                <Value>Social Security Number (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23620">
+                <Value>Hoover's Company Identification Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="23929">
+                <Value>Importer / Exporter Registration Number (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23930">
+                <Value>Province Gross Revenue Tax Number (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23931">
+                <Value>Importer / Exporter Registration Number (UY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23932">
+                <Value>Importer / Exporter Registration Number (PY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23933">
+                <Value>National Transportation Organization Identification Number (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23935">
+                <Value>International Air Transport Association ID Number (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23936">
+                <Value>SENASA Registration Number (AR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="23949">
+                <Value>Commercial And Government Entity Code</Value>
+            </ValueGroup>
+            <ValueGroup ID="24181">
+                <Value>Business Name Number (IE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="24188">
+                <Value>Social Security Institute Number (MX)</Value>
+            </ValueGroup>
+            <ValueGroup ID="24274">
+                <Value>Securities &amp; Exchange Commission File Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="2432">
+                <Value>Value Added Tax Number (PT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2472">
+                <Value>Value Added Tax Number (ES)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2518">
+                <Value>Directors &amp; Shareholders Personal Identification Number (GB/IE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2530">
+                <Value>Value Added Tax Number (IE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2541">
+                <Value>COMPANIES REGISTRY OFFICE Number (GB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="2550">
+                <Value>Value Added Tax Number (GB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="27757">
+                <Value>Driving License</Value>
+            </ValueGroup>
+            <ValueGroup ID="28363">
+                <Value>Federal Deposit Insurance Corporation Certificate Number (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="28865">
+                <Value>Swiss Uniform Identification Number (UID) </Value>
+            </ValueGroup>
+            <ValueGroup ID="29993">
+                <Value>Trade and Industry Register Number (MC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30078">
+                <Value>Auditor Registration Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30079">
+                <Value>Auditor Registration Number (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30080">
+                <Value>Group VAT Number (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30081">
+                <Value>Group VAT Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30145">
+                <Value>Tax Registration Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30146">
+                <Value>Trade License Register Number (SK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30147">
+                <Value>Trade License Register Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30148">
+                <Value>Chamber of Bailiffs Number (CZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30308">
+                <Value>Business Registration Number (RS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30309">
+                <Value>Business Registration Number (ME)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30310">
+                <Value>Business Registration Number Kosovo</Value>
+            </ValueGroup>
+            <ValueGroup ID="30311">
+                <Value>Government Gazette Number (RS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30312">
+                <Value>Government Gazette Number (ME)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30313">
+                <Value>Government Gazette Number Kosovo</Value>
+            </ValueGroup>
+            <ValueGroup ID="30314">
+                <Value>Chamber of Commerce Number (RS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30315">
+                <Value>Chamber of Commerce Number (ME)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30316">
+                <Value>Chamber of Commerce Number Kosovo</Value>
+            </ValueGroup>
+            <ValueGroup ID="30317">
+                <Value>Tax Registration Number (RS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30318">
+                <Value>Tax Registration Number (ME)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30319">
+                <Value>Tax Registration Number Kosovo</Value>
+            </ValueGroup>
+            <ValueGroup ID="30516">
+                <Value>Social Security Number (NO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30753">
+                <Value>National Tax Registration Number (HN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30754">
+                <Value>Minority Certificate Number (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30755">
+                <Value>Unique Population Registry Code (MX)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30756">
+                <Value>Quebec Sales Tax (CA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30757">
+                <Value>Harmonized Sales Tax (CA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="30758">
+                <Value>Goods and Services Tax (CA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3575">
+                <Value>D-U-N-S Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="3827">
+                <Value>Registration Number (LU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3828">
+                <Value>National Identification Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3829">
+                <Value>Transport Industry Licence Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3830">
+                <Value>National Bank Identification Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3831">
+                <Value>Free Profession Registration Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="3832">
+                <Value>Registered Contractor Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3833">
+                <Value>National Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="3898">
+                <Value>Civil Company Register Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="4169">
+                <Value>National Social Security Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="480">
+                <Value>Value Added Tax Number (LU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="481">
+                <Value>Value Added Tax Number (IT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="521">
+                <Value>CVR-no (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="5217">
+                <Value>Administrational Register Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="5218">
+                <Value>Agriculture Company Register Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="5219">
+                <Value>Economic Interest Grouping Register Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="522">
+                <Value>Value Added Tax Number (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="5220">
+                <Value>European Economic Interest Grouping Register Number</Value>
+            </ValueGroup>
+            <ValueGroup ID="5221">
+                <Value>Public Utility Institute Register Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="523">
+                <Value>Establishment-number (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="524">
+                <Value>Company House Registration number (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="525">
+                <Value>PBS bank enterprise registration number (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="527">
+                <Value>PBS bank branch registration number (DK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="552">
+                <Value>Value Added Tax Number (FI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="553">
+                <Value>Company House Registration Number (FI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="554">
+                <Value>Social Security Id (FI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="578">
+                <Value>Company Number (NZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6097">
+                <Value>Statutory Trade Register Number (NL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6256">
+                <Value>Trade Register Number (NL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6273">
+                <Value>Value Added Tax Number (NL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6388">
+                <Value>Registration Number (Specific National Type Undetermined)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6860">
+                <Value>Personal Identification Number (Consumer Database) (DE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6861">
+                <Value>Business Number (DLZ) (DE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6862">
+                <Value>Register Number (DE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6863">
+                <Value>Federal Taxpayer Identification Number (US)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6864">
+                <Value>Bank Branch Sort Code</Value>
+            </ValueGroup>
+            <ValueGroup ID="6865">
+                <Value>Value Added Tax Number (Nation not specified)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6866">
+                <Value>Civil Company Register Number (DE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="6867">
+                <Value>Value Added Tax Number (DE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="800">
+                <Value>Enterprise Number (BE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="8934">
+                <Value>Undisclosed due to German Data Protection</Value>
+            </ValueGroup>
+            <ValueGroup ID="9125">
+                <Value>Value Added Tax Number (MC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9134">
+                <Value>Companies Registry Office Number (IE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9329">
+                <Value>Tax Registration Number (CM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9330">
+                <Value>Tax Registration Number (EG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9331">
+                <Value>Tax Registration Number (GA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9332">
+                <Value>Tax Registration Number (GH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9333">
+                <Value>Tax Registration Number (Iceland)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9334">
+                <Value>Tax Registration Number (CI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9335">
+                <Value>Tax Registration Number (KZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9336">
+                <Value>Tax Registration Number (MT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9337">
+                <Value>Tax Registration Number (MU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9338">
+                <Value>Tax Registration Number (MD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9339">
+                <Value>Tax Registration Number (MA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9340">
+                <Value>Tax Registration Number (SN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9341">
+                <Value>Business Registration Number (AL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9342">
+                <Value>Business Registration Number (DZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9343">
+                <Value>Business Registration Number (AO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9344">
+                <Value>Business Registration Number (AM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9345">
+                <Value>Business Registration Number (AZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9346">
+                <Value>Business Registration Number (BH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9347">
+                <Value>Business Registration Number (BY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9348">
+                <Value>Business Registration Number (BJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9349">
+                <Value>Business Registration Number (BA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9350">
+                <Value>Business Registration Number (BW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9351">
+                <Value>Business Registration Number (BG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9352">
+                <Value>Business Registration Number (BF)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9353">
+                <Value>Business Registration Number (BI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9354">
+                <Value>Business Registration Number (CM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9355">
+                <Value>Business Registration Number (CV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9356">
+                <Value>Business Registration Number (CF)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9357">
+                <Value>Business Registration Number (TD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9358">
+                <Value>Business Registration Number (KM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9359">
+                <Value>Business Registration Number (CG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9360">
+                <Value>Business Registration Number (CY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9361">
+                <Value>Business Registration Number (DJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9362">
+                <Value>Business Registration Number (EG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9363">
+                <Value>Business Registration Number (GQ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9364">
+                <Value>Business Registration Number (ER)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9365">
+                <Value>Business Registration Number (EE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9366">
+                <Value>Business Registration Number (ET)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9367">
+                <Value>Business Registration Number (FK)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9368">
+                <Value>Business Registration Number (GA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9369">
+                <Value>Business Registration Number (GM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9370">
+                <Value>Business Registration Number (GE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9371">
+                <Value>Business Registration Number (GH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9372">
+                <Value>Business Registration Number (GI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9373">
+                <Value>Business Registration Number (GN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9374">
+                <Value>Business Registration Number (GW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9375">
+                <Value>Business Registration Number (Iceland)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9376">
+                <Value>Business Registration Number (IR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9377">
+                <Value>Business Registration Number (IQ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9378">
+                <Value>Business Registration Number (CI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9379">
+                <Value>Business Registration Number (JO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9380">
+                <Value>Business Registration Number (KZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9381">
+                <Value>Business Registration Number (KE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9382">
+                <Value>Business Registration Number (KG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9383">
+                <Value>Business Registration Number (KW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9384">
+                <Value>Business Registration Number (LV)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9385">
+                <Value>Business Registration Number (LB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9386">
+                <Value>Business Registration Number (LS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9387">
+                <Value>Business Registration Number (LR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9388">
+                <Value>Business Registration Number (LT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9389">
+                <Value>Business Registration Number (MG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9390">
+                <Value>Business Registration Number (MW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9391">
+                <Value>Business Registration Number (ML)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9392">
+                <Value>Business Registration Number (MT)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9393">
+                <Value>Business Registration Number (MR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9394">
+                <Value>Business Registration Number (MU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9395">
+                <Value>Business Registration Number (MD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9396">
+                <Value>Business Registration Number (MA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9397">
+                <Value>Business Registration Number (MZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9398">
+                <Value>Business Registration Number (NA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9399">
+                <Value>Business Registration Number (NE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9400">
+                <Value>Business Registration Number (NG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9401">
+                <Value>Business Registration Number (OM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9402">
+                <Value>Business Registration Number (QA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9403">
+                <Value>Business Registration Number (RU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9404">
+                <Value>Business Registration Number (RW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9405">
+                <Value>Business Registration Number (SA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9406">
+                <Value>Business Registration Number (SN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9407">
+                <Value>Business Registration Number (SC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9408">
+                <Value>Business Registration Number (SL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9409">
+                <Value>Business Registration Number (SI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9410">
+                <Value>Business Registration Number (SO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9411">
+                <Value>Business Registration Number (SH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9412">
+                <Value>Business Registration Number (SD)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9413">
+                <Value>Business Registration Number (SZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9414">
+                <Value>Business Registration Number (SY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9415">
+                <Value>Business Registration Number (TJ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9416">
+                <Value>Business Registration Number (TZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9417">
+                <Value>Business Registration Number (TG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9418">
+                <Value>Business Registration Number (TR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9419">
+                <Value>Business Registration Number (XB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9420">
+                <Value>Business Registration Number (TM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9421">
+                <Value>Business Registration Number (AE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9422">
+                <Value>Business Registration Number (UG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9423">
+                <Value>Business Registration Number (UA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9424">
+                <Value>Business Registration Number (UZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9425">
+                <Value>Business Registration Number (YE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9426">
+                <Value>Business Registration Number (CS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9427">
+                <Value>Business Registration Number (ZM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9428">
+                <Value>Government Gazette Number (BG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9429">
+                <Value>Government Gazette Number (RU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9430">
+                <Value>Government Gazette Number (TM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9431">
+                <Value>Government Gazette Number (UA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9432">
+                <Value>Government Gazette Number (UZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9433">
+                <Value>Government Gazette Number (CS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9434">
+                <Value>Chamber of Commerce Number (DZ)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9435">
+                <Value>Chamber of Commerce Number (BH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9436">
+                <Value>Chamber of Commerce Number (BG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9437">
+                <Value>Chamber of Commerce Number (CM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9438">
+                <Value>Chamber of Commerce Number (CY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9439">
+                <Value>Chamber of Commerce Number (EG)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9440">
+                <Value>Chamber of Commerce Number (GA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9441">
+                <Value>Chamber of Commerce Number (IR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9442">
+                <Value>Chamber of Commerce Number (CI)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9443">
+                <Value>Chamber of Commerce Number (JO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9444">
+                <Value>Chamber of Commerce Number (KW)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9445">
+                <Value>Chamber of Commerce Number (LB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9446">
+                <Value>Chamber of Commerce Number (MA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9447">
+                <Value>Chamber of Commerce Number (OM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9448">
+                <Value>Chamber of Commerce Number (QA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9449">
+                <Value>Chamber of Commerce Number (RO)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9450">
+                <Value>Chamber of Commerce Number (RU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9451">
+                <Value>Chamber of Commerce Number (SA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9452">
+                <Value>Chamber of Commerce Number (SN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9453">
+                <Value>Chamber of Commerce Number (SC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9454">
+                <Value>Chamber of Commerce Number (SY)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9455">
+                <Value>Chamber of Commerce Number (TR)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9456">
+                <Value>Chamber of Commerce Number (XB)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9457">
+                <Value>Chamber of Commerce Number (AE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9458">
+                <Value>Chamber of Commerce Number (YE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="9459">
+                <Value>Chamber of Commerce Number (CS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="99">
+                <Value>Value Added Tax Number (BE)</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OMS_SAP_L6" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>OMS Level 6</Name>
+            <Icon>H4sIAAAAAAAAAOVT/U9bBRQ9ZZQhYWvLkHWRTWDr7AAns5NgZrTqCwv4kSYbg0SWiC6YqFlQlzznL0LYtE5Z5nRmNQsyf3CsRKaLQ5JuCWQ6E0IMWzITxGZA6df77nt9X32vxVf/De8P9yYn996Tc27uwY72tqf73HBCBRbBLIJNg1oGw4LVsZoC9xcYBlyBK8j4UUZaRVxHPB/Na4ix4GVMJCCkIMgIp8FIYJZBp0BlMaEjloRgRnKFqKmHtPy8kS3itIa1TFd2CYIxbyTAsaB1MqsgmfGJi+BioAxEzYiuhPQ4eMnFypjUSUnHshZUl8AnwIqExCFZ4PI8IaWQEUmN84l6JJcCzVn7CVbDrBnN50JaAWIK/AqYODIUGBFctt/iomjwOcSMeZMFpxAC5xJ0rGRAK7iukEoSFAdGwQ0VUwaZyQVlE1G1S8xFciIYqqg6IZEy5RJUrCkNTN4SSMoiIephqyGZJSQGlBxUtZClQjOjZhxphZRZH88iHQUv9ktJZAwsCYSsEKKKm4qLyoV12SdoSHLgVVKRQYuWMxFDD+spMGlwHCwrKNYnsWDUkKbjgUwqKiICIYj9Mg2GL17hugRacnGcj2dAyw0828AbIZWyBpHR8UfSAgkpDjpLZnN4YM4bFLg0BAGWaYk4hKTFjkQB+fX1dfzPol4v/a82F1PxJ1C+jpFp8d73p3d0l29p7B0PDF4J9By/6McQbGdq9lUFq4i7j7VOVlQvjNUvXNqwYW+l/+r5OHY1t//ctjL38tUSx47HZ+v8fvvos0NHxtbuvHq2cbJmYUz0E7auwCP+Ls9T4U/K7KP7O/4Ov3Om+uhr+8oPTDUN/+CoaH7/Rvr2RPfRF058FH/Ldtmx988TH97vG3JuvzZ9auD32dP2PdeIhzvOlZV+V1obaJs+ZiM+3famu2dApl66fHhz2cnxvsYvNjpq4dGG99xZ6vY2vnd8p/fz4aaBi1/PrPg3ucsPbfYEMp327ftHei/0xI791vToWeHcean9nsNz5clbq9m3S3d5v+29/0G9OHVwdOtXczff+OV24NKvT1R9efLC646S7t2BV1pmws9NbDLzW+sGg+6WIbfqmX3x45aZn+aGq56Z7jzl7JyZc21ZqMZDTbUDQF2Z0x/cWVK3WtH6z/MlzslK12c133idNvs2Ygwjravjg5VH3r270Wuz4cC/td0jopYEAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="OMS_SAP_L5"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

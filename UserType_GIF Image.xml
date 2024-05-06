@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="GIF Image" ReferenceTargetLockPolicy="Strict">
+            <Name>GIF Image</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgAGMxkY/jOcOXPm////DKNgFIwkoPiThZGBgYlBB8QB5QkGjhgGVg4Whw0LHBmYhJkUDmxIdGZgFuKKeHEh0bFV1FjuzgnDhuP9Co5CX05MSPHsZmAS4NgZ9PT4RO3oXSGRQmonZxsz9yzJNHp2eopic9UTjykKx3rE+pVSOwoSLjYxMjJYAwCZDbo0fwMAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>image/gif</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

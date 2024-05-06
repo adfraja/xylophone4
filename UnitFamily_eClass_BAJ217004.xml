@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="eClass_BAJ217004">
+            <Name QualifierID="std.lang.all">eClass time</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">non-negative quantity attributed to a time interval, the value of which is equal to the difference between the time points of the final instant and the initial instant of the time interval, when the time points are quantitative marks</Value>
+                <Value AttributeID="EclassID">BAJ217</Value>
+                <Value AttributeID="EclassPrimaryKey">BAJ217004</Value>
+            </MetaData>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

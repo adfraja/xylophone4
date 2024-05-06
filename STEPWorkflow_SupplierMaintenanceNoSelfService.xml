@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="SupplierMaintenanceNoSelfService" Referenced="true"><!-- Definition:
+<scxml name="SupplierMaintenanceNoSelfService" initial="Edit" version="0.9">
+  <assignee id="$current" type="user"/>
+  <datamodel>
+    <data id="Internal Comment"/>
+  </datamodel>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>
+  <final id="Approved" name="Approved" discontinued="false">
+    <editorLayout>   node-size-and-position x=270.0 y=300.0 w=120.0 h=30.0  </editorLayout>
+    <onentry businessactionid="RemoveFromWorkflow"/>
+  </final>
+  <state id="Edit" name="Edit" discontinued="false">
+    <transition businessconditionid="CurrentUserIsProcurement" event="Submit" target="SpecialistApproval">
+      <editorLayout>   edge-path [SpecialistApproval]  x=170.0 y=70.0 x=170.0 y=230.0  </editorLayout>
+    </transition>
+    <transition event="Submit" target="ProcurementReview"/>
+    <assignee id="ProcurementManagerUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=270.0 y=60.0 w=120.0 h=30.0  </editorLayout>
+  </state>
+  <state id="ProcurementReview" name="Procurement Review" discontinued="false">
+    <transition event="Submit" target="SpecialistApproval"/>
+    <assignee id="ProcurementManagerUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=130.0 w=140.0 h=40.0  </editorLayout>
+  </state>
+  <state id="SpecialistApproval" name="Specialist Approval" discontinued="false">
+    <transition event="Approve" target="Approved"/>
+    <assignee id="MDMSpecialistUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=210.0 w=140.0 h=40.0  </editorLayout>
+  </state>
+</scxml> -->
+            <BusinessRuleLink ID="CurrentUserIsProcurement"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Supplier Maintenance (Centralized No Self Service)</Name>
+            <ValidUserTypeLink UserTypeID="Supplier"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAMVVW2/aMBR+76/wor2GhEtpOyVIE9skpLFWRdUeqj24ySFYS2zLdhLYr++xEwiMMsrTXjg4PpfvEg60NGLGmWHUwD2fKsAYL2muIdIyZ2YCa0hKA4tEMWm+s4IZSB8Uq1gOGejYqHKbmTNtgN/zWSGFMqCeZPp3M52sizyOXCDMjc1j72vKjEc4LSD2FqXETFBzyjh2ozyBH2IB+XIBqmIJeKQCpZngsRf27jyCjbiOvZUx8lMQ1HXdq4c9obJgEIbXQXgTuFneJPrg+4QQLlLwNfsDPuWpL4VGCIKTdRz2QrJxn3U8Ht1iXMXXt/ZMfH9yRSLkQguszvHQnAhLY2+GKBWnOZmKogBucFJgLydXTWxLsAHVmmUcwJV9TEqlbDoxG4m0Sw3Klm6TXIU2qB9JmU4EN4yXgIVOTc/12JfNfT9LcnDT0Bw3PPuD0PEcdjRJZBTlbcFLqRkHbcen7omdOm2APyHgmX5QAomAI06gwmAdfCksMENVBvYsIUGb8eX4LKUSFe3cgDQDX1KzIs/HWb8IIu63iF3ojoMd5CjoAFvRDgicQLSH+hEqBrX3RpsDu/Yq5pTTDF9u5K+37mVKlPLQvihw7r3Hx2M4ral7F2QH9JzF40ah/rD1eNR4PDrh8SWm/UeN3sCzXRi7G3L0fp1VadC/SKVmAHQytQ/Ss+LMv8w7oJfosmR2uZzUZQegVWMP0Dt3wTD8xzIQHHmrzW4T0GS7Bh6hwDnflCh+CvV7mQv3I2rzLQUH3HGxC3jS/gG8Aoh9pdhvBgAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Logo" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Logo</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGC4asVw+vTpxYsXz5kzZ9WqVQsXLpwxY8aSJUtOnTq1fPny3bt3Hz9+vLe3d9GiRXPnzp01a9b+/fsPHDhw8uTJ2bNn7927d/LkyQcPHty+ffvKlSvnz5+3YvmKI0eOHD58uLi4uLWlZePGTVu3bpk9Z86CBQvq6+urqqorKiqWLVu2bt26VatXt7e379ixY/+B/Vu2bFm/fn1JScmKFSu6urpmzpzZ2NS0Z8+esrKy2traCRMmLF26dN68ef8dGP6DAQMqUPzJwsjAYMWgA+KA/MTA1nTAyVFJ4E7f8TYHJmGrou0yiuIGEkw8h3xf7mhlMmvJdtin4MWo2zExe/f9fB4mv3JhNssY2byEp9/zJbXrG3LVxeotuiq7uyzUODsnVU2RM+rsnWkhz99QlacpUNqXz7moNU+YX5pLkJ2dYSMDuyCXlKiWlYyusYqyiZKhrIY+t6kItyODNQBj5evwZQEAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

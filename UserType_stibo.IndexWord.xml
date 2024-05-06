@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.IndexWord" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Index Word</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMqwfy7D/0sM9ZkM/4HgZQOQYAADxZ8sjAwMrAw6IA5ILQOzccSuO/8MvBxXB2xjM/ql4KgokDIz9EDEOp2J2zasPvba+/pn3ddLzy5vXFBgwSLUf/BKpqcnA4M1AA20EiduAAAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.IndexWord"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

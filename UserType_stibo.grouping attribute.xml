@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.grouping attribute" Referenced="true">
+            <Name>Attribute Group</Name>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="stibo.grouping attribute"></UserTypeLink>
+            <AttributeLink AttributeID="ATD_POIDS_TAUX_COMPL"></AttributeLink>
+            <AttributeLink AttributeID="ATDisplayAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ATT_DateofApproval"></AttributeLink>
+            <AttributeLink AttributeID="Attribute Description Documentation"></AttributeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="DisplaySequence"></AttributeLink>
+            <AttributeLink AttributeID="GS1-DisplaySequence"></AttributeLink>
+            <AttributeLink AttributeID="GS1-Purpose"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.DisplaySequence"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Table_Column_Sorting"></AttributeLink>
+            <AttributeLink AttributeID="a_ SourceOfTruth"></AttributeLink>
+            <AttributeLink AttributeID="a_DGOwner"></AttributeLink>
+            <AttributeLink AttributeID="a_IntegrationTargets"></AttributeLink>
+            <AttributeLink AttributeID="a_IsMDM"></AttributeLink>
+            <AttributeLink AttributeID="aatestatt"></AttributeLink>
+            <AttributeLink AttributeID="atr_attributeChanges"></AttributeLink>
+            <AttributeLink AttributeID="atr_relevant_for_Onedot"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

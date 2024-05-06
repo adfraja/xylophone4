@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.MaterialEcom" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Material Ecom</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.MaterialEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.MaterialEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.MaterialEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.MaterialEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.MaterialEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27273028">
+                <Value>Cashmere</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273029">
+                <Value>Cotton</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273030">
+                <Value>Faux fur</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273031">
+                <Value>Faux leather</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273032">
+                <Value>Leather</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273033">
+                <Value>Faux shearling</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273034">
+                <Value>Shearling</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273035">
+                <Value>Suede</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273036">
+                <Value>Faux suede</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273037">
+                <Value>Synthetic</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273038">
+                <Value>Wool</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273039">
+                <Value>Merino wool</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273040">
+                <Value>Viscose</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273041">
+                <Value>Satin</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273042">
+                <Value>Silk</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273043">
+                <Value>Modal</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273044">
+                <Value>Felt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273045">
+                <Value>Linen</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273046">
+                <Value>Paper</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273047">
+                <Value>Straw</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273048">
+                <Value>Canvas</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273049">
+                <Value>Nylon</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273050">
+                <Value>Hairhide</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273051">
+                <Value>Velvet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273052">
+                <Value>Sterling silver</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273053">
+                <Value>Pearl effect</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273054">
+                <Value>Silver plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273055">
+                <Value>Platinum plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273056">
+                <Value>Gold plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273057">
+                <Value>Freshwater pearl</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273058">
+                <Value>Shell</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273059">
+                <Value>Glass</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273060">
+                <Value>Mixed material</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273061">
+                <Value>Resin</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273062">
+                <Value>Metalics</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273063">
+                <Value>Tencel</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273064">
+                <Value>Lambswool</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273065">
+                <Value>Lace</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273066">
+                <Value>Cashmere Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273067">
+                <Value>Cotton Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273068">
+                <Value>Cotton Rich</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273069">
+                <Value>Viscose Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273070">
+                <Value>Modal Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273071">
+                <Value>Silk Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273072">
+                <Value>Pure Cotton</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273073">
+                <Value>Fleece</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273074">
+                <Value>Synthethic</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273075">
+                <Value>Polyester Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273076">
+                <Value>Merino</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273077">
+                <Value>Wool Blend</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273078">
+                <Value>Cotton mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273079">
+                <Value>Satinilk</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274683">
+                <Value>Recycled</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274684">
+                <Value>Yak</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274702">
+                <Value>Velour</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274710">
+                <Value>Corduroy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274711">
+                <Value>Feather &amp; down</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274720">
+                <Value>Organic Cotton</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274969">
+                <Value>Linen blend</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275076">
+                <Value>Metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275077">
+                <Value>Mother of pearl</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275078">
+                <Value>Plastic</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275079">
+                <Value>Rubber</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275080">
+                <Value>Wood</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275131">
+                <Value>Ceramic</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275132">
+                <Value>Polyester</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275159">
+                <Value>NA</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275479">
+                <Value>Wool Mix</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275508">
+                <Value>Na</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

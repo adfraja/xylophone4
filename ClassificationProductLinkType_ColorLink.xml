@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="ColorLink" Inherited="false" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name>Color Link</Name>
+            <UserTypeLink UserTypeID="SalesItem"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="AlternateViewColor"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

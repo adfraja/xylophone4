@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="MTO_VA" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>MTO Variant Article</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMAw8+fWtDOVDEDGzJn///9ngAHFnyxgWgdEgNQyMNt67Lrzz+CU4ZJFDAEdm++fedAbv2JCg1KLY8Eyl916zre1ygziLSe81pmtv135Sst+JUeFDN7SU6yXj2/RWdzCwmANALVMeK54AAAA</Icon>
+            <UserTypeLink UserTypeID="MTO_GA"></UserTypeLink>
+            <UserTypeLink UserTypeID="SAP_MTO_ARCHIVE"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

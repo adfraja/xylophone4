@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="PMDM.WF.InternalProductOnboarding" Referenced="true"><!-- Definition:
+<scxml name="PMDM.WF.InternalProductOnboarding" initial="BuyerEnrichment" version="0.9">
+  <assignee id="PMDM.UG.BrandsTeam" type="group"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=579.0  </editorLayout>
+  <final id="End" name="End" discontinued="false">
+    <editorLayout>   node-size-and-position x=230.0 y=140.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="acn-2d3d5ec5-9085-46e3-a6a6-11a7ac4fb7a3"/>
+  </final>
+  <state id="BuyerEnrichment" name="Buyer Enrichment" discontinued="false">
+    <transition businessactionid="acn-3f17f43b-d301-46ae-bcdd-a7c0cec29805" event="Approve" target="End"/>
+    <editorLayout>   node-size-and-position x=230.0 y=60.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <SetupGroupLink SetupGroupID="PMDM.WorkflowsInternal"></SetupGroupLink>
+            <Name>Internal Product Onboarding</Name>
+            <ValidUserTypeLink UserTypeID="PMDM.PRD.InternalMasterProduct"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAI2STY/TMBCG7/srjO9OnKZpWpREYmFBlVi1Eqw4u/Y0tZSMI9vpB78ex+3CXgpcPPJo5p33GVuM3qxRey08bPCjhRBrb0eo3NBp38AZ5Ojhm7R68F91rz2ordVH3UEL7m1lp50H3OC6H4z1YF8GNWntRedeS5w8911dxUB0nNrV9HG8gH1Cq+WhB/SUoOihptvnT8/Jj8/JGoMYim5rjRql3+DOCKs0tpQcwTptsKY8WVESRNHV9OD98D5NT6dTcsoTY9t0xnmR8jKNc2lTvWOMEIJGAXP6JzCBig3GBTsGybnmCSeXeJ7qxXwZ4qEuylWIhLHmgVTCOd0iANHqZvPlS/Jog4z7DqKnxF+GANBaMw5hXPpa3zyEZufDVojSThr0GkcIGnFHNMrdWUZMkzf5f1LM8ivH4gqScR5BZsVvDlL54PnWsBudRnBOyOk6ORESWb7Pyv083zGV84zNFwLYTirFRCm5BDlbLXlBCRyDo5p+GAZrjoHDC9tCSDyhmvD/TGkeqjTyx03sdXjV+5uYum/0V6H/BM7mfyE2GKzayx3cmcpVAbJgK74sAi7kTCzEgmWZKIWc73elyCeim8qEEyEi1/S5mttH/wURyxshVgMAAA==</Configuration>
+            <LocalBusinessRule ID="acn-2d3d5ec5-9085-46e3-a6a6-11a7ac4fb7a3" Scope="Local" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (RemoveObjectFromWorkflowAction):
+Workflow=
+Message=Internal Product Enrichment Finished
+ -->
+                <Configuration>H4sIAAAAAAAAAHWRsU7DMBCG9z6F5b0JbB3sVCCI1AERlSLGyDgX18U+W7YT4O1xG6hSoa7f+b779dubQWlshfdGQ2x130qHvVYsZpAqP40nxtn6yxoyQojaIae3xQ0lgNJ1GhWnr7t6uaLrasHuh6gRYtwOBqoFIWfQnHRkPp/Q5oHTLVg3wvP7AWSqg7NvLnz0xn3eyZTP0aMoqxoRhIWUM0xgjshR87dGye7bA6cHMYrCCFTFSwo5KK1Yed644njK4YSC64oN5qcoDGmC6waZyCMGLfcWMJFao4576P6dmYFTeFZe9pKbKy+r+/2FHwbMLS+lAQAA</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+            <LocalBusinessRule ID="acn-3f17f43b-d301-46ae-bcdd-a7c0cec29805" Scope="Local" Type="Action" RunPrivileged="true"><!-- Definition:
+Action #1 (ReferenceOtherBABusinessAction):
+ReferencedBA=PMDM.BRA.ApproveMasterAndChildren
+
+Action #2 (ReferenceOtherBABusinessAction):
+ReferencedBA=PMDM.BRA.GenerateAssetFileName
+ -->
+                <Configuration>H4sIAAAAAAAAAM2SsW7DIBRF93wFYi9utwzgCCdK1MGt5aazhexn51UEI8BW+/elJU3jtVPX8+DcdwVWTwOaRlmrEXyDfdOOpseB+whCbtM4McE372dNZnAeRyPoA7unBEw7dmgGQV+P+7s13eQrXkweDXhfTxryFSFXUH3ryO08ocedoDX04KIOnsMJXCF/Tsk2xDj6JYqqSjl1hhB3SOAWkYWmKyQlxw8Lgr6pWTGtzMBegovL0rwqdyUrasmktW6coVQ+CqTptifUXbzPs6v2kpwto3m2bPXfix7AgFMBpPcQ9qjhKbr+0PKXpOe9/JRPJEONCUkCAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OMS_Stroke" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>OMS Stroke</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4Fs1w9+7djo6O3bt3CwoKRvade/3qZVDPpdDJd08/+OXeffvdu3ce3beds2eHTH3k0XDkz5/fQVOe/P/32yS217FiV9e2N36Tn7q4uHh13zRKmGaf3Fs442TO0hcLV2+r719UtvqVV8+txtV3XduveaR1Hjp+1iF/uV/bSc/mk+7Np316bsSVTpy68VJI0VTXmr3erWe8Ws++fvXCp+OCT/sFz6ZjfQt3ZPbvefv2XfusdTYFa60rDxd3Ldl9+KxP+znPvvtnzpzxajnFyy/g23lp2aGHns3H3brvNk5ZaRrd5t12JnHuU9/uK6GhoabpCwwy1zqWb3et3Z/Xt/XNx++yOna37tz17bkW0HZ8zblvSkpKxsbGaWlpM2fOZGBg+A8GDHQEij9ZGBkYohl0QBxQnDCwz2uIbmpuaW1r7+js6mZijgzvjg5jjBZjiAjtDA9jiGaKXMAQGhbJ1BIe6Rk9oyl0QtsixjXRoRHNUVGhtlyhm5h3bN1xiHFBgIKWfWTgwUNRjmyK4pzONrzu0nIiIRz+UhbqbtYGDh5BGvLcogImKt7CvnxGTmp2unqG7CzG+maW2pJCBho7D7a4dmr6lbgIfFtwjINPNqhD41CDB6NuExMjgzUAVwm070ECAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="OMS_SAP_L8"></UserTypeLink>
+            <UserTypeLink UserTypeID="OMS_SAP_Stroke_Archive"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

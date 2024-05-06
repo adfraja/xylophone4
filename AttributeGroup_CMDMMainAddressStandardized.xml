@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CMDMMainAddressStandardized" ShowInWorkbench="true" ManuallySorted="true" Referenced="true" ParentID="CMDMMainAddressDisplay">
+            <AttributeSequence>
+                <AttributeLink AttributeID="CalcFormattedAddress"></AttributeLink>
+                <AttributeLink AttributeID="StandardizedFormattedAddress"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

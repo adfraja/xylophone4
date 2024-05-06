@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="draj_p2c" Inherited="false" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name>draj_p2c</Name>
+            <UserTypeLink UserTypeID="draj_level_1"></UserTypeLink>
+            <UserTypeLink UserTypeID="draj_level_2"></UserTypeLink>
+            <UserTypeLink UserTypeID="drak_sku"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="draj_cl_level1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="draj_cl_level2"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

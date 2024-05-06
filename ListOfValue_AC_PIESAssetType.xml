@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESAssetType" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Asset Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="150" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PIESAssetType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Asset Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PIESAssetType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESAssetType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESAssetType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PIESAssetType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="360">
+                <Value>360 Degree Image Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="APG">
+                <Value>Application Guide</Value>
+            </ValueGroup>
+            <ValueGroup ID="AUD">
+                <Value>Audio File</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRO">
+                <Value>Brochure</Value>
+            </ValueGroup>
+            <ValueGroup ID="BUL">
+                <Value>Technical Bulletin</Value>
+            </ValueGroup>
+            <ValueGroup ID="BUY">
+                <Value>Buyers Guide</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAS">
+                <Value>Case Study</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAT">
+                <Value>Catalog</Value>
+            </ValueGroup>
+            <ValueGroup ID="CER">
+                <Value>Certificate of Origin</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAS">
+                <Value>Datasheet</Value>
+            </ValueGroup>
+            <ValueGroup ID="DRW">
+                <Value>Technical Drawing</Value>
+            </ValueGroup>
+            <ValueGroup ID="EBK">
+                <Value>Ebook</Value>
+            </ValueGroup>
+            <ValueGroup ID="FAB">
+                <Value>Features and Benefits</Value>
+            </ValueGroup>
+            <ValueGroup ID="FED">
+                <Value>Full Engineering Drawing</Value>
+            </ValueGroup>
+            <ValueGroup ID="HMS">
+                <Value>Hazardous Materials Info Sheet</Value>
+            </ValueGroup>
+            <ValueGroup ID="HOT">
+                <Value>Image Hotspotting</Value>
+            </ValueGroup>
+            <ValueGroup ID="INS">
+                <Value>Installation Instructions</Value>
+            </ValueGroup>
+            <ValueGroup ID="ISG">
+                <Value>Illustration Guide</Value>
+            </ValueGroup>
+            <ValueGroup ID="LGO">
+                <Value>Logo Image</Value>
+            </ValueGroup>
+            <ValueGroup ID="LIN">
+                <Value>Line Art</Value>
+            </ValueGroup>
+            <ValueGroup ID="MSD">
+                <Value>Material Safety Data Sheet</Value>
+            </ValueGroup>
+            <ValueGroup ID="OWN">
+                <Value>Owner's Manual</Value>
+            </ValueGroup>
+            <ValueGroup ID="P01">
+                <Value>Photo - out of package</Value>
+            </ValueGroup>
+            <ValueGroup ID="P02">
+                <Value>Photo - in package</Value>
+            </ValueGroup>
+            <ValueGroup ID="P03">
+                <Value>Photo - lifestyle view</Value>
+            </ValueGroup>
+            <ValueGroup ID="P04">
+                <Value>Photo - Primary</Value>
+            </ValueGroup>
+            <ValueGroup ID="P05">
+                <Value>Photo - Close Up</Value>
+            </ValueGroup>
+            <ValueGroup ID="P06">
+                <Value>Photo - Mounted</Value>
+            </ValueGroup>
+            <ValueGroup ID="P07">
+                <Value>Photo - Unmounted</Value>
+            </ValueGroup>
+            <ValueGroup ID="PAG">
+                <Value>Link To Manufacturer Page</Value>
+            </ValueGroup>
+            <ValueGroup ID="PAL">
+                <Value>Pallet Configuration Drawing</Value>
+            </ValueGroup>
+            <ValueGroup ID="PC1">
+                <Value>Planogram Consumer Pack 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="PC2">
+                <Value>Planogram Consumer Pack 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="PC3">
+                <Value>Planogram Consumer Pack 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="PDB">
+                <Value>Product Brochure</Value>
+            </ValueGroup>
+            <ValueGroup ID="PI1">
+                <Value>Planogram Inner Pack 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="PI2">
+                <Value>Planogram Inner Pack 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="PI3">
+                <Value>Planogram Inner Pack 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="PP1">
+                <Value>Planogram Case Pack 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="PP2">
+                <Value>Planogram Case Pack 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="PP3">
+                <Value>Planogram Case Pack 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="PSS">
+                <Value>Product Specifications Sheet</Value>
+            </ValueGroup>
+            <ValueGroup ID="PST">
+                <Value>Price Sheet</Value>
+            </ValueGroup>
+            <ValueGroup ID="RES">
+                <Value>Research Bulletin</Value>
+            </ValueGroup>
+            <ValueGroup ID="RGL">
+                <Value>Regulatory Content Label</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPE">
+                <Value>Specification Sheet Filename</Value>
+            </ValueGroup>
+            <ValueGroup ID="THU">
+                <Value>Thumbnail</Value>
+            </ValueGroup>
+            <ValueGroup ID="TON">
+                <Value>Tone Art</Value>
+            </ValueGroup>
+            <ValueGroup ID="VGL">
+                <Value>General Information Video</Value>
+            </ValueGroup>
+            <ValueGroup ID="VID">
+                <Value>Primary Video</Value>
+            </ValueGroup>
+            <ValueGroup ID="VIN">
+                <Value>Installation Video</Value>
+            </ValueGroup>
+            <ValueGroup ID="VLF">
+                <Value>Lifestyle Video</Value>
+            </ValueGroup>
+            <ValueGroup ID="VMC">
+                <Value>Maintenance Care Video</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAR">
+                <Value>Warranty</Value>
+            </ValueGroup>
+            <ValueGroup ID="WHP">
+                <Value>Whitepaper</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ1">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ2">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ3">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ4">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ5">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ6">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ7">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ8">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ9">
+                <Value>User Defined</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

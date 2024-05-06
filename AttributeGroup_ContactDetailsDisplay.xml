@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ContactDetailsDisplay" ShowInWorkbench="true" ManuallySorted="true" Referenced="true" ParentID="CMDMWebUIDisplay">
+            <AttributeSequence>
+                <AttributeLink AttributeID="FirstName"></AttributeLink>
+                <AttributeLink AttributeID="LastName"></AttributeLink>
+                <AttributeLink AttributeID="JobTitle"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

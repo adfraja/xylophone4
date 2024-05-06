@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="SupplierOnboardingNoSelfService" Referenced="true"><!-- Definition:
+<scxml name="SupplierOnboardingNoSelfService" initial="Initial" version="0.9">
+  <assignee id="$current" type="user"/>
+  <datamodel>
+    <data id="Internal Comment"/>
+  </datamodel>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>
+  <final id="Approved" name="Approved" discontinued="false">
+    <editorLayout>   node-size-and-position x=280.0 y=490.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="RemoveFromWorkflow"/>
+  </final>
+  <state id="Cancel" name="Cancel" discontinued="false">
+    <assignee id="$current" type="user"/>
+    <editorLayout>   node-size-and-position x=509.0 y=130.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="FinanceEnrichment" name="Finance Enrichment" discontinued="false">
+    <transition event="Submit" target="LogisticsEnrichment"/>
+    <assignee id="FinanceUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=250.0 y=230.0 w=150.0 h=40.0  </editorLayout>
+  </state>
+  <state id="Initial" name="Initial" discontinued="false">
+    <transition event="Submit" target="InitialEnrichment"/>
+    <transition event="Cancel" target="Cancel"/>
+    <assignee id="ProcurementManagerUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=40.0 w=120.0 h=40.0  </editorLayout>
+    <onentry businessactionid="acn-37abadf2-a076-4bd8-9efd-d126318c4a71"/>
+  </state>
+  <state id="InitialEnrichment" name="Initial Enrichment" discontinued="false">
+    <transition event="Cancel" target="Cancel"/>
+    <transition businessconditionid="CurrentUserIsProcurement" event="Submit" target="FinanceEnrichment">
+      <editorLayout>   edge-path [FinanceEnrichment]  x=120.0 y=130.0  </editorLayout>
+    </transition>
+    <transition event="Submit" target="ProcurementEnrichment"/>
+    <assignee id="ProcurementManagerUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=110.0 w=120.0 h=30.0  </editorLayout>
+  </state>
+  <state id="LogisticsEnrichment" name="Logistics Enrichment" discontinued="false">
+    <transition event="Submit" target="SpecialistApproval"/>
+    <assignee id="LogisticsUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=320.0 w=140.0 h=50.0  </editorLayout>
+  </state>
+  <state id="ProcurementEnrichment" name="Procurement Enrichment" discontinued="false">
+    <transition target="FinanceEnrichment"/>
+    <assignee id="ProcurementManagerUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=260.0 y=170.0 w=120.0 h=40.0  </editorLayout>
+  </state>
+  <state id="SpecialistApproval" name="Specialist Approval" discontinued="false">
+    <transition businessactionid="ApproveAction" event="Approve" target="Approved"/>
+    <transition event="Back_To_Logistics" target="LogisticsEnrichment">
+      <editorLayout>   edge-path [LogisticsEnrichment]  x=150.0 y=430.0 x=150.0 y=340.0  </editorLayout>
+    </transition>
+    <transition event="Back_To_Finance" target="FinanceEnrichment">
+      <editorLayout>   edge-path [FinanceEnrichment]  x=530.0 y=430.0 x=530.0 y=260.0  </editorLayout>
+    </transition>
+    <transition event="Back_To_Procurement" target="ProcurementEnrichment">
+      <editorLayout>   edge-path [ProcurementEnrichment]  x=40.0 y=210.0  </editorLayout>
+    </transition>
+    <assignee id="MDMSpecialistUsers" type="group"/>
+    <editorLayout>   node-size-and-position x=250.0 y=410.0 w=160.0 h=40.0  </editorLayout>
+  </state>
+</scxml> -->
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsProcurement"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Supplier Onboarding (Centralized No Self Service)</Name>
+            <ValidUserTypeLink UserTypeID="Supplier"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAMVXXW+bMBR976/w0F4JEPI5QaQuW6VK7Votm/YwTZUDN8Qq2Mg2SbtfPwMmCQ35oOu0lyB/3nPOPdd2cCbZNSWSYAl3dMpBff0FjgV4Io2JnMATBJmEWcBJKm9IQiSE95ysSAwRCF/yrJoZEyGB3tHrJGVcAv+ehi83E8FTEvte8UGkCBv7Rhk/NhDFCfjGLEvVZOB3dM4wDwmNvrAZxIsZ8BUJwEAr4IIw6ht2Z2wgtRUVvrGUMv1gWev1urN2O4xHVte2+5Y9tIpoxsR7Z5oIIcpCMAX5DSamoZkyoWIzip58u2Oj5+J37Q96I/Vd+v1R3kamOblAnmKDE7U6Vo2yhUiYo1dcKY7RlCUJUKkiWfng5KL86iVqAywEiShAsex9kHGeT0fyOVWsMwE8X1pNKlYIqRREIREBo5LQDNTCQk9Dh64JVzVPUu0OSrK9kq3TtQu2vS1Z5DGqwPFnNM8EoSAEDvLFeVQcUNMd4jkOF10T28OB2ZuHI3MMi9AMne7AdUZBDw+dnI3eJSeDPMkx1RhgpfrzVM+VoZQEmEcgNww+U06CZSXmdtmhbaaYBhBvt9HthrW1FNxzppIAeZxbTHGkLKuSIKqMRJxlaT0lnlVk5JzcXBGao9ihorOkB1CN5KmE9cuEdV2dsX5Dxk7Le8MiVaMkEMcFromk4b6hMk0otDaboXbqaDu7Xa1Or1Sn306dWQqBMp8CcJmmnK3waQdt8L6hPA0wqoNxM4J2EJ5pnZ6jxRkct85+vZex4LLoMCr1dO9WPt0RnleyH3Hw+PCNPWwUPOXSkiaEEZgplkv0s2HaL6QIOxXhola2bXfDuA0+bf8tuv26bsC2N6lA1nfryKp26d+2yHZOry26nc7jCBsnFih7GpRzGFStBm4/3W6N2aYOFiS/NQ/WwcZP2v07/jpl+ZHWeawtb5eW7/bPut++QqLiXHGW/GD8cRGzde0m86wCeIv7ef+c0wOvOuUcp35ru8dPufPvxoZDQNEKSaXLtHyw5Cm+FjX3HThQ/6JUSnKKrNumNF4COFQN//FZUKWj9MEmGSdy37fHO3IccHTL52UL0M06ag47g6/z8/DIK3Qnx8dc9c8S6pX/Hib6/8sf66jngy4NAAA=</Configuration>
+            <LocalBusinessRule ID="acn-37abadf2-a076-4bd8-9efd-d126318c4a71" Scope="Local" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="refType" type="ReferenceType" contract="ReferenceTypeBindContract">
+      SupplierAccount
+    </binding>
+    <binding alias="noSelfServiceEntityClassification" type="Classification" contract="ClassificationBindContract">
+      NoSelfServiceEntities
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+if (!node.getReferences(refType).iterator().hasNext()) {
+	node.createReference(noSelfServiceEntityClassification, refType);
+}
+  </javaScript>
+</config> -->
+                <Configuration>H4sIAAAAAAAAALVUXW/aMBR9Hr/CywMCqXO2t0kEELBW6rR2VWHaIzLmJr2VsTP7BrWb9t9nxyElqlqmSXuzz/045zg3t1RVgXotylIhuDXma2l0jkXmPECTMoYjNs6mDzvF9mAdGj1OPvD3CQMtzRZ1MU6+rS7efUymk142rxxqcO62UjDpMdYCN3U7dhyP0OWncfJZ7MVSWizpEJ9J8kTfke7mqLcuCb18txthxQ7Iy4jAMcRCp5jNVo8ljJN735YroQu+JOuFJpO+olHHSf9HZWjk7cTDk6d4r43F47Rf0KgXGgSOK1HWd8YOCPMvRVZI8jJixaKyFjR93dyDpJCyaDIarplC4ZpcbbbQwK2hhRKujVdKxVN6kvcWcvDEEsIrnOC1kIes16il2XFHuDFcGgt8a3YCNcddqXiH6dIjsSIoXFb1XNmZlKbSFNSmQcvpVwvUmKMUYQJOPtsSVL4Eu0cJ55qQHrv1/2jswnrObqeuvetnxP4f6ppsb4dZydJWxgvTe26tsVd+/EUB/3uKvxgpFP4UGwUN4wq8RUEwr/RWQfqXmp/+3ZcFY84Gb8OI8wKoHRo3aKZvyNF3E2TsYMjvhLuGBxoMh+xX701dJC14WW3d4ORXP2OHzqPe72cWjoB6jWRpd0n5NZZ291izEv8AcEYanDIFAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

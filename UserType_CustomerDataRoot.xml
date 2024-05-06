@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="CustomerDataRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="CustomerDataRoot">
+            <Name>Customer Data Root</Name>
+            <Icon>H4sIAAAAAAAAAJ1UzWvUQBQPraW2qLXVg3oKEVHRzcdudrOJ3ZbuJq0LzVp2F60i2mwy24ZtMjGZdtMWQaQgPehBvIgKflE8+AGCB6n1A0UUFhUPHgQv9Q+oHm2FdVK7VUQqOJDMvDe/33tv3rw3U32ZnvXN25oJglif3i9n8bwx+NbW4/+uUEsOT1uR0o9ysIjKmguILgMWAJm2tEGQBZoxduI1aCeI+qKZ70f9aq+kQ4vWAgztWw4RjPZO39H0EkBkAQyadoKan3lCkaaRoA5FVVZ1UmDI3D/ugtx4Jq+Pl3TRoDo7yHZfwgYsgDTSt4ZtT/IT1JJdCa8DNUORSxBUSlA/g+pX+8gUdAEZpdmQzsY4MsbTHM+KvLiXDLMcy3BhhhVCHCtFBYnlyOVBYW+uUZSycveyLywlqCGEHIlhyuUyXY7Q0B1kOFEUGTbMhMMhjAh5YzbS/JDtba9ZkIGnu6aDTGiTgawV4AhKUFTtCJajqiuGbW85UThljK85DEezjGUxNbSHsqC4OtrLjzmAyQIPjrg6vo/i9t9crU4NgDga6YBr4kvRhmWoj1jARmk5QeEd2jANSehKxTmejwkpgVN4jhPjiiAqUTkmRrGKj9Vs/I3Lp5KRSJiNCpyQ4jBb7EoqcUGOKNFuJd4dFmvctO0hzdZBjWv+4vKrcqWUCzQE3TyEw7UK6BuCCHpD0CFTuSjNkYdM24BlL7ie5UiBa44Co9uFFrmUX8n8i/9/n/sn1/ifnDE4GOaPYqmpcAUGy5XSx8JK8wAbd4yLW+PzS7qC2yrS15tX5ufn8VJzJ6vV6uTlB8QkMXHhTuO7wYdv5iqVyvT0dKVIXIwQx+auqKp6c+Y9hjWPf5/CnFaUzeSqfwxix52LBbw5lpa78v7H3nM9bc/ZdfWHT9/at1At1We/xifqRq9Slx61FCvnk22b9iWbGjfzm6UzG842XHvVcY+dLd/YErn/uK6p9cr1DwfUE+JE6W3h+G310+xC67fb1aYXW9vrHh89+Oxk42Lb7oaFxY5Ha04doQYyaGfdrDi35ynRYzbMcff9L8HDkVYy8t3kwOkf4IFuIKUEAAA=</Icon>
+            <UserTypeLink UserTypeID="Entity user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

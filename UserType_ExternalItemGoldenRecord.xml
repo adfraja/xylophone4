@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ExternalItemGoldenRecord" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="ExternalItemGoldenRecord-[id]">
+            <Name>External Item Golden Record</Name>
+            <UserTypeLink UserTypeID="ExternalItemGoldenRecords"></UserTypeLink>
+            <AttributeLink AttributeID="ExternalItemDescription"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OEM"></AttributeLink>
+            <AttributeLink AttributeID="OEMPartNumber"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Source"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

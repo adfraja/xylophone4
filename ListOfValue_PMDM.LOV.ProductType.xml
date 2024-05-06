@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.ProductType" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="false" Referenced="true">
+            <Name QualifierID="std.lang.all">Product Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductType
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup>
+                <Value>ALL-IN-ONES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ANKLE / KNEE HIGH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS LEATHER(LARGE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS LEATHER(MEDIUM)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS LEATHER(SMALL)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS PLASTIC(LARGE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS PLASTIC(MEDIUM)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS PLASTIC(SMALL)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS TEXTILE(LARGE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS TEXTILE(MEDIUM)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS TEXTILE(SMALL)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS(LARGE)DONOTUSE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS(MEDIUM)DONOTUSE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BAGS(SMALL)DONOTUSE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEACHWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEAUTY ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BEDDING FILLED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELT TXTL NOT KNITTE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELT TXTLE KNIT/ELAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELTS LEATHER</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELTS PLASTIC</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELTS(DONOTUSE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BELTTXTLEKNIT/NTELAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BIBS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BLANKET</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BODIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BODYSUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOOTS (LEATHER UPPER</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOOTS (SYNTHETIC UPP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOOTS DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BOXERS / TRUNKS / PA</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BRAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Beer - Low Alcohol %</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Beer based beverage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CARDIGANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CHILDREN'S TOYS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CL ITEM LED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>COATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CORSETRY / SHAPEWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>COSMETICS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CUFFLINKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DRESSING UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EARMUFFS KNITTED OR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EARMUFFS NOT KNITTED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FAUX FUR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FEATHER ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FLEECE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FLIP FLOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FOOT SPAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FORMAL JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FORMAL SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FORMAL TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FRAGRANCE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GILET</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GLOVES LEATHER</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GLOVES OTHER KINTTED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GLOVES OTHER NOT KNI</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GLOVES SHEEPSKIN</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GLOVES(DO NOT USE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HAIR ACCESSORIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HAIR DRYERS / CLIPPE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HAIR TONGS / STRAIGH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HANDKERCHIEFS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HATS FUR FELT NON PL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HATS NON PLAITED ASS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HATS PLAITED ASSEMBL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HATS SCARF AND GLOVE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HATS(DO NOT USE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HEAVY DRESSGOWN</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Home Product</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Imported Beer(SB)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JEANS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JERSEY TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JEWELLERY BOXES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JEWELLERY IMITATION</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JEWELLERY PRECIOUS M</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JEWELLERY(DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JOGGERS / LEGGINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JUMPERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KNICKERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KNITWEAR-COAT</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>KNITWEAR-DRESS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LADIES SANDELS, SOLE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 10</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 2</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 3</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 4</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 6</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 7</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 8</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK - 9</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LAUNCH PACK 1</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LEATHER JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LIGHT DRESSGOWN</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LONG LINE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LONG SLEEVE TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>LUNCH BOXES PLASTIC</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MANICURE / PEDICURE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MIRRORS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Made in UK</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Made in UK(SB)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NIGHTDRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NOT APPLICABLE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NURSERY TEXTILES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OTHERS / GIFTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OUTERWEAR JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OUTFITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PONCHOS/WRAPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PRAM SHOES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PRAMSHOES(Leather)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PYJAMAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>READY READERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SANDALS DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SANDL LTHR MAX 3HIGH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SCARVES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SCARVES NOT KNITTED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SEPERATES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHIRTS/BLOUSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHOES DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHOES/SANDELS (LEATH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHOES/SANDELS (SYNTH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHORT SLEEVE TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SHORTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SKINCARE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SKIWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLEEPING BAG</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLEEPSUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLEEVELESS TOPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLIPPERS (LEATHER UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLIPPERS (TEXTILE UP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLIPPERS DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SLIPS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SOCKS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SUNGLASSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SWEATSHIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SWIMWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Sparkling Cider</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Sparkling Wine</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Spirit based bevrage</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Spirits (non UK)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Still Cider</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Still Wine</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Still or Sparkling</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Still/Sparklg Cider</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T09 'BOYS' TOYS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>THERMAL UNDERWEAR</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TIGHTS/STOCKINGS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TODDLER SHOES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TOILETRIES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TRACKSUITS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TRAINERS (SYNTHETIC</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TRAINERS DO NOT USE</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>UMBRELLAS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>VEST TOP</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>VESTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WALLETS / PURSES(DNU</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WALLETS/PURSES LEATH</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WALLETS/PURSES PLAST</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WALLETS/PURSES TEXT</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WATCHES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WW SUIT DRESSES</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WW SUIT JACKETS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WW SUIT SKIRTS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WW SUIT TROUSERS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>WW SUIT WAISTCOATS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Whisky Blended(UK)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Whisky whl grain(UK)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Whisky whl malt(UK)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Wine - Mixed Drinks</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

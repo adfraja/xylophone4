@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ALXA_WF" Referenced="true"><!-- Definition:
+<scxml name="ALXA_WF" initial="Start" version="0.9">
+  <assignee id="$current" type="user"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=650.0 h=581.0  </editorLayout>
+  <final id="Stop" name="Stop" discontinued="false">
+    <editorLayout>   node-size-and-position x=270.0 y=230.0 w=100.0 h=25.0  </editorLayout>
+  </final>
+  <state id="In-Progress" name="In-Progress" discontinued="false">
+    <transition target="Stop"/>
+    <editorLayout>   node-size-and-position x=270.0 y=140.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Start" name="Start" discontinued="false">
+    <transition target="In-Progress"/>
+    <editorLayout>   node-size-and-position x=270.0 y=60.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>ALXA_WF</Name>
+            <ValidUserTypeLink UserTypeID="ALXA_L1"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="ALXA_L2"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="ALXA_L3"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJWS0UsCQRDG3/0rtqXX807NrLg9kCAQhAKJeovlbjwHztljd87T/vrW1SyDzF72Y2G+b34zjG7YTAgZNcMj3Vvwqua6cpC6ukLOYA15wzDLLdY8xSUyFE8WV1hBCU6xbT4rK3QM9EiTZW0sg32ui59hLl8vK5UGERjaVkrOWFuWgvQSlBxPX8dvLw9SrMA6NKRk0r2VwhvIKblgru/iuG3bbjvoGlvG/SQZxskoDpkySy+iSAhBpoDI4TtEmoqoNs63MiTWKukmYhPeVl0Pt7pQw5ueVxFFWUek2jksCUBgoeRl3lgL5OF4U3u4xoH1PeLPoqzjHY79mKJAlxtipAa8MQwtQ8bRdLvPn5T90Y7zegfaS3ag/eGBU6RsNe0NPrQEVnJC0ZM1pQXntpRfFVknjQPmOcDfU/bYx8Fnwveu/kc/Y1Ofwp4j6erUnr39sOYQdSZof/ALaBqHngFje17Z/ow/AGMHE4s1AwAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAA229011" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Type of surface</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA229011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of surface
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA229011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of surface
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA229011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of surface
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA229011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of surface
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA229011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of surface
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAA229</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAA229011</Value>
+            </MetaData>
+            <ValueGroup ID="AAA070002">
+                <Value QualifierID="std.lang.all">Titanium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA382003">
+                <Value QualifierID="std.lang.all">Chromium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA865005">
+                <Value QualifierID="std.lang.all">Copper</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA876005">
+                <Value QualifierID="std.lang.all">Natural</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA888002">
+                <Value QualifierID="std.lang.all">Tin-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA889002">
+                <Value QualifierID="std.lang.all">Silver-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA892004">
+                <Value QualifierID="std.lang.all">Galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN633005">
+                <Value QualifierID="std.lang.all">Not applicable</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC449002">
+                <Value QualifierID="std.lang.all">Decor</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL327002">
+                <Value QualifierID="std.lang.all">nano coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL330002">
+                <Value QualifierID="std.lang.all">sand-cast</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA266002">
+                <Value QualifierID="std.lang.all">blank</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA466006">
+                <Value QualifierID="std.lang.all">hot-dip galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA542006">
+                <Value QualifierID="std.lang.all">galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA699004">
+                <Value QualifierID="std.lang.all">crystal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA754004">
+                <Value QualifierID="std.lang.all">matte</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA799004">
+                <Value QualifierID="std.lang.all">Nickel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB097002">
+                <Value QualifierID="std.lang.all">untreated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC036004">
+                <Value QualifierID="std.lang.all">Old-German</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC044005">
+                <Value QualifierID="std.lang.all">anodized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC150002">
+                <Value QualifierID="std.lang.all">bronze-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC151002">
+                <Value QualifierID="std.lang.all">blued</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC228004">
+                <Value QualifierID="std.lang.all">Oak, raw</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC229004">
+                <Value QualifierID="std.lang.all">enamelled</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC256004">
+                <Value QualifierID="std.lang.all">EPS-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC295004">
+                <Value QualifierID="std.lang.all">fine matte</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC312002">
+                <Value QualifierID="std.lang.all">spruce, untreated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC357004">
+                <Value QualifierID="std.lang.all">galvanically treated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC358004">
+                <Value QualifierID="std.lang.all">galvanically finished, steel grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC362002">
+                <Value QualifierID="std.lang.all">brushed</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC371002">
+                <Value QualifierID="std.lang.all">yellow chromated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC372003">
+                <Value QualifierID="std.lang.all">yellow chromated, caps colored</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC373002">
+                <Value QualifierID="std.lang.all">yellow chromated, caps white</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC374003">
+                <Value QualifierID="std.lang.all">yellow galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC388004">
+                <Value QualifierID="std.lang.all">sandblasted</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC390002">
+                <Value QualifierID="std.lang.all">waxed</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC401002">
+                <Value QualifierID="std.lang.all">shiny</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC422004">
+                <Value QualifierID="std.lang.all">Granite</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC529003">
+                <Value QualifierID="std.lang.all">Plastic-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC538004">
+                <Value QualifierID="std.lang.all">lacquered/plastic-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC553002">
+                <Value QualifierID="std.lang.all">Alloy</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC599004">
+                <Value QualifierID="std.lang.all">matte chrome-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC600004">
+                <Value QualifierID="std.lang.all">matte nickel-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC680005">
+                <Value QualifierID="std.lang.all">Niro</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC708004">
+                <Value QualifierID="std.lang.all">Onyx</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC731004">
+                <Value QualifierID="std.lang.all">polished</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC732004">
+                <Value QualifierID="std.lang.all">polished/lacquered</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC742004">
+                <Value QualifierID="std.lang.all">powder-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC746004">
+                <Value QualifierID="std.lang.all">PVD-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC776004">
+                <Value QualifierID="std.lang.all">raw</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC827002">
+                <Value QualifierID="std.lang.all">wrought iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC838003">
+                <Value QualifierID="std.lang.all">black chromalised</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC839002">
+                <Value QualifierID="std.lang.all">black rereamed</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC841002">
+                <Value QualifierID="std.lang.all">Black chrome</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC853004">
+                <Value QualifierID="std.lang.all">satin-finish</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC882004">
+                <Value QualifierID="std.lang.all">mirror-polished</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC901002">
+                <Value QualifierID="std.lang.all">steel-grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC976003">
+                <Value QualifierID="std.lang.all">transparent chromatized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC977003">
+                <Value QualifierID="std.lang.all">transparent chromatized, cover flaps colored</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC978003">
+                <Value QualifierID="std.lang.all">transparent chromatized, cover flaps white</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD012002">
+                <Value QualifierID="std.lang.all">VA</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD023004">
+                <Value QualifierID="std.lang.all">gold-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD026002">
+                <Value QualifierID="std.lang.all">brass-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD029005">
+                <Value QualifierID="std.lang.all">Seal, yellow chromatized, bearings brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD030005">
+                <Value QualifierID="std.lang.all">Seal, yellow chromatized, bearings natural</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD031005">
+                <Value QualifierID="std.lang.all">Seal, yellow chromatized, bearings white</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD032005">
+                <Value QualifierID="std.lang.all">Seal, transparent chromatized, bearings brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD033005">
+                <Value QualifierID="std.lang.all">Seal, transparent chromatized, bearings natural</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD034005">
+                <Value QualifierID="std.lang.all">Seal, transparent chromatized, bearings white</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD085004">
+                <Value QualifierID="std.lang.all">lacquered</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA119002">
+                <Value QualifierID="std.lang.all">Chromium-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA120004">
+                <Value QualifierID="std.lang.all">nickel-plated</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA299004">
+                <Value QualifierID="std.lang.all">Anodized</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA304004">
+                <Value QualifierID="std.lang.all">lacquered</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA288005">
+                <Value QualifierID="std.lang.all">metallic</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA006005">
+                <Value QualifierID="std.lang.all">Brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA007005">
+                <Value QualifierID="std.lang.all">Bronze</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

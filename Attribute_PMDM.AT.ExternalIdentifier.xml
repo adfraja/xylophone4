@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PMDM.AT.ExternalIdentifier" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">External Identifier</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="GL">External Identifier</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="GL">External Identifier</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.AT.ExternalIdentifier
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;External Identifier
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.AT.ExternalIdentifier
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;External Identifier
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.AT.ExternalIdentifier
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;External Identifier
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.AT.ExternalIdentifier
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;External Identifier
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.AT.ExternalIdentifier
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;External Identifier
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">PMDM.AT.ExternalIdentifier</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">PMDM.AT.ExternalIdentifier</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">PMDM.AT.ExternalIdentifier</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">PMDM.AT.ExternalIdentifier</Value>
+                    <Value Derived="true" DerivedContextID="GL">PMDM.AT.ExternalIdentifier</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="GL">External Identifier</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">External Identifier</Value>
+                    <Value Derived="true" DerivedContextID="GL">External Identifier</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.EnrichmentView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.ImagesView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.MarketingCopyView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.Metadata"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.QAView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.SupplierView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.TranslationReviewView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.TranslatorView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.WarehouseView"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level2"></UserTypeLink>
+            <UserTypeLink UserTypeID="Level3"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.EXT.Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.EXT.Level2"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.EXT.Level3"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level2"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level3"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level4"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level5"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level6"></UserTypeLink>
+            <UserTypeLink UserTypeID="Products"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

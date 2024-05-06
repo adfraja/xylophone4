@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="WebServiceEndpoint">
+            <Name>Web Service Endpoint</Name>
+            <UserTypeLink UserTypeID="Inbound Integration Endpoints"></UserTypeLink>
+            <UserTypeLink UserTypeID="WebServiceEndpoints"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

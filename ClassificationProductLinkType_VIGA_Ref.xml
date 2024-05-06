@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="VIGA_Ref" Inherited="false" Accumulated="false" DefinesValidAttributes="false" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name>VIGA_Ref</Name>
+            <UserTypeLink UserTypeID="VIGA_SKU"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="VIGA_Test1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="VIGA_Test2"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

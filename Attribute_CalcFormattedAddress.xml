@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="CalcFormattedAddress" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">CalcFormattedAddress</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="SimpleAddressFormat()"/&gt;</ValueTemplate>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="GL">CalcFormattedAddress</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="GL">CalcFormattedAddress</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;CalcFormattedAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="GL">CalcFormattedAddress</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="GL">CalcFormattedAddress</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">CalcFormattedAddress</Value>
+                    <Value Derived="true" DerivedContextID="GL">CalcFormattedAddress</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AddressData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="CMDMMainAddressStandardized"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="FinanceModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="FinanceView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="LogisticsModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="LogisticsView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierView"></AttributeGroupLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

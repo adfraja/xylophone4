@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.ENT.StrokeNumberLevel4" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Stroke Number Level 4</Name>
+            <UserTypeLink UserTypeID="PMDM.ENT.StrokeNumberLevel3"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

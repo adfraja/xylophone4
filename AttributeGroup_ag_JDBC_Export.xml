@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="ag_JDBC_Export" ShowInWorkbench="true" ManuallySorted="true" Referenced="true">
+            <Name QualifierID="en-US">ag_JDBC_Export</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="AC_PIES_ITEMBrandAAIAID"></AttributeLink>
+                <AttributeLink AttributeID="AC_PAdb_632"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPICTO"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPIHTS"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMHazardousMaterialCode"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMPartNumber"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMItemLevelGTIN"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPILTM"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMMinimumOrderQuantity"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMMinimumOrderQuantityUOM"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPIOSP"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

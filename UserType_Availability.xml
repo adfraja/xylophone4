@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Availability" AllowOverlappingTerms="false">
+            <Name>Availability</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGCYyMyw+PoK5XANt/UB////V/zJwsjAwMygwwAEIHkGJq2WfnPpSfwRzZkt2pvu/TLj44rj6HuSNi9y1abl3ocW8kTN1zKo2Hbj3n9tBgZrAGXzzOpZAAAA</Icon>
+            <UserTypeLink UserTypeID="Term-list user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="Default End-date"></AttributeLink>
+            <AttributeLink AttributeID="Default Lead-time"></AttributeLink>
+            <AttributeLink AttributeID="Default Start-date"></AttributeLink>
+            <AttributeLink AttributeID="Expiry date"></AttributeLink>
+            <AttributeLink AttributeID="Last modification time"></AttributeLink>
+            <AttributeLink AttributeID="Termslist Priority"></AttributeLink>
+            <Validation BaseType="novalidation" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

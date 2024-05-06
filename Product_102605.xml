@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="102605" UserTypeID="MOHR_SKU" ParentID="102604">
+            <Name>Test SKU</Name>
+            <AttributeLink AttributeID="MOHR_LOV">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <ClassificationReference ClassificationID="ProducttoClass2" Type="MOHR_ProdtoClass"></ClassificationReference>
+            <Tables></Tables>
+            <Values>
+                <Value AttributeID="MOHR_LOV" ID="102803">Pink</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

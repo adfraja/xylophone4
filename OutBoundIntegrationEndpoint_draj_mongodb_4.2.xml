@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="draj_mongodb_4.2" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="Export" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="DBA" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="MongoDBDelivery40" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1000</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="ClusterEnabledServerConfigurations" Type="com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter">MongoDB.Server.Configuration._1</Parameter>
+  <Parameter ID="UserName" Type="java.lang.String">Felix</Parameter>
+  <Parameter ID="keyStoreLocation" Type="com.stibo.util.integrationendpoints.ConfigParameter"/>
+  <Parameter ID="trustStoreLocation" Type="com.stibo.util.integrationendpoints.ConfigParameter"/>
+  <Parameter ID="useSSL" Type="java.lang.String">No</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="Context1" ECatalogID="" EffectiveDate="" EffectiveDateTimeZoneID="Europe/Copenhagen" ExecutionMode="" ExportDerivedAttrs="false" ExportSelectedProducts="true" InheritProductData="true" LeafProductExport="false" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main" isSorted="false">
+        <Delivery Name="File">
+          <Parameter Name="FileNameTemplate">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+        </Delivery>
+        <Format Name="AdvancedSTEPXML">
+          <Parameter Name="CrossContextChooser">No</Parameter>
+          <Parameter Name="Recorder">&lt;?xml version='1.0'?&gt;&lt;STEP-ProductInformation  ExportDeletedData=&quot;true&quot;&gt;&lt;Classifications ExportSize=&quot;Selected&quot;FlattenHierarchy=&quot;true&quot;&gt;&lt;Classification IncludeParent=&quot;false&quot;/&gt;&lt;/Classifications&gt;&lt;Assets ExportSize=&quot;Selected&quot;&gt;&lt;Asset/&gt;&lt;/Assets&gt;&lt;Entities ExportSize=&quot;Selected&quot;FlattenHierarchy=&quot;true&quot;&gt;&lt;Entity&gt;&lt;Name/&gt;&lt;ClassificationCrossReference Type=&quot;draj_class_reference&quot;/&gt;&lt;ClassificationCrossReference Type=&quot;REF_AGENCE_PDV_HERITE&quot;/&gt;&lt;ClassificationCrossReference Type=&quot;REF_ENSEIGNE_TARIF_PDV&quot;/&gt;&lt;ClassificationCrossReference Type=&quot;REF_ETAB_FRN_TO_CLS_ACT_NEGO&quot;/&gt;&lt;ClassificationCrossReference Type=&quot;REF_ETAB_FRN_TO_CLS_RAYON_BRICO&quot;/&gt;&lt;AssetCrossReference/&gt;&lt;EntityCrossReference/&gt;&lt;Values&gt;&lt;Value UnitName=&quot;&quot;/&gt;&lt;/Values&gt;&lt;DeleteClassificationCrossReference/&gt;&lt;DataContainers/&gt;&lt;/Entity&gt;&lt;/Entities&gt;&lt;Products ExportSize=&quot;Selected&quot;FlattenHierarchy=&quot;true&quot;&gt;&lt;Product&gt;&lt;Name/&gt;&lt;AttributeLink/&gt;&lt;DataContainerTypeLink/&gt;&lt;ClassificationReference IncludeInherited=&quot;true&quot;/&gt;&lt;ProductCrossReference IncludeInherited=&quot;true&quot;/&gt;&lt;AssetCrossReference IncludeInherited=&quot;true&quot;/&gt;&lt;EntityCrossReference IncludeInherited=&quot;true&quot;/&gt;&lt;ClassificationCrossReference IncludeInherited=&quot;true&quot;/&gt;&lt;Values IncludeInherited=&quot;true&quot;&gt;&lt;Value UnitName=&quot;&quot;/&gt;&lt;/Values&gt;&lt;DataContainers IncludeInherited=&quot;true&quot;/&gt;&lt;/Product&gt;&lt;/Products&gt;&lt;/STEP-ProductInformation&gt;</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product"/>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>draj_entity_L_2</ObjectType>
+  </ExportConfiguration>
+  <ExportConfiguration MatchAllTypes="true">
+    <EventType>17</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="Context1" ECatalogID="" EffectiveDate="" EffectiveDateTimeZoneID="Asia/Calcutta" ExecutionMode="" ExportSelectedProducts="false" InheritProductData="true" LeafProductExport="true" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main" isSorted="false">
+        <Delivery Name="File">
+          <Parameter Name="FileNameTemplate">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+        </Delivery>
+        <Format Name="AdvancedSTEPXML">
+          <Parameter Name="CrossContextChooser">No</Parameter>
+          <Parameter Name="Recorder">&lt;?xml version='1.0'?&gt;&lt;STEP-ProductInformation ExportDeletedData=&quot;true&quot;&gt;&lt;DeleteProducts/&gt;&lt;DeleteEntities/&gt;&lt;DeleteClassifications/&gt;&lt;DeleteAssets/&gt;&lt;/STEP-ProductInformation&gt;</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product"/>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="draj_oiep"></SetupGroupLink>
+            <Name>draj_mongodb_4.2</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAK2RTUsDMRCG7/6KkLtTe/Owm4JbC8JahbReJd0dQzQ7U5Jsaf+90cXWj1YQvGXIzPO8mRSTbefFBkN0TKUcw4UUSA23jmwpl4vZ+aUUMRlqjWfCUhLLiSruTTAdpjymzoQ4lOJmWsrK9zGfr8msPLYaQ8ZXTE/O9sGk7IlSLHbrDGu4g5jciqFPzoOjhHZoQWrXnOsIw6ROISeq2Hts3u7ru4e9VKpbJsvTKxhc8EUGj+NitO89EncZMcxz/RHq2WwMeEMWBqlUM/Ru+w3yk9NH1Lo+TZnz7zlecKcTB6y5eQ/+9yUdNjI6wk8hf8t/Gj49J6pXLXsbkkkCAAA=</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Read" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="draj_entity_L_2"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+attribute=SAMSE-215_ATT
+context=Context1
+objecttype=draj_entity_L_2
+reftype=draj_class_reference -->
+                <Configuration>H4sIAAAAAAAAANVUTXObMBC951cw3F3qZDrTAzjD2E7LTNJ4DEmPjAyLo0RIzEq4dn99BUihNnTi3pITaL/03u7ThlKCSqCsGFEQ+Nf7kjk7QEkFD9zpp8+uAzwTOeXbwH1IbiZf3evZhR8ny9VkhSKvMxXxQmBJlM5w1iAF20HEGeWwhkIGbkGYBNe5EYyJX/e6NNIc4npjsvuI5b4SqBaAdAd5qBS+umYXjuOHDVBpomL6GwL3jnJa1qXrLARX3QVzRqSkBc1aPIloszQQQE1Dpyisu3q2otcW97rqmpn3D2ozX1aMqlkDjG5qBbeUv8gE6XarEfPtqftDtLTnIptGvEn+pLsfgOIx4nH5GDkchzoRz1idw4po5SgjHCOWk6JnNC7iOex/Csy/U0CC2dNhoJwfpISB8X7zDJlKDhV8Q1FX2iEDvzeuawayxTRiO7I6/W+0CNwcyXOqeVF1SG/TS0tsUGVoMsC6tgzwmg68e2X4Nvp/94nJG9sotuaocsxAmiF7dv38vUm8URG+XmPdQ77WY45zFFIO0trtNu56JKwGaU8Loshckye63SjfutX3zLFTj+3pGe+hF45+FC+yIrqTYVWh0KMyIQ+cvn8dadoNznP356MhcGXOxEogiMO7eDm5nH5JwyQx3kwPAvYqmHffqTGL9kUq/SKDk2dsAhCK3ps1gkrRjt2E/AE7vFmh9gcAAA==</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>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</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

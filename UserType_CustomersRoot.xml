@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="CustomersRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]">
+            <Name>Customers Root</Name>
+            <Icon>H4sIAAAAAAAAAAETAez+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2klEQVR4Xo2SsQ3CMBBF0zEQc3gFJBroaWkzAg0SdMgdJQViBQshRsgCHsHwLz7nfLYDX/q6JL737YvcdUr7wzW0vN71ZM1kQqP3vmrAXDXHwkKy3F0GtELCcdkFtxlhrvoE0rMw3o0xRYi1NlmGJEg3Y60/3QrrMQpYBtyfA/nyeFMtAnBUSMLOOfK/J6AQCTIshd2hakAUQWyt+YB+BOQY/I3VDoiNq+FMFYt4Xry2FKLnzwMEDPPugDkA48iTsbMABqQJjgH6Fk638duQNdc8/tSGpoZfruoDK+8wZ5tiSpgAAAAASUVORK5CYIKUhMryEwEAAA==</Icon>
+            <UserTypeLink UserTypeID="PartyDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="OrganizationUnmatchedWordFactorTable"><!-- Definition:
+<Configuration IgnoreCase="false">
+  <ValuePair>
+    <FromValue>private limited</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>professional limited liability company</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>association</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>proprietary limited</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>holding company</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>professional corporation</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>america</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>service corporation</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>div</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>division</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>holding</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>bank</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>wholesale</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>latam</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>incorporated</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>professional association</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>manufacturing</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>research and development</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>worldwide</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>with limited liability</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>department</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>group</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>venture capital</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>limited</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>limited company</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>unlimited</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>asia</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>corporation</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>limited liability corporation</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>dept</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>emea</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>warehouse</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>headquarters</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>na</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>management</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>societa per azioni</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+  <ValuePair>
+    <FromValue>professional services corporation</FromValue>
+    <ToValue>.98</ToValue>
+  </ValuePair>
+</Configuration>
+ -->
+            <Name>Organization Unmatched Word Factor Table</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">3645</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 16:50:37</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="MatchingLookupTables"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAL1Xu07EMBDs7yssPoC0IIVrTkKio0D0e/EmWeHYZm0nOr4e3yNCJxAVQxVtEo3X4/GM3e6C72UoSlmCN0+DD8o7Svxw05NLfLPdGNO+kiv8TKLHqtaPGqbTu21UmSmzcTJJZts2X5/Ov76Ec3V7f9c2a3HEbK5Afx0i9JxSbY/cOk590l6c5IPpwhTJHxAjU0qhkxMzoIlV+jiTHpD8jcFZ8QOSqKsl6oLGoDDWaGKVjhDQiXWWjtEzsDKDYCWBWr5oCAG9J/+GwF1qz5zIMQLcUaYJASx+Fd8/mCnY3ybypacuFwVJRzkxaTca8tZYntmFOLHPEDkFdXYRC5HTInn8Hm0Qk+BImlEkDRpKRADPteGi1ZkpSiYH2dK4BF5XFpjAxQP7pySQvAXn7E9nRWywc4RsK54Ywv9CymMoCeJpI5N9L9VsWBMC30MoqZlFA6P88Ri39bxvIquhj6pCgWf85Uyb/kD7bXN1WdxuPgEhdV84PQ4AAA==</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>

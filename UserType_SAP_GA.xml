@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SAP_GA" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SAP Generic Article</Name>
+            <Icon>H4sIAAAAAAAAANWT/1OSdwCA3zq96ZyTsnK0LxmzUtcOrru1uWpHzSKbXqS21k5NZ7pr6XLdmXSpL4Gnrk1FDkEQ0+1A8fULAsqaQxRRzEgPZENSJgYBe+Hzvi+4bsvbzu3af7Hnh+f5Cx5Gxqn30opIEAn6E4Ju9BLLTg+M4BM/IGabz+bwFAuBzeGz2J/U9YEsMfhmAEyaUcPYQMLuPeZF34NFX+84ft/qd7rcLAVxCyHmbd5WFd6mwq53oNyeQEoaU6jGMtvBza5VvRap6w3U96AXpCG7w436nEG/s05JMFqAdcmLjAOFHu8eI2CEsC15LHbPK7sT4WblRwXw1AJKfnWP8SF6thAWawmOHGV9j8e+TNJpkbMd2OzkqOwe+sDm+827Ut0NtLMgs7SltLw6r7BMpsOTaXTnqospxPJqVOZFb9sIAcsDTZ36tceet99nllU1f5gHS0aBYBBl5LMrFWH7slekwYdncP4Q+Gvj94/zy4W988YFn0BN3FIQj1bcFrs/OobkWHGTKTTzjM5i92V/1VVSVmN/5Oap8VETmJvSZkkwwTDIFINBI5Z7lS/UgFYl/q1ildWF5dwl4KGwahq8+BKpHsGYUtygUyclU69Lg5ppMDITtJoNx04XLNiejM2BgmstJr26mK2UqPx+768ibbhDE3TaZ2sapFUKok0DGoaI+ITEa9zBYhFYdq7d6CGyJOBiJ1HTHz7KrLgzgLP7gMvlkoxgxp+UsBxcadQzxXiHbOzrPmBaCPAG0JJ2ACPBfcnUmruo0oiZTbpd5MR30wuuitD+Kdyx4mX3E73j2D0TapgPCDUYS4aXi9AJM6rU+3M7Q68n0fI+r11afry5uQn9/9m7EfFfDz7X8yegqH+g0WepxynWuEtR8alPK9+M4OVWVjwMc24b20527vCuR5aeYENFh6S0wkJ+yoXaL+fC7zTaGncxhmlWiGLgZOeQ5KGT3Gzl1qjF9rSKyTPQJ/FS3voMmx0XtT2JzgpNcmIiIk2W9Z3pJt5rE7XfGWboP1MpEUzSuhyxUpNZEh00UhqDkPMFf4fPy+KoF7dRFKzI2S0JL9BKB0Ml3PN7U4rgX/iXL2fEHj/mfPbp8Fv1+0831DZ9sTMtrvOg/oNzG/sicviX3phmn+k+kC2N0ZeJG7ffNJIPbT0cff9pepMytSo1F2JGQxBjR3J10bZgKzVp7EQlqzjjNufwkT8cCT8muQVKegkrdIW2xm3eEnuU/Jnmzjk6dORfH01n6zoEAAA=</Icon>
+            <UserTypeLink UserTypeID="Stroke"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

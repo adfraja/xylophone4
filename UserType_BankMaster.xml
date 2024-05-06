@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="BankMaster" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Bank Master</Name>
+            <UserTypeLink UserTypeID="BankMasterRoot"></UserTypeLink>
+            <AttributeLink AttributeID="BankCountry"></AttributeLink>
+            <AttributeLink AttributeID="BankKey"></AttributeLink>
+            <AttributeLink AttributeID="UniqueID"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

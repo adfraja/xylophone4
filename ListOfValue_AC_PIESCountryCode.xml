@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESCountryCode" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Country Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="150" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PIESCountryCode
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country Code
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PIESCountryCode
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESCountryCode
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESCountryCode
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PIESCountryCode
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="AR">
+                <Value>Argentina</Value>
+            </ValueGroup>
+            <ValueGroup ID="AT">
+                <Value>Austria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AU">
+                <Value>Austrailia</Value>
+            </ValueGroup>
+            <ValueGroup ID="BA">
+                <Value>Bosnia and Herzegovina</Value>
+            </ValueGroup>
+            <ValueGroup ID="BD">
+                <Value>Bangladesh</Value>
+            </ValueGroup>
+            <ValueGroup ID="BE">
+                <Value>Belgium</Value>
+            </ValueGroup>
+            <ValueGroup ID="BG">
+                <Value>Bulgaria</Value>
+            </ValueGroup>
+            <ValueGroup ID="BR">
+                <Value>Brazil</Value>
+            </ValueGroup>
+            <ValueGroup ID="BY">
+                <Value>Belarus</Value>
+            </ValueGroup>
+            <ValueGroup ID="BZ">
+                <Value>Belize</Value>
+            </ValueGroup>
+            <ValueGroup ID="CA">
+                <Value>Canada</Value>
+            </ValueGroup>
+            <ValueGroup ID="CH">
+                <Value>Switzerland</Value>
+            </ValueGroup>
+            <ValueGroup ID="CN">
+                <Value>China</Value>
+            </ValueGroup>
+            <ValueGroup ID="CO">
+                <Value>Colombia</Value>
+            </ValueGroup>
+            <ValueGroup ID="CZ">
+                <Value>Czechia</Value>
+            </ValueGroup>
+            <ValueGroup ID="DE">
+                <Value>Germany</Value>
+            </ValueGroup>
+            <ValueGroup ID="DK">
+                <Value>Denmark</Value>
+            </ValueGroup>
+            <ValueGroup ID="DM">
+                <Value>Dominica</Value>
+            </ValueGroup>
+            <ValueGroup ID="DO">
+                <Value>Dominican Republic (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES">
+                <Value>Spain</Value>
+            </ValueGroup>
+            <ValueGroup ID="FI">
+                <Value>Finland</Value>
+            </ValueGroup>
+            <ValueGroup ID="FR">
+                <Value>France</Value>
+            </ValueGroup>
+            <ValueGroup ID="GB">
+                <Value>United Kingdom</Value>
+            </ValueGroup>
+            <ValueGroup ID="GR">
+                <Value>Greece</Value>
+            </ValueGroup>
+            <ValueGroup ID="GT">
+                <Value>Guatemala</Value>
+            </ValueGroup>
+            <ValueGroup ID="HK">
+                <Value>Hong Kong</Value>
+            </ValueGroup>
+            <ValueGroup ID="HN">
+                <Value>Honduras</Value>
+            </ValueGroup>
+            <ValueGroup ID="HR">
+                <Value>Croatia</Value>
+            </ValueGroup>
+            <ValueGroup ID="HT">
+                <Value>Haiti</Value>
+            </ValueGroup>
+            <ValueGroup ID="HU">
+                <Value>Hungary</Value>
+            </ValueGroup>
+            <ValueGroup ID="ID">
+                <Value>Indonesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="IE">
+                <Value>Ireland</Value>
+            </ValueGroup>
+            <ValueGroup ID="IL">
+                <Value>Israel</Value>
+            </ValueGroup>
+            <ValueGroup ID="IN">
+                <Value>India</Value>
+            </ValueGroup>
+            <ValueGroup ID="IT">
+                <Value>Italy</Value>
+            </ValueGroup>
+            <ValueGroup ID="JP">
+                <Value>Japan</Value>
+            </ValueGroup>
+            <ValueGroup ID="KP">
+                <Value>Korea (the Democratic People's Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="KR">
+                <Value>Korea, Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="LT">
+                <Value>Lithuania</Value>
+            </ValueGroup>
+            <ValueGroup ID="LU">
+                <Value>Luxembourg</Value>
+            </ValueGroup>
+            <ValueGroup ID="MA">
+                <Value>Morocco</Value>
+            </ValueGroup>
+            <ValueGroup ID="MG">
+                <Value>Madagascar</Value>
+            </ValueGroup>
+            <ValueGroup ID="MO">
+                <Value>Macao</Value>
+            </ValueGroup>
+            <ValueGroup ID="MT">
+                <Value>Malta</Value>
+            </ValueGroup>
+            <ValueGroup ID="MU">
+                <Value>Mauritius</Value>
+            </ValueGroup>
+            <ValueGroup ID="MX">
+                <Value>Mexico</Value>
+            </ValueGroup>
+            <ValueGroup ID="MY">
+                <Value>Malaysia</Value>
+            </ValueGroup>
+            <ValueGroup ID="NI">
+                <Value>Nicaragua</Value>
+            </ValueGroup>
+            <ValueGroup ID="NL">
+                <Value>Netherlands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="NZ">
+                <Value>New Zealand</Value>
+            </ValueGroup>
+            <ValueGroup ID="PE">
+                <Value>Peru</Value>
+            </ValueGroup>
+            <ValueGroup ID="PH">
+                <Value>Philippines (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PK">
+                <Value>Pakistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="PL">
+                <Value>Poland</Value>
+            </ValueGroup>
+            <ValueGroup ID="PR">
+                <Value>Puerto Rico</Value>
+            </ValueGroup>
+            <ValueGroup ID="PT">
+                <Value>Portugal</Value>
+            </ValueGroup>
+            <ValueGroup ID="RO">
+                <Value>Romania</Value>
+            </ValueGroup>
+            <ValueGroup ID="RS">
+                <Value>Serbia</Value>
+            </ValueGroup>
+            <ValueGroup ID="RU">
+                <Value>Russian Federation (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="SA">
+                <Value>Saudi Arabia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SE">
+                <Value>Sweden</Value>
+            </ValueGroup>
+            <ValueGroup ID="SG">
+                <Value>Singapore</Value>
+            </ValueGroup>
+            <ValueGroup ID="SI">
+                <Value>Slovenia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SK">
+                <Value>Slovakia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SL">
+                <Value>Sierra Leone</Value>
+            </ValueGroup>
+            <ValueGroup ID="SV">
+                <Value>El Salvador</Value>
+            </ValueGroup>
+            <ValueGroup ID="TH">
+                <Value>Thailand</Value>
+            </ValueGroup>
+            <ValueGroup ID="TN">
+                <Value>Tunisia</Value>
+            </ValueGroup>
+            <ValueGroup ID="TR">
+                <Value>Turkey</Value>
+            </ValueGroup>
+            <ValueGroup ID="TW">
+                <Value>Taiwan</Value>
+            </ValueGroup>
+            <ValueGroup ID="TZ">
+                <Value>Tanzania, United Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="UA">
+                <Value>Ukraine</Value>
+            </ValueGroup>
+            <ValueGroup ID="UM">
+                <Value>United States Minor Outlying Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="US">
+                <Value>United States</Value>
+            </ValueGroup>
+            <ValueGroup ID="VE">
+                <Value>Venezuela (Bolivarian Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="VN">
+                <Value>Viet Nam</Value>
+            </ValueGroup>
+            <ValueGroup ID="YT">
+                <Value>Mayotte</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZA">
+                <Value>South Africa</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

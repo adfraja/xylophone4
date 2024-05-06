@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="DGNA_sku5" UserTypeID="DGNA_Lev2" ParentID="DGNA_Parent2">
+            <Name>DGNA_sku5</Name>
+            <ClassificationReference ClassificationID="DGNA_CLS_Child4" Type="DGNA_P2C_Ref"></ClassificationReference>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

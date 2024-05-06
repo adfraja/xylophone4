@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="LAKU WF" Referenced="true"><!-- Definition:
+<scxml name="LAKU WF" initial="Start" version="0.9">
+  <assignee id="$current" type="user"/>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=579.0  </editorLayout>
+  <final id="END" name="END" discontinued="false">
+    <editorLayout>   node-size-and-position x=242.0 y=376.0 w=100.0 h=25.0  </editorLayout>
+  </final>
+  <state id="In-Progress" name="In-Progress" discontinued="false">
+    <transition target="END"/>
+    <editorLayout>   node-size-and-position x=248.0 y=296.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Start" discontinued="false">
+    <transition target="In-Progress"/>
+    <editorLayout>   node-size-and-position x=178.0 y=77.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>LAKU WF</Name>
+            <ValidUserTypeLink UserTypeID="JPG Image"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJXSTUvDQBAG4Ht/xbp4TROjNa1kA+IHFIstiHhekjEOpLNhd2Jaf73bbf0ErV4yl5l3niGrOzZTQkbNMKcLC76qR904yF3bIBewgrJjuCsttjzDJTJUC4vP2EANTrHt3jobdAw0p+myNZbB3rfV9zBXrpaNykMRGNY2St6xtiwF6SUoOTu/uRcP11I8g3VoSMlkOJHCD5BT8om5PYvjvu+H/fHQ2DpOk2QUJ1kcMmWRH0SREIJMBZHDF4g0VVFrnF9lSKxUMkzEOnx7dXoy9vVJjbKJryKKioHItXNYE4DASsnDsrMWyON43Xpc58D6HfFbUzHwE479maJCVxpipA78YDhahoztdXthR9k40LIs2I6SJNjS0TtN5Gw17QZ8aA2s5JSihTW1Bec2sI+OYpDHQfYX4+eU3X/4GrwHn55s8enk9F/6q9vL39SPSLr5Wb2Z3mm3QXuVaVAeZz8o8zhsDIjNcyp2z/YV9FXScCUDAAA=</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

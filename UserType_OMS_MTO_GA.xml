@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OMS_MTO_GA" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>OMS MTO Generic Article</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4Fsewe/fu8vJyQUHBxSfD0tLS3r17N+9g0LprUfMPBy89Hb5w2bSNd8NreqPXXgt/8vTx5sOT5h8JruoO33Qv8vP312uvhy4/FRsaGvrv/98DZ5d9/vxp1eWQdTdDTpw+UDbZ6umzh92r3VZfivr05V1+h9W/f/8vXDlx6mXPvidFE+dUrlq1auX5yLt37978sPrXr9/rb4c8eH1q9r7AhcdCGufbLzoRMmWrT0Gr88+/nyds9Fx+LmLxmgl+QW7fv38v6bWdvtNv5ankaRsTDY30XFxc1l6J3vkkrrDV7c+/Hzv3r+9bmNI7s/jp06drNs1bdDx0+4OkebvS////9+bXuTVXw86cO7Hvetfi04Fz9gc2LLJafy3+35//SkpKHR0dxsbGZ86cmTlzJgMDw38wYKA9UPzJwsjAEMegA+KA4oSBfVVDXFNzS2tbe0dnWwRTTExEU1QMY6tGTHRcVHgTY+TslsgJreFa4Qwt4TP6YuIYHOIiWBYsYljDspqJNS42NmJ67FZWpqg9K/fs2ddnyWXvYirOKHY8Vi9Iyl9EWpfbW01V2y/WVzjQiJnTXFPBkZ1XyMlHUSLEzCaYjUPAwIs51Jbfw+OBhVBjWwefod2ZisCD7oLalyMsHkx4wtKsaN3jMHNbdtR0QSublBliHAzWAEbzU4JNAgAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="OMS_MTO"></UserTypeLink>
+            <UserTypeLink UserTypeID="OMS_SAP_MTO_ARCHIVE"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

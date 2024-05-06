@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Collection Group">
+            <Name>Collection Group</Name>
+            <UserTypeLink UserTypeID="Collection Group"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

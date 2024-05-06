@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="eClass_14.0_Root" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
+            <Name>eClass 14.0 Root</Name>
+            <Icon>H4sIAAAAAAAAAH1Ub2jcZBiPHKvSrQOlE1ZBQmbBibnkTS6XS2i2u95dbequLdfDFWHomzdv7kKbP03SXlpm0VXHFLYOmaCgH9z2bWXugyjbhLEhyNgYuj/d5nSgTD8J4hcnzKFvurs6ZPSF5H2f531+v+fJ8yfvjg6/1NXZ00lRVJc+WKqSfSN51j/RQd4j73xlkG1zVB6PxjwrasIAUwXTMzCtO7COqxias1PncR9FpfbatfFovLJDRZ6TholNOnZ8Kll922Mfogkc0Qau267G/H76DEPbpsbslCp8xS/ihj04F+CxueEamptAisls30b3xSohcHAE6diZdEM11pgVXpWcEzXH0Csm0YTGPAhqvDJKF70A01I6yyIg5mhZSQNJyQmZF2mBB1mOVziQYXmg8orKA7q1GOItMC21Whpo+SKSxjSiyFc5rtlsppti2gvqHFAUheMFThBYYsGGs24EY9YNt7QZSjhEge1HtufSiQwNbzrSGKb9CY5fqawSu2ErUSRlXAx9DqR5znG4tnUYVbG1tnVYm/UxV8WhNx0gUg9ry0Ou1oYmhiQadSSwSVHgZMlD0w52I72kMeQmbdqmCnM8UgAGrGAakM1IhsUahiCzSJEzOQEZJsgpbZ5H4ZVCoTAgZ4Fc6pcAKMuFsiQV5XKxWASgXxQLbazuhhF0EW5j7f+w/JpYtRhgGHlBzfMm210w2vAiL2x4Pl0sJlWX6ecrENluotyaFKoVLw7sGWwOBJ5Dr2RatR8RBcgCYAmmwiJL5tkMRCar8JLFiiZAhiJKOdEwmRbefCgDDzqVaAiH3w5I5VEWZg3LYiGhYwGQIWtkDcQacs6yZElWsrLBcCRE7n/N1FaRDk2Oq6NBhNXhwi6ZqICMzv1Lpz4iY3dbLxVq8fdR9fST5/gN1y7M7uk+9AOgelP8OvFgT2fPz7WMrRzouixS4olUJfhmw7mZOyPzQ93n31+6az5+cUdYfVpZyP/Z+5qx+41/zp68ji49tV6/tfTCcunYwncv/7b8475be0/cz5+d2TpiLUxu6nj1+q8T3VL5Fe3v+S/hJuP2WwvP7frk3odLY/fmNf3kY28O1j+ND8qH8/saR+58zSxbB77oiiu9uxa//eCZ3T8Ndfzx9ilJu3Zcv0F/fPjYkXhxW/3Kzc+n3tt49+Ivh/bvXPT+SuXyeXf/On3IvHqGSlHPXvEu3Jj67Gjyh9HLw6Xj/a/v+RdDcRTrzgQAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

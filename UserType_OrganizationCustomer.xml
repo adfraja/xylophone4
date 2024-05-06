@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OrganizationCustomer" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Workspace" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]" Referenced="true">
+            <Name>Organization Customer</Name>
+            <Icon>H4sIAAAAAAAAAAHAAT/+iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAABh0lEQVR4XoWR3SsEYRTG92+0VsqFj9xwq8jmI/m4Um6kVigX/gKEyCZFUUpIlHCx2F2zdpjZmZ2Zcx7PzGya1crUmXfeeZ/fec45bwp8VDUKaMCocSlB61eQ2gHEOoR6BZ57P7pU+BLhRgKI+0DhMcTO8/sa6j9DnBvIF2H3lhqHWklAgQ2vukvRJV0uoO4WEyxC7TX+O0FAMHQMtam4PIky+5/LUGsB8jEJ/RiGVrugRifUHIKYOUj9PqqoAdUporiahTrbzHwG/dyAVvogL+3QUppgNwJzHuIVE5AxjcDIsp+9OMLMRg+kQOilDVpuh18cQOA+JqFZSGWKLhfxEJJOIVRMwwshJwFJBI3RhZOq5VnOCvcJpwgahJ+EQqegMkpon9ARoVVCvb+cWkBiTBA4ZZwTWv8fEmOGgxjhRXJ6Ft2quZblNfWkxlzUk0bl8SLNJSbqboLi6T01IO+VonHgvQMoZeK1nCGQjkILhN4Ilfvh22cNyH8jmAfsTcD6O9Td4eXe4RtzIY8Af0itfwAAAABJRU5ErkJggiegvhjAAQAA</Icon>
+            <UserTypeLink UserTypeID="CustomerFolder"></UserTypeLink>
+            <UserTypeLink UserTypeID="OrganizationCustomerroot"></UserTypeLink>
+            <AttributeLink AttributeID="AccountType"></AttributeLink>
+            <AttributeLink AttributeID="BulkCleanse"></AttributeLink>
+            <AttributeLink AttributeID="CalcAQI"></AttributeLink>
+            <AttributeLink AttributeID="CalcNameCollection"></AttributeLink>
+            <AttributeLink AttributeID="CompanyVATNumber"></AttributeLink>
+            <AttributeLink AttributeID="DeactivatedRecord"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchAddressLine1"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchAddressLine2"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchCountryCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchDUNSNumber"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchOrganizationName"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchPhoneNumber"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchPostalCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchPrimaryTown"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchReasonCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchRegistrationNumber"></AttributeLink>
+            <AttributeLink AttributeID="DnBMatchTerritory"></AttributeLink>
+            <AttributeLink AttributeID="EmployeeSize"></AttributeLink>
+            <AttributeLink AttributeID="ExternalComment"></AttributeLink>
+            <AttributeLink AttributeID="FinanceComment"></AttributeLink>
+            <AttributeLink AttributeID="InternalComment"></AttributeLink>
+            <AttributeLink AttributeID="Language"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateName"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateOrgRef"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateRecord"></AttributeLink>
+            <AttributeLink AttributeID="LegalName"></AttributeLink>
+            <AttributeLink AttributeID="LogisticsComment"></AttributeLink>
+            <AttributeLink AttributeID="MatchingDataSource"></AttributeLink>
+            <AttributeLink AttributeID="NAICSCode"></AttributeLink>
+            <AttributeLink AttributeID="PaidDues"></AttributeLink>
+            <AttributeLink AttributeID="PrimaryPhoneDisplay"></AttributeLink>
+            <AttributeLink AttributeID="RevenueSize"></AttributeLink>
+            <AttributeLink AttributeID="SICCode"></AttributeLink>
+            <AttributeLink AttributeID="SalesComment"></AttributeLink>
+            <AttributeLink AttributeID="SpecialistComment"></AttributeLink>
+            <AttributeLink AttributeID="Status"></AttributeLink>
+            <AttributeLink AttributeID="TaxNumber"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

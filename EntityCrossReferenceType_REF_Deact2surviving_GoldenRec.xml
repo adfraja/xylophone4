@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <EntityCrossReferenceType ID="REF_Deact2surviving_GoldenRec" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" ParentChildRelation="NONE" MultiValued="false">
+            <Name QualifierID="std.lang.all">_ Deactivated to surviving Golden Record</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;REF_Deact2surviving_GoldenRec
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;_ Deactivated to surviving Golden Record
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;REF_Deact2surviving_GoldenRec
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;_ Deactivated to surviving Golden Record
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;REF_Deact2surviving_GoldenRec
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;_ Deactivated to surviving Golden Record
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;REF_Deact2surviving_GoldenRec
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;_ Deactivated to surviving Golden Record
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;REF_Deact2surviving_GoldenRec
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;_ Deactivated to surviving Golden Record
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ATG_MatchAndMergeReferences"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier"></TargetUserTypeLink>
+        </EntityCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

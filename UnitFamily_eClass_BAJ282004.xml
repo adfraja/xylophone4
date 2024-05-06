@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="eClass_BAJ282004">
+            <Name QualifierID="std.lang.all">eClass density</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">ratio between mass and volume of the same body or the same substance portion</Value>
+                <Value AttributeID="EclassID">BAJ282</Value>
+                <Value AttributeID="EclassPrimaryKey">BAJ282004</Value>
+            </MetaData>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SAP_L4" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SAP Level 4</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zsAg63OtceLeQ+e+WMRfW7B8W9PEvepBV/Kaj3lkXaztOyDnd5vd4tzy1VtzEnwLkgPmLdklYna8Z+YOTttr3DZXJs/br+R3nd3qgnHEaTmH0/phF5vK0zsn7eQwvfD63Xf1oGvSThfZLc+ZRV1cv3Gbpv9ZfpPT0q4Xv3z7bRR61iT6smXcFYWgW9L2F2LKT1mFHZTzvW4SdTqn6YhZ7BXP7MtG4VeMwy4o+F5++vLH8m13zeJu9c3epRp8s3zKs09f/kh63ZLyvH7k/Cdx62P6wZeXr1qnG3IlseL44V1LMpouZMf5VGSHq4Rcb5+86+TlL0cvfFYLuFydH9s0cU9xWrBV9IXnr38m1512TTyycvd7w6DTV25/tY44NW3lg+nzt65bt5bd6tzk2dt6Zx2om/xg3oaHYWXnVN2Pb9n/wK/osor3ua6FT+Vsj3NYX+Q3O8dvck7Z7XjzpL2KbicV/a5zWd9k1T2n6Hvt4Yufj178dEi5ntF0qrTlyM7jbzLifDV8zqq4n+SwvuCacbl35k5pz+sm4ReiK08t2vzEIubcy7c/VDxOdi540Thp7+xFG3tn7Vw+vXrdrof1RXEXb36q6Dz5+v33gvTwtnkvfbJOZzaf6msumDR327q9L3pn7s9uu1vQfvLh81+VU5+zm59rmrRX2Oz4gmXbFi1bP33Rnklz9586sNwt58r8JVubKzPmLdkcUnpB0edUaNnFbQfuHdu73CD6pmPadfu0O8Ud+xXdThd1HJk+b/PkeTsiKi7ohV8MLb/MaXNTO+pew8xnk1a8jCo717PoZdXU50aBRwILLotbn0pvPHlw10pJj+t6/se1As4JmJ/98fEeh+XFkOyDaY0n46rP/fv37////wyDEij+ZAHTOiAClCcYOP4z9BsKb/WKEEzjENZK2ebG02asbccy0/GxP4dOYIFKslsXI6N/XMOBQGel3o1+BxT2JGxL7F6j55Sz9aLzijMcSfuiXJLSnl9W9KrdEsHlyijSyM7jYpJU1tC7kIFTiEUjwMGTxWWzT2LSNp1rvO4HX3k0FSb4GIfOKfJJLPOSnOGYGHQxKfGIC7vr+nlvko6xB4hpcgicUCheLrTYYX/HhcRpSVMkpZnZjuw4sviqUGzTijkJYT2h6yzZeEx2flLlF45zDohIZPN2X+/DJbIjy212mWiM5IypHos8+RruM8Rc+RG4oqk96kzVihuB0QcM5OtYHLoeP2My5ts+IZfpYOpBJu7qCx7iMz6wiW72lJpjU3ThAcc8Nr4FCpEhWoEODNYAzss2vzoEAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="SAP_L3"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="RAManagerView" ShowInWorkbench="false" ManuallySorted="false" Referenced="true" ParentID="UserPrivileges">
+            <Name QualifierID="en-US">RA Manager - View</Name>
+            <Configuration>H4sIAAAAAAAAAH2OwQrCMAyG73uK0gewem8HuqkMxIPK7h3LJLi2kqb6+m4q9eYtH8n/5ddrZsIuMewppHuL8KxhQI+MwYtdIGe5BYoTGblaLGVZCKF/J1FcLF2BsyZW1m9g2yNDb+RgxwhSvUNVGJPzcZ4nOqC/5dBnJTI3tZHnpjrBA+fPx+Q6oK9GZY9W/8qXxQvkdsm03AAAAA==</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

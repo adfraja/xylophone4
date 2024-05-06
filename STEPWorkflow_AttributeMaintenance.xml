@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="AttributeMaintenance" Referenced="true"><!-- Definition:
+<scxml name="AttributeMaintenance" initial="Start" version="0.9">
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>
+  <final id="End" discontinued="false">
+    <assignee id="$current" type="user"/>
+    <editorLayout>   node-size-and-position x=199.0 y=196.0 w=100.0 h=25.0  </editorLayout>
+  </final>
+  <state id="Start" discontinued="false">
+    <transition target="End"/>
+    <assignee id="$current" type="user"/>
+    <editorLayout>   node-size-and-position x=157.0 y=137.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+</scxml> -->
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>AttributeMaintenance</Name>
+            <Configuration>H4sIAAAAAAAAAJWSy2rDMBBF9/kKVXTrR5Lm4WIZSuki0JJC6Aeo9sQZsMdGGsdJv76ykrRQCKEbDUJz59wrSXfcrAgZNcOang24qra6spDatkLO4AB5x7DJDbb8ijUyFO8G91hBCVax6S6dFVoGWtOqbhvDYD7a4u8wmx/qSqW+CPTYSskNa8NSkK5BySdmg5+O+KaR3DxNOUixB2OxISXjMJHCqckquWNuH6Oo7/uwn4aNKaNJHM+ieBF5gMzSuyAQQlBTQGDxCwJNRdA21nEbEgcVh7E4+rVX84elqzs1Ww57EQTZSKSWXQJRoM0bYqQOCiV9HimwuBi/iRnPFh40ni48ahzHHjWZ/ZBEykbTWeGmlsBKvlDhhke/J9lo6NTWYkkA3sJ93hkD5K6Pj627vs6CGUSXpmyURj7FoE23SLq6nucEvJUmSU5pkvn1NP/26J15s8PTZef/8g00M9tfngIAAA==</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

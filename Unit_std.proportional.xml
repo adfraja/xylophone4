@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <Unit ID="std.proportional" ParentID="Typographical">
+            <Name QualifierID="en-US">Proportional</Name>
+        </Unit>
+    </UnitList>
+</STEP-ProductInformation>

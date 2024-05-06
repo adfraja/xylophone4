@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD460003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">chip removal class_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD460003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;chip removal class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD460003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;chip removal class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD460003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;chip removal class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD460003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;chip removal class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD460003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;chip removal class_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD460</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD460003</Value>
+            </MetaData>
+            <ValueGroup ID="AAR492002">
+                <Value QualifierID="std.lang.all">hard, tough hard and/or short chipping materials</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR493002">
+                <Value QualifierID="std.lang.all">hard, tough hard and/or short chipping materials with flat chip separator</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR494002">
+                <Value QualifierID="std.lang.all">hard, tough hard and/or short chipping materials with round chip separator</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR495002">
+                <Value QualifierID="std.lang.all">soft, tough and/or long chipping materials</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR496002">
+                <Value QualifierID="std.lang.all">material of normal hardness and toughness</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR497002">
+                <Value QualifierID="std.lang.all">material of normal hardness and toughness with flat chip separator</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR498002">
+                <Value QualifierID="std.lang.all">material of normal hardness and toughness with round chip separator</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

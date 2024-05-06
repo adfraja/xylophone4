@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="DnBWorkflows" UserTypeID="DnBWorkflowsType" ParentID="DnBIntegration">
+            <Name>D&amp;B Workflows</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="ag_AllAttributes" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
+            <Name QualifierID="en-US">zAll Attriburtes</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">The origination point for any new attribute. This folder will encompass all attributes within STEP.</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <Unit ID="unece.unit.KMH" ParentID="Velocity">
+            <Name QualifierID="en-US">km/h</Name>
+            <MetaData>
+                <ValueGroup AttributeID="UnitDescription">
+                    <Value QualifierID="en-US">kilometre per hour</Value>
+                    <Value QualifierID="std.lang.all">kilometre per hour</Value>
+                </ValueGroup>
+            </MetaData>
+        </Unit>
+    </UnitList>
+</STEP-ProductInformation>

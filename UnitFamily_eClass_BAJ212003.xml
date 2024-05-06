@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="eClass_BAJ212003">
+            <Name QualifierID="std.lang.all">eClass force</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">cause of a change in velocity, equal to the first derivative of the momentum (pulse) of a body that is free to move with regard to time and/or cause of deformations of bodies that are not free to move</Value>
+                <Value AttributeID="EclassID">BAJ212</Value>
+                <Value AttributeID="EclassPrimaryKey">BAJ212003</Value>
+            </MetaData>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

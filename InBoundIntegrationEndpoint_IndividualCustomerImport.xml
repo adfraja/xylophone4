@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <InBoundIntegrationEndpoint ID="IndividualCustomerImport" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="ImportConfPreProcessor" ProcessPluginID="MergedGoldenRecordProcessor" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="hotfolder" MessagesPerBackgroundProcess="1"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries>
+
+PreProcessorPluginConfiguration:
+<Parameters>
+  <Parameter ID="ImportConfiguration" Type="com.stibo.core.domain.Asset">step://asset?id=IndividualCustomerImportConfiguration</Parameter>
+  <Parameter ID="allowOpenZipFile" Type="java.lang.Boolean">false</Parameter>
+</Parameters>
+
+PostProcessorPluginConfiguration:
+<Parameters/>
+
+ReceiverPluginConfiguration:
+<Parameters>
+  <Parameter ID="FileSystemHotFolder" Type="java.lang.String">Starter Package/Individual</Parameter>
+  <Parameter ID="IgnoreSubFolders" Type="java.lang.Boolean">false</Parameter>
+  <Parameter ID="InFolder" Type="java.lang.String">in</Parameter>
+  <Parameter ID="KeepProcessedFiles" Type="java.lang.Boolean">true</Parameter>
+  <Parameter ID="NumberOfFilesToKeep" Type="java.lang.Integer">1000</Parameter>
+  <Parameter ID="NumberOfFilesToKeepInFailed" Type="java.lang.Integer">1000</Parameter>
+  <Parameter ID="TimeToKeep" Type="java.lang.Integer">365</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<Parameters>
+  <Parameter ID="BusinessActions" Type="java.util.List"/>
+  <Parameter ID="MatchingAlgorithms" Type="java.util.List">::step://matchingalgorithm?id=Individual+Matching_ORIGINAL</Parameter>
+</Parameters>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Inbound Integration Endpoints"></SetupGroupLink>
+            <Name>Individual Customer Import</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>
+            <PreProcessorPluginConfiguration>H4sIAAAAAAAAAG2PwU7DMBBEf8XaO065IRQngqJKObWHcuG2jbfRInvXsp0Af084ULVSj08avZlp++8YzEK5sIqDR7sBQzKqZ5kcvB93D0/Qd6Y9YMZIdc11xlyhGd4cDDFprluVM09zxrqqwBx/EjkYNdpS+aR21EzWa0QW+1IKVehKpfTcNPhHPXs3iOeF/YxhO5eqkfIdc9tcyu9MwRD0a59IPjjtOND/jk9c0AaUyb6qBkKB7oyh0I3tCtabv+52tdsbAQAA</PreProcessorPluginConfiguration>
+            <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>
+            <ReceiverPluginConfiguration>H4sIAAAAAAAAAKWS3UrEMBCF7/cpQu7tdhHFi7YLIsUgaKH1AWab2RBNJkuSFvftTRX8YaVl8fLAzHfO/BTbN2vYiD5oRyXfZDlnSL2TmlTJn7v64oZvq1XRgAeLMdVVK8a+JRN3Ja+1wfYYItp7F2tnJHrOuuMBS/4CI2QGSGVt9InJqzaCnxob6F9B4VqQ1KOWA5hi/YX9w+QB8dB412MIKCfHcOpx65xBIF5FP+A87nGwO/RP+w9S5yb6KU9QRJWGqTZ5ns/zOm1xEXN5fXV2KkE1JCX/lU4och7bYfd5nbnV7cGEhd2lSAtH1vSL8EOk/3kHjNyNXnQCAAA=</ReceiverPluginConfiguration>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAHWPywrCMBBF935FmK3Y6k5K01IRJVAfSF1LaEI7kqSlSYv+vVlYH6DLC3PO3BunN63IIDuLjaGwCOZApCkbgaaicC42syWkySQ+8o5r6fxdMiHkHQlbU1j1Fo20Niudt1ggxb2VFK584EHvUAU5WgdJHL6wH5Idd2Xtv2aqajp0tf7riSLrZBuFoX4ifERSFJQZgQOKnqvpqLwcTmzL9ln+1eAj+FEP7VBHKgkBAAA=</ProcessPluginConfiguration>
+            <SampleFileConfiguration SampleFileName="">
+                <SampleFileContents>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</SampleFileContents>
+            </SampleFileConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Main</WorkspaceID>
+        </InBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SupplierCCSource" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SupplierCCSource</Name>
+            <UserTypeLink UserTypeID="SourceSystemsRoot"></UserTypeLink>
+            <AttributeLink AttributeID="AT_SYSTEM_ID"></AttributeLink>
+            <AttributeLink AttributeID="SourceSystemID"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

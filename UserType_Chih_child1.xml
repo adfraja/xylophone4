@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Chih_child1" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" Referenced="true">
+            <Name>Chih_child1</Name>
+            <UserTypeLink UserTypeID="Chih_Parent"></UserTypeLink>
+            <AttributeLink AttributeID="Chih_color"></AttributeLink>
+            <AttributeLink AttributeID="Chih_gadgetprice"></AttributeLink>
+            <AttributeLink AttributeID="Chih_lovattr"></AttributeLink>
+            <AttributeLink AttributeID="Chih_material"></AttributeLink>
+            <AttributeLink AttributeID="Chih_size"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="Stater215"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

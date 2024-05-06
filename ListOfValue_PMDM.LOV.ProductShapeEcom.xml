@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.ProductShapeEcom" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Product Shape Ecom</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductShapeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Shape Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductShapeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Shape Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductShapeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Shape Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductShapeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Shape Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductShapeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Shape Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27272278">
+                <Value>Aviator</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272279">
+                <Value>Oversized</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272280">
+                <Value>Round</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272281">
+                <Value>Cat eye</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272282">
+                <Value>Rectangle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272283">
+                <Value>Square</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272284">
+                <Value>Oval</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272285">
+                <Value>Glasses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272286">
+                <Value>Compact umbrella</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272287">
+                <Value>Walker umbrella</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272288">
+                <Value>Gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272289">
+                <Value>Mittens</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272290">
+                <Value>Fingerless gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272291">
+                <Value>Touch screen gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272292">
+                <Value>Thermal gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272293">
+                <Value>Leather gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272294">
+                <Value>Waist belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272295">
+                <Value>Jeans Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272296">
+                <Value>Scarves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272297">
+                <Value>Shawls</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272298">
+                <Value>Snoods</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272299">
+                <Value>Hat scarf and glove sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272300">
+                <Value>Hat and scarf sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272301">
+                <Value>Glove and scarf sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272302">
+                <Value>Ponchos</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272303">
+                <Value>Beanie</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272304">
+                <Value>Bucket hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272305">
+                <Value>Beret</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272306">
+                <Value>Baseball cap</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272307">
+                <Value>Floppy hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272308">
+                <Value>Trilby hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272309">
+                <Value>Fedora</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272310">
+                <Value>Visor</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272311">
+                <Value>Sun hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272312">
+                <Value>Hat and glove sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272313">
+                <Value>Baker boy hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272314">
+                <Value>Bobble hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272315">
+                <Value>Straw hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272316">
+                <Value>Cossack Hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272317">
+                <Value>Cloche Hat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272318">
+                <Value>Yoga accessories</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272319">
+                <Value>Yoga mat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272320">
+                <Value>Sports accessories</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272321">
+                <Value>Water bottle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272322">
+                <Value>Cross body bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272323">
+                <Value>Bowler bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272324">
+                <Value>Clutch bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272325">
+                <Value>Backpack</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272326">
+                <Value>Shoulder</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272327">
+                <Value>Tote bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272328">
+                <Value>Bum bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272329">
+                <Value>Weekend bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272330">
+                <Value>Bucket bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272331">
+                <Value>Card holder</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272332">
+                <Value>Purse</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272333">
+                <Value>Coin purse</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272334">
+                <Value>Boat shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272335">
+                <Value>Court shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272336">
+                <Value>Pumps</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272337">
+                <Value>Brogues</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272338">
+                <Value>Loafers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272339">
+                <Value>Mules</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272340">
+                <Value>Espadrilles</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272341">
+                <Value>Peep toes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272342">
+                <Value>Slingbacks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272343">
+                <Value>Walking shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272344">
+                <Value>Shoe boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272345">
+                <Value>Flip flops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272346">
+                <Value>Gladiators</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272347">
+                <Value>Sliders</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272348">
+                <Value>Ankle strap</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272349">
+                <Value>Wedges</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272350">
+                <Value>Trainers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272351">
+                <Value>Hiker boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272352">
+                <Value>Ankle boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272353">
+                <Value>Chelsea boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272354">
+                <Value>Biker boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272355">
+                <Value>FOOTWEAR</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272356">
+                <Value>Knee high boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272357">
+                <Value>Mid calf boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272358">
+                <Value>Wellington boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272359">
+                <Value>Over the knee boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272360">
+                <Value>Walking boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272361">
+                <Value>Mule slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272362">
+                <Value>Slipper boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272363">
+                <Value>Ballerina slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272364">
+                <Value>Moccasin slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272365">
+                <Value>Slider slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272366">
+                <Value>Bracelets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272367">
+                <Value>Earrings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272368">
+                <Value>Necklaces</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272369">
+                <Value>Rings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272370">
+                <Value>Watches</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272371">
+                <Value>Brooches</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272372">
+                <Value>Ear cuffs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272373">
+                <Value>Extender chains</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272374">
+                <Value>Earring backs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272375">
+                <Value>Drop earrings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272376">
+                <Value>Hair clips</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272377">
+                <Value>Scrunchies</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272378">
+                <Value>Headbands</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272379">
+                <Value>Hair bands</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272380">
+                <Value>Jewellery</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272381">
+                <Value>Hoop earrings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272382">
+                <Value>Stud earrings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272383">
+                <Value>Jewellery sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272384">
+                <Value>Keyrings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272385">
+                <Value>Jumpers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272386">
+                <Value>Cardigans</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272387">
+                <Value>Joggers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272388">
+                <Value>Leggings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272389">
+                <Value>Vest top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272390">
+                <Value>Coatigans</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272391">
+                <Value>Hoodies</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272392">
+                <Value>Sweatshirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272393">
+                <Value>Knitted skirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272394">
+                <Value>Jumper dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272395">
+                <Value>Tunics</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272396">
+                <Value>Knitted tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272397">
+                <Value>Shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272398">
+                <Value>Bodycon dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272399">
+                <Value>Bardot dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272400">
+                <Value>Smock dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272401">
+                <Value>Tea dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272402">
+                <Value>Tiered dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272403">
+                <Value>Shift dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272404">
+                <Value>Skater dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272405">
+                <Value>T-Shirt dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272406">
+                <Value>Waisted dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272407">
+                <Value>Column dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272408">
+                <Value>Tailored dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272409">
+                <Value>Pinafores</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272410">
+                <Value>T Shirt dress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272411">
+                <Value>Kaftans</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272412">
+                <Value>Bodysuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272413">
+                <Value>Crop top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272414">
+                <Value>Wrap top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272415">
+                <Value>Peplum top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272416">
+                <Value>Polo shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272417">
+                <Value>Blouses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272418">
+                <Value>T shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272419">
+                <Value>Camis</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272420">
+                <Value>Vests</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272421">
+                <Value>Shell top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272422">
+                <Value>Short sleeve tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272423">
+                <Value>Long sleeve tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272424">
+                <Value>Cardigan</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272425">
+                <Value>Aviator jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272426">
+                <Value>Biker jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272427">
+                <Value>Bomber jackets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272428">
+                <Value>Denim jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272429">
+                <Value>Fleece jackets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272430">
+                <Value>Trucker jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272431">
+                <Value>Puffer jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272432">
+                <Value>Shackets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272433">
+                <Value>Sports jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272434">
+                <Value>Utility jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272435">
+                <Value>Duffle coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272436">
+                <Value>Duster coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272437">
+                <Value>Faux fur coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272438">
+                <Value>Teddy coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272439">
+                <Value>Gilet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272440">
+                <Value>Kimono</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272441">
+                <Value>Overcoat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272442">
+                <Value>Parka</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272443">
+                <Value>Peacoat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272444">
+                <Value>l Raincoat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272445">
+                <Value>Swing coat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272446">
+                <Value>Trench coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272447">
+                <Value>Waterfall coat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272448">
+                <Value>Wrap coat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272449">
+                <Value>Beach shirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272450">
+                <Value>Blazer</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272451">
+                <Value>Short jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272452">
+                <Value>Jumpsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272453">
+                <Value>Playsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272454">
+                <Value>Tailored shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272455">
+                <Value>Cargo shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272456">
+                <Value>Denim shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272457">
+                <Value>Culotte shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272458">
+                <Value>Chino shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272459">
+                <Value>Linen shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272460">
+                <Value>Casual shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272461">
+                <Value>Sports shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272462">
+                <Value>Culottes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272463">
+                <Value>T-shirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272464">
+                <Value>Running top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272465">
+                <Value>Cargo trousers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272466">
+                <Value>Skater skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272467">
+                <Value>Tiered skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272468">
+                <Value>A Line skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272469">
+                <Value>Pleated skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272470">
+                <Value>Pencil skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272471">
+                <Value>Wrap skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272472">
+                <Value>Denim skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272473">
+                <Value>Slip skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272474">
+                <Value>Beach Skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272475">
+                <Value>Sarong</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272476">
+                <Value>Thermal socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272477">
+                <Value>Slipper socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272478">
+                <Value>Ankle socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272479">
+                <Value>Knee High socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272480">
+                <Value>Footsies</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272481">
+                <Value>Sports socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272482">
+                <Value>Trainer liners</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272483">
+                <Value>Triangle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272484">
+                <Value>Halter neck</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272485">
+                <Value>Bandeau</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272486">
+                <Value>High neck</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272487">
+                <Value>Square neck</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272488">
+                <Value>Scoop neck</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272489">
+                <Value>Plunge</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272490">
+                <Value>Burkini</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272491">
+                <Value>High leg</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272492">
+                <Value>High waisted</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272493">
+                <Value>Hipster</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272494">
+                <Value>Shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272495">
+                <Value>Skirted</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272496">
+                <Value>Brazilian</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272497">
+                <Value>Roll top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272498">
+                <Value>Opaque tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272499">
+                <Value>Thermal tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272500">
+                <Value>Sheer tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272501">
+                <Value>Holdups</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272502">
+                <Value>Stockings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272503">
+                <Value>Support tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272504">
+                <Value>Shaping tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272505">
+                <Value>Footless tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272506">
+                <Value>Maternity tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272507">
+                <Value>Ankle highs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272508">
+                <Value>Knee highs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272509">
+                <Value>Fashion tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272510">
+                <Value>Chinos</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272511">
+                <Value>Cigarette</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272512">
+                <Value>Na</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272513">
+                <Value>Beach trousers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272514">
+                <Value>Jeans</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272515">
+                <Value>Jeggings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272516">
+                <Value>All Values</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272517">
+                <Value>Secret support vests</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272518">
+                <Value>Shaping vests</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272519">
+                <Value>Camisole</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272520">
+                <Value>Tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272521">
+                <Value>Body</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272522">
+                <Value>Plunge bra</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272523">
+                <Value>Full cup bra</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272524">
+                <Value>Strapless bra</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272525">
+                <Value>Bralette</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272526">
+                <Value>Crop Top</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272527">
+                <Value>Bra Accessories</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272528">
+                <Value>Sports bras</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272529">
+                <Value>Push up bra</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272530">
+                <Value>T shirt bra</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272531">
+                <Value>Suspenders</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272532">
+                <Value>Garters</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272533">
+                <Value>Extra Support</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272534">
+                <Value>Camisole</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272535">
+                <Value>Camisole set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272536">
+                <Value>Maximum support</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272537">
+                <Value>Body shaper</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272538">
+                <Value>Shaping knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272539">
+                <Value>Full slip</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272540">
+                <Value>Waist slip</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272541">
+                <Value>Shaping slip</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272542">
+                <Value>Short dressing gown</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272543">
+                <Value>Long dressing gown</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272544">
+                <Value>Robes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272545">
+                <Value>Pyjama tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272546">
+                <Value>Pyjama bottoms</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272547">
+                <Value>Pyjama shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272548">
+                <Value>Pyjama sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272549">
+                <Value>Chemise</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272550">
+                <Value>Nighties</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272551">
+                <Value>Nightshirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272552">
+                <Value>French knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272553">
+                <Value>Thongs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272554">
+                <Value>High leg knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272555">
+                <Value>Brazilian knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272556">
+                <Value>Knicker shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272557">
+                <Value>Full briefs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272558">
+                <Value>Midi knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272559">
+                <Value>Bikini knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27272560">
+                <Value>Cycling shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274673">
+                <Value>Boxers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274674">
+                <Value>Briefs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274675">
+                <Value>Slips</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274676">
+                <Value>Trunks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274677">
+                <Value>Vest</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274678">
+                <Value>Long johns</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274690">
+                <Value>Sleeveless</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274691">
+                <Value>Knitted polo shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274692">
+                <Value>T-shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274693">
+                <Value>Rugby tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274695">
+                <Value>Single breasted 1 button</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274696">
+                <Value>Single breasted 2 button</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274697">
+                <Value>Single breasted 3 button</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274698">
+                <Value>Single breasted 4 button</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274699">
+                <Value>Double breasted</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274700">
+                <Value>Harrington jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274701">
+                <Value>Waistcoats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274703">
+                <Value>Dressing gowns</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274704">
+                <Value>Onesies</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274705">
+                <Value>Novelty</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274709">
+                <Value>Overshirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274713">
+                <Value>Anorak</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274714">
+                <Value>Car coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274715">
+                <Value>Denim jacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274716">
+                <Value>Mac</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274717">
+                <Value>Parkas</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274718">
+                <Value>Trench</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274928">
+                <Value>Bow tie</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274929">
+                <Value>Ties</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274930">
+                <Value>Cravat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274931">
+                <Value>Cummerbund</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274932">
+                <Value>Pocket square</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274933">
+                <Value>Gift sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274934">
+                <Value>Dress shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274935">
+                <Value>Luxury shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274936">
+                <Value>Easy iron shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274937">
+                <Value>Non iron shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274938">
+                <Value>Oxford shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274939">
+                <Value>Jersey shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274940">
+                <Value>Grandad shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274942">
+                <Value>Twill shirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274943">
+                <Value>Denim shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274944">
+                <Value>Flannel shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274945">
+                <Value>Laundered shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274946">
+                <Value>Printed shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274947">
+                <Value>Corduroy shirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274954">
+                <Value>Trekking shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274955">
+                <Value>Lightweight shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274956">
+                <Value>Jersey shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274957">
+                <Value>Active shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274958">
+                <Value>Swim shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274959">
+                <Value>Swim trunks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274960">
+                <Value>Gym leggings</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274961">
+                <Value>Sports socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274962">
+                <Value>Trainer socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274963">
+                <Value>Gentle Grip socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274964">
+                <Value>Cool &amp; FreshFeet socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274965">
+                <Value>Smart socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274966">
+                <Value>Novelty socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274967">
+                <Value>Everyday socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274970">
+                <Value>Flat front</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274971">
+                <Value>Single pleat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274972">
+                <Value>Twin pleat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275069">
+                <Value>Jean style</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275070">
+                <Value>Moleskin</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275071">
+                <Value>Cords</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275072">
+                <Value>Lightweight trousers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275073">
+                <Value>Trekking</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275086">
+                <Value>Washbag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275087">
+                <Value>Messenger bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275088">
+                <Value>Laptop</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275089">
+                <Value>Briefcase</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275090">
+                <Value>Suit carrier</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275091">
+                <Value>Document holder</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275093">
+                <Value>Leather belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275094">
+                <Value>Casual belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275095">
+                <Value>Smart belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275096">
+                <Value>Braces</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275097">
+                <Value>Cufflinks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275098">
+                <Value>Pin tie</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275099">
+                <Value>Handkerchief</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275100">
+                <Value>Accesory set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275101">
+                <Value>Phone Accessories</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275102">
+                <Value>Lapel pin</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275103">
+                <Value>Driving Gloves</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275104">
+                <Value>Ambassador</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275105">
+                <Value>Baseball caps</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275106">
+                <Value>Flat caps</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275107">
+                <Value>Panama</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275108">
+                <Value>Safari</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275109">
+                <Value>Top hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275110">
+                <Value>Trapper</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275111">
+                <Value>Trilby</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275112">
+                <Value>Walker Umbrella</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275113">
+                <Value>Sunglasses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275114">
+                <Value>Bifold wallet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275115">
+                <Value>Trifold wallet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275116">
+                <Value>Travel wallet</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275117">
+                <Value>Accessory set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275118">
+                <Value>Casual boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275119">
+                <Value>Chukka boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275120">
+                <Value>Brogue boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275121">
+                <Value>Walking boot</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275122">
+                <Value>Desert boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275123">
+                <Value>Oxford shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275124">
+                <Value>Derby shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275125">
+                <Value>Monk strap shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275126">
+                <Value>Riptape shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275127">
+                <Value>Slip on shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275128">
+                <Value>Sandals</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275129">
+                <Value>Trainers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275130">
+                <Value>Slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275133">
+                <Value>Comforter</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275134">
+                <Value>Gift Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275135">
+                <Value>Soft Toy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275136">
+                <Value>Rattle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275137">
+                <Value>Dolls &amp; Doll Houses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275138">
+                <Value>Puzzles</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275139">
+                <Value>Jigsaws</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275140">
+                <Value>Game Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275141">
+                <Value>Books</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275142">
+                <Value>Vehicles</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275143">
+                <Value>Accessory</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275144">
+                <Value>Dress Up &amp; Roll Play</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275145">
+                <Value>Bath Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275146">
+                <Value>Activity Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275147">
+                <Value>Education Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275148">
+                <Value>Arts &amp; Crafts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275149">
+                <Value>Ball Pits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275150">
+                <Value>Bouncy Castle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275151">
+                <Value>Pre-School</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275152">
+                <Value>Walker &amp; Ride-ons</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275153">
+                <Value>Musical Toy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275154">
+                <Value>Outdoor Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275155">
+                <Value>Science &amp; Discovery</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275156">
+                <Value>Electronic Toy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275157">
+                <Value>Construction Toys</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275158">
+                <Value>Wooden Toy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275160">
+                <Value>Bibs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275161">
+                <Value>Hooded Towels</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275162">
+                <Value>Muslin Squares</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275163">
+                <Value>Hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275164">
+                <Value>Hat and Mitten Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275165">
+                <Value>Sleeping Bags</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275166">
+                <Value>Booties</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275167">
+                <Value>Knickers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275168">
+                <Value>Gift Bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275171">
+                <Value>Hat Scarf and Mitten Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275172">
+                <Value>Earmuffs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275173">
+                <Value>Caps</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275174">
+                <Value>Winter Hats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275175">
+                <Value>Bags</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275176">
+                <Value>Lunch Boxes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275177">
+                <Value>Water Bottles</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275178">
+                <Value>Snood Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275476">
+                <Value>Bikinis</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275477">
+                <Value>Thermals</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275478">
+                <Value>Underwear Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275480">
+                <Value>Pre-Walker</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275481">
+                <Value>Baby Shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275482">
+                <Value>Casual Socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275483">
+                <Value>Sport Socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275484">
+                <Value>School Socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275485">
+                <Value>Welly Socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275486">
+                <Value>Baby Socks</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275487">
+                <Value>Casual Tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275488">
+                <Value>School Tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275489">
+                <Value>Thermal Tights</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275491">
+                <Value>Snow boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275492">
+                <Value>School Shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275493">
+                <Value>Riding Boots</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275494">
+                <Value>Heeled</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275495">
+                <Value>Mary Jane Shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275496">
+                <Value>Ballet Pumps</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275497">
+                <Value>T Bar</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275498">
+                <Value>Jelly</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275499">
+                <Value>Clogs</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275501">
+                <Value>Plimsolls</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275502">
+                <Value>High Tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275503">
+                <Value>Aqua Shoes</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275504">
+                <Value>Wellies</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275505">
+                <Value>Slippers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275506">
+                <Value>Pre-walker</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275507">
+                <Value>Trekkers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275509">
+                <Value>Rash Vests</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275510">
+                <Value>Swim Outfit</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275511">
+                <Value>All in One</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275512">
+                <Value>Tankinis</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275513">
+                <Value>Swimsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275514">
+                <Value>Bikinis</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275515">
+                <Value>Sleepsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275516">
+                <Value>Rompers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275517">
+                <Value>All In One</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275518">
+                <Value>Baby Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275520">
+                <Value>Nightdress</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275521">
+                <Value>Pyjamas</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275522">
+                <Value>Trousers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275527">
+                <Value>Dresses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275528">
+                <Value>Dungarees</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275529">
+                <Value>Top &amp; Bottom</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275530">
+                <Value>Trouser Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275536">
+                <Value>Jackets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275537">
+                <Value>Shirt and Waistcoat Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275538">
+                <Value>Top and Bottom</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275539">
+                <Value>Gilets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275540">
+                <Value>Raincoat</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275541">
+                <Value>Coats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275542">
+                <Value>Shacket</Value>
+            </ValueGroup>
+            <ValueGroup ID="27275546">
+                <Value>Vest Tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277038">
+                <Value>Christmas</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277039">
+                <Value>Fleece Tops</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277040">
+                <Value>Kimonos</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277041">
+                <Value>Bolero</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277042">
+                <Value>Skirts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277043">
+                <Value>Top and Bottom Sets</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277044">
+                <Value>Top and Jogger Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277045">
+                <Value>Boilersuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277048">
+                <Value>Raincoats</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277050">
+                <Value>Snowsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277051">
+                <Value>Pramsuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277052">
+                <Value>Puddlesuits</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277059">
+                <Value>Christening dresses</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277063">
+                <Value>Cargos</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277065">
+                <Value>Crawlers</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277066">
+                <Value>Jegging</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277069">
+                <Value>Rugby Shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277070">
+                <Value>Skort</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277071">
+                <Value>Paperbag Shorts</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277269">
+                <Value>Tutu Skirt</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277369">
+                <Value>Swim Nappy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27277370">
+                <Value>Swim Outfits</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

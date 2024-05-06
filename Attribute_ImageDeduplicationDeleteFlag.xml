@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ImageDeduplicationDeleteFlag" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">Deduplication Delete Flag</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="20" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="GL">Deduplication Delete Flag</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="GL">Deduplication Delete Flag</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;ImageDeduplicationDeleteFlag
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Deduplication Delete Flag
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;ImageDeduplicationDeleteFlag
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Deduplication Delete Flag
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;ImageDeduplicationDeleteFlag
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Deduplication Delete Flag
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;ImageDeduplicationDeleteFlag
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Deduplication Delete Flag
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;ImageDeduplicationDeleteFlag
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Deduplication Delete Flag
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">ImageDeduplicationDeleteFlag</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">ImageDeduplicationDeleteFlag</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">ImageDeduplicationDeleteFlag</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">ImageDeduplicationDeleteFlag</Value>
+                    <Value Derived="true" DerivedContextID="GL">ImageDeduplicationDeleteFlag</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="GL">Deduplication Delete Flag</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Deduplication Delete Flag</Value>
+                    <Value Derived="true" DerivedContextID="GL">Deduplication Delete Flag</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ImageDeduplication"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Applicablemarkicon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="AutoClassificationRuleSet"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMP Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="BusinessRuleExample"></UserTypeLink>
+            <UserTypeLink UserTypeID="Configuration"></UserTypeLink>
+            <UserTypeLink UserTypeID="CustomerFile"></UserTypeLink>
+            <UserTypeLink UserTypeID="DAM Asset"></UserTypeLink>
+            <UserTypeLink UserTypeID="DEFAULT"></UserTypeLink>
+            <UserTypeLink UserTypeID="EPSImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="EUMDRrepresentativeaddressicon"></UserTypeLink>
+            <UserTypeLink UserTypeID="GIF Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="HTML"></UserTypeLink>
+            <UserTypeLink UserTypeID="Icon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustration"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustrator File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InDesign File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InstallationManual"></UserTypeLink>
+            <UserTypeLink UserTypeID="JPG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="Logo"></UserTypeLink>
+            <UserTypeLink UserTypeID="MSDS"></UserTypeLink>
+            <UserTypeLink UserTypeID="Manual"></UserTypeLink>
+            <UserTypeLink UserTypeID="OwnersManual"></UserTypeLink>
+            <UserTypeLink UserTypeID="PDF"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PPT"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductVideo"></UserTypeLink>
+            <UserTypeLink UserTypeID="QXD"></UserTypeLink>
+            <UserTypeLink UserTypeID="RTF"></UserTypeLink>
+            <UserTypeLink UserTypeID="RuleSet"></UserTypeLink>
+            <UserTypeLink UserTypeID="STEPdirector"></UserTypeLink>
+            <UserTypeLink UserTypeID="SpecificationDocument"></UserTypeLink>
+            <UserTypeLink UserTypeID="TIFFImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="Thumbnail"></UserTypeLink>
+            <UserTypeLink UserTypeID="TrainingMaterial"></UserTypeLink>
+            <UserTypeLink UserTypeID="UTF8"></UserTypeLink>
+            <UserTypeLink UserTypeID="WORD"></UserTypeLink>
+            <UserTypeLink UserTypeID="XLS"></UserTypeLink>
+            <UserTypeLink UserTypeID="XML"></UserTypeLink>
+            <UserTypeLink UserTypeID="ZIP"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.BulkUpdateConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ExportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ImageConversionConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ImportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.TranslationConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ValueSubstitutionTransConfig"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

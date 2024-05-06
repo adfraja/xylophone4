@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Stroke" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>STEP Stroke</Name>
+            <Icon>H4sIAAAAAAAAAO2T6W+UBRDGf+/bvU2b7aWWytpusIeu0rIeNTTW7LbbFgotWNByCCtlUxUQUkQOE9oVuqUhkmLQJfEo1aAYPIKW1BpI6zYeaDywJsb2w5L4QRMS/eZumxl90X/D58PMfJjJPM8zmebWSN2DUS9e/gJ5AlmF3IV+ZEoD0oj/JqQDacGfi14wpQ09Z0iTVRuyBp1265RdtqMvI2FkNXoafRFpRx5HNpFZj1405REy69B3DT2Mv5DMBmQrEkHfQJYhtWgvsh65E+lGWtEPDR0zdSxH+5F+rjeinzuzW/B70UMsnDQ0ZZd1JIPIHpLWigT6EnIPc4fQT3N0F9ke5G5knzXonrN6mklYoi7ZGivQITSOnkC7mLWEdJPvYOEwctHMtxOz+HSSrEeTaMqhKdfEFnTclM0kAuhrJJehryI1SAh9z5AN5HvQKYeOoqOGvml54pId+POZ2E9iFTrC/B5idcgXlZ2V6DcunXbKSjTt0xgSI+gjXIh+YOrXHrnslJQrWIpO2vUTU88acweRjchaZkNknyZrHegg+mOebOOKZeBl2+xGJp5Dv3Lq28Z8L8HFbK9FxszsJvSPvbEG9AD+PJLLEcvV80aylusdJO5HLF3fuaUaaeZ//IfyrO3fHLgRbvwErr+579r4CxWflbm85s7otl/bz0UOxDr37yaMrSRyfPfHofjrVbU1uemayabTjkrXO0seHpiuJuehSz3X+rzH7bf6yq5EB2Y8kaVXM9E/+40q573FVVUl3bmn3M98O/KLLdJ2rOApz5r5ka2ms+L5dF2XeaTZdXtX4LHBVDp0i7fXttiYsp/aHC4PnDk5E3YPVbzS8VN1/C1HZemu85PjZbarvqKd/mcXHb3DAHd968/D5aEh24nGkkxBZEUiz7G3h3TTyr4l+xa+bOm0FxflnFlb/0PN7zPGzYHV7oajtPfhfP+2C+HoVHVBkadl6fcjRtxeDIt644MUn7UNlj5ank64C43f2oaDRwYGc331O7zDTw6PrnjANFn+D7IG00c+BAAA</Icon>
+            <UserTypeLink UserTypeID="SAP_L8"></UserTypeLink>
+            <UserTypeLink UserTypeID="SAP_Stroke_Archive"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.ENT.ConfigurationObject" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Configuration Object</Name>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.ENT.ConfigurationObjects"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.INTEnrichmentHandling"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ZIP" ReferenceTargetLockPolicy="Strict">
+            <Name>ZIP File</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACLS0M//8DyZZz5879//2BYRSMghEDFH+yMDIwsDLogDigPMHAkczAzSETwdBwsJmBQ4jFIcHhcDsnq5xOxweFxhYGFhYBgUDFBkYJc7YVGRseHG2SCu56EiGQcnCqgeG8MxzGqm7TGbK6pnQGLj0/W8Jzks3LjwsPL5YV5wo9sSU1eKm8oJ0rx6UEBwYGawAOnKq/hgMAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>application/zip</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

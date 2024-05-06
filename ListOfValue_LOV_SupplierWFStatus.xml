@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_SupplierWFStatus" ParentID="SupplierLOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Supplier Workflow Status LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_SupplierWFStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier Workflow Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_SupplierWFStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier Workflow Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_SupplierWFStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier Workflow Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_SupplierWFStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier Workflow Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_SupplierWFStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier Workflow Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="Approved">
+                <Value QualifierID="std.lang.all">Approved</Value>
+            </ValueGroup>
+            <ValueGroup ID="Draft">
+                <Value QualifierID="std.lang.all">Draft</Value>
+            </ValueGroup>
+            <ValueGroup ID="In LocalCheck">
+                <Value QualifierID="std.lang.all">In LocalCheck</Value>
+            </ValueGroup>
+            <ValueGroup ID="In Progress">
+                <Value QualifierID="std.lang.all">In Progress</Value>
+            </ValueGroup>
+            <ValueGroup ID="In Revision">
+                <Value QualifierID="std.lang.all">In Revision</Value>
+            </ValueGroup>
+            <ValueGroup ID="In_Change">
+                <Value QualifierID="std.lang.all">Draft Request</Value>
+            </ValueGroup>
+            <ValueGroup ID="In_Creation">
+                <Value QualifierID="std.lang.all">In Creation</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pending_Approval_AML">
+                <Value QualifierID="std.lang.all">Pending Approval from AML Officer</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pending_Approval_LS">
+                <Value QualifierID="std.lang.all">Pending Approval from Local Specialists</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pending_Approval_SSC">
+                <Value QualifierID="std.lang.all">Pending Approval from MD Steward</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pending_Clarification_Requester">
+                <Value QualifierID="std.lang.all">Pending Clarification from Requester</Value>
+            </ValueGroup>
+            <ValueGroup ID="Rejected">
+                <Value QualifierID="std.lang.all">Rejected</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sent_Clarification">
+                <Value QualifierID="std.lang.all">Sent for Clarification</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sent_for_Clarification_LS">
+                <Value QualifierID="std.lang.all">Sent for Clarification from Local Specialists</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

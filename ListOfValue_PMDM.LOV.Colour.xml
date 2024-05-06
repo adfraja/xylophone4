@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.Colour" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Colour</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Colour
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Colour
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Colour
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Colour
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Colour
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Colour
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Colour
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Colour
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Colour
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Colour
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="A0">
+                <Value>PINK</Value>
+            </ValueGroup>
+            <ValueGroup ID="A1">
+                <Value>LIGHT PINK</Value>
+            </ValueGroup>
+            <ValueGroup ID="A4">
+                <Value>PINK MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="A7">
+                <Value>LIGHT PINK MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="AY">
+                <Value>BLUSH</Value>
+            </ValueGroup>
+            <ValueGroup ID="B0">
+                <Value>RED</Value>
+            </ValueGroup>
+            <ValueGroup ID="B3">
+                <Value>DARK RED</Value>
+            </ValueGroup>
+            <ValueGroup ID="B4">
+                <Value>RED MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="BB">
+                <Value>MEDIUM BLUE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="BE">
+                <Value>AIR FORCE BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="CN">
+                <Value>CORNFLOWER</Value>
+            </ValueGroup>
+            <ValueGroup ID="CW">
+                <Value>DARK BURGUNDY</Value>
+            </ValueGroup>
+            <ValueGroup ID="D0">
+                <Value>PURPLE</Value>
+            </ValueGroup>
+            <ValueGroup ID="D6">
+                <Value>SOFT PINK</Value>
+            </ValueGroup>
+            <ValueGroup ID="DR">
+                <Value>DUSKY ROSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E0">
+                <Value>BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E1">
+                <Value>LIGHT BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E2">
+                <Value>MEDIUM BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E3">
+                <Value>DARK BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E4">
+                <Value>BLUE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="E5">
+                <Value>BRIGHT BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E7">
+                <Value>LIGHT BLUE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="EY">
+                <Value>BLUE/BLACK</Value>
+            </ValueGroup>
+            <ValueGroup ID="F0">
+                <Value>NAVY</Value>
+            </ValueGroup>
+            <ValueGroup ID="F3">
+                <Value>DARK NAVY</Value>
+            </ValueGroup>
+            <ValueGroup ID="F4">
+                <Value>NAVY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="F6">
+                <Value>DARK NAVY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="F8">
+                <Value>BERRY</Value>
+            </ValueGroup>
+            <ValueGroup ID="HP">
+                <Value>DENIM</Value>
+            </ValueGroup>
+            <ValueGroup ID="J0">
+                <Value>GREEN</Value>
+            </ValueGroup>
+            <ValueGroup ID="J3">
+                <Value>DARK GREEN</Value>
+            </ValueGroup>
+            <ValueGroup ID="J4">
+                <Value>GREEN MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="J6">
+                <Value>DARK GREEN MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="JQ">
+                <Value>BLUE DENIM</Value>
+            </ValueGroup>
+            <ValueGroup ID="JR">
+                <Value>OLIVE</Value>
+            </ValueGroup>
+            <ValueGroup ID="JT">
+                <Value>NUDE</Value>
+            </ValueGroup>
+            <ValueGroup ID="K0">
+                <Value>CREAM</Value>
+            </ValueGroup>
+            <ValueGroup ID="K1">
+                <Value>LIGHT CREAM</Value>
+            </ValueGroup>
+            <ValueGroup ID="K4">
+                <Value>CREAM MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="K7">
+                <Value>OATMEAL MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="KA">
+                <Value>KHAKI MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="KC">
+                <Value>OATMEAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="KG">
+                <Value>DARK BERRY</Value>
+            </ValueGroup>
+            <ValueGroup ID="KH">
+                <Value>KHAKI</Value>
+            </ValueGroup>
+            <ValueGroup ID="KY">
+                <Value>IVORY</Value>
+            </ValueGroup>
+            <ValueGroup ID="L4">
+                <Value>BEIGE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="M0">
+                <Value>CAMEL</Value>
+            </ValueGroup>
+            <ValueGroup ID="M4">
+                <Value>CAMEL MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="N0">
+                <Value>BROWN</Value>
+            </ValueGroup>
+            <ValueGroup ID="N3">
+                <Value>DARK BROWN</Value>
+            </ValueGroup>
+            <ValueGroup ID="N4">
+                <Value>BROWN MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="NT">
+                <Value>TEAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="NU">
+                <Value>NEUTRAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="NZ">
+                <Value>ECRU</Value>
+            </ValueGroup>
+            <ValueGroup ID="O4">
+                <Value>MID BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="P0">
+                <Value>ORANGE</Value>
+            </ValueGroup>
+            <ValueGroup ID="P4">
+                <Value>ORANGE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="P6">
+                <Value>SOFT WHITE</Value>
+            </ValueGroup>
+            <ValueGroup ID="PD">
+                <Value>DENIM MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="PK">
+                <Value>CHARCOAL MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="QE">
+                <Value>PALE BLUE</Value>
+            </ValueGroup>
+            <ValueGroup ID="QP">
+                <Value>DARK INDIGO</Value>
+            </ValueGroup>
+            <ValueGroup ID="QQ">
+                <Value>MEDIUM INDIGO</Value>
+            </ValueGroup>
+            <ValueGroup ID="R0">
+                <Value>YELLOW</Value>
+            </ValueGroup>
+            <ValueGroup ID="R4">
+                <Value>YELLOW MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="RQ">
+                <Value>DARK TEAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="RW">
+                <Value>DARK BLUE DENIM</Value>
+            </ValueGroup>
+            <ValueGroup ID="SA">
+                <Value>CHAMBRAY</Value>
+            </ValueGroup>
+            <ValueGroup ID="SH">
+                <Value>CHOCOLATE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SS">
+                <Value>STONE</Value>
+            </ValueGroup>
+            <ValueGroup ID="T0">
+                <Value>GREY</Value>
+            </ValueGroup>
+            <ValueGroup ID="T1">
+                <Value>LIGHT GREY</Value>
+            </ValueGroup>
+            <ValueGroup ID="T3">
+                <Value>DARK GREY</Value>
+            </ValueGroup>
+            <ValueGroup ID="T4">
+                <Value>GREY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="T7">
+                <Value>LIGHT GREY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="TL">
+                <Value>FUCHSIA MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="TX">
+                <Value>MEDIUM GREY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="U8">
+                <Value>BURGUNDY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="UT">
+                <Value>GREY MARL</Value>
+            </ValueGroup>
+            <ValueGroup ID="V0">
+                <Value>NATURAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="V4">
+                <Value>NATURAL MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="VP">
+                <Value>CHARCOAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="VS">
+                <Value>TAN</Value>
+            </ValueGroup>
+            <ValueGroup ID="WR">
+                <Value>DARK INDIGO MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="XA">
+                <Value>LIGHT INDIGO</Value>
+            </ValueGroup>
+            <ValueGroup ID="XB">
+                <Value>INDIGO</Value>
+            </ValueGroup>
+            <ValueGroup ID="XC">
+                <Value>DARK KHAKI</Value>
+            </ValueGroup>
+            <ValueGroup ID="XM">
+                <Value>BURGUNDY</Value>
+            </ValueGroup>
+            <ValueGroup ID="XT">
+                <Value>TEAL MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="XU">
+                <Value>INDIGO MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="XX">
+                <Value>SILVER</Value>
+            </ValueGroup>
+            <ValueGroup ID="Y0">
+                <Value>BLACK</Value>
+            </ValueGroup>
+            <ValueGroup ID="Y4">
+                <Value>BLACK MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="Y8">
+                <Value>IVORY MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="YG">
+                <Value>BLACK/BLACK</Value>
+            </ValueGroup>
+            <ValueGroup ID="YT">
+                <Value>BLACK/GREY</Value>
+            </ValueGroup>
+            <ValueGroup ID="Z0">
+                <Value>WHITE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Z4">
+                <Value>WHITE MIX</Value>
+            </ValueGroup>
+            <ValueGroup ID="Z7">
+                <Value>BLUE MARL</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ">
+                <Value>MULTI</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

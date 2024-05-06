@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="EPSImage" ReferenceTargetLockPolicy="Strict">
+            <Name>EPS Image</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGA4wgAC////P3f+3P///37//MHFxMDKyMDNxMDOyODLz2zGxeTJx2zAybRVhUOPk0kXyFDl3KLCqcrGqM7OxMPEKMjEyM7AwMrAwMzAwMTAwMjA8Pfnz39//vz79w9oLNBwxZ8sQEE5Bh2QTSA7GVgzEhSYUjKZkrqW5TBwvLnVt8Rqu/qCxLbG1J0ezjc0+JRPKK2cmMTWc7Zn2UVHt3kRycyNmTkuZzZsrthgwiF4IuK3TozUnAMOb2rMeBoWTV2hm+XBI8HFKcQtKszDx8cvYmRkrmc2QVnL0lKRwRoAy1MMDusAAAA=</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>application/postscript</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

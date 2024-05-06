@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Classifications>
+        <Classification ID="SAINT-2744_CLS" UserTypeID="draj_cl_level2" ParentID="draj_classification">
+            <Name>SAINT-2744_CLS</Name>
+        </Classification>
+    </Classifications>
+</STEP-ProductInformation>

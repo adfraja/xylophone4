@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD692004" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Country of customs tariff number</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD692004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of customs tariff number
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD692004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of customs tariff number
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD692004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of customs tariff number
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD692004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of customs tariff number
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD692004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of customs tariff number
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD692</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD692004</Value>
+            </MetaData>
+            <ValueGroup ID="AAS996002">
+                <Value QualifierID="std.lang.all">Afghanistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS997002">
+                <Value QualifierID="std.lang.all">Egypt</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS998002">
+                <Value QualifierID="std.lang.all">Albania</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS999002">
+                <Value QualifierID="std.lang.all">Algeria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT000002">
+                <Value QualifierID="std.lang.all">American Samoa</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT001002">
+                <Value QualifierID="std.lang.all">American Virgin Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT002002">
+                <Value QualifierID="std.lang.all">United States Minor Outlying Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT003002">
+                <Value QualifierID="std.lang.all">Andorra</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT004002">
+                <Value QualifierID="std.lang.all">Angola</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT005002">
+                <Value QualifierID="std.lang.all">Anguilla</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT006002">
+                <Value QualifierID="std.lang.all">Antarctica</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT007002">
+                <Value QualifierID="std.lang.all">Antigua and Barbuda</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT008002">
+                <Value QualifierID="std.lang.all">Equatorial Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT009002">
+                <Value QualifierID="std.lang.all">Argentine</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT010002">
+                <Value QualifierID="std.lang.all">Armenia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT011002">
+                <Value QualifierID="std.lang.all">Aruba</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT012002">
+                <Value QualifierID="std.lang.all">Azerbaidzhan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT013002">
+                <Value QualifierID="std.lang.all">Ethiopia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT014002">
+                <Value QualifierID="std.lang.all">Australia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT015002">
+                <Value QualifierID="std.lang.all">Bahamas</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT016002">
+                <Value QualifierID="std.lang.all">Bahrain</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT017002">
+                <Value QualifierID="std.lang.all">Bangladesh</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT018002">
+                <Value QualifierID="std.lang.all">Barbados</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT019002">
+                <Value QualifierID="std.lang.all">Belarus</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT020002">
+                <Value QualifierID="std.lang.all">Belgium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT021002">
+                <Value QualifierID="std.lang.all">Belize</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT022002">
+                <Value QualifierID="std.lang.all">Benin</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT023002">
+                <Value QualifierID="std.lang.all">Bermuda</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT024002">
+                <Value QualifierID="std.lang.all">Bhutan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT025002">
+                <Value QualifierID="std.lang.all">Bolivia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT026002">
+                <Value QualifierID="std.lang.all">Bosnia and Herzegovina</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT027002">
+                <Value QualifierID="std.lang.all">Botswana</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT028002">
+                <Value QualifierID="std.lang.all">Bouvet Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT029002">
+                <Value QualifierID="std.lang.all">Brazil</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT030002">
+                <Value QualifierID="std.lang.all">British Virgin Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT031002">
+                <Value QualifierID="std.lang.all">British Territories in the Indian Ocean</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT032002">
+                <Value QualifierID="std.lang.all">Brunei Darussalam</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT033002">
+                <Value QualifierID="std.lang.all">Bulgaria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT034002">
+                <Value QualifierID="std.lang.all">Burkina Faso</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT035002">
+                <Value QualifierID="std.lang.all">Burundi</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT036002">
+                <Value QualifierID="std.lang.all">Chile</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT037002">
+                <Value QualifierID="std.lang.all">China, People's Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT038002">
+                <Value QualifierID="std.lang.all">Cook Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT039002">
+                <Value QualifierID="std.lang.all">Costa Rica</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT040002">
+                <Value QualifierID="std.lang.all">Côte d'Ivoire (Ivory Coast)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT041002">
+                <Value QualifierID="std.lang.all">Denmark</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT042002">
+                <Value QualifierID="std.lang.all">Germany</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT043002">
+                <Value QualifierID="std.lang.all">Dominica</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT044002">
+                <Value QualifierID="std.lang.all">Dominican Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT045002">
+                <Value QualifierID="std.lang.all">Djibouti</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT046002">
+                <Value QualifierID="std.lang.all">Ecuador</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT047002">
+                <Value QualifierID="std.lang.all">El Salvador</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT048002">
+                <Value QualifierID="std.lang.all">Eritrea</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT049002">
+                <Value QualifierID="std.lang.all">Estonia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT050002">
+                <Value QualifierID="std.lang.all">Falkland Islands (Malwin Islands)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT051002">
+                <Value QualifierID="std.lang.all">Faroe Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT052002">
+                <Value QualifierID="std.lang.all">Fiji Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT053002">
+                <Value QualifierID="std.lang.all">Finland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT054002">
+                <Value QualifierID="std.lang.all">France</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT055002">
+                <Value QualifierID="std.lang.all">French Guayana</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT056002">
+                <Value QualifierID="std.lang.all">French Polynesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT057002">
+                <Value QualifierID="std.lang.all">French Southern and Antarctic Territories</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT058002">
+                <Value QualifierID="std.lang.all">Gabon</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT059002">
+                <Value QualifierID="std.lang.all">Gambia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT060002">
+                <Value QualifierID="std.lang.all">Georgia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT061002">
+                <Value QualifierID="std.lang.all">Ghana</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT062002">
+                <Value QualifierID="std.lang.all">Gibraltar</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT063002">
+                <Value QualifierID="std.lang.all">Grenada</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT064002">
+                <Value QualifierID="std.lang.all">Greece</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT065002">
+                <Value QualifierID="std.lang.all">Greenland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT066002">
+                <Value QualifierID="std.lang.all">Guadeloupe</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT067002">
+                <Value QualifierID="std.lang.all">Guam</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT068002">
+                <Value QualifierID="std.lang.all">Guatemala</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT069002">
+                <Value QualifierID="std.lang.all">Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT070002">
+                <Value QualifierID="std.lang.all">Guinea-Bissau</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT071002">
+                <Value QualifierID="std.lang.all">Guyana</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT072002">
+                <Value QualifierID="std.lang.all">Haiti</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT073002">
+                <Value QualifierID="std.lang.all">Heard Island and McDonald Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT074002">
+                <Value QualifierID="std.lang.all">Honduras</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT075002">
+                <Value QualifierID="std.lang.all">Hong Kong</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT076002">
+                <Value QualifierID="std.lang.all">India</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT077002">
+                <Value QualifierID="std.lang.all">Indonesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT078002">
+                <Value QualifierID="std.lang.all">Iraq</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT079002">
+                <Value QualifierID="std.lang.all">Iran, Islamic Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT080002">
+                <Value QualifierID="std.lang.all">Ireland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT081002">
+                <Value QualifierID="std.lang.all">Iceland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT082002">
+                <Value QualifierID="std.lang.all">Israel</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT083002">
+                <Value QualifierID="std.lang.all">Italy</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT084002">
+                <Value QualifierID="std.lang.all">Jamaica</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT085002">
+                <Value QualifierID="std.lang.all">Japan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT086002">
+                <Value QualifierID="std.lang.all">Yemen</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT087002">
+                <Value QualifierID="std.lang.all">Jordan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT088002">
+                <Value QualifierID="std.lang.all">Yugoslavia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT089002">
+                <Value QualifierID="std.lang.all">Cayman Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT090002">
+                <Value QualifierID="std.lang.all">Cambodia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT091002">
+                <Value QualifierID="std.lang.all">Cameroon</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT092002">
+                <Value QualifierID="std.lang.all">Canada</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT093002">
+                <Value QualifierID="std.lang.all">Cape Verde</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT094002">
+                <Value QualifierID="std.lang.all">Kazakhstan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT095002">
+                <Value QualifierID="std.lang.all">Qatar</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT096002">
+                <Value QualifierID="std.lang.all">Kenya</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT097002">
+                <Value QualifierID="std.lang.all">Kyrgyzstan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT098002">
+                <Value QualifierID="std.lang.all">Kiribati</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT099002">
+                <Value QualifierID="std.lang.all">Cocos (Keeling) Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT100002">
+                <Value QualifierID="std.lang.all">Columbia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT101002">
+                <Value QualifierID="std.lang.all">Comores Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT102002">
+                <Value QualifierID="std.lang.all">Congo, Democratic Republic (former Zaire)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT103002">
+                <Value QualifierID="std.lang.all">Republic of Congo</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT104002">
+                <Value QualifierID="std.lang.all">Korea, Democratic People's Republic (North Korea)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT105002">
+                <Value QualifierID="std.lang.all">Korea, Republic (South Korea)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT106002">
+                <Value QualifierID="std.lang.all">Croatia (Hrvatska)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT107002">
+                <Value QualifierID="std.lang.all">Cuba</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT108002">
+                <Value QualifierID="std.lang.all">Kuwait</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT109002">
+                <Value QualifierID="std.lang.all">Lao People's Democratic Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT110002">
+                <Value QualifierID="std.lang.all">Lesotho</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT111002">
+                <Value QualifierID="std.lang.all">Latvia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT112002">
+                <Value QualifierID="std.lang.all">Lebanon</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT113002">
+                <Value QualifierID="std.lang.all">Liberia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT114002">
+                <Value QualifierID="std.lang.all">Libyan Arab Jamahiriya (Libya)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT115002">
+                <Value QualifierID="std.lang.all">Liechtenstein</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT116002">
+                <Value QualifierID="std.lang.all">Lithuania</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT117002">
+                <Value QualifierID="std.lang.all">Luxembourg</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT118002">
+                <Value QualifierID="std.lang.all">Macao</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT119002">
+                <Value QualifierID="std.lang.all">Madagascar</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT120002">
+                <Value QualifierID="std.lang.all">Malawi</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT121002">
+                <Value QualifierID="std.lang.all">Malaysia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT122002">
+                <Value QualifierID="std.lang.all">Maldives</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT123002">
+                <Value QualifierID="std.lang.all">Mali</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT124002">
+                <Value QualifierID="std.lang.all">Malta</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT125002">
+                <Value QualifierID="std.lang.all">Northern Marian Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT126002">
+                <Value QualifierID="std.lang.all">Morocco</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT127002">
+                <Value QualifierID="std.lang.all">Marshall Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT128002">
+                <Value QualifierID="std.lang.all">Martinique</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT129002">
+                <Value QualifierID="std.lang.all">Mauretania</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT130002">
+                <Value QualifierID="std.lang.all">Mauritius</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT131002">
+                <Value QualifierID="std.lang.all">Mayotte</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT132002">
+                <Value QualifierID="std.lang.all">Macedonia, former Yugoslav Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT133002">
+                <Value QualifierID="std.lang.all">Mexico</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT134002">
+                <Value QualifierID="std.lang.all">Micronesia, Federated States of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT135002">
+                <Value QualifierID="std.lang.all">Moldova (Republic of Moldova)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT136002">
+                <Value QualifierID="std.lang.all">Monaco</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT137002">
+                <Value QualifierID="std.lang.all">Mongolia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT138002">
+                <Value QualifierID="std.lang.all">Montserrat</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT139002">
+                <Value QualifierID="std.lang.all">Mosambique</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT140002">
+                <Value QualifierID="std.lang.all">Myanmar (Birma)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT141002">
+                <Value QualifierID="std.lang.all">Namibia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT142002">
+                <Value QualifierID="std.lang.all">Nauru</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT143002">
+                <Value QualifierID="std.lang.all">Nepal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT144002">
+                <Value QualifierID="std.lang.all">New Caledonia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT145002">
+                <Value QualifierID="std.lang.all">New Zealand</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT146002">
+                <Value QualifierID="std.lang.all">Nicaragua</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT147002">
+                <Value QualifierID="std.lang.all">Netherlands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT148002">
+                <Value QualifierID="std.lang.all">Netherlands Antilles</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT149002">
+                <Value QualifierID="std.lang.all">Niger</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT150002">
+                <Value QualifierID="std.lang.all">Nigeria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT151002">
+                <Value QualifierID="std.lang.all">Niue</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT152002">
+                <Value QualifierID="std.lang.all">Norfolk Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT153002">
+                <Value QualifierID="std.lang.all">Norway</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT154002">
+                <Value QualifierID="std.lang.all">Oman</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT155002">
+                <Value QualifierID="std.lang.all">Austria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT156002">
+                <Value QualifierID="std.lang.all">East Timor</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT157002">
+                <Value QualifierID="std.lang.all">Pakistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT158002">
+                <Value QualifierID="std.lang.all">Palau, Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT159002">
+                <Value QualifierID="std.lang.all">Panama</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT160002">
+                <Value QualifierID="std.lang.all">Papua New Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT161002">
+                <Value QualifierID="std.lang.all">Paraguay</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT162002">
+                <Value QualifierID="std.lang.all">Peru</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT163002">
+                <Value QualifierID="std.lang.all">Philippines</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT164002">
+                <Value QualifierID="std.lang.all">Pitcairn Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT165002">
+                <Value QualifierID="std.lang.all">Poland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT166002">
+                <Value QualifierID="std.lang.all">Portugal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT167002">
+                <Value QualifierID="std.lang.all">Puerto Rico</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT168002">
+                <Value QualifierID="std.lang.all">Réunion</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT169002">
+                <Value QualifierID="std.lang.all">Ruanda</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT170002">
+                <Value QualifierID="std.lang.all">Romania</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT171002">
+                <Value QualifierID="std.lang.all">Russian Federation</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT172002">
+                <Value QualifierID="std.lang.all">Solomon Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT173002">
+                <Value QualifierID="std.lang.all">Zambia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT174002">
+                <Value QualifierID="std.lang.all">Samoa</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT175002">
+                <Value QualifierID="std.lang.all">San Marino</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT176002">
+                <Value QualifierID="std.lang.all">São Tomé and Príncipe</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT177002">
+                <Value QualifierID="std.lang.all">Saudi Arabia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT178002">
+                <Value QualifierID="std.lang.all">Sweden</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT179002">
+                <Value QualifierID="std.lang.all">Switzerland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT180002">
+                <Value QualifierID="std.lang.all">Senegal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT181002">
+                <Value QualifierID="std.lang.all">Seychelles</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT182002">
+                <Value QualifierID="std.lang.all">Sierra Leone</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT183002">
+                <Value QualifierID="std.lang.all">Zimbabwe</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT184002">
+                <Value QualifierID="std.lang.all">Singapore</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT185002">
+                <Value QualifierID="std.lang.all">Slovakia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT186002">
+                <Value QualifierID="std.lang.all">Slovenia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT187002">
+                <Value QualifierID="std.lang.all">Somalia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT188002">
+                <Value QualifierID="std.lang.all">Spain</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT189002">
+                <Value QualifierID="std.lang.all">Sri Lanka</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT190002">
+                <Value QualifierID="std.lang.all">St. Helena</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT191002">
+                <Value QualifierID="std.lang.all">St. Kitts and Nevis</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT192002">
+                <Value QualifierID="std.lang.all">St. Lucia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT193002">
+                <Value QualifierID="std.lang.all">St. Pierre and Miquelon</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT194002">
+                <Value QualifierID="std.lang.all">St. Vincent and The Grenadines</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT195002">
+                <Value QualifierID="std.lang.all">South Africa</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT196002">
+                <Value QualifierID="std.lang.all">Sudan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT197002">
+                <Value QualifierID="std.lang.all">South Georgia and the South Sandwich Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT198002">
+                <Value QualifierID="std.lang.all">Surinam</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT199002">
+                <Value QualifierID="std.lang.all">Svalbard and Jan Mayen</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT200002">
+                <Value QualifierID="std.lang.all">Swaziland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT201002">
+                <Value QualifierID="std.lang.all">Syria, Arab Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT202002">
+                <Value QualifierID="std.lang.all">Tadzhikistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT203002">
+                <Value QualifierID="std.lang.all">Taiwan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT204002">
+                <Value QualifierID="std.lang.all">Tanzania, United Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT205002">
+                <Value QualifierID="std.lang.all">Thailand</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT206002">
+                <Value QualifierID="std.lang.all">Togo</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT207002">
+                <Value QualifierID="std.lang.all">Tokelau</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT208002">
+                <Value QualifierID="std.lang.all">Tonga</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT209002">
+                <Value QualifierID="std.lang.all">Trinidad and Tobago</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT210002">
+                <Value QualifierID="std.lang.all">Chad</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT211002">
+                <Value QualifierID="std.lang.all">Czech Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT212002">
+                <Value QualifierID="std.lang.all">Tunesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT213002">
+                <Value QualifierID="std.lang.all">Turkey</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT214002">
+                <Value QualifierID="std.lang.all">Turkmenistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT215002">
+                <Value QualifierID="std.lang.all">Turks and Caicos Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT216002">
+                <Value QualifierID="std.lang.all">Tuvalu</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT217002">
+                <Value QualifierID="std.lang.all">Uganda</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT218002">
+                <Value QualifierID="std.lang.all">Ukraine</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT219002">
+                <Value QualifierID="std.lang.all">Hungary</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT220002">
+                <Value QualifierID="std.lang.all">Uruguay</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT221002">
+                <Value QualifierID="std.lang.all">Uzbekistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT222002">
+                <Value QualifierID="std.lang.all">Vanuatu</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT223002">
+                <Value QualifierID="std.lang.all">Vatican City</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT224002">
+                <Value QualifierID="std.lang.all">Venezuela</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT225002">
+                <Value QualifierID="std.lang.all">United Arab Emirates</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT226002">
+                <Value QualifierID="std.lang.all">United States of America</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT227002">
+                <Value QualifierID="std.lang.all">United Kingdom of Great Britain and Northern Ireland</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT228002">
+                <Value QualifierID="std.lang.all">Vietnam</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT229002">
+                <Value QualifierID="std.lang.all">Wallis and Futuna</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT230002">
+                <Value QualifierID="std.lang.all">Christmas Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT231002">
+                <Value QualifierID="std.lang.all">Western Sahara</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT232002">
+                <Value QualifierID="std.lang.all">Zaire (now Democratic Republic of Congo)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT233002">
+                <Value QualifierID="std.lang.all">Central African Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT234002">
+                <Value QualifierID="std.lang.all">Cyprus</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

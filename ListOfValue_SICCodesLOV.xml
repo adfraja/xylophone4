@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ListsOfValues>
+        <ListOfValue ID="SICCodesLOV" ParentID="List Of Values group root" AllowUserValueAddition="false" UseValueID="true">
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;SICCodesLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;SICCodesLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;SICCodesLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;SICCodesLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;SICCodesLOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="100">
+                <Value>AGRICULTURAL PRODUCTION-CROPS</Value>
+            </ValueGroup>
+            <ValueGroup ID="1000">
+                <Value>METAL MINING</Value>
+            </ValueGroup>
+            <ValueGroup ID="1381">
+                <Value>DRILLING OIL &amp; GAS WELLS</Value>
+            </ValueGroup>
+            <ValueGroup ID="1531">
+                <Value>OPERATIVE BUILDERS</Value>
+            </ValueGroup>
+            <ValueGroup ID="1731">
+                <Value>ELECTRICAL WORK</Value>
+            </ValueGroup>
+            <ValueGroup ID="200">
+                <Value>AGRICULTURAL PROD-LIVESTOCK &amp; ANIMAL SPECIALTIES</Value>
+            </ValueGroup>
+            <ValueGroup ID="2011">
+                <Value>MEAT PACKING PLANTS</Value>
+            </ValueGroup>
+            <ValueGroup ID="2020">
+                <Value>DAIRY PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup ID="2200">
+                <Value>TEXTILE MILL PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup ID="2510">
+                <Value>HOUSEHOLD FURNITURE</Value>
+            </ValueGroup>
+            <ValueGroup ID="2600">
+                <Value>PAPERS &amp; ALLIED PRODUCTS</Value>
+            </ValueGroup>
+            <ValueGroup ID="2732">
+                <Value>BOOK PRINTING</Value>
+            </ValueGroup>
+            <ValueGroup ID="3220">
+                <Value>GLASS &amp; GLASSWARE, PRESSED OR BLOWN</Value>
+            </ValueGroup>
+            <ValueGroup ID="7331">
+                <Value>SERVICES-DIRECT MAIL ADVERTISING SERVICES</Value>
+            </ValueGroup>
+            <ValueGroup ID="8111">
+                <Value>SERVICES-LEGAL SERVICES</Value>
+            </ValueGroup>
+            <ValueGroup ID="9721">
+                <Value>INTERNATIONAL AFFAIRS</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

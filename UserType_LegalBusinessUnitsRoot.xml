@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="LegalBusinessUnitsRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="LegalBusinessUnitsRoot">
+            <Name>Legal Business Units Root</Name>
+            <Icon>H4sIAAAAAAAAAJ1T3WvTUBSPDOaclOn8VhwhYzjR5mtt04TVsSbpVli20RbXF3VZcruGLbkxubNZXxzDF/Wf8Gn4MFT0RZziBBU/huiDL6Io+ObL3kQGUm+2doqMCV5I7j3n/n7nnHs+ro4OD0Raj7YSBBHJDio5vO8Jv5Ym/O+OtuXxdgSpRZSHJVTRPUD0m3ACkFlbnwQ5oJuzF1+CXoJoKlmFIipqQ5IBbVoPMXRgu0S4evsCVzemACInwKTlpKjVpccUaZkpaiyusZorg7I1WPVAvjpcMKpThmhSfWfI3kDCBmyAdDKwpx1fClLUul0Jn0M1Q5HrEDSVojaCKmqjpAw9QMZpNmqwCY5MxGguxoox8TTJsxzLcDzDClGOleKCxHJkfVHYm2eWpJySqfvCUooqI+RKDFOpVOhKDw29SYYTRZFheYbnoxgR9WcdpAdRx+9sWFCAb3iWiyzokKGsT8AZlKKoxhNsV9M2DTt+PVE4ZUyguwxHs4xtMw20j3KgtD3aL8y6gMkBH854Bq5HqfMPV9tTQyCORhrxLFwUfVqBxowNHJRVUhS+oU3LlJKsnORisYQgC5wa4zgxqQqiGlcSYhyrYomGja24akbsFxJKRuAEhcNskRe4jCAock+6R2V5vsHNOj7SHQM0uNZvrrotV5I9oCPoFSCcbnTAaBki6JehS8r5OM2RY5ZjwooflqceKfCsS8DMeNAm1/MrWVv4T/L/evcG1/yfnDE4GOavZmmocAeGx83Wx8Lm8AAHT4yHR6PrVfc9PFbHRocK6urq6sLCQo0gVkqlFYLQNK1a3b28LNVqtXTXQQPDdqHccL5WX0R+JGjHyvNZpb8QfCi87m9fJlvkd3M3Ptaexotl8PzZ5X17e9/flL8fXtt5vCR/PnBXXTz7ovnNtbePxvajppM/1lrSD/Itucj9rsWfV9o6IlPph+MdXw7NL11Y/vqt+fb1gbkdxKls050nn06cC6c/qw4rt9Lj878AtS0KM2oEAAA=</Icon>
+            <UserTypeLink UserTypeID="CustomerDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

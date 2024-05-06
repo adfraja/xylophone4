@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="SORIANA.ProductOutboundArticlesMD044" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="OutboundBusinessActionMessageProcessor" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="STEPSYS" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="DirectoryDeliveryPlugin" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.ScheduleDefinition$ScheduleEveryMinute" every="1"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1000</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="FileName" Type="java.lang.String">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+  <Parameter ID="zipContent" Type="java.lang.Boolean">true</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<Parameters>
+  <Parameter ID="CollateNodes" Type="java.lang.Boolean">false</Parameter>
+</Parameters>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Outbound Integration Endpoints"></SetupGroupLink>
+            <Name>SORIANA.ProductOutboundArticlesMD044</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IKTM1JTSnNSXVLTMvMyS4BmqMCEXIGGVvpm5pWWpCoBjYGCVJAo0B4lfaAt+jBrADtwci2GAAAA</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAG2POwvCMBSF9/6KcOmgQ6JuDm0KKqUOFcE6S7DXEsmjpLG0/nrj4gO92wcf55ybZINWpEfXSWtSWLA5EDRnW0vTpHCscrqEjEfJXjih0QePR4S8kWw3KeRS4S4wkGpsMYWr6AVTwjTs4F0IAh5fgmKCQmMvNXZe6HYyhqNlSev6VBRMa9Z1Uxbj4NE81ySzV8ufzrts19YE1f+2rqxVKAxw7274FfMB4ZEHh5dcCP0AAAA=</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Discard" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=Context1 -->
+                <Configuration>H4sIAAAAAAAAANVUTVPCMBC98ys6vWN1vHhoYRjwgxkVBgqeQ7tgJE06uymCv96UpiC0jniDU2e7H3nv7Us6RKBDSFLBNAR+e50IZwVIXMnAvbm6dh2QkYq5XATuJHxo3rntVsMfh/fD5hBVnEW6L+cKE6ZNhzMCUmIFfSm4hBHMKXDnTBC4zoMSQn0OzGjkMYyzme3eV9yvU4W6B8hXEHe0xl2q1XAcv5MDJVs15l8QuC9c8iRLXKenpC4O6ApGxOc82uIJ1bbLAAE0NEyLxqyYV070tsO9Yrph5v1CreVTKrhu5cD4LNPwzOWSQuSLhUEsF8fpi5B0z4VyIf4kf6TuBVA8RFxvH2uHw1KnLyORxTBkxjnaGsea5WjoCcL1ZQzrN4XxEwdkGL1vKs55ZQlUfg5mHxDpcJPCI6osNQmymQJXpcFCOPvV+GX1fy+07au70uXM2tXZJecqe+X9/3mVvVoX7I4p01W+ZcaGXVRElbbt81KfmjKRAZVRj2nWNeSZkRvpr1N9z4aFL0tNTzDk3jjGlUtKmVGyk6aozKpsyUTy8/eRoZ3jPPUBm1oCtzaOjNSw1kG3+N7Y3980CqMlFQcAAA==</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347IJSCxKzE0tAaqz41JQQHAVPF1slZzzc3ISS1L98lNSi5UUQioLUm2VshLLEvVyEvPS9Zzy83NSE/OU7NISc4pTbfTheoHG6iObCwC1nCyNjAAAAA==</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

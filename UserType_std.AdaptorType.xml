@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="std.AdaptorType" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Standard Product-Override</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGCYyMww5f59kfh4jX37/v//r/iThZGBgZlBhwEIQPIMTFot/ebSk/gjmjNbtDfd+2XGxxXH0fckbV7kqk3LvQ8t5Imar2VQse3Gvf/aDAzWALx+3sVZAAAA</Icon>
+            <UserTypeLink UserTypeID="Product-override user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="OverrideLevel2"></UserTypeLink>
+            <AttributeLink AttributeID="Text_Number2"></AttributeLink>
+            <AttributeLink AttributeID="Test_ISODATE3"></AttributeLink>
+            <AttributeLink AttributeID="Test_LOV4"></AttributeLink>
+            <AttributeLink AttributeID="Desc_2"></AttributeLink>
+            <AttributeLink AttributeID="Text_Test1"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Table_Column_Sorting"></AttributeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

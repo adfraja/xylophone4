@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Section root" ManuallySorted="false">
+            <Name>Publication section types</Name>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

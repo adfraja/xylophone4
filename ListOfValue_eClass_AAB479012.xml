@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB479012" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Protection type IP</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB479012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Protection type IP
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB479012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Protection type IP
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB479012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Protection type IP
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB479012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Protection type IP
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB479012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Protection type IP
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB479</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB479012</Value>
+            </MetaData>
+            <ValueGroup ID="AAM245005">
+                <Value QualifierID="std.lang.all">IP24</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM246005">
+                <Value QualifierID="std.lang.all">IP2X</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM247005">
+                <Value QualifierID="std.lang.all">IP31</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM248005">
+                <Value QualifierID="std.lang.all">IP32</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM249005">
+                <Value QualifierID="std.lang.all">IP34</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM250005">
+                <Value QualifierID="std.lang.all">IP3X</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM251005">
+                <Value QualifierID="std.lang.all">IP41</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM254005">
+                <Value QualifierID="std.lang.all">IP67K</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM286005">
+                <Value QualifierID="std.lang.all">IP65/IP67</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ344002">
+                <Value QualifierID="std.lang.all">IP05</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ345002">
+                <Value QualifierID="std.lang.all">IP13B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ346002">
+                <Value QualifierID="std.lang.all">IP25</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ347002">
+                <Value QualifierID="std.lang.all">IP2XC</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ348002">
+                <Value QualifierID="std.lang.all">IPX1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ349002">
+                <Value QualifierID="std.lang.all">IPX3</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ350002">
+                <Value QualifierID="std.lang.all">IPX5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV373002">
+                <Value QualifierID="std.lang.all">IP23D</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV374002">
+                <Value QualifierID="std.lang.all">IP24D</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV375002">
+                <Value QualifierID="std.lang.all">IP25D</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV376002">
+                <Value QualifierID="std.lang.all">IP34D</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV377002">
+                <Value QualifierID="std.lang.all">IP35</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAZ561002">
+                <Value QualifierID="std.lang.all">IP69</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA141002">
+                <Value QualifierID="std.lang.all">IP67/IP69K</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB956002">
+                <Value QualifierID="std.lang.all">IP65 / IP67 (according to IEC 60529)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC085002">
+                <Value QualifierID="std.lang.all">IP66/IP68</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL386002">
+                <Value QualifierID="std.lang.all">IP51</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL387002">
+                <Value QualifierID="std.lang.all">IP59K</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL388002">
+                <Value QualifierID="std.lang.all">IP60</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL389002">
+                <Value QualifierID="std.lang.all">IP66/IP67</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL390002">
+                <Value QualifierID="std.lang.all">IP66/IP67/IP69</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL391002">
+                <Value QualifierID="std.lang.all">IP68/IPX9K</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL392002">
+                <Value QualifierID="std.lang.all">IPX2</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL393002">
+                <Value QualifierID="std.lang.all">IPX4D</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL394002">
+                <Value QualifierID="std.lang.all">IPX6</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL395002">
+                <Value QualifierID="std.lang.all">IPX8</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABZ585002">
+                <Value QualifierID="std.lang.all">IP66/IP68/IP69</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD240004">
+                <Value QualifierID="std.lang.all">IP69K</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA023004">
+                <Value QualifierID="std.lang.all">IP00</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA024005">
+                <Value QualifierID="std.lang.all">IP10</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA025005">
+                <Value QualifierID="std.lang.all">IP12</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA026005">
+                <Value QualifierID="std.lang.all">IP20</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA027005">
+                <Value QualifierID="std.lang.all">IP21</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA028005">
+                <Value QualifierID="std.lang.all">IP22</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA029005">
+                <Value QualifierID="std.lang.all">IP23</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA030005">
+                <Value QualifierID="std.lang.all">IP30</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA031005">
+                <Value QualifierID="std.lang.all">IP33</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA032004">
+                <Value QualifierID="std.lang.all">IP40</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA033004">
+                <Value QualifierID="std.lang.all">IP42</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA034004">
+                <Value QualifierID="std.lang.all">IP43</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA035004">
+                <Value QualifierID="std.lang.all">IP44</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA036004">
+                <Value QualifierID="std.lang.all">IP45</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA037004">
+                <Value QualifierID="std.lang.all">IP50</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA038004">
+                <Value QualifierID="std.lang.all">IP52</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA039004">
+                <Value QualifierID="std.lang.all">IP53</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA040004">
+                <Value QualifierID="std.lang.all">IP54</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA041004">
+                <Value QualifierID="std.lang.all">IP55</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA042004">
+                <Value QualifierID="std.lang.all">IP56</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA043004">
+                <Value QualifierID="std.lang.all">IP57</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA044004">
+                <Value QualifierID="std.lang.all">IP58</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA045004">
+                <Value QualifierID="std.lang.all">IP64</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA046004">
+                <Value QualifierID="std.lang.all">IP65</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA047004">
+                <Value QualifierID="std.lang.all">IP66</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA048004">
+                <Value QualifierID="std.lang.all">IP67</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA049004">
+                <Value QualifierID="std.lang.all">IP68</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA050004">
+                <Value QualifierID="std.lang.all">IPX0</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA051004">
+                <Value QualifierID="std.lang.all">IPX4</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA052004">
+                <Value QualifierID="std.lang.all">IPX7</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA050004">
+                <Value QualifierID="std.lang.all">without</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Level2" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="true" ReferenceTargetLockPolicy="Strict" IDPattern="Level2-[id]">
+            <Name>Level 2</Name>
+            <Icon>H4sIAAAAAAAAAJ1U3WvTUBSP28OGMpxD0QlCloEo2Hy0TduE1pk2qa0sbW2LK6JsaXK7xi25Mbmz3V4Gm7CJiIhvgoggTPYgCr4pjD0q+wvcg/+AOBh7EAXnzdZOkTHBA8m959zzO+fc83HvFXKXew6fPkwQRE82Ixfx2ut/3Z34fy5wtISXfqRUUAnWUENzASEZsArIrKWNgyLQjOnbH0CcIDprZrmCKuqwqEOL1nwdumk5hE/xoaaj6RMAkVUwbtoJauPdCkWaRoIa4VVWdVKgbmZmXFCayZX1mQldMKihi2S8KWIDFkAa2bQmbU9sJqgduyLe+2KGIndU0ESC2g2qohbIFHQBydNsQGcjHBkJ01yYFcLCBTLIcizDBRk2GuBYkY+KLEe2iMLeXKMmFuV0yxfmElQdIUdkmEajQTdCNHTHGU4QBIYNMsFgAGsEvGkbac2A7Q22LcjA013TQSa0SZ/XqnAKJSiqfQXLUdU9w7bXShROGdPUHIajWcaymLa2h4qgdrC2V552AFMEHpxydVyP2uAfrg6G+oo4GjHvmrgo2qQM9SkL2CgrJyh8QhumIYYEXopFuIgsRWJKmONiqYic4sPpmBSNxoQk27axHzYWTCksmwxHYrLEcUpY4kK8EpXSISEc4nk+1MZmbQ9ptg7aWPM3NnQgVky5QEPQLUM42e6AQh0i6NWhQ6ZKPM2RI6ZtwIbnl6cVKXDNO8BIu9Aid/Irmvv4D8n/uvcu1vifnDE4GOavZmmLcAf6273Wx8ze8AAbT4yLR0NPdHXhsRooDJeV2ZVtTJgbGp1dXFxcXl6mKEqW5bW1tZXP/tHJ7yk8nsQRVMyVtveIuJI/tInF17OyVG5+uvFwve/SsW7lcd/P7fn80vrYg4Xa85uvn3790nN19dbHjhNjW+8zj7Z6Ky/qqwOZuzlpfuvtj/vxua7RKjWq9i8tnapvqN/sJ5t5ZeHlavL4M6KTuEZ3vDlrnDnvvwBZJSe/So7N/QLu7dVSbgQAAA==</Icon>
+            <UserTypeLink UserTypeID="Level1"></UserTypeLink>
+            <AttributeLink AttributeID="AttributeHelpText"></AttributeLink>
+            <AttributeLink AttributeID="CORP-119043"></AttributeLink>
+            <AttributeLink AttributeID="CORP-119045"></AttributeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="Desc_2"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Display_Name"></AttributeLink>
+            <AttributeLink AttributeID="ErrorODBMS"></AttributeLink>
+            <AttributeLink AttributeID="Event"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ExternalIdentifier"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Test_ISODATE3"></AttributeLink>
+            <AttributeLink AttributeID="Test_LOV4"></AttributeLink>
+            <AttributeLink AttributeID="Text_Number2"></AttributeLink>
+            <AttributeLink AttributeID="Text_Test1"></AttributeLink>
+            <AttributeLink AttributeID="UUID"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

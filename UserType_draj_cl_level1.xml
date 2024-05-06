@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="draj_cl_level1" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" Referenced="true">
+            <Name>draj_cl_level1</Name>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="METCASH-CLS"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="DGNA_SG" UserTypeID="DGNA_SG_TR">
+            <Name>DGNA_SG</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC525005" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">holding size_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC525005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;holding size_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC525005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;holding size_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC525005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;holding size_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC525005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;holding size_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC525005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;holding size_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC525</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC525005</Value>
+            </MetaData>
+            <ValueGroup ID="AAC061002">
+                <Value QualifierID="std.lang.all">1/2 - 20 inch</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC559002">
+                <Value QualifierID="std.lang.all">3/8 - 24 inch</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC813002">
+                <Value QualifierID="std.lang.all">5/8 - 16 inch</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD157002">
+                <Value QualifierID="std.lang.all">A-30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD159002">
+                <Value QualifierID="std.lang.all">A-40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD160002">
+                <Value QualifierID="std.lang.all">A-45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD162002">
+                <Value QualifierID="std.lang.all">A-50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD391002">
+                <Value QualifierID="std.lang.all">ANSI-CAT-40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD392002">
+                <Value QualifierID="std.lang.all">ANSI-CAT-50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD582002">
+                <Value QualifierID="std.lang.all">B10</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD583002">
+                <Value QualifierID="std.lang.all">B12</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD584002">
+                <Value QualifierID="std.lang.all">B16</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD585002">
+                <Value QualifierID="std.lang.all">B18</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD586002">
+                <Value QualifierID="std.lang.all">B18V</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD588002">
+                <Value QualifierID="std.lang.all">B24</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD590002">
+                <Value QualifierID="std.lang.all">B-30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD591002">
+                <Value QualifierID="std.lang.all">B-40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD592002">
+                <Value QualifierID="std.lang.all">B-45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD593002">
+                <Value QualifierID="std.lang.all">B-50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE018002">
+                <Value QualifierID="std.lang.all">BT30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE019002">
+                <Value QualifierID="std.lang.all">BT40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE020002">
+                <Value QualifierID="std.lang.all">BT40IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE021002">
+                <Value QualifierID="std.lang.all">BT45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE022002">
+                <Value QualifierID="std.lang.all">BT50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE023002">
+                <Value QualifierID="std.lang.all">BT50IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAF547002">
+                <Value QualifierID="std.lang.all">E6.3</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH732002">
+                <Value QualifierID="std.lang.all">HSK100</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH733002">
+                <Value QualifierID="std.lang.all">HSK32</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH734002">
+                <Value QualifierID="std.lang.all">HSK40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH735002">
+                <Value QualifierID="std.lang.all">HSK50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH736002">
+                <Value QualifierID="std.lang.all">HSK63</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH737002">
+                <Value QualifierID="std.lang.all">HSK80</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH738002">
+                <Value QualifierID="std.lang.all">HSK-A100</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH739002">
+                <Value QualifierID="std.lang.all">HSK-A40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH740002">
+                <Value QualifierID="std.lang.all">HSK-A50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH741002">
+                <Value QualifierID="std.lang.all">HSK-A63</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH742002">
+                <Value QualifierID="std.lang.all">HSK-F63</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI347002">
+                <Value QualifierID="std.lang.all">J0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI348002">
+                <Value QualifierID="std.lang.all">J1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI349002">
+                <Value QualifierID="std.lang.all">J2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI350002">
+                <Value QualifierID="std.lang.all">J3</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI351002">
+                <Value QualifierID="std.lang.all">J33</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI352002">
+                <Value QualifierID="std.lang.all">J4</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI353002">
+                <Value QualifierID="std.lang.all">J6</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK684002">
+                <Value QualifierID="std.lang.all">M18x2.5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK733002">
+                <Value QualifierID="std.lang.all">MASBT403-40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK734002">
+                <Value QualifierID="std.lang.all">MASBT403-50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK795002">
+                <Value QualifierID="std.lang.all">MEK 40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK796002">
+                <Value QualifierID="std.lang.all">MEK 50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK797002">
+                <Value QualifierID="std.lang.all">MEK 6</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK798002">
+                <Value QualifierID="std.lang.all">MEK 60</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK799002">
+                <Value QualifierID="std.lang.all">MEK 70</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK800002">
+                <Value QualifierID="std.lang.all">MEK 80</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK801002">
+                <Value QualifierID="std.lang.all">MEK 90</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL457002">
+                <Value QualifierID="std.lang.all">MK0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL458002">
+                <Value QualifierID="std.lang.all">MK0-B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL461002">
+                <Value QualifierID="std.lang.all">MK1-B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL464002">
+                <Value QualifierID="std.lang.all">MK2-B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL467002">
+                <Value QualifierID="std.lang.all">MK3-B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL468002">
+                <Value QualifierID="std.lang.all">MK4-B</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL699002">
+                <Value QualifierID="std.lang.all">NG16xD30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL700002">
+                <Value QualifierID="std.lang.all">NG20xD40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN142002">
+                <Value QualifierID="std.lang.all">SDS10</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN241002">
+                <Value QualifierID="std.lang.all">SK30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN242002">
+                <Value QualifierID="std.lang.all">SK45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN261002">
+                <Value QualifierID="std.lang.all">special shank</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN454002">
+                <Value QualifierID="std.lang.all">S-SK40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN455002">
+                <Value QualifierID="std.lang.all">S-SK45</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN456002">
+                <Value QualifierID="std.lang.all">S-SK50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO659002">
+                <Value QualifierID="std.lang.all">TR10</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO660002">
+                <Value QualifierID="std.lang.all">TR12</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO661002">
+                <Value QualifierID="std.lang.all">TR16</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO663002">
+                <Value QualifierID="std.lang.all">TR16x1.5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO667002">
+                <Value QualifierID="std.lang.all">TR20</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO669002">
+                <Value QualifierID="std.lang.all">TR20x2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO671002">
+                <Value QualifierID="std.lang.all">TR20x2IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO673002">
+                <Value QualifierID="std.lang.all">TR25</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO675002">
+                <Value QualifierID="std.lang.all">TR28</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO676002">
+                <Value QualifierID="std.lang.all">TR28x2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO677002">
+                <Value QualifierID="std.lang.all">TR28x2IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO678002">
+                <Value QualifierID="std.lang.all">TR32</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO679002">
+                <Value QualifierID="std.lang.all">TR36</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO680002">
+                <Value QualifierID="std.lang.all">TR36x2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO681002">
+                <Value QualifierID="std.lang.all">TR36x2IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO683002">
+                <Value QualifierID="std.lang.all">TR48</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO684002">
+                <Value QualifierID="std.lang.all">TR48x2</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO685002">
+                <Value QualifierID="std.lang.all">TR48x2IK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO686002">
+                <Value QualifierID="std.lang.all">TR55</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO687002">
+                <Value QualifierID="std.lang.all">TR8</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP014002">
+                <Value QualifierID="std.lang.all">VDI25</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP015002">
+                <Value QualifierID="std.lang.all">VDI30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP016002">
+                <Value QualifierID="std.lang.all">VDI40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP017002">
+                <Value QualifierID="std.lang.all">VDI50</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP018002">
+                <Value QualifierID="std.lang.all">VDI60</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP019002">
+                <Value QualifierID="std.lang.all">VDI80</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP410002">
+                <Value QualifierID="std.lang.all">cylindrical 16</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP412002">
+                <Value QualifierID="std.lang.all">cylindrical 20</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP415002">
+                <Value QualifierID="std.lang.all">cylindrical 25</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP419002">
+                <Value QualifierID="std.lang.all">cylindrical 30</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP421002">
+                <Value QualifierID="std.lang.all">cylindrical 32</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA212002">
+                <Value QualifierID="std.lang.all">B22</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA224002">
+                <Value QualifierID="std.lang.all">SK40</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA225002">
+                <Value QualifierID="std.lang.all">SK50</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA226004">
+                <Value QualifierID="std.lang.all">MK1</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA227004">
+                <Value QualifierID="std.lang.all">MK2</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA228004">
+                <Value QualifierID="std.lang.all">MK3</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA229004">
+                <Value QualifierID="std.lang.all">MK4</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA230004">
+                <Value QualifierID="std.lang.all">MK5</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA231004">
+                <Value QualifierID="std.lang.all">MK6</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

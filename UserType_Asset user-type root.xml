@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Asset user-type root" ReferenceTargetLockPolicy="Strict">
+            <Name>Assets</Name>
+            <Icon>H4sIAAAAAAAAAOsM8HPn5ZLiYmBg4PX0cAkC0oIgzMEGJK1z3X8BqQxPF8eQiri9Exy5DijwsHyu+J/7UeBmj+bVC2UJB1+lcZh2fzm85Eus2/TDfLu396xTOfBOWW/hVqHXa68Kq3TVFXd8P63260W67KXvuZztRjfthUQ/nDv/sj+1MzH/5pJJmpWKjTvf6d331NrJ0NKdditm14/TQDsZPF39XNY5JTQBACOXpEShAAAA</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Image URL Date Added"></AttributeLink>
+            <AttributeLink AttributeID="Image URL Last Modified Date"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <AttributeLink AttributeID="Linked AssetID"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelHeight"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ModelSize"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.AssetFileName"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

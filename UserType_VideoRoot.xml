@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="VideoRoot" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="VideoRoot" NamePattern="Videos">
+            <Name>Videos</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMqwfy7D/0sM9ZkM/4HgZQOQYAADxZ8sjAwMrAw6IA5ILQOzccSuO/8MvBxXB2xjM/ql4KgokDIz9EDEOp2J2zasPvba+/pn3ddLzy5vXFBgwSLUf/BKpqcnA4M1AA20EiduAAAA</Icon>
+            <UserTypeLink UserTypeID="AssetRoot"></UserTypeLink>
+            <AttributeLink AttributeID="GS1-Purpose"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Purpose"></AttributeLink>
+            <AttributeLink AttributeID="a_ SourceOfTruth"></AttributeLink>
+            <AttributeLink AttributeID="a_DGOwner"></AttributeLink>
+            <AttributeLink AttributeID="a_IntegrationTargets"></AttributeLink>
+            <AttributeLink AttributeID="a_IsMDM"></AttributeLink>
+            <AttributeLink AttributeID="aatestatt"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

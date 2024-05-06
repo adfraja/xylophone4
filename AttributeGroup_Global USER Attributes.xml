@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Global USER Attributes" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="Other Attributes">
+            <Name QualifierID="en-US">USER Attributes</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Attribute Description">Please do not translate the attribute grouping name! Just the attributes should be translated.</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

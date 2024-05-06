@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_QStatus" ParentID="LOVG_ContactLOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Q Status LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="40" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_QStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Q Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_QStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Q Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_QStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Q Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_QStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Q Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_QStatus
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Q Status LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="00">
+                <Value QualifierID="std.lang.all">Special</Value>
+            </ValueGroup>
+            <ValueGroup ID="01">
+                <Value QualifierID="std.lang.all">BO</Value>
+            </ValueGroup>
+            <ValueGroup ID="02">
+                <Value QualifierID="std.lang.all">SE</Value>
+            </ValueGroup>
+            <ValueGroup ID="03">
+                <Value QualifierID="std.lang.all">CO</Value>
+            </ValueGroup>
+            <ValueGroup ID="04">
+                <Value QualifierID="std.lang.all">NF</Value>
+            </ValueGroup>
+            <ValueGroup ID="15">
+                <Value QualifierID="std.lang.all">GG</Value>
+            </ValueGroup>
+            <ValueGroup ID="41">
+                <Value QualifierID="std.lang.all">PF</Value>
+            </ValueGroup>
+            <ValueGroup ID="B5">
+                <Value QualifierID="std.lang.all">Gaggenau DDB5</Value>
+            </ValueGroup>
+            <ValueGroup ID="C0">
+                <Value QualifierID="std.lang.all">D2C</Value>
+            </ValueGroup>
+            <ValueGroup ID="C1">
+                <Value QualifierID="std.lang.all">Suning</Value>
+            </ValueGroup>
+            <ValueGroup ID="C2">
+                <Value QualifierID="std.lang.all">Gome</Value>
+            </ValueGroup>
+            <ValueGroup ID="C3">
+                <Value QualifierID="std.lang.all">Jingdong</Value>
+            </ValueGroup>
+            <ValueGroup ID="C4">
+                <Value QualifierID="std.lang.all">Wuxing</Value>
+            </ValueGroup>
+            <ValueGroup ID="C5">
+                <Value QualifierID="std.lang.all">Project</Value>
+            </ValueGroup>
+            <ValueGroup ID="C6">
+                <Value QualifierID="std.lang.all">Online Dealer</Value>
+            </ValueGroup>
+            <ValueGroup ID="C7">
+                <Value QualifierID="std.lang.all">Traditional</Value>
+            </ValueGroup>
+            <ValueGroup ID="C8">
+                <Value QualifierID="std.lang.all">Online</Value>
+            </ValueGroup>
+            <ValueGroup ID="C9">
+                <Value QualifierID="std.lang.all">Offline</Value>
+            </ValueGroup>
+            <ValueGroup ID="D1">
+                <Value QualifierID="std.lang.all">MK: Aktiv</Value>
+            </ValueGroup>
+            <ValueGroup ID="D3">
+                <Value QualifierID="std.lang.all">MK: Antragsteller</Value>
+            </ValueGroup>
+            <ValueGroup ID="D5">
+                <Value QualifierID="std.lang.all">MK: Probemitglied</Value>
+            </ValueGroup>
+            <ValueGroup ID="DW">
+                <Value QualifierID="std.lang.all">MK: Abgelehnt</Value>
+            </ValueGroup>
+            <ValueGroup ID="DX">
+                <Value QualifierID="std.lang.all">MK: Inaktiv</Value>
+            </ValueGroup>
+            <ValueGroup ID="GH">
+                <Value QualifierID="std.lang.all">MK: GH beitragsfrei</Value>
+            </ValueGroup>
+            <ValueGroup ID="GO">
+                <Value QualifierID="std.lang.all">Off Shore</Value>
+            </ValueGroup>
+            <ValueGroup ID="P1">
+                <Value QualifierID="std.lang.all">Business Mailing</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q0">
+                <Value QualifierID="std.lang.all">Rest: Name-1, Adr-1</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q1">
+                <Value QualifierID="std.lang.all">Sales: Name-1, Adr-1</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q2">
+                <Value QualifierID="std.lang.all">Fin: Name-1, Adr-1</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q3">
+                <Value QualifierID="std.lang.all">TRILLIM appl. Error</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q4">
+                <Value QualifierID="std.lang.all">Unvalid:City-Reg-PCo</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q5">
+                <Value QualifierID="std.lang.all">Adress ambiguous</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q6">
+                <Value QualifierID="std.lang.all">Name-0, Adr-1</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q7">
+                <Value QualifierID="std.lang.all">TRILLIUM all OK</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q8">
+                <Value QualifierID="std.lang.all">Unvalid:Build. Name</Value>
+            </ValueGroup>
+            <ValueGroup ID="Q9">
+                <Value QualifierID="std.lang.all">Unvalid:Street Name</Value>
+            </ValueGroup>
+            <ValueGroup ID="QZ">
+                <Value QualifierID="std.lang.all">**Not Evaluated</Value>
+            </ValueGroup>
+            <ValueGroup ID="R1">
+                <Value QualifierID="std.lang.all">CENTER</Value>
+            </ValueGroup>
+            <ValueGroup ID="R2">
+                <Value QualifierID="std.lang.all">NW</Value>
+            </ValueGroup>
+            <ValueGroup ID="R3">
+                <Value QualifierID="std.lang.all">SIBIR</Value>
+            </ValueGroup>
+            <ValueGroup ID="R4">
+                <Value QualifierID="std.lang.all">SOUTH</Value>
+            </ValueGroup>
+            <ValueGroup ID="R5">
+                <Value QualifierID="std.lang.all">URAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="R6">
+                <Value QualifierID="std.lang.all">VOLGA</Value>
+            </ValueGroup>
+            <ValueGroup ID="R7">
+                <Value QualifierID="std.lang.all">Kazakhstan</Value>
+            </ValueGroup>
+            <ValueGroup ID="R8">
+                <Value QualifierID="std.lang.all">FAR EAST</Value>
+            </ValueGroup>
+            <ValueGroup ID="R9">
+                <Value QualifierID="std.lang.all">REG CENTER</Value>
+            </ValueGroup>
+            <ValueGroup ID="RA">
+                <Value QualifierID="std.lang.all">ARMENIA</Value>
+            </ValueGroup>
+            <ValueGroup ID="RB">
+                <Value QualifierID="std.lang.all">BELARUS</Value>
+            </ValueGroup>
+            <ValueGroup ID="SA">
+                <Value QualifierID="std.lang.all">Aktiv</Value>
+            </ValueGroup>
+            <ValueGroup ID="SI">
+                <Value QualifierID="std.lang.all">Inaktiv</Value>
+            </ValueGroup>
+            <ValueGroup ID="T(">
+                <Value QualifierID="std.lang.all">Free Zone</Value>
+            </ValueGroup>
+            <ValueGroup ID="T)">
+                <Value QualifierID="std.lang.all">Dıs Tic. Ser.</Value>
+            </ValueGroup>
+            <ValueGroup ID="T0">
+                <Value QualifierID="std.lang.all">Franchising</Value>
+            </ValueGroup>
+            <ValueGroup ID="T1">
+                <Value QualifierID="std.lang.all">Built-in 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="T2">
+                <Value QualifierID="std.lang.all">Built-in 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="T3">
+                <Value QualifierID="std.lang.all">Built-in 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="T4">
+                <Value QualifierID="std.lang.all">Standard Dealer</Value>
+            </ValueGroup>
+            <ValueGroup ID="T5">
+                <Value QualifierID="std.lang.all">Dealer + Built-in</Value>
+            </ValueGroup>
+            <ValueGroup ID="T6">
+                <Value QualifierID="std.lang.all">Dealer+Built-in+ Hom</Value>
+            </ValueGroup>
+            <ValueGroup ID="T7">
+                <Value QualifierID="std.lang.all">Dealer+Home Sys.</Value>
+            </ValueGroup>
+            <ValueGroup ID="T8">
+                <Value QualifierID="std.lang.all">Office Equipment</Value>
+            </ValueGroup>
+            <ValueGroup ID="T9">
+                <Value QualifierID="std.lang.all">Home Systems</Value>
+            </ValueGroup>
+            <ValueGroup ID="T?">
+                <Value QualifierID="std.lang.all">Franchising</Value>
+            </ValueGroup>
+            <ValueGroup ID="TA">
+                <Value QualifierID="std.lang.all">All</Value>
+            </ValueGroup>
+            <ValueGroup ID="TB">
+                <Value QualifierID="std.lang.all">Kargo</Value>
+            </ValueGroup>
+            <ValueGroup ID="TC">
+                <Value QualifierID="std.lang.all">PTT</Value>
+            </ValueGroup>
+            <ValueGroup ID="TD">
+                <Value QualifierID="std.lang.all">E-mail</Value>
+            </ValueGroup>
+            <ValueGroup ID="TE">
+                <Value QualifierID="std.lang.all">Garanti Bankası</Value>
+            </ValueGroup>
+            <ValueGroup ID="TF">
+                <Value QualifierID="std.lang.all">BSH Finans</Value>
+            </ValueGroup>
+            <ValueGroup ID="TG">
+                <Value QualifierID="std.lang.all">Garanti + BSH Finans</Value>
+            </ValueGroup>
+            <ValueGroup ID="TH">
+                <Value QualifierID="std.lang.all">Home Delivery</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

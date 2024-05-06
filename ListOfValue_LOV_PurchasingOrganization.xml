@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_PurchasingOrganization" ParentID="LOVG_PurchasingData" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Purchasing Organization LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="4" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_PurchasingOrganization
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Purchasing Organization LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_PurchasingOrganization
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Purchasing Organization LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_PurchasingOrganization
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Purchasing Organization LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_PurchasingOrganization
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Purchasing Organization LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_PurchasingOrganization
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Purchasing Organization LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="5340">
+                <Value>5340</Value>
+            </ValueGroup>
+            <ValueGroup ID="5341">
+                <Value>5341</Value>
+            </ValueGroup>
+            <ValueGroup ID="5343">
+                <Value>5343</Value>
+            </ValueGroup>
+            <ValueGroup ID="5344">
+                <Value>5344</Value>
+            </ValueGroup>
+            <ValueGroup ID="5345">
+                <Value>5345</Value>
+            </ValueGroup>
+            <ValueGroup ID="5346">
+                <Value>5346</Value>
+            </ValueGroup>
+            <ValueGroup ID="5348">
+                <Value>5348</Value>
+            </ValueGroup>
+            <ValueGroup ID="5349">
+                <Value>5349</Value>
+            </ValueGroup>
+            <ValueGroup ID="PL18">
+                <Value>PL18</Value>
+            </ValueGroup>
+            <ValueGroup ID="PL32">
+                <Value>PL32</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLA1">
+                <Value>PLA1</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLA2">
+                <Value>PLA2</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>
