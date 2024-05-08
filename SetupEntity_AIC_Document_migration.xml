@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AIC_Document_migration" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>AIC_Document_migration</Name>
+            <Configuration>H4sIAAAAAAAAAL1YbW/aMBD+3l8RsanaKg3Gl21SC1XGi4rWMAR03YdJyIsP8GbizLHbbr9+tvNmAiWBDfqhSrDvuefuHt8ZOiyYk4XkSBAWtK6un1bUeQAe6bdas/625kDgM0yCRat2N+2/+VC7bp9duVEEYrAKGRfAOzaE04XI5yQ0cLVpbzLtfv7kzprv3tfaZ45jW35BlGAkGG+fU3G55vn8l2TiUrmPH3IO8bshEj9eny/E5ZkGCKlckMAhONk0ESjAiOOCs3jRWDmOtovIKqSQ290TLJZdsoJAU8m3e4Nh64Xnfm1po0ZstQPmBshiKf4dxxDvMMr4JEQ+RDnQHvaeojH9He5v3R0NDmbuoac+oTAhf8DC2GJu3uPymferxlaVaPncEOCI+8vfHyWhGI4kHQ8EUj5R0VupdjKDMWMi3z3iDEtfBYQWYFYq5i+QiMZZyLEEl1BRgSmZNJw+AYotVkgsy0uxkfHsFHtI+MtjlSA9vbanU6dfOfUYtsTrTia96Wzoer1qEFr+Q7QCA9V7CjlE673gVf3i9bd6/WIPRlNQHyJhsXrZrId4Xg1i0N20r2ap49jmuyJ1SQXZktFxb3TrdjbS+UxHSBWXSVCNHgFBNomOI8UuzJGiv81hqSJdStljh4NKmrE/5BzHGLHjMagC+HAIjJG/gklSkyQkkJQmGwyUeWrsYqPD+Pz9B/hCTxTrlHX7VYno5GWTcRBgCEH9C6zszBGNNuJ6RhVFEeQNSvW9rup7x5VH0UupJkwb9lAYKkf2QEar8JLmeOvb9GICuWOfEzHJfWiZPTG73tSd9Qe3vfwjZ64trD3udIaZL1U9xIzoOpA58c1tzjJCQnDyXQob3O3MblGwkEZY6lhnC42Mb8q2sTusqg2gWFFd66S935Lg57FqPGSWE/uMXDXWvWfac8OQs4eTTMfUVXkzijcmycOFhrT1yO0Eivsa7lCkxlommUMAR4inYYxhDlzlxL6r7tMNssSbUkjBRpIvTlOHzFlpJdTVeAwPRPPoMGk3vubb+K9CtHlsOtR7xn/O1aC4UYzoSeIteCwNegiPa3aHTqC7EKNUvv+KZUBiwBRKaRGt9r0dJV3gv3BKsPZitSmPoh60Rj7KiATqDjqWFE6iky0OS2WS2qixjonuKHt/aU0RXL/EfDNr2zK0/n208HuHWo1CSkT7L01ZuC5JEQAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

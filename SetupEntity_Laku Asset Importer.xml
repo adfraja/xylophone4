@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="Laku Asset Importer" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>Laku Asset Importer</Name>
+            <Configuration>H4sIAAAAAAAAAL1YW0/bMBR+51dE3YQ2pLXwNqkXFHoZ3UipCow9TJq8+DQ1uHZwHC779bOde5uRtKzlATWNz/ed8/k7x0n7nM2JFwokCWfdzunzklqPIAJ91ThpHjcsYC7HhHndxs316NPnxmnvoGMHAcjx0udCgujnIXoHlpW//R1RgpHkondIZbsAf/gQctlWHNGHjCi6NmzRx9NDT7YPNIBPQ48wi+B40ZVEDCOBV8iimybKsnRcQJY+hSzulmC5GJAlMJ1KttwZT7rvHPtHVwe1oqhXYM6BeAv5dhyTeJ9TLq585EKQAW0Q76g0rl/8fDRZIg9adz549XAG0/HWNTjoeUQoXJE/kMMoCTfX0Uaa606r1C/aSOcEBBLu4uUsJBTDjkyk056gJayyVbooDZhxLrPVppzAfFdTORYiGtWfoUgRQk0XJmkMwJeLDOG4Wvk1gdP2dZB0F7tSPGnbPNP+1FZ0Dsc5l47GF8NfE9sZ1kNI/GKQhs++gKDY/R+aRx9/NptHGyR0DepLJHNJvT+pFz4erMfWi9Q1bM/rhFSSEjGHs9nlrGbPJyZLXafOEgksPVp2474BzJFKvoyw0oQ2pfypL0BJZuK36dcIIyKegZLfhW1gxnq4K5hYmlgQFlIaLzBQ5lPrtWx0GZe/78CV+vTIMvk6/WIZjrrpaAnTs3DMMPig/rGcRnNEgzW4f3hj1QrZZAKJBkii3ZrEUNkMz2AOQgGApsU52kqrjAhQ7CDfV8z5Ex0t/bZanpRRWNYyd1NVanTQqhhapqngOHTlBWH3O5VHD0KmhkhEVEOQ/z83i7NnPKgXesPIQwjf4GXbpnnjzI43qORE27J/U5cWW9hByi31Z5IZ6XFupsKNO7fovLRlbd8X/HEvTxMJVfUkjxbGjYNXpnlpva8CRYcC7lOkXD0nrnkd2gpwikRSRrqvwcZbURTebEUo+TQU3n72ISWr3An15jCDR6Lz6PMwf16cHEd/NarNatOl3nJxP1eOPlcZ0b3Uu8JYWfQEngpxWcCF/e3Guh3VnGQ+Rol73whlMCK8BEk5ES03fayMZ0BJSpsPtxhro6zWzbHqBu2QszAgTB1As5DCXlxSQlhpkiRGPQthoufJxr8MJAi2WxG+rlqZQsWX9bXffjqBT4ns/QXnYS1gVRIAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

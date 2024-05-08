@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="SupplierCompleteness" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>Supplier Completeness</Name>
+            <Configuration>H4sIAAAAAAAAAGWRT0/DMAzF7/0UUQ69QeGG6D9NbcdpUsXGGZXOrSJ5SUkcBN+epCntJm527Pd7T06l5CBGqzsSSuZZ+X1B9gXa+I4/3j9wBrJXZyHHnL+d9ndPvCyibEI7CsnEOefVobpG8CJiLDPiMiHM83Zefa+b9rWpdqem5kWMlN4YxZ9WUercQrFZhn72DWUZj5RGHrBFCJMahs4iVco7E0gw5gCkRV912FvsSOmwOBMY84wtZhhdi4+90rAjR/iwBEswaRGXXdJ2eU3+EVEY2qgr5EUrO+0FEtxGCVKQpH/8iyGYnpOk+5ONXlY63NFOEwrQrVaDQHcfL0tW3RIh2TKsx0rCteY+WxbcNy7PrjIOTMUvRLw8Uw0CAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

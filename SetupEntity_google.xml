@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="google" UserTypeID="AddressTypeaheadValueType">
+            <SetupGroupLink SetupGroupID="AddressTypeaheadConfiguration"></SetupGroupLink>
+            <Name>google</Name>
+            <Configuration>H4sIAAAAAAAAALVWbW/aMBD+KwztQzdNG6V7kaa9UVpVbF1bBpqmdSgy8WHcOnbkl5aw7r/vEichLTBUsn4p5e655x7fHT53lZxw5jSxXMn3v5uMWLgmSU9aYN54KGmsuLTNt80j7wyOlGICms+axjEGJkWdETtFBHFWhSqKBVh4cWGUTEEgIKxgKFjChSncJOZfIOk70MkZ0STCSI2oS0hKJ37t9OZkkOzvtV6RQXDK5vP+YYvNJz+mJ/29KxgMOxft9su+ytIZg8mG6hLkbVbPlPtt6ke4IJI5wmAVtPBVYGjNwpwWZ8rYCZ+hxSYxmF+u1dqjhFKNCTIdRIfT27TG83IZO4uQiMwGZQXNKgUIopoLQdW17HjqLmonXILu0TURi658g1Bp2tGapK7H56nG9ptYA+VZR4w3jM6fjtJM3MSCJEOY2c+maNd5GUbBhJrHaVwe1hxVkw2xCou420JS36CYg+9EOPCIvFw9WgksZQoSQsBpkayCXnXwAo64UDlpddIzqqsoVCgx2glbHNp/5qRBOrZKgrRlUT7u+P9yOv+lwWXj0/Os408KCjNV2gYS1Sy0Zj3OW7a7QcL6yLYvU9W0t2x6uWw6xgnZkHWidESsBRrkJbgjYd9xQblkFfIut0ntcgoVEoFES/Vs3Nw0dh5tAmWW1/5vI58U/CUSEVj8kSw3qeySUJKtalLXt/fhx+SfAurnJzTikhubXttXEBANJBBwBSJo31/TAcQgKaY5zhtRW55x46KpuazdGrIGVgPYymieakYkn2crq2JOL+mxmlUsA4tb7AGLvcWpysPc85LwcSfoqH0erZyFbZWfuGicLe2aE5KRBTJj20KLG1eurNrDilsy4maLmvzkce38+Y0W4vq6lwCB42jdxp3HQOHmLO6qBV9IKtu9sBJb4ceU/z2BZIsEoLXSB7jVs5fCildBBggiLB++xu7EffXWVY+XNWHrn0QVJ7bCutI++vMOn0ncfvgLXRnN8zsLAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

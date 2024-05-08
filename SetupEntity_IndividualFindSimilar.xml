@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="IndividualFindSimilar" UserTypeID="WebServiceEndpoint">
+            <SetupGroupLink SetupGroupID="WebServiceEndpoints"></SetupGroupLink>
+            <Name>Individual Find Similar</Name>
+            <Configuration>H4sIAAAAAAAAAMVUTU/DMAy98yuqHHaDwgUh1nUaY5WQGEJswDlbTGspTUriTMCvJ/2Ytq4b44K4Nbaf33t2mrFWb5g6wwm1GkTDj1wGKzC2PLGLs3MWgFpqgSodsOd5cnrFhvFJVEiXogpQDFiCSswwR8nNKyxmYFa4hIkShUZF888CWHwSBJHFvJAg0VKFeuESRcV54ywqsHaslcAyYFm4DzEjrgQ3Ar9asNGyi6nqp5yWmZc9kqk2SFnOYktQXIdh3mT4OjP09XeefYXCcbllKArrhru955kBm2kpWHx5fqjoCWzhlcEtJ55o41lZ3JPUnyhC+uyl1PeAoIw88BzC7YCfjgPbiQQjIoMLR3B3O+i9O039BI2lEl8fu132YO75QUjYZm6iteKx0dY+wRsYfyMavWW29OeXR9zvw7REtzJBeRcaBVMfGQnhh2hbNXV2h70j6Yi9zUUBUc+dQDRsO5b3u65CbV1bmamThAedTXKO8rinvd1/tnzEdUWcIEjR9fjjcg87DbtWfz+Ix0wr+I9BVMQPLl+sGf9wEl1U3bNObH70zRMRhfXT6b9sIZHib90yiAaABQAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

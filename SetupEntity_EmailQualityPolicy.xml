@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="EmailQualityPolicy" UserTypeID="ExistingEntityDQPolicy">
+            <SetupGroupLink SetupGroupID="Policies"></SetupGroupLink>
+            <Name>Email Completeness Metric on Customer Email DataSet</Name>
+            <Configuration>H4sIAAAAAAAAAI2QTWvDMAyG7/0Vxvcu7a0MJ2HEPhZK13sxiZIKHNtYcmn//ZKmh31Q2E1Cz/tIqAm+xyEnyxh8qerb6MQVEs2d3L5tpADfhg79UMrM/Xon62qlossDeoFdKc0NiaextmwPwWF7l9VKCEU4RgcPZB59Amvo0eO856zN4Wiaj5PRsiKG+F4UE5Cj8Yx8r6dQk4nDCMmMFt1ToIpF+tu/B07Y/kP6kDVhDjJ4IFqSr7warmj/3LvdvOJPlwR0Ca77we++8apYPjdVFB1y9QX0/En9fwEAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="IndividualDataSetUSA" UserTypeID="EntityDatasetDefinition">
+            <SetupGroupLink SetupGroupID="Datasets"></SetupGroupLink>
+            <Name>Individual Data Set - USA</Name>
+            <Configuration>H4sIAAAAAAAAAIWSy07DMBBF9/2KKHsI7BBNWldOkFiAKkrXkRtPqkGObdnjQv8e51ERBAiv7Hkcz/U1N7rFY3CC0OgiX390KjmB8/0pvb2+SRPQjZGoj0UaqL26S9erRW5VOKJOUBZpKUjsgEpoUWMP2Q45Puemq0WS5B47q0Chp3kjd0jgUNRltX2p+Oa1Kofy2ACa3HnlCex9lpnDGzREZwvr2P2oJZ5QBqF48GQ6cIwtlywuDe91i4rqZgL/EZywMk7RGE0CNbgL/SmeNlI68L6fkl/yjPUVvvZgRVRmXM+ekEbPwxNdEDk8BJpmtoG4Cb0qxlBHYN0X1PF+yVgxKtjvItJ0tj4JVVuBbpbZ/EgxZiL9G2dU68Phvxf4NZhn46v3hmVfjs0MHMx7NhK4USpaEpXvPcgH46o4VxgMn5uZ6KBUkZILkGbx72Tj54k7bxXS6hNIy9k4ggIAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

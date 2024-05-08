@@ -13,8 +13,8 @@
             <AttributeLink AttributeID="Text_Test1"></AttributeLink>
             <AttributeLink AttributeID="Modified_By"></AttributeLink>
             <AttributeLink AttributeID="Display Sequence"></AttributeLink>
-            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
             <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
             <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
             <AttributeLink AttributeID="Modified_At"></AttributeLink>
             <AttributeLink AttributeID="Table_Column_Sorting"></AttributeLink>

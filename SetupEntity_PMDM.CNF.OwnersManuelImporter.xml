@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="PMDM.CNF.OwnersManuelImporter" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>Owner's Manual Importer</Name>
+            <Configuration>H4sIAAAAAAAAAL1YXW/aMBR976+w2NRt1QbtnibxUVGgKtJCUaDrHiZNXnwDXp3Yc5x+7NfPzjeBNoEOXhAhOefee3yur8OA+y5dhBIryv1u5/zRY+geZGCuGmfN0wYC3+GE+otu42Z++elL47x31OkHAaixJ7hUIAdFCjSEwJFURHSN6wcf5LsAWdgPMUM0QiBnBeByicIAkCu5h4TkJHQUEngBAaI+mo4tdDNu9I4QKkb9hhklWHHZO2aqvZL18Z+Qq7ZOPf6S5x9fR0XEX8+PF6p9ZAgECxc6GCXJQzOFfYIlKQWLb0YohAwu0BUxyHG3lKjlkHrgm1Tyx63xpPvG6n/vGlArRr1AcwV0sVSv54kSH3DG5UxgB4KcaAu8pdOYP4kiGgvBqBMtX+vkY/FKELce9XA63rksCz9eUgYz+hcKHBvg0XW8ttF1p7XRQsZbVxQkls7y6SKkjMCefGXSnmAPytEqjZUBbM5VkoAfMpbcVjJMpGi9qJvpwrj6PKKLWQA1fZlmMQShljnF52rh1/TNGtrCylnuS/C0kYuRDiW2DmZxUrBofzYbzX9O+taontypWyKq0aOQEKxuB++bJx9+NJsnddtG08xB/4hVIau3Z/Xg4+E6th7S1LB7XCtkim5Qc2Tb13bNjk89lplOzywFfjbC9mO+IbhYJ78pYKUH+4zxh4EELVmEzwGR/WopF3PEgW3Q8jsF+bZo+7Gnp7HmSbTZtSOiOq5//QZHmXmSpxKdEoJ4d6qbkZExG5Bjn4AA/eFX7WvP+KNsh3xzAoWHWOH9GqUcpdIdlxQYsfTg1YGKUx17os1yvpXHWtHdTIQaTVOu3agyjQ9oX6l/ty81JrwQpGirTms1erZKfaHPjfcHmSFpqOoGjh9MxCO7N3HME28FZMCwngFuctzahW+KZVqEDS5IrUjxaLeJ6Bl/ZKpH6xAqPg3l4jCLkAWrXAZ9VrThnpo8Bjws7g9npzXqzKsyRd5yeefqPfVK58IOUmkpYmW5E3hYwe26V98IglPXvpYrIokJUyptQuxte4xImv+/5JRwbZXVuj3KfjAeuQgD6uuDmh0yOIhPNgSstEmK0XOPULOTbP1qmDL0nQr4umqbFFp9NSv9p6DvBvoVU/X+AZjbKGGtEAAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

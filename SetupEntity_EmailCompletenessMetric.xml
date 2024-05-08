@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="EmailCompletenessMetric" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>Email Completeness Metric</Name>
+            <Configuration>H4sIAAAAAAAAAGWRO0/DMBSF9/wKy0M2cNkQealyUqZKFZQZhdSNLN3Ywb5G8O+JY5OkYruv850jm2t1lb0zLUqtirz6HoB8CWN9Rx/ud5QI1emLVH1B386Hu0dalUk+guulIvJSUH7kWwQtE0JyK4cRxLw/zafvdXN6afj+3NS0TAGzG6P002nMJrdQrJahn31DWaU9ZokHrBHCphbX1gFy7Z1RKGHtUaCRHW+hc9CiNuFwJhDiGWvMsNqKXzttxB4nwodDEYMpBxBv0bg4Zf+IIC2u1AXybLQbDxJQ3EYJUqHQ/PiJRTE+Mdb+yXovqyZcM7QSthm9jC26GIGtGZbHYuG15j6PB9M3xvFU2REklr+vCodfDQIAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

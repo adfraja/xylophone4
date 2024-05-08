@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="Individuals" UserTypeID="DataProfileConfigurationType">
+            <SetupGroupLink SetupGroupID="Data Profile Configurations"></SetupGroupLink>
+            <Name>Individuals</Name>
+            <Configuration>H4sIAAAAAAAAAMWSXUvDMBSG7/crQu5t9c6LtmPUKQUFwYnXWZOVI2lS81Hmvzfp1zo6Rx2KV0kO7/ueJydJpdhBYRUxIEUcLfclRzVT2p/wTXCNERO5pCCKGL9u7q9u8TJZRM/cFiB0skCo26N2ye5ivLUaBNM6l4KCj9U74IYp7OXeQBQpmSvotjAuIR+Q9kaMNp8Vi/E7qUnAiSiCF6McCk6icLB0qeFxrDs3QKcRKTHEuOgfgq33ObeUZaJZvqeDVjCBdIGPoE2TtTJOvLWGPShpK30UZg3wwCtx7+ucmWFlkrnp1EAt4aksK+7i/bSjcBD0vZrKJeOZvuCZEQ03Sg/q05cJL2GpCbdsVv83qWhqzTDYX8WwAj4sczD/TkLqIh+9+7yXOeifmIPK/+K/jT0rSpUTTRuft61LAnyOad7f7neuHOmKg0m+ADVU8fnvBAAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AddressQualityDataSet" UserTypeID="EntityDatasetDefinition">
+            <SetupGroupLink SetupGroupID="Datasets"></SetupGroupLink>
+            <Name>Address Quality DataSet</Name>
+            <Configuration>H4sIAAAAAAAAAKWRS0/DMBCE7/0Vke8QWgmp0DyMnCBxgYrHOTLxJlrk2JG9CZRfj5OCSCVu3GzvzuibsbCmwXZwktCaNMk/Oh2N4Px0Y+vzCxaBqa1C06ZsoOZsy/JslfR6aNFEqFJWSJJPQAU0aHAy2c8zsfRl2SqKEo9dr0Gjp6VQOCRwKKui3D+W4ua5LOb1IABD7pB5gv46ju3rG9REhx7yoL4zCkdUg9Ri8GQ7cJzvdpz/ufzgWmnwc0Y5XefcwHvVoKaq/ub492MSH7mnyPFv5kUFc/x7q0BYrQNnwHrxoG6tK0eph5nzpI71ZnO5vfpxC/3Hxw8IJ99rpOwLPw5DEMYBAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

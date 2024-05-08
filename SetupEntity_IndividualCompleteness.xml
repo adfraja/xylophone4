@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="IndividualCompleteness" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>Individual Completeness</Name>
+            <Configuration>H4sIAAAAAAAAAGWRO0/DMBSF9/wKy0M2MGyIvFQ5KWKoVEGZUZq4kaVbO9jXFfx74tgkrdju63znyOZaneTgTItSqyKvvs9ALsJY39HH+wdKhOp0L9VQ0I/D9u6JVmWSj+AGqYjsC8p3/BpBy4SQ3MrzCGLe7+fTz7rZvzV8c2hqWqaA2Y1R+uU0ZpNbKFbL0M++oazSAbPEA9YIYVOLU+sAufbOKJSwdifQyI630DloUZtwOBMI8Yw1Zlhdi987bcQGJ8LRoYjBlAOIt2hcnLJ/RJAWV+oCeTHajVsJKG6jBKlQaH78xKIYnxlr/2SDl1UT7lX18iJ718J1UK9lizjmYGuQ5cVYeLK5z+PB9JdxPFV2BInlLyw001ESAgAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

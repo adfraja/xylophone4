@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="IndividualCompletenessPolicyUSA" UserTypeID="ExistingEntityDQPolicy">
+            <SetupGroupLink SetupGroupID="Policies"></SetupGroupLink>
+            <Name>Individual Completeness on Individual Data Set - USA</Name>
+            <Configuration>H4sIAAAAAAAAAJWQwW7CMAyG7zxFlPtWuKEpbYWaHHaYhICdUdS4xVJwosap4O1pxw5sE4fdbPn7P1tuAnXY58EyBipVfTl7McKQ5k6uXpdSALXBIfWlzNy9rGVdLVT0uUcS6EppLph4GmvLdhs8tldZLYRQCc/Rwxcyj/bAGjoknPcctdnuTLM5GC2rxBDfimICcjTEyNd6Cr2TwxFdtv47/bnfqOIu/e3/AB6w/Ze0CXOagSClZ1oNI9o/566Wz/jDaYB0Ct794NcPvCruj5uqFD1ydQNBNb/XfgEAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

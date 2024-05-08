@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="SupplierReplicationService_PO" UserTypeID="WebServiceEndpoint">
+            <SetupGroupLink SetupGroupID="Inbound Integration Endpoints"></SetupGroupLink>
+            <Name>Supplier Replication Service (Purch Org)</Name>
+            <Configuration>H4sIAAAAAAAAAH2STU/DMAyG7/sVVQ67QeCGWNdpn7chtA04h8brjNIkSpyJ8utJU0aHmHZKHPnx+zr23Og9VsEJQqPH+eSzVtkRnG8jdn97xzLQpZGoqzF72a1uHtikGORWhQp1hnLM1oLKw1TLNbgK3uB9C+6IJSy1tAY17RoLrBhkWe6xtgoUekrcq1Aok+oseNTg/dxoie2DZ/wSsSWhpXASv/5g0/IKk9xF81NVGYd0qH0yExNBk2sKT2AfOa9/0sQpbRLhbbBWIbgNxKNMmqnJhSCR845vJXmveWYhyW/gA0oCOWueDUUChVqErhpEJ3uhPJz4/ywFpy9y5MIVzNv4HcnlyrjYGSuGikbLWIWaYUWjQRs+iRr4bxSHEcD3cQvHcZCIP+zO3rsic2e838AeXNyNsyq81+jd5bxblnjzsQMqvgGOYJugcgIAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>
