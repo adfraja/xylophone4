@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="ALXA_Classification_Root" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
-            <Name>ALXA_Classification_Root</Name>
-            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="LineOfBusinessDataSet" UserTypeID="EntityDatasetDefinition">
+            <SetupGroupLink SetupGroupID="Datasets"></SetupGroupLink>
+            <Name>Line Of Business DataSet</Name>
+            <Configuration>H4sIAAAAAAAAAIWRTU/DMAyG7/sVVe9QBhIarGsLbTkhNvFxrrLWrYyypIqdwfj1JF0nNglELont+LH9Oteqxc4awajVIk4/NzLYgiFvhdPzizAAVesGVbcILbdnszBNJnEvbYcqwGYRFoLFC3ABLSr0kNUQy4+5YTIJgphw00uQSHycmBtkMCiqolw9l/nda1kM310CKDa7hBj62yjS63eomXc9pC57aTqh8Gug55ZYb8Bk2XyeuaPgo2pRclWP6D+cI7hxfdRasUAF5sB/dMayvbfkbiLfapb5GFUEvXBTaeOpI0yrU7cvRnb9XwO/OuNoP7ZXLPqR7EjBQb0n3UCupXSauPJvBM2DNuVWSDtocqLm9ObqenZ5oLn1Rfv9uRf1Ejn5BhhxwwAFAgAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

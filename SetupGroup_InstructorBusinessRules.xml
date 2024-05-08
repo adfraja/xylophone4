@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="InstructorBusinessRules" UserTypeID="BusinessRuleGroup" ParentID="GlobalBusinessRulesRoot">
-            <Name>Instructor Business Rules</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

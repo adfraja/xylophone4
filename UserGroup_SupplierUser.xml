@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserGroupList>
-        <UserGroup ID="SupplierUser" ParentID="SuppliersUsersRoles" ReadOnly="false">
-            <Name>Supplier User</Name>
-            <PrivilegeRule ActionSetID="SupplierSetupActions"></PrivilegeRule>
-        </UserGroup>
-    </UserGroupList>
-</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="loqate" UserTypeID="AddressTypeaheadValueType">
+            <SetupGroupLink SetupGroupID="AddressTypeaheadConfiguration"></SetupGroupLink>
+            <Name>loqate</Name>
+            <Configuration>H4sIAAAAAAAAAI1V72/TMBD9Xyo+oWn9sUlICJC6bqDA2Mo6+MDoh2t8Sw2uHc721oD43zk3bdJGrpJv8d177+x3znli9KPMPIGTRr/928vA4TMUiXaYlcErLXIjteu97l2b35weC0H3RY6wRBAfkqtp76RnfZahDfApuCVDJ5A7T9gPQgSpk0/Yfy+16D8NT4eD/k9r9Nnpsw1UVJi2MO/QkUT+YPbogA25/ITFF49UTIFghUxiEY5VSV5uyljLRe7NL9SH8AqiQGceMoylb0lmUu+BOPZ1xmtPamqse5TrXR2gdHkoYUuNe1w7RqxgPavsskf2IkgqJcyzDm7z1idGO5AaKRExRpU+6MUdpobEmAgC5sXDDz8YjF4lDle2/Jw/vJyHYtLmCoqwv49214iHihDiWzyDd9FLtCnJPNTZJef7xcMVqdVqMQ7XYofw2e4qfAPlg8Pbw4dWll+JiEgmohascDGXEsGI1HjtqEismRiBx3wZzLfRSQUf1VWkzr3bbm7YKnHNjRnGyaNO5COVzzqRz+Lk807k8zg5pNr5sEDV4F94qYTUWSt5B7zh/jU0JtIdvc512xjU5JWd7NrxWOWQaRcYi5XUY0KISFxijlqgdtcmBdXlJDcos+XCeFoaI46pzRwhulatGQ8ELYCKEt9Qu6UMtPyzmfodXFrloJseh1G4MOtW9vT2wqxv/GqB1FCYOX5i2vlknqROm+52tCH2Q5bU0LF2F2PmbfmbI3W/3VEH/KLzb7KHbah8l3m7i9wtUGEM1mTF7Xd+MxjDyuhsb4lEhi55oG6mdGwUR+tcBVpdYqPymccIP6Ox9yYuEnlvTtruKHiLXcF3aI3yB8/Zvzf8Lkr37j9GADBDJQkAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

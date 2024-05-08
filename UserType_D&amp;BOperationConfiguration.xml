@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="D&amp;BOperationConfiguration">
-            <Name>D&amp;B Operation Configuration</Name>
-            <UserTypeLink UserTypeID="DnBOperationConfigsType"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

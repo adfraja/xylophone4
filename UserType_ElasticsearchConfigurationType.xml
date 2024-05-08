@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="ElasticsearchConfigurationType">
-            <Name>Elasticsearch Configuration Type</Name>
-            <UserTypeLink UserTypeID="SBALroot"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="SupplierFindSimilar" UserTypeID="WebServiceEndpoint">
+            <SetupGroupLink SetupGroupID="WebServiceEndpoints"></SetupGroupLink>
+            <Name>Supplier Find Similar</Name>
+            <Configuration>H4sIAAAAAAAAAMVUy47TMBTdz1dEXnQHhgUSommqkmklJDpC0wJrN76TXOHYwb4eUb4eO0nVpmmnbBC7+NzHeThJbvQTlt4KQqNn6fxXrZJnsC6e2NvXb1gCujASdTljX7erV+/ZPLtLG+VL1AnKGVuhlhusUQn7HXYbsM9YwFLLxqCm7b4Blt0lSeqwbhQodNROfRMKZcv50TvU4FxutMQIuHYgjIAmu88cQfOB813fZr2CediQV1D8WEhpA5byrjXy8CPRJd4NCS2Flfh7QL4oOmZ+MtP2rwUVVTC/UKWxSFXNDoLqviIOlahq45tGIdiTUA6KzjdvqyC9Mkqy7N21nkdwTZAF94LEythAybKJoulSE9J+UtI0JhWRB1EDPwVCwB7cCEkWRBZ3nuDT/Wzy0xuafobgIc53x8EWPlzTox19bo1zj/AENrwhPXmsRrHhMkmEZO1AwaCSxHejl7AOSH+Xg56uesY+knTDXy5U0YVHIHuWM6uX3bbQUM9JZe0V4VVHy1qguu3l4vaXrd5w2xKvEJQce3zxUq875WOrfx/El8po+B9BtMQPvt4dGP9hEuOpbmdXOH6tx+885d0vNDy58Meg7A9FKomNiAUAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

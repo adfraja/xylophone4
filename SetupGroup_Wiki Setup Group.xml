@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="Wiki Setup Group" UserTypeID="Wiki Setup Group Type">
-            <Name>Wiki Setup Group</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

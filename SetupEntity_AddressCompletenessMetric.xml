@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AddressCompletenessMetric" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>Address Completeness Metric</Name>
+            <Configuration>H4sIAAAAAAAAAGWRS0/EIBSF9/0VhEV3yrgz9pWGdlw1mei4NtgyDQkDFS5G/72lYNuJu/s63zkBqtVFjM4wEFoVefV9leiLG+s7/HB/wIirXg9CjQV+Ox/vHnFVJvkk3SgUEkOBaUf3CFwmCOVWXCfJl/1pOX1v2tNLS+tz2+AylZDdGKWfTkM2u4Viswz94hvKKh0hSzxgixA2Db8wJ4Fq7wxccWs7Dkb0lMneSQbahMOFgJBnbDHDai9+7bXhNcyEDwc8BlNOyngLxsUp+UeUwsJGXSHPRrvpKCTw2yhByhWYHz+xwKcnQtifbPSyasZ1TKh6GMycbp/Ui8mqjkHIlmR9MhLebOnzeDB/ZhzPlZ2kgPIXvYk6HxMCAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

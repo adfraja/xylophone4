@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="PMDM.CNF.InstallationManuelImporter" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>Installation Manual Importer</Name>
+            <Configuration>H4sIAAAAAAAAAL1YbW/aMBD+3l9hsanaqg3WfZrES0WhVSMtFAW67sOkyYsv4NWJPcfpy3797LwTaBPo4AvCOPfc3ePn7hxGPPDoIpJYUR70e2ePPkP3IEOzap22P7UQBC4nNFj0Wzfzy49fWmeDo94wDEFZvuBSgRyVIdAYQldSEcO1rCBUmLFkx8ZBhBmisRlyV6w8LlEUAvIk95GQnESuQgIvIEQ0QFPLRjdWa3CEUNn1N8wowYrLwTFT3ZXQj/9EXHV1/MmXIolkHWeSfD07XqjukQEQLFpoZ5SkD80UDgiWpOIs2YytEDJ2oc6IQWF3S4lajqkPgQmleNy2Jv039vB73xh1EqsXYK6ALpbq9Thx4CPOuJwJ7EJYAG1hb+sw5k+ibI2FYNSNj69z8qG8EsRrBj2eWjunZePHS8pgRv9CCWODebxOzjZe9zobJWS0dUVBYukun84jygjsSVcm7An2oeqtVli5gcO5SgMIIsbSbSWjlIrOi7yZKkyyLzx6mIXQUJdZFGMQallAfK4nfo3fvKBtrNzlvgjPCrns6VBka2c2JyWJDmezi/nPydC+aEZ3ppYY6uJRSAhX28G79sn7H+32SdOy0TBz0D9iVYrq7Wkzc2u8btvM0uSwu187YopuYPPCca6dhhWfaSwXnR5cCoJ8ju1HfGPwsA5+k8NaDQ4Z4w8jCZqy2L4wiOXXiLkEI3HsgKbfLdG3Rdlbvp7GGiflZteKiPO4/vUbXGXmSRFK+aqQ9KimcRky8zFpBQQE6I+grrs9o5KqKIoWBQqPscL7lUvVS61GLikwYuvxqx2VZzv2RZcVeCuPdeLdnIQGpVPN3bAyTa5pX2lwty82JrzkpCyuXmfVe35KQ6Fvj/cHmSSZq/oyTh5MySO7l3KCkzQEMmJYTwIvvXTtgjfFMkvCAQ+kZqR8wdsE9Iw+ctbjc4gUn0ZycZhDyJ3VHoO+MTpwT00cIx6V+8PppwZ5FlmZJG+5vPN0Z73SsbCDZFrxWJvuBB5W7Hbt2DeC4Ey1r8WKQRLADEqLEPvbXibS4v8vMaVYW0W1Lo+qHoxGzqOQBvq65kQMDqKTDQ5rZZLZ6LlHqOkkW78gZghDt8Z8nbVNDK2+oFX+XtC7oX7RVIN/TxE0PrgQAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

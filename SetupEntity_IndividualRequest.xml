@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="IndividualRequest" UserTypeID="WebServiceEndpoint">
+            <SetupGroupLink SetupGroupID="WebServiceEndpoints"></SetupGroupLink>
+            <Name>Individual Request</Name>
+            <Configuration>H4sIAAAAAAAAAMVUTW/bMAy991cYPuTWab0Ni+PAzQcwYCmKttvOisU6HGTJlahi2a+fZLlNXTvNMGDozSL5+N4jZS20usfKGU6o1Syb/6pl8gjGhlN68eFjmoAqtUBVzdJvd+vzT+k8P8sa6SpUCYpZuuFU7golNmAq+AHbWzCPWMJKiUajort9A2l+liSZxbqRINFSi/vOJYqW9dJZVGDtQiuBIWBTNoa4Ja4ENwJ/92BFGTEB4kGgyOxzS9B8Zmzb1RgnYe57HFpAIYR5RmcswgIrO9COqWj9+nEUstIGaVf31bY1N/ATSgJxub/W5Dsjl0vXSCw5gRdKxsETzRBKzqh/gNnGDwGWnPham5pTmk8kTVe+C+0nFU3DdELkitfAXgb8IhzYQSQpiAxuHcGX5Wzy4DRN12gsBXw8DruMYL7yoxDWZ+6iUfHCaGtv4B6Mv36d3pAN/vw9Ie7Xanqie5kkXLtOwcZHumX3amL2FftA0gl7Cy7LOG+/7o7lldVxt22or+dFZuMk4VFHq5qjPO1ltPvbVk+4bYnXCFIMPb651ONO2dDq3w/ieqcVvMcgWuIrV2+fGP/jJIao2DMmDj/44WnIWHyf/Zf1zwflfwDCDdC95QUAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

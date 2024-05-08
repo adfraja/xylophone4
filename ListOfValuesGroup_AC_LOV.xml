@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <ListOfValuesGroupList>
-        <ListOfValuesGroup ID="AC_LOV" ParentID="List Of Values group root">
-            <Name>AutoCare LOV Group</Name>
-        </ListOfValuesGroup>
-    </ListOfValuesGroupList>
-</STEP-ProductInformation>

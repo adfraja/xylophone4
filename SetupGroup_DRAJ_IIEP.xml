@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="DRAJ_IIEP" UserTypeID="draj_iipes" ParentID="DRAJ">
-            <Name>DRAJ_IIEP</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

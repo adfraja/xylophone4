@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="DnBBusinessRules" UserTypeID="DnBBusinessRulesType" ParentID="DnBIntegration">
-            <Name>D&amp;B Business Rules</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <ListOfValuesGroupList>
-        <ListOfValuesGroup ID="LOVG_SPD_PHRASEBOOK" ParentID="LOVG_SPD">
-            <Name>List of value for PhraseBook</Name>
-        </ListOfValuesGroup>
-    </ListOfValuesGroupList>
-</STEP-ProductInformation>

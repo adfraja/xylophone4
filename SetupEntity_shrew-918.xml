@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="shrew-918" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>shrew-918</Name>
+            <Configuration>H4sIAAAAAAAAAL1XXW/aMBR9769AbKq2SoP2bRIfVQpURVooCnTdw6TJiy/Bq2N7jtOP/frZCfkgZE1CB32oEuJ7zr3H5/omI85WxAslUoSzQf/y2aetR5CBuWtfdM7bLWAux4R5g/bd8vrT5/bl8KRvBQGoqS+4VCBHeYjhSauVf/wVUYKR4nJ4SlVvC/70d8hVT3PEFxlRfB+xxZeXp57qnRgAQUOPsBbBm0ULhRhGEhfI4odRVKtl4gLiCwpZ3D3Baj0mPjCTSrbcns4G72zr28AEdeOoV2BugHhr9XacKPERp1wuBHIhyIAaxNs6jeWLaB49nk/3ztxGz9eEwoL8gRxGSXh0H29fdN/vlrrE2OeGgETSXb9chYRiOJB1TNoz5EORrdI7aYDDucpWX0ltxS/c40Fd5ViIaFx/hqJkCDW9l6QxBqHWGcJ5tfI7AqdNayPlrg+leNKseabjqa3pbI5zLrUWi8nyx8yyJ/UgEsNEUJNnISHYbvoPnbOP3zudswYZLUH/iFQuq/cX9cKn493YepGmhv157ZAqUqLmxHFunZpNn7gstZ0eIQpYOlEOY78xrJBOvoyw0oUWpfxpJEFLFsXv07AxRkzsgJbfhX1gpj7yQMNspNkIwkJKNwsiqOiq+1o2pozbn7/AVWZoNDVRrFw6+aYMgwD9j+WkWSEa7BT1D0sUHZCdSKDQGCl0WG9EVBbDDqxAagAwtDhHW+mQawIU20gIzZyfwMgXPb08KWNrWTd6mqpSo3GKYhiZ5pLj0FVfCHs4lDwzniPJe6vf3WZPt80SQvLHo0yShKq6ieOFG/FwoZFL3foqUHwe4BFFehCsiBu9AO8FOEcyKSN1YLBfI6XCR1sRKj4PpXecfUjJKndCvzU68EhMHiMe5s+Mi/P4r0a1WW2m1HsuH1b6gL3RGdGj1FtgrCx6Bk9bcfue3HcCo8S+b8WKQGLABEp7EflNx8HmFPgvOW2wGmW1a4+iH4xHrsKAMP3W5oQUjuKTEsJKmyQxeiJiYk6Uxt9zCYLlVoTvqlam0Pan2s73fj8QlKjhX6AWZbdJEAAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

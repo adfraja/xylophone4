@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="Uncategorized Setup Group" UserTypeID="Uncategorized Setup Group Type">
-            <Name>Uncategorized Setup Group</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

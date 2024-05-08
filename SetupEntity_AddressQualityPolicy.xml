@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AddressQualityPolicy" UserTypeID="ExistingEntityDQPolicy">
+            <SetupGroupLink SetupGroupID="Policies"></SetupGroupLink>
+            <Name>AQI Value Metric on Address Quality DataSet</Name>
+            <Configuration>H4sIAAAAAAAAAI2QTYvCMBCG7/6KkPtavYmkLWJy8LCgrniV0EzrQExCMxH996ZbD7suwt7m45n3nZm1dy12qdeE3pWivl0su0Ifh4zPpzPOwDXeoOtKnqj9WPC6mohgU4eOoSm5umGk3Jaa9NZbbO68mjAmIl6ChW9kaH0BSWjR4eBzkmq7V+vVQUleRYKwLIoMpKAcId3rPLQypocYd0nbXHkqiGJUfTX4BOqx+Y/qbnPUNsE48E5OwhX1nz3ns3f84ZxXPXtrfvGLH7woxo/lKIZ8UPUAbKphB3cBAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

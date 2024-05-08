@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="SupplierCompanyDetailsDisplay" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="SupplierWebUIDisplay"></AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="ContactMatchingAgent" UserTypeID="MatchingAgent">
+            <SetupGroupLink SetupGroupID="MatchCodesAndMatchingAlgorithms"></SetupGroupLink>
+            <Name>Contact Matching Agent</Name>
+            <Configuration>H4sIAAAAAAAAAHWQTQvCMAyG7/6K0rtObyLdxtimeBDEj7PUrdZAl5Y1fv17p/ML0VtCHt4nSWpxB/pQSwKLoYjPlWFHVftbxwe9PmcKC1sC6pCvV+PukMdRRzhz0IAMypDPJBX7ZpxohZR+pvGow5jwUDmj7uhEkjrJyxRJ6RbJsXQWkDZZPl/kabLKMx55Um4UBP/puAlbEmxt4h3U6gGKoFV9W18LGm1roH31S1Y9IPmEbo7mGpIFPQPeAhG0D2gq7wxQdAWMwJePRgEAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

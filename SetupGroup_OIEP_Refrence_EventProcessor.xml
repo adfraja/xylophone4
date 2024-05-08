@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="OIEP_Refrence_EventProcessor" UserTypeID="EventProcessors">
-            <Name>OIEP_Refrence_EventProcessor</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="IncomingEntityDQPolicy">
-            <Name>Incoming Entity Data Quality Policy</Name>
-            <UserTypeLink UserTypeID="Policies"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

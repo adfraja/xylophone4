@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="ContactFindSimilar" UserTypeID="WebServiceEndpoint">
+            <SetupGroupLink SetupGroupID="WebServiceEndpoints"></SetupGroupLink>
+            <Name>Contact Find Similar</Name>
+            <Configuration>H4sIAAAAAAAAAMVUTY/aMBC976+IfOC2TXuoVJUQRFmQKpVVtdDds4lnk5EcO2uPV6W/vnYcCiGw9FL1Fs/4zfuwnblWz1g6wwm1mmTTn7VMXsHYsGIf3r1nCahCC1TlhP3YLG8/sWl+kzXSlagSFBO2RCXWWKPk5gm2azCvWMBCiUajos2uAZbfJElmsW4kSLTUoh65RNFyfnEWFVg710pgKFiWnkOsiSvBjcBfPdisiJgA8SBQZHa5JWg+p+m222OchKmfcRgBMyHMH3SWRlhgTQ+0RypaBStOReWDmMlSG6SqZnuiuuvwfSeweUPECzrKZz/8dPCm8loqLQXLP17a8wC28T7hjhNfauMZWT6SNF4oQtqNShqHAELlnteQHhd81g7soJLMiAxuHcHXu8noxWkafwNvIeDjsjcl7Y/pqpF+brS1D/AMxl+Wjjx0g9g2Bn8Mpqeg10nCNekkrHylO5zentg9YR9IuuJvzmURwyMQHcuJ1fNu21Jfz1Fn5SThRUeLmqO87uXs9LetXnHbEi8RpBh6fPNQLztNh1b/PojvlVbwP4Joie9dvd0z/sMkhqg4MzYOr/XwzrM0/k39l20kUv4bBQOoT5MFAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="TagGroupType.SpecialCharacter">
-            <Name>Tag Group Type for Special Character Tags</Name>
-            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="AQIValueMetric" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>AQI Value Metric</Name>
+            <Configuration>H4sIAAAAAAAAAIVTzU+DMBS/768gHHZTWGLM4vgIwkw8oFOnV1NpxSZdwfbVbP+9pWV2uIXd+vp+X++lzRv+SWslENCGx1G63TDvhwjZVf7sMvQ9wqsGU17H/uv67mLup8kkapmqKfcojv28zA8l/GTieZGkm5YR018Z6HuxXD0v82y9LPxkymAxMJp+qwYW2s0enKWtja89ptMaFpNOwEWwnTfEFCkJCFrliFWKIWiEbRmO53UsF8y2StRmoDkfCogDSyDtTRCgfSfV+CeFGIXdPcdk2ykFVupIm1EJTr9AgPR+AFFOxHrXEjmIZImEg9gd+GJNqvYk0KTOv9RVhrEgUg5ETZY/hT5K4LKMDP/QmKW9VI04GD4cm86RH+GLiFP82ajAcD16/S3BTmV0O1k8C8Ojcf+BbuP5WUweX5/FFPHVMebUas2dfYymjnqA/iX9tT7JVr+d5BfPHvvLbAMAAA==</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

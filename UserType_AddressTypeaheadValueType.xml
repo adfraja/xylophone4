@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="AddressTypeaheadValueType">
-            <Name>Address Typeahead Value Type</Name>
-            <UserTypeLink UserTypeID="AddressTypeaheadConfiguration"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

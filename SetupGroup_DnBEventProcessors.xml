@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
-    <SetupGroups>
-        <SetupGroup ID="DnBEventProcessors" UserTypeID="DnBEventProcessorsType" ParentID="DnBIntegration">
-            <Name>D&amp;B Event Processors</Name>
-        </SetupGroup>
-    </SetupGroups>
-</STEP-ProductInformation>

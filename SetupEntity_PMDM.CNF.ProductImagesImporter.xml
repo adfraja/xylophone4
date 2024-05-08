@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="PMDM.CNF.ProductImagesImporter" UserTypeID="AssetImporterConfigurationType">
+            <SetupGroupLink SetupGroupID="PMDM.AssetImportConfigurations"></SetupGroupLink>
+            <Name>Product Images Importer</Name>
+            <Configuration>H4sIAAAAAAAAAL1Ya2/aMBT93l8R0Qlt1QbtPk3iUVGgbbaFokDXTZo0eclNcOvEnuP0sV8/O28CbQIdfIG48T3n3uPja9Mh9R3shhwJTP1e9/TRI9o98ECNGiet44YGvkVt7Lu9xvX8/MOnxmn/oDsIAhC6xygXwIdFCG0EgcUxi+AaU07t0BKa7iEXNBwFaNbSfIdyLQxAczj1NJbMZ3J6oGFfm+qGdq03+geaViT9hgi2kaC83ySis5R0809IRUdmHj/k6cfjqIb48bTpis6BAmAkdCUZtpNJM4F8G3G7RBa/jKI0TcUFsiICedwNtsVihD3wVSr5dEOf9A6NwfeeCmrHUS/AXAJ2F+L1OFHiQ0oonzFkQZADmRdnh0Pjx5cNcAyZzvyJFVGwWtX20fv4+5aBmz2mTwI7Tj2S0VTfulADPZ5jAjP8FwoYa8Kjcbza0bjbXmsq5bZLDBxxa/F0FmJiw46cptKeIA/KbJVWywJMSkWSgB8SkrwWPEykaL+omx8iElefMzqIBFDTqWkWI2BikUN8rBZ+Rd9sixtIWItdCZ5u7SLTvsSWZAa1CxYdzGbj+a/JwBjXkzt1SwQ1fmQcguUG8bZ19O5nq3VUd9tImDnIPyJRyOrNSb1wfbQaWy9S1bA9rxESgdeoOTbNK7Pmjk89lplOHmIC/OxM2435RuAgmfw6wkoPDgihD0MOUrIoPg+I7FdLuRgjJjZBym/BNjDRaS5hEmm23RBRGVe/b8ES6mDJM/k8vYhvDHXTURJmx6Xu28BAfvhVPe0Zb5StkDcmEGiEBNqtScoslc44x0BsAzEmiQqncxN5rENyvKVp7ehtJkKNDVOuXamSXO++Yv9uV2pMaIGk6Klue5k9W6UBk7fI+72cHylV9eaNJybi2dtv4BgnbgP2kCDZ/x1sRTfpbfCmiKdFmOAAl4oUL3jrgJ7xR6Z6tA6hoNOQu/tZhIyschnkPdGEe6zyGNKw2B9OjmvUmVeliryh/M6R/fRS5kL2UmmJsbLcCTwsxW3bqK+ZjVLXvhYrAokBUyhpQuRteoVINv9/ySnB2iirVXuU/aA8chYG2JeXNDMksBefrCGstEkaI889G6tOEmy6GCnCwKoIX1VtnULLP8tK/2CQbwNGsOj/A924eMO6EAAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

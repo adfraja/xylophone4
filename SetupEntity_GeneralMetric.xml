@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="GeneralMetric" UserTypeID="CompletenessMetric">
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name>General Metric</Name>
+            <Configuration>H4sIAAAAAAAAAGWRO0/DMBSF9/wKy0M2MGyIvFQ5aadKFZQZmdSNLN3awb5G8O+x45C0Yruv850jmxt9VoO3ApXRVdl8X4B8SetiRx/vHyiRujcnpYeKvh23d0+0qbNyBD8oTdSponzPrxG0zggpnbqMIKf9YTp9b7vDS8c3x66ldQ5Y3Bjln95gEdxSsVqmfvJNZZMPWGQRsEZIm1aehQfkJjqj1NK5vUSrei6g9yDQ2HQ4EQiJjDVmWl2LX3tj5QYD4cOjnINpDzDfovXzlP0jgnK4UhfIzho/bhWgvI2SpFKj/YkTh3J8Zkz8yYYoawJuF4JZAdcpo5AtyjkEW1Msz8XSe019OR+Ej5zHoXIjKKx/AWteN6oPAgAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

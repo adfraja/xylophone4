@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="SupplierMatchingAgent" UserTypeID="MatchingAgent">
+            <SetupGroupLink SetupGroupID="MatchCodesAndMatchingAlgorithms"></SetupGroupLink>
+            <Name>Supplier Matching Agent</Name>
+            <Configuration>H4sIAAAAAAAAAHWQwW7CMAyG7zxFlDvruKEpbVW1BXGYNEF3ngI1qaXUiRJ3Y2+/QmGbJnaz5U//Z/2loyOaIWhGR6nKT70V7xDieZOLh0cpgA6uRTKpfG1W86XMs5nydjBIAttUPms+dOO5MEBc/k6T2UwIFbH3Fi7oWjN86M8NMZgJqan1DonfqvplW5dFU1cyiwz+KUn+p/MxbMe4d0X0GOAKqmRS/bV+P2iNC8hdf0/WXyF9gy6OwXuLEG4JPwaVTA2MUxwRzr4AgI3ZFEcBAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

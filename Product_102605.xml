@@ -9,7 +9,6 @@
                 </MetaData>
             </AttributeLink>
             <ClassificationReference ClassificationID="ProducttoClass2" Type="MOHR_ProdtoClass"></ClassificationReference>
-            <Tables></Tables>
             <Values>
                 <Value AttributeID="MOHR_LOV" ID="102803">Pink</Value>
             </Values>
