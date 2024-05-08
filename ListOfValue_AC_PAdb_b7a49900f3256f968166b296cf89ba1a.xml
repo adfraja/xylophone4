@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PAdb_b7a49900f3256f968166b296cf89ba1a" ParentID="AC_PAdb_LOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">AC_PAdb_Belt;Crankshaft;Drive Shaft;Electric Motor;Full;Gear;Part;Part Full;Timing Belt;Timing Chain_LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_b7a49900f3256f968166b296cf89ba1a
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;AC_PAdb_Belt;Crankshaft;Drive Shaft;Electric Motor;Full;Gear;Part;Part Full;Timing Belt;Timing Chain_LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_b7a49900f3256f968166b296cf89ba1a
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_b7a49900f3256f968166b296cf89ba1a
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_b7a49900f3256f968166b296cf89ba1a
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_b7a49900f3256f968166b296cf89ba1a
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="BELT">
+                <Value>Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="CRANKSHAFT">
+                <Value>Crankshaft</Value>
+            </ValueGroup>
+            <ValueGroup ID="DRIVE_SHAFT">
+                <Value>Drive Shaft</Value>
+            </ValueGroup>
+            <ValueGroup ID="ELECTRIC_MOTOR">
+                <Value>Electric Motor</Value>
+            </ValueGroup>
+            <ValueGroup ID="FULL">
+                <Value>Full</Value>
+            </ValueGroup>
+            <ValueGroup ID="GEAR">
+                <Value>Gear</Value>
+            </ValueGroup>
+            <ValueGroup ID="PART">
+                <Value>Part</Value>
+            </ValueGroup>
+            <ValueGroup ID="PART_FULL">
+                <Value>Part Full</Value>
+            </ValueGroup>
+            <ValueGroup ID="TIMING_BELT">
+                <Value>Timing Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="TIMING_CHAIN">
+                <Value>Timing Chain</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

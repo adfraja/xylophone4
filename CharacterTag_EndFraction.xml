@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;EndFraction/&gt;"></Tag>
+        <CharacterTag ID="EndFraction" ParentID="Character tag root" Tag="EndFraction" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAHPNS3ErSkwuyczP09E1REee6Xn5RakwyiczPaPEvSixUqc4My89J7UEqMcACPNKc3J0gLQOAIkFowhNAAAA</Configuration>
+            <Formatting Format="InDesign">&lt;cPosition:&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

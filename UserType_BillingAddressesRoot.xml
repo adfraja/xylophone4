@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="BillingAddressesRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="BillingAddressesRoot">
+            <Name>Billing Addresses Root</Name>
+            <Icon>H4sIAAAAAAAAAJ1US2jUQBhOfdRSsGoPBbVoSMEHuplkd7PZhMaym2zrqlnX3QV7kNo0mbSxTSYmU3dbQcSDKHr0oqDgpRfRowcfVMGL4KN4UBDxUKV4UkTwpK6T2q1SSg8OJDPzz/f9/z//Yy4WC33rW7e0UhS1Pr9fK5F5Y/S1rCb/XbENZTJtxrl+XEY2rhoBpDIWGoJ03jWGYQka1sTJp7CbolbbTqUf9+uHZBO5rBFh2JrrU9Ho7qn5hjkKMT0Ehx1PYb7cn2Zox1KYo4LO6b4KR5z9kwEsTxYq5uSoKVlMzz66uyYTBS7EBl1zx7xQrinMvF6ZrCMxYOh5CB5VmD9O9etFWkUBpAWWi5lciqdTSZZPclJS2kvHOZ4DfBxwYoznZEGUOZ5eGAyxFli2XNJ6F2yRncKMYOzLAFSrVbaaYFEwDHhJkgAXB/F4jCBi4YSHjVrMC7saGjQYmoHjYwd5dLQ3htA4VhimcQXX1/VFxV64ECgSMlAzfMCzHHBd0ECHuATtldFhZcKHoARDNB6YJB921z+mVqZGQOKNfDhwSFKMMQ2Z4y70cF5TGHLCWo4li6qa5pPJlKiKfC7J81I6J0o5QUtJAhElUw0dy3HTWTWbTYg5kRdzPGFnxGwmnexNpwVBFRJCusHNeyE2PBM2uM5frrYiV1YDaGAUVBAaa1RAcQRhFI4gn1bLAsvTRx3PQtUwSs+CpzBwTkGrN0AuPR9f2VnGPjGb4YS0GHm//L3/cK3/iRkgzoAlxdIQkQqMloulTzaLzQM90jEBaQ1ncINB2ipVPFTJ1ev1gdnruq6fvnJ7amqKiNfNDNcpqm7bz2y7s7NzYGCgUwOKoqzq2d5Vlls3byKUz+M3BAJtx6VCub50ULPT0+3kNMhrmUrtbeX5xbYndMuaYvMT8822X/WXpzruO9c1Bmy0tAO7vyWs76VbhYc3X8+V6zPXzrflpy/cO/BpR5550ffzTMtZmG3+8a7j05kHO7+39Z3lZ08ce/z++J7mG6+2Prr2/Ct16eRc092riaaDLffm2gepjx/WHpG/XF4XvRr5XEG7kx089xu/GDoSogQAAA==</Icon>
+            <UserTypeLink UserTypeID="CustomerDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

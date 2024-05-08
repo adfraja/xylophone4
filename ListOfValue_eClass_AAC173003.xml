@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC173003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">hammer form_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC173003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;hammer form_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC173003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;hammer form_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC173003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;hammer form_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC173003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;hammer form_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC173003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;hammer form_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC173</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC173003</Value>
+            </MetaData>
+            <ValueGroup ID="AAA011002">
+                <Value QualifierID="std.lang.all">Standard</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD317002">
+                <Value QualifierID="std.lang.all">old German pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD343002">
+                <Value QualifierID="std.lang.all">american pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD695002">
+                <Value QualifierID="std.lang.all">bavarian pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD747002">
+                <Value QualifierID="std.lang.all">berlin pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE418002">
+                <Value QualifierID="std.lang.all">dieburg pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAF877002">
+                <Value QualifierID="std.lang.all">english pattern with bowl</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAF878002">
+                <Value QualifierID="std.lang.all">english pattern with peen</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG261002">
+                <Value QualifierID="std.lang.all">sledgehammer shape</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG710002">
+                <Value QualifierID="std.lang.all">french pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH697002">
+                <Value QualifierID="std.lang.all">dutch pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL090002">
+                <Value QualifierID="std.lang.all">with along grind</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL239002">
+                <Value QualifierID="std.lang.all">with fly knife</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL260002">
+                <Value QualifierID="std.lang.all">with pipe stick</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL618002">
+                <Value QualifierID="std.lang.all">munich pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL694002">
+                <Value QualifierID="std.lang.all">new shape</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM628002">
+                <Value QualifierID="std.lang.all">rhenish pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM912002">
+                <Value QualifierID="std.lang.all">saxon pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN694002">
+                <Value QualifierID="std.lang.all">south German pattern</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO636002">
+                <Value QualifierID="std.lang.all">drum shape</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP389002">
+                <Value QualifierID="std.lang.all">slater's anvil</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP432002">
+                <Value QualifierID="std.lang.all">cylindrical shape</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

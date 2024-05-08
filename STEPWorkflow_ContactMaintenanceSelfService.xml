@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ContactMaintenanceSelfService" Referenced="true">
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserCanManageSelfServiceLink"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsNotProcurement"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Contact Maintenance Self Service</Name>
+            <ValidUserTypeLink UserTypeID="ContactPerson"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAANVWS2/bMAy+91doxq6OndR5DXGAIuiAAu1aNCt2GIZCsWlHqC0ZkpxHf31p2W6cV5seNnQXC6Io8iP5kRbNtbjiTDOq4ZZPJODqRzRRMFJZwvQYVhDkGqaBZJm+ZinTEN5JtmAJxKB8LfNaM2FKA7/lV2kmpAb5kIW7xlSwShN/ZBbCjNvEt0r/iUU4TcG3JoJrGugbyjjaozyAKSTRFOSCBWCRBUjFBPcttzW0CBriyrfmWmffHGe5XLaW5y0hY6fjul3H7TvGlzUefbFtQggXIdiKPYNNeWhnQqFnwcnKd1suWZvv0u95A1znfndQ7Iltj8/ICGOhKd5OcFPuCAsL7BgppwmZiDQFrtGTUxyOz7bULlfH1Mq1sox+lMakkZCpANPAeA5426TQqvxt5arevhtfp1dG6JUhts9dE6K3iZCMBEdkck1muWIclMIi4OXCKw243eu1g367P7DbM7dve0E3sgdeMLNdOuyGUTSEbs8twqqslAnQkvIKQ20V4wpZbXiSS4nqDwrklfoh9J0UQS7BpIjAAhffmuYzZN1jJOTjPSwYLC2iqYwBjxrql1yyYF7nduP3wzgmlN9QTuMm664Zf2rgyZDMsI+mPqjkdU0gjMHOqJ6T39safwgWpnteFqZXV+Ik8JvSXGSZFAu4MIJXjJV0g60ShIdQ1WcGT3vQwLPZdrrH8VGlWMwBDEG/BmUq0fU6Q4bmmNKiIrVSeSVFelIt5LrI7E9UVAUDD8iNzWoi3GHnC34rY8rZMzXxouG9K0VPHbI/ckxvndJlh3lV9VzjkGyx7sQWLHvvSA82av1X6OZVdGt3/hnf3uZLI5tl28miCVVNn1iKPPvv+LNTmoo4tZTsVOwoY7z+DmM6JzLmwwNzjzoHFbcZNPwkE6ueoCePqLoOSLIsyWPGN6Ki3BeV7ienYMSK98RRCr6mryLfXjrfnVOdt+bU8bfCPaTo57sU6S8hn6JELPdeBR/8YYwcE6sJv3jNjavX5AsdiA2/vAoAAA==</Configuration>
+            <LocalBusinessRule ID="acn-661c7178-1b07-4c5f-84cb-0a95dff9e560" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAACvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

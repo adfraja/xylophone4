@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="asset_empty" ParentID="Empty_group" QueryURL="step://search?args0.0=topnodetype%3dclassification%2ctopnodeid%3dChab_l1&amp;search0.2=ValueCriteria&amp;args0.2=IncludeDataContainers%3dno%2csearchString%3dConfirmed+Duplicates%c2%a0%28ImageDeduplicationConfirmedDuplicates%29%253Dyes%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;args0.1=nodetype%3dasset%2cobjecttype%3dProductImage&amp;search0.0=BelowCriteria&amp;search0.1=ObjectTypeCriteria">
+            <Name>asset empty</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

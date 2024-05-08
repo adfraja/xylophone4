@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="ProcurementManagerApprove" Type="user">
+            <Name>Procurement Manager, Approve</Name>
+            <ActionLink ActionID="Approve Classification Product Links"></ActionLink>
+            <ActionLink ActionID="Approve Create"></ActionLink>
+            <ActionLink ActionID="Approve Data Containers"></ActionLink>
+            <ActionLink ActionID="Approve Modify"></ActionLink>
+            <ActionLink ActionID="Approve References"></ActionLink>
+            <ActionLink ActionID="Approve Values"></ActionLink>
+            <ActionLink ActionID="Supplier Web UI functions"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

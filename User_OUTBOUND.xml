@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="OUTBOUND" ForceAuthentication="false">
+            <Name>Outbound</Name>
+            <UserGroupLink UserGroupID="NewIntegration"></UserGroupLink>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

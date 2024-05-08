@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierCreateProductReference" Type="user">
+            <Name>Supplier, Create Product Reference</Name>
+            <ActionLink ActionID="Create product reference"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

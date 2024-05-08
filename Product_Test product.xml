@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="Test product" UserTypeID="Chih_child1" ParentID="Chih_Electronics">
+            <Name>Test product</Name>
+            <Values>
+                <Value AttributeID="Chih_size">Small</Value>
+                <ValueGroup AttributeID="Stater215">
+                    <Value Derived="true" DerivedContextID="Context1">2024-03-20 03:07:46</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">2024-03-20 03:07:46</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">2024-03-20 03:07:46</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">2024-03-20 03:07:46</Value>
+                    <Value Derived="true" DerivedContextID="GL">2024-03-20 03:07:46</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

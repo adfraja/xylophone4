@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="PhoneDataContainer" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name>Phones</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PhoneDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Phones
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PhoneDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Phones
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PhoneDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Phones
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PhoneDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Phones
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PhoneDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Phones
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ContactCompleteness"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ContactPersonData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="FinanceModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="FinanceView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GeneralCompleteness"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="HouseholdData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IndividualCustomerData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="LogisticsModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="LogisticsView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MatchingTriggers"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="OrganizationCustomerData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PhoneData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ProcurementView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SalesView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialistView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierAdminView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierCreate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierDelete"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierModify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierView"></AttributeGroupLink>
+            <AttributeLink AttributeID="IsPrimary"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDatePhone"></AttributeLink>
+            <AttributeLink AttributeID="PhoneNumber"></AttributeLink>
+            <AttributeLink AttributeID="PhoneType"></AttributeLink>
+            <UserTypeLink UserTypeID="ContactPerson"></UserTypeLink>
+            <UserTypeLink UserTypeID="IndividualCustomer"></UserTypeLink>
+            <UserTypeLink UserTypeID="OrganizationCustomer"></UserTypeLink>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

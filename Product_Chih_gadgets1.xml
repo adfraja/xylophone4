@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="Chih_gadgets1" UserTypeID="Chih_child1" ParentID="Chih_Electronics">
+            <Name>Chih_gadgets1</Name>
+            <AttributeLink AttributeID="Chih_material">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Chih_size">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <Value AttributeID="Chih_material">xxx</Value>
+                <Value AttributeID="Chih_size">hj</Value>
+                <ValueGroup AttributeID="Stater215">
+                    <Value Derived="true" DerivedContextID="Context1">2024-02-06 02:58:42</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">2024-02-06 02:58:42</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">2024-02-06 02:58:42</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">2024-02-06 02:58:42</Value>
+                    <Value Derived="true" DerivedContextID="GL">2024-02-06 02:58:42</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

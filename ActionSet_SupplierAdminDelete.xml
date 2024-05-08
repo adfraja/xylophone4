@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="SupplierAdminDelete" Type="user">
+            <Name>Supplier Admin, Delete</Name>
+            <ActionLink ActionID="Declassify asset"></ActionLink>
+            <ActionLink ActionID="Declassify product"></ActionLink>
+            <ActionLink ActionID="Delete Collection"></ActionLink>
+            <ActionLink ActionID="Delete Version"></ActionLink>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete asset"></ActionLink>
+            <ActionLink ActionID="Delete classification reference"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+            <ActionLink ActionID="Delete context reference"></ActionLink>
+            <ActionLink ActionID="Delete data container"></ActionLink>
+            <ActionLink ActionID="Delete entity reference"></ActionLink>
+            <ActionLink ActionID="Delete entity"></ActionLink>
+            <ActionLink ActionID="Delete product"></ActionLink>
+            <ActionLink ActionID="Supplier Web UI functions"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

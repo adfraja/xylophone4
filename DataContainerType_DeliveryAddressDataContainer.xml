@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="DeliveryAddressDataContainer" MultiValued="false" Inherited="false" Restricted="false" Mandatory="false" IDPattern="[id]">
+            <Name>Delivery Address</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DeliveryAddressDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Delivery Address
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DeliveryAddressDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Delivery Address
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DeliveryAddressDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Delivery Address
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DeliveryAddressDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Delivery Address
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DeliveryAddressDataContainer
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Delivery Address
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AddressData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="HouseholdData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IndividualCustomerData"></AttributeGroupLink>
+            <AttributeLink AttributeID="CalcFormattedAddress"></AttributeLink>
+            <AttributeLink AttributeID="CountryISOCode"></AttributeLink>
+            <AttributeLink AttributeID="InputCity"></AttributeLink>
+            <AttributeLink AttributeID="InputCountry"></AttributeLink>
+            <AttributeLink AttributeID="InputState"></AttributeLink>
+            <AttributeLink AttributeID="InputStreet"></AttributeLink>
+            <AttributeLink AttributeID="InputZip"></AttributeLink>
+            <AttributeLink AttributeID="Latitude"></AttributeLink>
+            <AttributeLink AttributeID="Longitude"></AttributeLink>
+            <AttributeLink AttributeID="Quality"></AttributeLink>
+            <AttributeLink AttributeID="QualityIndex"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedCity"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedCountry"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedCountryISOCode"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedFormattedAddress"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedState"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedStreet"></AttributeLink>
+            <AttributeLink AttributeID="StandardizedZip"></AttributeLink>
+            <AttributeLink AttributeID="ValidationHash"></AttributeLink>
+            <AttributeLink AttributeID="ValidationIntegrationStatus"></AttributeLink>
+            <AttributeLink AttributeID="ValidationResponse"></AttributeLink>
+            <AttributeLink AttributeID="ValidationTime"></AttributeLink>
+            <UserTypeLink UserTypeID="IndividualCustomer"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

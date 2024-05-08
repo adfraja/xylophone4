@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataContainerCreate" Type="user">
+            <Name>DataContainer, Create</Name>
+            <ActionLink ActionID="Create data container"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="IE_SC_Level_1" ClassificationOwnsProductLinks="false" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="IE_SC_Level_1_[id]">
+            <Name>IE Level 1</Name>
+            <Icon>H4sIAAAAAAAAAAGGA3n8iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMbSURBVDhPARAD7/wAUXpsIVI8PmdHS3JTOWBLQHFeH2BMClA4Il5CIl8+EFM0GFk7KV9FIlQ7GEw1NF5KAGmYiK7oz6zgvLTmwbbrz67u1lWrkAViQwxhOhRmPgddNhRmQhVaOxpZPB5dQiJSPABojn+MvqWXwJ6SupiUvqaBuKNvv6RAl3dSn3tAimVYon9Nl3RMl3ZXoYBZoII9c1sAVoJxWY91YYpogqeGdJyEaJ2JTZuBXbKTarSRba6MZ6SFYaSDV6eEWq6KXKmJQnxjAEyMdECHZ1ySbsHtyqHNtFuSfTaGbT6TdlWbeaXevtD/5nuzmD+RbTqWbz6ScC5tUgBAiHApdFNMgl7g/+up0700Z1RCjXYpeV6u7dCRv6Pf/+10oYoqflohg1ongV0lZUoARYZwI2hLO2hJ3f7ho8KwPWdZK25cKnBYJltBhKeP8//3bY9+JHhUE3pPHXlUIWNHAEKGbyNsTjxrS+b/7py9rCpZSRNeSQxcQzZyVlWBaNDo2HSbiBVtRwJtQQ5sRxpcQAAwe2QNYUAkYj3V/+eRxa4dYUwIa04BakkJYz9aoX/d//hNjHEMbkUAaz4ObEcfYUUAPoZwFWZGImY/z//qhMSpG2VOCGhMA2ZHEmZESI5sy//nV5d8CG5GAGo+C2tFHmBFAEV1ZRdXPBtiOsv/643StQ9TPCVoVgxHNSpaQnCTfdry4mCQegRtRABpPAdpQx5jRwBCbl8dXEEhb0Wf9cau/+DL//+z9uRkn43N/+bY/+rd/+zM/+2A6sIGflEAVDAjZUoARH1sFGBCAFYnEHhDBm9GAGI/EXZYAF9BAl43Bl42InZSAV04AGg/AmxEBVk4Ek41AEN5aRlkRg5rPABgLQBnPQBoQwBmRgBoRgl0SABqPABkOQZvRgBlPhNuSydtUSBRPABMdGkUTjYdaD8NYzYLZUEIZUgHZEkGZUcAWTILbkIKb0UAWzUKXz4OVzwgV0IvVUYAfJWPSG9dS35dPHhUPXxhRINwPn1sQYJuM3pcOIJhMn1eO4FlP39nRXpmQGlZXnpuXbI27Udz8EIAAAAASUVORK5CYIKDzKvrhgMAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="IE_SC_Level_0"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

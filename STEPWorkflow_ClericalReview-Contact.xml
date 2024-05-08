@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ClericalReview-Contact" Referenced="true">
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>ClericalReview-Contact</Name>
+            <ValidUserTypeLink UserTypeID="ContactPerson"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAI1U23LTMBB971cIDa+OnUBL6UTpMCnMZAamTEPLsyJvHA2yZHSJm349K9lO07QUXryWvJezZ8+aB28WWnrJPVzruQW0bM2Vg6lrlPQzuAcRPCyFlY3/Kmvpofxu5VYqqMAxb8PgqaTzoK/1om6M9WBvm/I4mRP3tWLTZIhMZRWjN7CV0FKieQ2MzhVYKbjqbrO50Z4LT8kWrJNGM1qMPlKCCbRjdON9c5HnbduO2ncjY6t8UhSnefEhTzXobPomywgh2pSQOfkAGddl1hiHpY0m96wYFWSXni07e3+OdsNOz+OZZNnshEyxB15jtMJDdyLceytXSAqj37gXG6mrTxVofwPC1DVodMLklMjydYfZNI/5Zif7zE8iVGWs9Jt6cfXo2dkeD6LjzslKA6TIpZcrQ4nfNYissiY0MXBwSf5rqbkipXQCaZU6AIalAXVoP+vy35RNxh1pk0lH27goEm2T0z1rR8DeimAt9j9gCw7sU2jTPCFLGJ1H2fwd48tqIf31f6Mfn72C3luu+wjPbQV+oCZ//BJBJ6jpJapt1qs8AmHTy6jxvWjHo4IS0MKUOFpGb398yc4pwXgUgzIaO9mBo5eYS7vJRWvsr7Uy7R1mcp3WL/D+id5dnPYIBUUjZAQdyyaGrmAVqrtEUglrHpRf4kLOjQp1XB9KOC59jRoU8X4gt8uSMonk2jNMCf4Uymutdvsx1BG1N3b3PDbFNypUUpPOLK4Y/Tn0w63kK3Uc0AVxi/Xwv5F62HuSLVcBXl6L/Khu3lU86CTvWukZyiNF/bsFh1ss0oylFiqUsAyrtDVu3yiKsFF8t4TfAWcHkbyD5DVvGkREkgpim4M04zOeDwfxPFM+oDqAErX0TAB42QnrD79/Sp6tBQAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="SpecialistDelete" Type="user">
+            <Name>Specialist, Delete</Name>
+            <ActionLink ActionID="Delete Collection Group"></ActionLink>
+            <ActionLink ActionID="Delete Collection"></ActionLink>
+            <ActionLink ActionID="Delete Commercial List"></ActionLink>
+            <ActionLink ActionID="Delete DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Delete Generic Page Template"></ActionLink>
+            <ActionLink ActionID="Delete Planned Page"></ActionLink>
+            <ActionLink ActionID="Delete Publication Document"></ActionLink>
+            <ActionLink ActionID="Delete Publication Group"></ActionLink>
+            <ActionLink ActionID="Delete Publication Section"></ActionLink>
+            <ActionLink ActionID="Delete Publication"></ActionLink>
+            <ActionLink ActionID="Delete Version"></ActionLink>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete asset"></ActionLink>
+            <ActionLink ActionID="Delete classification reference"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+            <ActionLink ActionID="Delete context reference"></ActionLink>
+            <ActionLink ActionID="Delete data container"></ActionLink>
+            <ActionLink ActionID="Delete entity reference"></ActionLink>
+            <ActionLink ActionID="Delete entity"></ActionLink>
+            <ActionLink ActionID="Delete product reference"></ActionLink>
+            <ActionLink ActionID="Delete product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

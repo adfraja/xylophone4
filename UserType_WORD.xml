@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="WORD" ReferenceTargetLockPolicy="Strict">
+            <Name>MS Word Doc</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgAB/1taWo4dO/b/94f///8zjIJRMGKA4k8WRgYGFgYdEAeUJxg4yhk4OUQcNixwbOTg5NA4sEHRmZGBhY3BYKOSKwM/t8uRFxsSGdoYnOK2ZBQ2nGRidvK78mOj0mFGDU2xjE5BB68ZFs6bZCyF031maTIf2FJplOo7i8fejOfWRsWLc5QXa9VKFia4T3ZdrZXzykDViTHicNtVrsAlkZsZGRmsAfSK5UmaAwAA</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>application/msword</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

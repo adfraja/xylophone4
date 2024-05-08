@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.PRD.RejectedProducts" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Rejected Products</Name>
+            <Icon>H4sIAAAAAAAAAH1UXWgcVRTeGNOGmBRLEbT6MExjaHFn597Zn9kZspbNzDZZdNNls9qUKOTOnTu7YzI/nZm4m/Sh1ZhqbV5qpeahsZSKCoVYQfvQFkpSiH8oIqJSaEupb30I5sHiD+iddDcWKbkwc+8593zfOXN+5mhxsL+rY3tHJBLpyg+oJbpvoc8j7Zvoe+/MZY1uTwS54WDIMYIa8kgkqzsaYfIWqpASQfrkga9IbyTSesQsDwfDhedl7FgxFNrE6pYbCVfv7rqL8BgJGI1UTDvDrly6wjKmnmH3JQug4Cqkag5MeWRoarCMp8awpLO7n2V66zIlsEiAmLo1bvtyPcOu8cr0HKp5llkzCcYy7L2ghgtFRnE8wiRjKQ7DeJoRpRhMSmkhEWUEAFM8kHiY4ACUgSQDyDQWS715uiGX1D0NX1TKsNUgcGWer9VqsVo85ngVHkqSxAOBFwSOWnD+pB2gOmf7O5oMKvGxZ7qB6dhMKCPNmQgyLNv8BMstFNaJbb+RKJoyvo5cHsYAb1l809oPSsTY2NovT7qELxHfmfAwrYex4z5XG0NDQxqNvNczaVHQuOrgCYvYQV7NsPQmppu6jNIAS5BATtA1xCWSmsFpmiByWBITaQFrOkxLTZ4H4dMgpcA+AEW1LwthTszmkklFzCmKAmFfPJ5tYvO2HyAbkybW/A8LNsTKikdQ4HhlxxlvdkGx6gSOX3VcRlHCqovMzgLCph0qd4WFasRLPPNVou/xHItZy7RsPiAKmILQEHSJw4YIuATCOieBpMHFdYg1KZ5MxzWdbeD1+zJwr1OphnK4zYBkgFMopRkGhygdB6GIOC2lYU4T04YhJkUpJWosT0Pk/9dMTRXt0PC4PhpUWB8uYtOJ8ujo3LneM0fH7nZezZbr18ZLlx5bAp3vrl5WBt7sH53p1D46g2ajiwfLczO/HP7+6ZH25z79u+Wl7t/mB+XT0+rD//wECt1PLXddefS1uyPts5Hfb2zt5k5c3HJj8Y/qLc1aXlhpsz9pe//2W0dy03fzIx86t1r8UwC3HpseUmdPfgOWoivzJ/gD2c9Pjna1dD7zxlkBsuf/6t+59bP9j6PSpj+jq78ap19+4XzxVLHNRN9Fj107+tCF6x/LT/4496K6gM/NLZ35uufm/m09N8+uHr/zgd+x+VDnOfJK69vbr87/fPDLQ8vvVXb9EN+XX+w/3BK58E7F+fb4F374m8nnBtWFvtHX/wUkhv4/0wQAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

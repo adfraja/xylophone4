@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DerivedEventTypes>
+        <DerivedEventType>webAdd</DerivedEventType>
+        <DerivedEventType>webRemove</DerivedEventType>
+        <DerivedEventType>LOV</DerivedEventType>
+        <DerivedEventType>salesItemRepublish</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>
+        <DerivedEventType>SalesItemFamilyRepublish</DerivedEventType>
+        <DerivedEventType>webModify</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>
+        <DerivedEventType>OIEP_Ref_Brands_And_Contents_Event</DerivedEventType>
+    </DerivedEventTypes>
+</STEP-ProductInformation>

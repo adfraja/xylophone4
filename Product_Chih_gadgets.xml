@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="Chih_gadgets" UserTypeID="Chih_child1" ParentID="Chih_Electronics">
+            <Name>Chih_gadgets</Name>
+            <AttributeLink AttributeID="Chih_color">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Chih_gadgetprice">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Chih_lovattr">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Chih_material">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Chih_size">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="Stater215">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <Value AttributeID="Chih_color">color</Value>
+                <Value AttributeID="Chih_gadgetprice">6</Value>
+                <Value AttributeID="Chih_material">steel1</Value>
+                <Value AttributeID="Chih_size">small</Value>
+                <Value AttributeID="Chih_lovattr" ID="Chih103700">Value1</Value>
+                <ValueGroup AttributeID="Stater215">
+                    <Value Derived="true" DerivedContextID="Context1">2024-02-06 02:58:24</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">2024-02-06 02:58:24</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">2024-02-06 02:58:24</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">2024-02-06 02:58:24</Value>
+                    <Value Derived="true" DerivedContextID="GL">2024-02-06 02:58:24</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

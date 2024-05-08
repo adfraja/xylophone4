@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC433006" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">type of delivery_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC433006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;type of delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC433006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;type of delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC433006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;type of delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC433006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;type of delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC433006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;type of delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC433</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC433006</Value>
+            </MetaData>
+            <ValueGroup ID="AAD672002">
+                <Value QualifierID="std.lang.all">bar</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD972002">
+                <Value QualifierID="std.lang.all">bow</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAF607002">
+                <Value QualifierID="std.lang.all">bucket</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG216002">
+                <Value QualifierID="std.lang.all">thread</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG661002">
+                <Value QualifierID="std.lang.all">shapeless</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI419002">
+                <Value QualifierID="std.lang.all">cartridge</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK752002">
+                <Value QualifierID="std.lang.all">mat</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL668005">
+                <Value QualifierID="std.lang.all">Wire</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM100002">
+                <Value QualifierID="std.lang.all">paste</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM409002">
+                <Value QualifierID="std.lang.all">powder</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM496005">
+                <Value QualifierID="std.lang.all">Magazine</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN559002">
+                <Value QualifierID="std.lang.all">rod</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN560002">
+                <Value QualifierID="std.lang.all">bar (extruded)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN561002">
+                <Value QualifierID="std.lang.all">bar (poured)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN563002">
+                <Value QualifierID="std.lang.all">cutting die components</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP130002">
+                <Value QualifierID="std.lang.all">prefabricated ribbon concealed</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP131002">
+                <Value QualifierID="std.lang.all">prefabricated ribbon unconcealed</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA091002">
+                <Value QualifierID="std.lang.all">Individual part</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB878002">
+                <Value QualifierID="std.lang.all">Assortment</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB879002">
+                <Value QualifierID="std.lang.all">Leporello-fold</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB880002">
+                <Value QualifierID="std.lang.all">Bag pack</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB256002">
+                <Value QualifierID="std.lang.all">Strips</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB284002">
+                <Value QualifierID="std.lang.all">Castor</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB370004">
+                <Value QualifierID="std.lang.all">Rod</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA337005">
+                <Value QualifierID="std.lang.all">can</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

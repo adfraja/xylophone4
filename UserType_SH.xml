@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SH" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="SH _[id]">
+            <Name>Selling Hierarchy</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4xsCwrLMg31OlOswk2UYsxU6iwEtteVdRb5bPllmtiVYiFcEG66bUVgYbVYWaxJsLz6lNXtFTkuEk25LoOLMievu89ppws4YY6+sn97QmOk0vj754aMeRDQuXdRY+uH5maUfu7iUTF7dmTi2J6M32W9lTUh6kn+2qnOks15fjv6q/vCvdc2pJeKKVcE2EeXW4ybk961f1V5QHGfZk+aY7ylw6vGVGRfT8hpQZFbHFfppJ1qLb53e3JTrNqU2si7LcPr9jz7LJ9VGWHaluBV6qWS5yG2c0pNiKZzjJTS4KSXOQqg43nVkRM7EguMBbY3Z1/JY57REGAofWzQ3X559SHB5nLvzi4b2WBIcpRaHFflplQUY7F/XcOL23IthwQl7AvPrkWFOhGBOhqlDj719/JVgKM9AMKP5kAdM6IAIUJwzspxrsVVkdWb1d+RK7uru0jCPFxWWtA2KnTY/lU3e2FRGJkFOKXrzELcwh1FNY2MTHNGbDRoWoEDErjoQEfyH5BEkhyQQ7RjHzwAQOLj32Hexc7Am+ajZOigmWjDe5EyQYJRK43XVYBKUSpMwENXa+0XfxSGRhEQhOMBRIEGURTVC20A1i4/jDdKyB0SCeTcBkgoPDdHYGoSUMzII8zSw8BwoiHgYca4thOMTAwKzsw2igKGsUtTNI9fR0lTkVMz03p/mqhu97cedkcHozWyMDgzUAzgF7oW0CAAA=</Icon>
+            <UserTypeLink UserTypeID="Classification 1 user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

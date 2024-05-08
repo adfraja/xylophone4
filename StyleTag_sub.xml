@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;sub&gt;" Stop="&lt;/sub&gt;"></Tag>
+        <StyleTag ID="sub" ParentID="Style tag root" Tag="sub">
+            <Configuration>H4sIAAAAAAAAACsuTdLRNYQiGO2ZnpdflIpG5eWXFGfmpeekluTn6RgCAM71f8M4AAAA</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;sub&gt;</FormattingStart>
+                <FormattingStop>&lt;/sub&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;cp:Subscript&gt;</FormattingStart>
+                <FormattingStop>&lt;cp:&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

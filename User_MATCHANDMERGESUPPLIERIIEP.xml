@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="MATCHANDMERGESUPPLIERIIEP" ForceAuthentication="false">
+            <Name>Match And Merge Supplier IIEP</Name>
+            <UserGroupLink UserGroupID="BackgroundProcessUsers"></UserGroupLink>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

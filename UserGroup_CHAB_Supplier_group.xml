@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="CHAB_Supplier_group" ReadOnly="false">
+            <Name>CHAB Supplier group</Name>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

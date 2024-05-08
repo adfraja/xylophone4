@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="OMS_MTO_VA" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>OMS MTO Variant Article</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxAAC////Z9jL0PC/AcSAAcWfLIwMDCwMOiAOSC0Ds7XHrjv/CjgFl0okH+qsXnbmae8CJZaDFgscLBZKWG29VsK2zWH2z/T3LXdcOUR+pfEyNHxmNpoimeqqONdPmMEaAPv/eBB2AAAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="OMS_MTO_GA"></UserTypeLink>
+            <UserTypeLink UserTypeID="OMS_SAP_MTO_ARCHIVE"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

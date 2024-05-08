@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Standard User" Type="user">
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Create DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Create Planned Page"></ActionLink>
+            <ActionLink ActionID="Create Publication Document"></ActionLink>
+            <ActionLink ActionID="Create Publication Group"></ActionLink>
+            <ActionLink ActionID="Create Publication Section"></ActionLink>
+            <ActionLink ActionID="Create Publication"></ActionLink>
+            <ActionLink ActionID="Create Version"></ActionLink>
+            <ActionLink ActionID="Create asset reference"></ActionLink>
+            <ActionLink ActionID="Create asset"></ActionLink>
+            <ActionLink ActionID="Create classification"></ActionLink>
+            <ActionLink ActionID="Create product"></ActionLink>
+            <ActionLink ActionID="Declassify asset"></ActionLink>
+            <ActionLink ActionID="Delete DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Delete Planned Page"></ActionLink>
+            <ActionLink ActionID="Delete Publication Document"></ActionLink>
+            <ActionLink ActionID="Delete Publication Group"></ActionLink>
+            <ActionLink ActionID="Delete Publication Section"></ActionLink>
+            <ActionLink ActionID="Delete Publication"></ActionLink>
+            <ActionLink ActionID="Delete Version"></ActionLink>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete asset"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+            <ActionLink ActionID="Delete product"></ActionLink>
+            <ActionLink ActionID="Download DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Download Publication Document"></ActionLink>
+            <ActionLink ActionID="Download asset"></ActionLink>
+            <ActionLink ActionID="Maintain Flatplan Page Space"></ActionLink>
+            <ActionLink ActionID="Manage autopage objects"></ActionLink>
+            <ActionLink ActionID="Manage layout in page inspector"></ActionLink>
+            <ActionLink ActionID="Manage pagination rules"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Planned Page"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Publication Section"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Publication"></ActionLink>
+            <ActionLink ActionID="Modify DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Modify Planned Page"></ActionLink>
+            <ActionLink ActionID="Modify Publication Document"></ActionLink>
+            <ActionLink ActionID="Modify Publication Group"></ActionLink>
+            <ActionLink ActionID="Modify Publication Section"></ActionLink>
+            <ActionLink ActionID="Modify Publication"></ActionLink>
+            <ActionLink ActionID="Modify Version"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+            <ActionLink ActionID="Modify sub-product list of product-overr"></ActionLink>
+            <ActionLink ActionID="Move classification from"></ActionLink>
+            <ActionLink ActionID="Move classification to"></ActionLink>
+            <ActionLink ActionID="Move product from"></ActionLink>
+            <ActionLink ActionID="Move product to"></ActionLink>
+            <ActionLink ActionID="Perform autopage export actions"></ActionLink>
+            <ActionLink ActionID="Perform autopage server write actions"></ActionLink>
+            <ActionLink ActionID="Reorder Planned Pages"></ActionLink>
+            <ActionLink ActionID="Upload to asset"></ActionLink>
+            <ActionLink ActionID="View Collection Group"></ActionLink>
+            <ActionLink ActionID="View Collection"></ActionLink>
+            <ActionLink ActionID="View DTP Template Document"></ActionLink>
+            <ActionLink ActionID="View Planned Page"></ActionLink>
+            <ActionLink ActionID="View Publication Document"></ActionLink>
+            <ActionLink ActionID="View Publication Group"></ActionLink>
+            <ActionLink ActionID="View Publication Section"></ActionLink>
+            <ActionLink ActionID="View Publication"></ActionLink>
+            <ActionLink ActionID="View Version"></ActionLink>
+            <ActionLink ActionID="View asset reference"></ActionLink>
+            <ActionLink ActionID="View asset"></ActionLink>
+            <ActionLink ActionID="View classification"></ActionLink>
+            <ActionLink ActionID="View metadata for asset (property value)"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute to classific"></ActionLink>
+            <ActionLink ActionID="View product attribute value"></ActionLink>
+            <ActionLink ActionID="View product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

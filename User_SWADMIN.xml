@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="SWADMIN" ForceAuthentication="false">
+            <SystemSetup>
+                <SystemSetupValue Type="UserSet" Name="CurrentContext">GL</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentWorkspace">Main</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="MainDividerPosition">325</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="WindowPosSize">284,216,800,580</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

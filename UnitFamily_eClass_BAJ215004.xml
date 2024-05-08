@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <UnitFamily ID="eClass_BAJ215004">
+            <Name QualifierID="std.lang.all">eClass electrical resistance</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">different properties of materials which impede the electrical current in its movement when the free charged particles in these materials are set in motion by electrical fields and/or electrical potentials </Value>
+                <Value AttributeID="EclassID">BAJ215</Value>
+                <Value AttributeID="EclassPrimaryKey">BAJ215004</Value>
+            </MetaData>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

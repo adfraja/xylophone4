@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Assetpush setup actions" Type="setup">
+            <Name>Assetpush setup actions</Name>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Maintain business-rule"></ActionLink>
+            <ActionLink ActionID="Maintain event queues"></ActionLink>
+            <ActionLink ActionID="Push Asset"></ActionLink>
+            <ActionLink ActionID="Run Reports"></ActionLink>
+            <ActionLink ActionID="Use tag"></ActionLink>
+            <ActionLink ActionID="View Background Processes of Other Users"></ActionLink>
+            <ActionLink ActionID="View System Setup Logs"></ActionLink>
+            <ActionLink ActionID="View attribute"></ActionLink>
+            <ActionLink ActionID="View table types"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

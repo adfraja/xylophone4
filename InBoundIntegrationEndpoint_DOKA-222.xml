@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <InBoundIntegrationEndpoint ID="DOKA-222" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="Default" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="rest" MessagesPerBackgroundProcess="1">
+            <SetupGroupLink SetupGroupID="DRAJ_IIEP"></SetupGroupLink>
+            <Name>DOKA-222</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAD2NOw6DQAwFe06xslKbpOfTQJkqJwiLEZaWXQl7Ubg9TkR41dMUM1X7WYLbaBVOsYYH3qFtioqirkzSFM79/u58eIvU4NOCojwkzMoBxc805kAjTRxZzYGvE3UXuv1Rb539yTErgZnP0ZdaGkoLl1f5AOswyiiaAAAA</ScheduleSpecification>
+            <PreProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PreProcessorPluginConfiguration>
+            <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>
+            <ReceiverPluginConfiguration>H4sIAAAAAAAAAJXQTQrCMBCG4X1PEWZvTRHFRdOCSKEI2kU8QGzHEs1PSdqitze4UEFRXL4wPHxMml+0IiM6L61hkMQUCJraNtK0DPa8mCwhz6K0Ek5o7MNdFhHyTFKuGZwRu8rZGr3HppAKPRB+7ZDBSYwiVsK08cpahcJA1rsB0+kD+MBtB31AtzveJW43QX/3StNjiw6yhFL63eNS409mtpj/vao0hQjV/LPuJcIrb6j0okh/AQAA</ReceiverPluginConfiguration>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAJVU23LaMBB9Jl+h0UPeGhoeC8ZDMLSechtj0mZKh1HNhjrYkivLSfj7ri6mJpTO9E06u2fP3qSe/5pn5BlkmQru0dub99TvX/XCvBBSTRlnO5BDwR/THbmvnTqUzFgOHqUETQpeVRh41B1vKfki5L4sWAIanrKUUzIoCilQxaPLeLRYPiwpieAJEjWDl4UU2ypRpUe5qGGHrYotU+AsU6aSnyueqvLuoCNrbCgqrlY8Z0UBWwshNYGyjCEvMiR71NYCkpIYSmVvtRa6JBCDzFFjOBkNos18NnnYjOfRJpwu5lE8CjaLaB6shjGmHMAjq7I6uQWTwE3pwfzz4F2n03nrER8K04OtZPtNua8oudM1BKnEEoU0VVCyhAyvsF1FE03waGHZtH9FSG8pKpmAa/g4zcDAaEB5xLCuho3jifaHH9arEoe1Rt2nNbY+YIqtJyJh2Vq3ZZ2aHjwi4Qan32sfQxnFtpU057GQOVNO4SNwkGnydTrBWeMwdU8vJLNk2H1M5TpT3Xq+1zvVNd4N0GCtlkY0UV/12bcp+PW9XRudbxhc9LQm5+dHkAi59R1kMN0UPYwaM+BAKZn+qHDXjvAbA8FhXf+qhOp+c5ph4H+3yBsOqhaAq/dHt9VyZTsquWdZBQ2zSf2odZJa+zw3A5/WYaBmU5uAIZ6N2c7WnJ3fFJ9RyndupmFgn5xHD1Dq58fxMeLWmrfTd4tpCiHHFPVGhwFt93s4CBdHz66OZN9xMxAZMv6JPUOQ5guRcmXVLBXJ5lfhqvyHno5vFI++VtcsjTtb2uUkTgKazu70srPsvzJpEm+M/a95GYudwXnje+5TypERVRmU1vEcxQ6ff9L9q99UKV4U0QUAAA==</ProcessPluginConfiguration>
+            <SampleFileConfiguration SampleFileName="C:\Users\draj\OneDrive - Stibo\D_Disk\STEP Components\Generix XML\import\importfile.xml">
+                <SampleFileContents>H4sIAAAAAAAAALMJKMpPKU0uKbbj5VJQULCBciE8kIBfYm6qnYu/t6OukZFRvIGBkY0+WIiXixMo6+mCJgcUgGlVsEkpSsyKL84uRQgBBR1LSooyk0pLUouRhTGlFTxdbJXAJqSn5qUWJeYo2QFtAVsCV4NisD4Wk2300dxgo4/wIZxdbKcAALwHmvkIAQAA</SampleFileContents>
+            </SampleFileConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Main</WorkspaceID>
+        </InBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

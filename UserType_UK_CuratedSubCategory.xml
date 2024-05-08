@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="UK_CuratedSubCategory" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="UK_CuratedSubCategory_[id]">
+            <Name>UK Curated sub category</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4xgAC//////7114PrZ26c3ptoJZxgKZxoJZJkLZpoLZpsI5ZsK55iJ5HuKJPhJJvlIpftppjvqVLgpVrsp1nsp1UdbnLp8JZ4c+F4C+E4c+EEC5EES5FES9EkK7Eka7FEK7FkG/FUO8l0B+kMJ7lsV+UCL7UiH40Cb43yIP2KYIOKYMOqUOPqMJOyIKOqUJPqcNO6SPOaCPP6KMu6KMuGGOuWBIfWRMeWRMeOVLfJRSEzKqLn1iXNqU2cV588vyFlXkPq4tbMpR25G2c0bJ/Xvn1+x85FPddP7ok1FYoxEaoMNmpLdOpK9+zN8unJ8u3N9puQF9CX49+fFzixIHhKUejUkvCZFdEzK2JmV8cvbM7aMK1hw7TG7fO7dy2ecGjd3N2r54Xr80cYCNQl+bRlBu9ZOvnoxoVHNixcN3/y2nmT18yddOHAllMHd925fnndvMmr50xaNXvipUPbD2xde+rg7pMHdl0+c/z9m1fr5k159vDei4f3Xj5+CAxnBgyg+JOFkYGhkkEHxAHFCQP75QYjFVUhVXVlcbau7q4QMRY3N2abePdp093FA5xcnJ1dHf38Fy+xFLEIDgsNtQq3s91ga23roGVq4mUWy8SUbx7HeLAkSdBEWDOlwkcz2SYtS0Emq0DJmN+AKVrwtmB6oZxsRraiIU8gUwTfK9XS+/LFBVz6bL5M9jw/BHIOMpYlcogazRBY4NroyJpxRcZiQsJBRjF3viU7Jz9xmKaa+yhnR4GiC2MHm9SUh0ePNkhbspvkfEhgUFk8XdwgIaPyydKzrhoHFG6e3Jzur6kbxiHrFbKCW7yRgcEaAAs1wP92AgAA</Icon>
+            <UserTypeLink UserTypeID="NP_SubCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="SC_Level_1"></UserTypeLink>
+            <UserTypeLink UserTypeID="SubCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="UK_CuratedSubCategory"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

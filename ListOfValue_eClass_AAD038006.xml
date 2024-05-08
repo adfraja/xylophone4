@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD038006" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">bristle type_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD038006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;bristle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD038006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;bristle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD038006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;bristle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD038006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;bristle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD038006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;bristle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD038</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD038006</Value>
+            </MetaData>
+            <ValueGroup ID="AAD979002">
+                <Value QualifierID="std.lang.all">bristle pale</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE099002">
+                <Value QualifierID="std.lang.all">c-hook</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE101002">
+                <Value QualifierID="std.lang.all">china bristles gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE102002">
+                <Value QualifierID="std.lang.all">china bristles black</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG379002">
+                <Value QualifierID="std.lang.all">fiber</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH030002">
+                <Value QualifierID="std.lang.all">cooked China bristles gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH031002">
+                <Value QualifierID="std.lang.all">cooked China bristles black</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ751002">
+                <Value QualifierID="std.lang.all">synthetic bristle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL658002">
+                <Value QualifierID="std.lang.all">natural bristle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL670002">
+                <Value QualifierID="std.lang.all">natural hair bristle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM699002">
+                <Value QualifierID="std.lang.all">horsehair bristle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN810002">
+                <Value QualifierID="std.lang.all">synthetics</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA113005">
+                <Value QualifierID="std.lang.all">Plastic</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

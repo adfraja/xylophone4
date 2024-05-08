@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="SPECIALIST1" ForceAuthentication="false">
+            <Name>Specialist1</Name>
+            <UserGroupLink UserGroupID="MDMSpecialistUsers"></UserGroupLink>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

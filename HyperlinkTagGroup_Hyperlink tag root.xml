@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagGroupList>
+        <HyperlinkTagGroup ID="Hyperlink tag root">
+            <Name>Hyperlinks</Name>
+        </HyperlinkTagGroup>
+    </TagGroupList>
+</STEP-ProductInformation>

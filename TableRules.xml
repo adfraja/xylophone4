@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TableRules>
+        <TableRule Name="0.5 pt" Width="0" Color="Black"></TableRule>
+        <TableRule Name="1 pt" Width="1" Color="Black"></TableRule>
+    </TableRules>
+</STEP-ProductInformation>

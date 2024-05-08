@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PAdb_daccb70af9b867ada3241f42231a3e0f" ParentID="AC_PAdb_LOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">AC_PAdb_Aerosol;Brush;Gun;Liquid;Liquid Pour;Molded;Non Applicable;Paste;Pour;Pump;Ribbon;Roller;Roller Squeeze;Solid;Spray;Squeeze;Stick;Syringe;Tape_LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_daccb70af9b867ada3241f42231a3e0f
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;AC_PAdb_Aerosol;Brush;Gun;Liquid;Liquid Pour;Molded;Non Applicable;Paste;Pour;Pump;Ribbon;Roller;Roller Squeeze;Solid;Spray;Squeeze;Stick;Syringe;Tape_LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_daccb70af9b867ada3241f42231a3e0f
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_daccb70af9b867ada3241f42231a3e0f
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_daccb70af9b867ada3241f42231a3e0f
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_daccb70af9b867ada3241f42231a3e0f
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="AEROSOL">
+                <Value>Aerosol</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRUSH">
+                <Value>Brush</Value>
+            </ValueGroup>
+            <ValueGroup ID="GUN">
+                <Value>Gun</Value>
+            </ValueGroup>
+            <ValueGroup ID="LIQUID">
+                <Value>Liquid</Value>
+            </ValueGroup>
+            <ValueGroup ID="LIQUID_POUR">
+                <Value>Liquid Pour</Value>
+            </ValueGroup>
+            <ValueGroup ID="MOLDED">
+                <Value>Molded</Value>
+            </ValueGroup>
+            <ValueGroup ID="NON_APPLICABLE">
+                <Value>Non Applicable</Value>
+            </ValueGroup>
+            <ValueGroup ID="PASTE">
+                <Value>Paste</Value>
+            </ValueGroup>
+            <ValueGroup ID="POUR">
+                <Value>Pour</Value>
+            </ValueGroup>
+            <ValueGroup ID="PUMP">
+                <Value>Pump</Value>
+            </ValueGroup>
+            <ValueGroup ID="RIBBON">
+                <Value>Ribbon</Value>
+            </ValueGroup>
+            <ValueGroup ID="ROLLER">
+                <Value>Roller</Value>
+            </ValueGroup>
+            <ValueGroup ID="ROLLER_SQUEEZE">
+                <Value>Roller Squeeze</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOLID">
+                <Value>Solid</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPRAY">
+                <Value>Spray</Value>
+            </ValueGroup>
+            <ValueGroup ID="SQUEEZE">
+                <Value>Squeeze</Value>
+            </ValueGroup>
+            <ValueGroup ID="STICK">
+                <Value>Stick</Value>
+            </ValueGroup>
+            <ValueGroup ID="SYRINGE">
+                <Value>Syringe</Value>
+            </ValueGroup>
+            <ValueGroup ID="TAPE">
+                <Value>Tape</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

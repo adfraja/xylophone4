@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VIKS_DA_DimensionDependent" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="VIKS_DescriptionAttributes"></AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

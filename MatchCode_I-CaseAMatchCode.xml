@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <MatchCodes>
+        <MatchCode ID="I-CaseAMatchCode" ContextID="Context1" WorkspaceID="Main">
+            <SetupGroupLink SetupGroupID="MatchingAndLinking"></SetupGroupLink>
+            <Name>I Case A Match Code</Name>
+            <ValidObjectType ID="ExternalItem"></ValidObjectType>
+            <Template>H4sIAAAAAAAAAI1S20oDMRB97n7FkAfponZV+iDatNiqoHiDqi/eSLdjjWSTJZmtFvXfnbT1glT0JYQ5c86cOUlX22GQrc5zYWCMPmhnpVhvrAlAm7uhtiMpLs73VzdFp520utx9rMp2AjC9Q+4seZXTwa4Uvcp7tHQ6eMScItqbgwJ2jFZBCuuGKOBMeVUgoe8ZFWK1MkZkrJ59yrdCaTS1z7EojSKUY+WhKC1IiBKNEdKlMhXWxeneMcvRSVUM0Is0In3NJJzh6XYSqQ6LhdSFBH1fj/1LS3FiCi9JLU5eliDENmQZ8FYcFAUgB4d9COQ5pFmTjJSGRzadYz27ur1+unm9y0YrzE2n5CNUYwzgrJmAQeIQAijOcahHmsJ3FXJH7okzUiG6+jnYRCxnrJbUots/7c0i4PN3e//x9yUTqsFMu762As10gd997QNBE/IHFX9BlNL2y3lS80iVt9OHXQaxJfhk5eQtQRMwBj9v4M24+PEnJiXKQzVW/dzrkjbm5XfyCQG8yAIAAA==</Template>
+        </MatchCode>
+    </MatchCodes>
+</STEP-ProductInformation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="SU4-SalesItem-1111" UserTypeID="SalesItem" ParentID="SU4-Level3-111">
+            <Name>AC-YU500A</Name>
+            <Values>
+                <Value AttributeID="ConsumerShortDescription" QualifierID="en-US">Active 3D Glasses</Value>
+                <Value AttributeID="Depth" UnitID="unece.unit.CMT">17</Value>
+                <Value AttributeID="EAN">4905044977623</Value>
+                <Value AttributeID="FeatureBullets" QualifierID="en-US">&lt;bulletlist&gt;&lt;bullet&gt;A comfortable design means they can be worn over your day-to-day glasses&lt;/bullet&gt;
+&lt;bullet&gt;The glasses sync with your TV using a radio frequency signal, for uninterrupted 3D viewing&lt;/bullet&gt;
+&lt;bullet&gt;Each pair of 3D glasses is adjustable and lightweight so they’re comfortable to wear during long movies&lt;/bullet&gt;
+&lt;bullet&gt;Compatible with P, X and T series TVs&lt;/bullet&gt;&lt;/bulletlist&gt;</Value>
+                <Value AttributeID="Height" UnitID="unece.unit.CMT">4.6</Value>
+                <Value AttributeID="LongAdvertisingCopy" QualifierID="en-US">Active 3D Glasses</Value>
+                <Value AttributeID="SellPackDepth" UnitID="unece.unit.CMT">6</Value>
+                <Value AttributeID="SellPackHeight" UnitID="unece.unit.CMT">4</Value>
+                <Value AttributeID="SellPackWeight" UnitID="unece.unit.KGM">0.086</Value>
+                <Value AttributeID="SellPackWidth" UnitID="unece.unit.CMT">16</Value>
+                <Value AttributeID="ShortAdvertisingCopy" QualifierID="en-US">Active 3D Glasses</Value>
+                <Value AttributeID="UPC">905044977623</Value>
+                <Value AttributeID="Weight" UnitID="unece.unit.KGM">0.036</Value>
+                <Value AttributeID="Width" UnitID="unece.unit.CMT">14.7</Value>
+                <Value AttributeID="Battery" ID="C2">C2</Value>
+                <ValueGroup AttributeID="CountryOfOrigin">
+                    <Value Derived="true" DerivedContextID="Context1">GB</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">GB</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">GB</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">GB</Value>
+                    <Value Derived="true" DerivedContextID="GL">GB</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ManufacturerGLN">
+                    <Value Derived="true" DerivedContextID="Context1">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="GL">0743480060002</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ManufacturerName">
+                    <Value Derived="true" DerivedContextID="Context1">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="GL">Acme Electronics, Inc.</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ProductPageNumber">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;NoVersionPageNo/&gt;</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

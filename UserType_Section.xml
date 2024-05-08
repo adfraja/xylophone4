@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Section" ManuallySorted="true" IDPattern="[id]">
+            <Name>Section</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMLgtj5AOVzj////i6+vAJIMMKD4k4WRgYGFQQfEAallYDb02HXnn8Eph+yAbU2KuyQYBHlSZmYmr1yXcGpTw+9VH3lOl82+vEOW+cCCAgkJqdblKaqMDNYAkrigSGwAAAA=</Icon>
+            <UserTypeLink UserTypeID="Default publication type"></UserTypeLink>
+            <UserTypeLink UserTypeID="Section"></UserTypeLink>
+            <UserTypeLink UserTypeID="Section root"></UserTypeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

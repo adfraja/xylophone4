@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;stibo.diff.ChangeMarker&gt;" Stop="&lt;/stibo.diff.ChangeMarker&gt;"></Tag>
+        <StyleTag ID="stibo.diff.ChangeMarker" ParentID="Style tag root" Tag="stibo.diff.ChangeMarker">
+            <Configuration>H4sIAAAAAAAAAMvLLyktTk3JS8xN1dE1REee6Xn5Rakwyr0oNTVPpzgzLz0ntSQ/T8cQACzRg809AAAA</Configuration>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

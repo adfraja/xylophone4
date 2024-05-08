@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;NoVersionPageNo/&gt;"></Tag>
+        <CharacterTag ID="NoVersionPageNo" ParentID="Character tag root" Tag="NoVersionPageNo" GuiRendering="[No Version Page Number]">
+            <Formatting Format="InDesign">[NoVersionPageNo]</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

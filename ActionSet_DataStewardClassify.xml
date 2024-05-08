@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataStewardClassify" Type="user">
+            <Name>Data Steward, Classify</Name>
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Classify product"></ActionLink>
+            <ActionLink ActionID="Create entity reference"></ActionLink>
+            <ActionLink ActionID="Declassify asset"></ActionLink>
+            <ActionLink ActionID="Declassify product"></ActionLink>
+            <ActionLink ActionID="Delete entity reference"></ActionLink>
+            <ActionLink ActionID="Move classification from"></ActionLink>
+            <ActionLink ActionID="Move classification to"></ActionLink>
+            <ActionLink ActionID="Move entity from"></ActionLink>
+            <ActionLink ActionID="Move entity to"></ActionLink>
+            <ActionLink ActionID="Move product from"></ActionLink>
+            <ActionLink ActionID="Move product to"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

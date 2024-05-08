@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="TestSet" Type="user">
+            <Name>Test Set</Name>
+            <ActionLink ActionID="Modify metadata for attribute to classif"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Move product from"></ActionLink>
+            <ActionLink ActionID="Move product to"></ActionLink>
+            <ActionLink ActionID="View metadata for product classification"></ActionLink>
+            <ActionLink ActionID="View metadata for product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.STEPWorkflowProfile Type" IDPattern="[id]">
+            <Name>STEP Workflow Profile Type</Name>
+            <UserTypeLink UserTypeID="Uncategorized Setup Group Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="Workflow Profiles"></UserTypeLink>
+            <UserTypeLink UserTypeID="WorkflowProfileSetupGroupCategory"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

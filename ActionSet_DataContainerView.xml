@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataContainerView" Type="user">
+            <Name>DataContainer, View</Name>
+            <ActionLink ActionID="View data container"></ActionLink>
+            <ActionLink ActionID="View metadata for data container"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

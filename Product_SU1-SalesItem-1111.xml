@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="Qualifier root">
+            <DimensionPointLink DimensionPointID="Qualifier root"></DimensionPointLink>
+            <Context ID="Context1" Priority="4"></Context>
+            <Context ID="DE-de" Priority="3"></Context>
+            <Context ID="EN All All" Priority="3"></Context>
+            <Context ID="FR All All" Priority="3"></Context>
+            <Context ID="GL" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="SU1-SalesItem-1111" UserTypeID="SalesItem" ParentID="SU1-Level3-111">
+            <Name>AC-YU500A - Test</Name>
+            <Values>
+                <Value AttributeID="Depth" UnitID="unece.unit.CMT">17</Value>
+                <Value AttributeID="EAN">4905014977623</Value>
+                <Value AttributeID="Height" UnitID="unece.unit.CMT">4.6</Value>
+                <Value AttributeID="SellPackDepth" UnitID="unece.unit.CMT">6</Value>
+                <Value AttributeID="SellPackHeight" UnitID="unece.unit.CMT">4</Value>
+                <Value AttributeID="SellPackWeight" UnitID="unece.unit.KGM">0.086</Value>
+                <Value AttributeID="SellPackWidth" UnitID="unece.unit.CMT">16</Value>
+                <Value AttributeID="UPC">905014977623</Value>
+                <Value AttributeID="Weight" UnitID="unece.unit.KGM">0.036</Value>
+                <Value AttributeID="Width" UnitID="unece.unit.CMT">14.7</Value>
+                <Value AttributeID="Battery" ID="C2">C2</Value>
+                <ValueGroup AttributeID="CountryOfOrigin">
+                    <Value Derived="true" DerivedContextID="Context1">GB</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">GB</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">GB</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">GB</Value>
+                    <Value Derived="true" DerivedContextID="GL">GB</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ManufacturerGLN">
+                    <Value Derived="true" DerivedContextID="Context1">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">0743480060002</Value>
+                    <Value Derived="true" DerivedContextID="GL">0743480060002</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ManufacturerName">
+                    <Value Derived="true" DerivedContextID="Context1">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">Acme Electronics, Inc.</Value>
+                    <Value Derived="true" DerivedContextID="GL">Acme Electronics, Inc.</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="ProductPageNumber">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;NoVersionPageNo/&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;NoVersionPageNo/&gt;</Value>
+                </ValueGroup>
+                <MultiValue AttributeID="SyncProtocol">
+                    <Value QualifierID="Qualifier root">Sharp</Value>
+                </MultiValue>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

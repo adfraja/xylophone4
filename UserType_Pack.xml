@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Pack" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Pack</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGCYyMzw6tWrrKysK1eu/P//X/EnCyMDAzODDgMQgOQZmLRa+s2lJ/FHNGe2aG+698uMjyuOo+9J2rzIVZuWex9ayBM1X8ugYtuNe/+1GRisAdg6V7JZAAAA</Icon>
+            <UserTypeLink UserTypeID="BuySideRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="SellSideRoot"></UserTypeLink>
+            <AttributeLink AttributeID="DeleteStatus"></AttributeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="Desc_2"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Test_ISODATE3"></AttributeLink>
+            <AttributeLink AttributeID="Test_LOV4"></AttributeLink>
+            <AttributeLink AttributeID="Text_Number2"></AttributeLink>
+            <AttributeLink AttributeID="Text_Test1"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

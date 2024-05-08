@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="Marketing" ReadOnly="false">
+            <Name>Marketing</Name>
+            <PrivilegeRule ActionSetID="Marketing"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingModify" ProductID="I-Products" UserTypeID="SalesItem" AttributeGroupID="MarketingModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingModify" ProductID="I-Products" UserTypeID="SalesItemFamily" AttributeGroupID="MarketingModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingView" ClassificationID="AssetsRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingView" ClassificationID="ConfigurationsRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingView" ClassificationID="Websites"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="MarketingView" ProductID="I-Products"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

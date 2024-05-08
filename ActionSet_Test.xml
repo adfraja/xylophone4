@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Test" Type="user">
+            <Name>Test</Name>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+            <ActionLink ActionID="View metadata for product classification"></ActionLink>
+            <ActionLink ActionID="View metadata for product reference"></ActionLink>
+            <ActionLink ActionID="View metadata for product"></ActionLink>
+            <ActionLink ActionID="View product attribute value"></ActionLink>
+            <ActionLink ActionID="View product reference"></ActionLink>
+            <ActionLink ActionID="View product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

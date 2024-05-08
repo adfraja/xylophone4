@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIES_EXPICTO_LOV" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Country of Origin (Primary)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_EXPICTO_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Country of Origin (Primary)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_EXPICTO_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_EXPICTO_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_EXPICTO_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_EXPICTO_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="AD">
+                <Value>Andorra</Value>
+            </ValueGroup>
+            <ValueGroup ID="AE">
+                <Value>United Arab Emirates (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AF">
+                <Value>Afghanistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="AG">
+                <Value>Antigua and Barbuda</Value>
+            </ValueGroup>
+            <ValueGroup ID="AI">
+                <Value>Anguilla</Value>
+            </ValueGroup>
+            <ValueGroup ID="AL">
+                <Value>Albania</Value>
+            </ValueGroup>
+            <ValueGroup ID="AM">
+                <Value>Armenia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AO">
+                <Value>Angola</Value>
+            </ValueGroup>
+            <ValueGroup ID="AQ">
+                <Value>Antarctica</Value>
+            </ValueGroup>
+            <ValueGroup ID="AR">
+                <Value>Argentina</Value>
+            </ValueGroup>
+            <ValueGroup ID="AS">
+                <Value>American Samoa</Value>
+            </ValueGroup>
+            <ValueGroup ID="AT">
+                <Value>Austria</Value>
+            </ValueGroup>
+            <ValueGroup ID="AU">
+                <Value>Australia</Value>
+            </ValueGroup>
+            <ValueGroup ID="AW">
+                <Value>Aruba</Value>
+            </ValueGroup>
+            <ValueGroup ID="AX">
+                <Value>Åland Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="AZ">
+                <Value>Azerbaijan</Value>
+            </ValueGroup>
+            <ValueGroup ID="BA">
+                <Value>Bosnia and Herzegovina</Value>
+            </ValueGroup>
+            <ValueGroup ID="BB">
+                <Value>Barbados</Value>
+            </ValueGroup>
+            <ValueGroup ID="BD">
+                <Value>Bangladesh</Value>
+            </ValueGroup>
+            <ValueGroup ID="BE">
+                <Value>Belgium</Value>
+            </ValueGroup>
+            <ValueGroup ID="BF">
+                <Value>Burkina Faso</Value>
+            </ValueGroup>
+            <ValueGroup ID="BG">
+                <Value>Bulgaria</Value>
+            </ValueGroup>
+            <ValueGroup ID="BH">
+                <Value>Bahrain</Value>
+            </ValueGroup>
+            <ValueGroup ID="BI">
+                <Value>Burundi</Value>
+            </ValueGroup>
+            <ValueGroup ID="BJ">
+                <Value>Benin</Value>
+            </ValueGroup>
+            <ValueGroup ID="BL">
+                <Value>Saint Barthélemy</Value>
+            </ValueGroup>
+            <ValueGroup ID="BM">
+                <Value>Bermuda</Value>
+            </ValueGroup>
+            <ValueGroup ID="BN">
+                <Value>Brunei Darussalam</Value>
+            </ValueGroup>
+            <ValueGroup ID="BO">
+                <Value>Bolivia (Plurinational State of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="BQ">
+                <Value>Bonaire, Sint Eustatius and Saba</Value>
+            </ValueGroup>
+            <ValueGroup ID="BR">
+                <Value>Brazil</Value>
+            </ValueGroup>
+            <ValueGroup ID="BS">
+                <Value>Bahamas (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="BT">
+                <Value>Bhutan</Value>
+            </ValueGroup>
+            <ValueGroup ID="BV">
+                <Value>Bouvet Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="BW">
+                <Value>Botswana</Value>
+            </ValueGroup>
+            <ValueGroup ID="BY">
+                <Value>Belarus</Value>
+            </ValueGroup>
+            <ValueGroup ID="BZ">
+                <Value>Belize</Value>
+            </ValueGroup>
+            <ValueGroup ID="CA">
+                <Value>Canada</Value>
+            </ValueGroup>
+            <ValueGroup ID="CC">
+                <Value>Cocos (Keeling) Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CD">
+                <Value>Congo (the Democratic Republic of the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CF">
+                <Value>Central African Republic (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CG">
+                <Value>Congo (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CH">
+                <Value>Switzerland</Value>
+            </ValueGroup>
+            <ValueGroup ID="CI">
+                <Value>Côte d'Ivoire</Value>
+            </ValueGroup>
+            <ValueGroup ID="CK">
+                <Value>Cook Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CL">
+                <Value>Chile</Value>
+            </ValueGroup>
+            <ValueGroup ID="CM">
+                <Value>Cameroon</Value>
+            </ValueGroup>
+            <ValueGroup ID="CN">
+                <Value>China</Value>
+            </ValueGroup>
+            <ValueGroup ID="CO">
+                <Value>Colombia</Value>
+            </ValueGroup>
+            <ValueGroup ID="CR">
+                <Value>Costa Rica</Value>
+            </ValueGroup>
+            <ValueGroup ID="CU">
+                <Value>Cuba</Value>
+            </ValueGroup>
+            <ValueGroup ID="CV">
+                <Value>Cabo Verde</Value>
+            </ValueGroup>
+            <ValueGroup ID="CW">
+                <Value>Curaçao</Value>
+            </ValueGroup>
+            <ValueGroup ID="CX">
+                <Value>Christmas Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="CY">
+                <Value>Cyprus</Value>
+            </ValueGroup>
+            <ValueGroup ID="CZ">
+                <Value>Czechia</Value>
+            </ValueGroup>
+            <ValueGroup ID="DE">
+                <Value>Germany</Value>
+            </ValueGroup>
+            <ValueGroup ID="DJ">
+                <Value>Djibouti</Value>
+            </ValueGroup>
+            <ValueGroup ID="DK">
+                <Value>Denmark</Value>
+            </ValueGroup>
+            <ValueGroup ID="DM">
+                <Value>Dominica</Value>
+            </ValueGroup>
+            <ValueGroup ID="DO">
+                <Value>Dominican Republic (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="DZ">
+                <Value>Algeria</Value>
+            </ValueGroup>
+            <ValueGroup ID="EC">
+                <Value>Ecuador</Value>
+            </ValueGroup>
+            <ValueGroup ID="EE">
+                <Value>Estonia</Value>
+            </ValueGroup>
+            <ValueGroup ID="EG">
+                <Value>Egypt</Value>
+            </ValueGroup>
+            <ValueGroup ID="EH">
+                <Value>Western Sahara*</Value>
+            </ValueGroup>
+            <ValueGroup ID="ER">
+                <Value>Eritrea</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES">
+                <Value>Spain</Value>
+            </ValueGroup>
+            <ValueGroup ID="ET">
+                <Value>Ethiopia</Value>
+            </ValueGroup>
+            <ValueGroup ID="FI">
+                <Value>Finland</Value>
+            </ValueGroup>
+            <ValueGroup ID="FJ">
+                <Value>Fiji</Value>
+            </ValueGroup>
+            <ValueGroup ID="FK">
+                <Value>Falkland Islands (the) [Malvinas]</Value>
+            </ValueGroup>
+            <ValueGroup ID="FM">
+                <Value>Micronesia (Federated States of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="FO">
+                <Value>Faroe Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="FR">
+                <Value>France</Value>
+            </ValueGroup>
+            <ValueGroup ID="GA">
+                <Value>Gabon</Value>
+            </ValueGroup>
+            <ValueGroup ID="GB">
+                <Value>United Kingdom</Value>
+            </ValueGroup>
+            <ValueGroup ID="GD">
+                <Value>Grenada</Value>
+            </ValueGroup>
+            <ValueGroup ID="GE">
+                <Value>Georgia</Value>
+            </ValueGroup>
+            <ValueGroup ID="GF">
+                <Value>French Guiana</Value>
+            </ValueGroup>
+            <ValueGroup ID="GG">
+                <Value>Guernsey</Value>
+            </ValueGroup>
+            <ValueGroup ID="GH">
+                <Value>Ghana</Value>
+            </ValueGroup>
+            <ValueGroup ID="GI">
+                <Value>Gibraltar</Value>
+            </ValueGroup>
+            <ValueGroup ID="GL">
+                <Value>Greenland</Value>
+            </ValueGroup>
+            <ValueGroup ID="GM">
+                <Value>Gambia (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="GN">
+                <Value>Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="GP">
+                <Value>Guadeloupe</Value>
+            </ValueGroup>
+            <ValueGroup ID="GQ">
+                <Value>Equatorial Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="GR">
+                <Value>Greece</Value>
+            </ValueGroup>
+            <ValueGroup ID="GS">
+                <Value>South Georgia and the South Sandwich Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="GT">
+                <Value>Guatemala</Value>
+            </ValueGroup>
+            <ValueGroup ID="GU">
+                <Value>Guam</Value>
+            </ValueGroup>
+            <ValueGroup ID="GW">
+                <Value>Guinea-Bissau</Value>
+            </ValueGroup>
+            <ValueGroup ID="GY">
+                <Value>Guyana</Value>
+            </ValueGroup>
+            <ValueGroup ID="HK">
+                <Value>Hong Kong</Value>
+            </ValueGroup>
+            <ValueGroup ID="HM">
+                <Value>Heard Island and McDonald Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="HN">
+                <Value>Honduras</Value>
+            </ValueGroup>
+            <ValueGroup ID="HR">
+                <Value>Croatia</Value>
+            </ValueGroup>
+            <ValueGroup ID="HT">
+                <Value>Haiti</Value>
+            </ValueGroup>
+            <ValueGroup ID="HU">
+                <Value>Hungary</Value>
+            </ValueGroup>
+            <ValueGroup ID="ID">
+                <Value>Indonesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="IE">
+                <Value>Ireland</Value>
+            </ValueGroup>
+            <ValueGroup ID="IL">
+                <Value>Israel</Value>
+            </ValueGroup>
+            <ValueGroup ID="IM">
+                <Value>Isle of Man</Value>
+            </ValueGroup>
+            <ValueGroup ID="IN">
+                <Value>India</Value>
+            </ValueGroup>
+            <ValueGroup ID="IO">
+                <Value>British Indian Ocean Territory (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="IQ">
+                <Value>Iraq</Value>
+            </ValueGroup>
+            <ValueGroup ID="IR">
+                <Value>Iran (Islamic Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="IS">
+                <Value>Iceland</Value>
+            </ValueGroup>
+            <ValueGroup ID="IT">
+                <Value>Italy</Value>
+            </ValueGroup>
+            <ValueGroup ID="JE">
+                <Value>Jersey</Value>
+            </ValueGroup>
+            <ValueGroup ID="JM">
+                <Value>Jamaica</Value>
+            </ValueGroup>
+            <ValueGroup ID="JO">
+                <Value>Jordan</Value>
+            </ValueGroup>
+            <ValueGroup ID="JP">
+                <Value>Japan</Value>
+            </ValueGroup>
+            <ValueGroup ID="KE">
+                <Value>Kenya</Value>
+            </ValueGroup>
+            <ValueGroup ID="KG">
+                <Value>Kyrgyzstan</Value>
+            </ValueGroup>
+            <ValueGroup ID="KH">
+                <Value>Cambodia</Value>
+            </ValueGroup>
+            <ValueGroup ID="KI">
+                <Value>Kiribati</Value>
+            </ValueGroup>
+            <ValueGroup ID="KM">
+                <Value>Comoros (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="KN">
+                <Value>Saint Kitts and Nevis</Value>
+            </ValueGroup>
+            <ValueGroup ID="KP">
+                <Value>Korea (the Democratic People's Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="KR">
+                <Value>Korea, Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="KW">
+                <Value>Kuwait</Value>
+            </ValueGroup>
+            <ValueGroup ID="KY">
+                <Value>Cayman Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="KZ">
+                <Value>Kazakhstan</Value>
+            </ValueGroup>
+            <ValueGroup ID="LA">
+                <Value>Lao People's Democratic Republic (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="LB">
+                <Value>Lebanon</Value>
+            </ValueGroup>
+            <ValueGroup ID="LC">
+                <Value>Saint Lucia</Value>
+            </ValueGroup>
+            <ValueGroup ID="LI">
+                <Value>Liechtenstein</Value>
+            </ValueGroup>
+            <ValueGroup ID="LK">
+                <Value>Sri Lanka</Value>
+            </ValueGroup>
+            <ValueGroup ID="LR">
+                <Value>Liberia</Value>
+            </ValueGroup>
+            <ValueGroup ID="LS">
+                <Value>Lesotho</Value>
+            </ValueGroup>
+            <ValueGroup ID="LT">
+                <Value>Lithuania</Value>
+            </ValueGroup>
+            <ValueGroup ID="LU">
+                <Value>Luxembourg</Value>
+            </ValueGroup>
+            <ValueGroup ID="LV">
+                <Value>Latvia</Value>
+            </ValueGroup>
+            <ValueGroup ID="LY">
+                <Value>Libya</Value>
+            </ValueGroup>
+            <ValueGroup ID="MA">
+                <Value>Morocco</Value>
+            </ValueGroup>
+            <ValueGroup ID="MC">
+                <Value>Monaco</Value>
+            </ValueGroup>
+            <ValueGroup ID="MD">
+                <Value>Moldova (the Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ME">
+                <Value>Montenegro</Value>
+            </ValueGroup>
+            <ValueGroup ID="MF">
+                <Value>Saint Martin (French part)</Value>
+            </ValueGroup>
+            <ValueGroup ID="MG">
+                <Value>Madagascar</Value>
+            </ValueGroup>
+            <ValueGroup ID="MH">
+                <Value>Marshall Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="MK">
+                <Value>Macedonia (the former Yugoslav Republic of)</Value>
+            </ValueGroup>
+            <ValueGroup ID="ML">
+                <Value>Mali</Value>
+            </ValueGroup>
+            <ValueGroup ID="MM">
+                <Value>Myanmar</Value>
+            </ValueGroup>
+            <ValueGroup ID="MN">
+                <Value>Mongolia</Value>
+            </ValueGroup>
+            <ValueGroup ID="MO">
+                <Value>Macao</Value>
+            </ValueGroup>
+            <ValueGroup ID="MP">
+                <Value>Northern Mariana Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="MQ">
+                <Value>Martinique</Value>
+            </ValueGroup>
+            <ValueGroup ID="MR">
+                <Value>Mauritania</Value>
+            </ValueGroup>
+            <ValueGroup ID="MS">
+                <Value>Montserrat</Value>
+            </ValueGroup>
+            <ValueGroup ID="MT">
+                <Value>Malta</Value>
+            </ValueGroup>
+            <ValueGroup ID="MU">
+                <Value>Mauritius</Value>
+            </ValueGroup>
+            <ValueGroup ID="MV">
+                <Value>Maldives</Value>
+            </ValueGroup>
+            <ValueGroup ID="MW">
+                <Value>Malawi</Value>
+            </ValueGroup>
+            <ValueGroup ID="MX">
+                <Value>Mexico</Value>
+            </ValueGroup>
+            <ValueGroup ID="MY">
+                <Value>Malaysia</Value>
+            </ValueGroup>
+            <ValueGroup ID="MZ">
+                <Value>Mozambique</Value>
+            </ValueGroup>
+            <ValueGroup ID="NA">
+                <Value>Namibia</Value>
+            </ValueGroup>
+            <ValueGroup ID="NC">
+                <Value>New Caledonia</Value>
+            </ValueGroup>
+            <ValueGroup ID="NE">
+                <Value>Niger (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="NF">
+                <Value>Norfolk Island</Value>
+            </ValueGroup>
+            <ValueGroup ID="NG">
+                <Value>Nigeria</Value>
+            </ValueGroup>
+            <ValueGroup ID="NI">
+                <Value>Nicaragua</Value>
+            </ValueGroup>
+            <ValueGroup ID="NL">
+                <Value>Netherlands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="NO">
+                <Value>Norway</Value>
+            </ValueGroup>
+            <ValueGroup ID="NP">
+                <Value>Nepal</Value>
+            </ValueGroup>
+            <ValueGroup ID="NR">
+                <Value>Nauru</Value>
+            </ValueGroup>
+            <ValueGroup ID="NU">
+                <Value>Niue</Value>
+            </ValueGroup>
+            <ValueGroup ID="NZ">
+                <Value>New Zealand</Value>
+            </ValueGroup>
+            <ValueGroup ID="OM">
+                <Value>Oman</Value>
+            </ValueGroup>
+            <ValueGroup ID="PA">
+                <Value>Panama</Value>
+            </ValueGroup>
+            <ValueGroup ID="PE">
+                <Value>Peru</Value>
+            </ValueGroup>
+            <ValueGroup ID="PF">
+                <Value>French Polynesia</Value>
+            </ValueGroup>
+            <ValueGroup ID="PG">
+                <Value>Papua New Guinea</Value>
+            </ValueGroup>
+            <ValueGroup ID="PH">
+                <Value>Philippines</Value>
+            </ValueGroup>
+            <ValueGroup ID="PK">
+                <Value>Pakistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="PL">
+                <Value>Poland</Value>
+            </ValueGroup>
+            <ValueGroup ID="PM">
+                <Value>Saint Pierre and Miquelon</Value>
+            </ValueGroup>
+            <ValueGroup ID="PN">
+                <Value>Pitcairn</Value>
+            </ValueGroup>
+            <ValueGroup ID="PR">
+                <Value>Puerto Rico</Value>
+            </ValueGroup>
+            <ValueGroup ID="PS">
+                <Value>Palestine, State of</Value>
+            </ValueGroup>
+            <ValueGroup ID="PT">
+                <Value>Portugal</Value>
+            </ValueGroup>
+            <ValueGroup ID="PW">
+                <Value>Palau</Value>
+            </ValueGroup>
+            <ValueGroup ID="PY">
+                <Value>Paraguay</Value>
+            </ValueGroup>
+            <ValueGroup ID="QA">
+                <Value>Qatar</Value>
+            </ValueGroup>
+            <ValueGroup ID="RE">
+                <Value>Réunion</Value>
+            </ValueGroup>
+            <ValueGroup ID="RO">
+                <Value>Romania</Value>
+            </ValueGroup>
+            <ValueGroup ID="RS">
+                <Value>Serbia</Value>
+            </ValueGroup>
+            <ValueGroup ID="RU">
+                <Value>Russian Federation (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="RW">
+                <Value>Rwanda</Value>
+            </ValueGroup>
+            <ValueGroup ID="SA">
+                <Value>Saudi Arabia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SB">
+                <Value>Solomon Islands</Value>
+            </ValueGroup>
+            <ValueGroup ID="SC">
+                <Value>Seychelles</Value>
+            </ValueGroup>
+            <ValueGroup ID="SD">
+                <Value>Sudan (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="SE">
+                <Value>Sweden</Value>
+            </ValueGroup>
+            <ValueGroup ID="SG">
+                <Value>Singapore</Value>
+            </ValueGroup>
+            <ValueGroup ID="SH">
+                <Value>Saint Helena, Ascension and Tristan da Cunha</Value>
+            </ValueGroup>
+            <ValueGroup ID="SI">
+                <Value>Slovenia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SJ">
+                <Value>Svalbard and Jan Mayen</Value>
+            </ValueGroup>
+            <ValueGroup ID="SK">
+                <Value>Slovakia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SL">
+                <Value>Sierra Leone</Value>
+            </ValueGroup>
+            <ValueGroup ID="SM">
+                <Value>San Marino</Value>
+            </ValueGroup>
+            <ValueGroup ID="SN">
+                <Value>Senegal</Value>
+            </ValueGroup>
+            <ValueGroup ID="SO">
+                <Value>Somalia</Value>
+            </ValueGroup>
+            <ValueGroup ID="SR">
+                <Value>Suriname</Value>
+            </ValueGroup>
+            <ValueGroup ID="SS">
+                <Value>South Sudan</Value>
+            </ValueGroup>
+            <ValueGroup ID="ST">
+                <Value>Sao Tome and Principe</Value>
+            </ValueGroup>
+            <ValueGroup ID="SV">
+                <Value>El Salvador</Value>
+            </ValueGroup>
+            <ValueGroup ID="SX">
+                <Value>Sint Maarten (Dutch part)</Value>
+            </ValueGroup>
+            <ValueGroup ID="SY">
+                <Value>Syrian Arab Republic</Value>
+            </ValueGroup>
+            <ValueGroup ID="SZ">
+                <Value>Swaziland</Value>
+            </ValueGroup>
+            <ValueGroup ID="TC">
+                <Value>Turks and Caicos Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="TD">
+                <Value>Chad</Value>
+            </ValueGroup>
+            <ValueGroup ID="TF">
+                <Value>French Southern Territories (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="TG">
+                <Value>Togo</Value>
+            </ValueGroup>
+            <ValueGroup ID="TH">
+                <Value>Thailand</Value>
+            </ValueGroup>
+            <ValueGroup ID="TJ">
+                <Value>Tajikistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="TK">
+                <Value>Tokelau</Value>
+            </ValueGroup>
+            <ValueGroup ID="TL">
+                <Value>Timor-Leste</Value>
+            </ValueGroup>
+            <ValueGroup ID="TM">
+                <Value>Turkmenistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="TN">
+                <Value>Tunisia</Value>
+            </ValueGroup>
+            <ValueGroup ID="TO">
+                <Value>Tonga</Value>
+            </ValueGroup>
+            <ValueGroup ID="TR">
+                <Value>Turkey</Value>
+            </ValueGroup>
+            <ValueGroup ID="TT">
+                <Value>Trinidad and Tobago</Value>
+            </ValueGroup>
+            <ValueGroup ID="TV">
+                <Value>Tuvalu</Value>
+            </ValueGroup>
+            <ValueGroup ID="TW">
+                <Value>Taiwan</Value>
+            </ValueGroup>
+            <ValueGroup ID="TZ">
+                <Value>Tanzania, United Republic of</Value>
+            </ValueGroup>
+            <ValueGroup ID="UA">
+                <Value>Ukraine</Value>
+            </ValueGroup>
+            <ValueGroup ID="UG">
+                <Value>Uganda</Value>
+            </ValueGroup>
+            <ValueGroup ID="UM">
+                <Value>United States Minor Outlying Islands (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="US">
+                <Value>United States</Value>
+            </ValueGroup>
+            <ValueGroup ID="UY">
+                <Value>Uruguay</Value>
+            </ValueGroup>
+            <ValueGroup ID="UZ">
+                <Value>Uzbekistan</Value>
+            </ValueGroup>
+            <ValueGroup ID="VA">
+                <Value>Holy See (the)</Value>
+            </ValueGroup>
+            <ValueGroup ID="VC">
+                <Value>Saint Vincent and the Grenadines</Value>
+            </ValueGroup>
+            <ValueGroup ID="VE">
+                <Value>Venezuela</Value>
+            </ValueGroup>
+            <ValueGroup ID="VG">
+                <Value>Virgin Islands (British)</Value>
+            </ValueGroup>
+            <ValueGroup ID="VI">
+                <Value>Virgin Islands (U.S.)</Value>
+            </ValueGroup>
+            <ValueGroup ID="VN">
+                <Value>Viet Nam</Value>
+            </ValueGroup>
+            <ValueGroup ID="VU">
+                <Value>Vanuatu</Value>
+            </ValueGroup>
+            <ValueGroup ID="WF">
+                <Value>Wallis and Futuna</Value>
+            </ValueGroup>
+            <ValueGroup ID="WS">
+                <Value>Samoa</Value>
+            </ValueGroup>
+            <ValueGroup ID="YE">
+                <Value>Yemen</Value>
+            </ValueGroup>
+            <ValueGroup ID="YT">
+                <Value>Mayotte</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZA">
+                <Value>South Africa</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZM">
+                <Value>Zambia</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZW">
+                <Value>Zimbabwe</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

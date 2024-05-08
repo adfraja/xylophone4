@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;BeforeLastDigitInNumerator/&gt;"></Tag>
+        <CharacterTag ID="BeforeLastDigitInNumerator" ParentID="Character tag root" Tag="BeforeLastDigitInNumerator" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAHNKTcsvSvVJLC5xyUzPLPHM8yvNTS1KLMkv0tE1REee6XlAxTDKJzM9o8S9KLFSpzgzLz0ntSQ/T8cACPNKc3J0gLQOAJosm11cAAAA</Configuration>
+            <Formatting Format="InDesign">&lt;ck:-100&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

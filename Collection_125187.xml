@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="125187" ParentID="120373" QueryURL="step://search?args0.0=nodetype%3dentity%2cobjecttype%3dContactPerson&amp;args0.1=mode%3dinterval%2cdays%3d5&amp;search0.0=ObjectTypeCriteria&amp;search0.1=ChangedSinceCriteria">
+            <Name>Recently Updated Contact Persons</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

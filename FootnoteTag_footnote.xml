@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;footnote&gt;" Stop="&lt;/StudentXFootnote&gt;"></Tag>
+        <FootnoteTag ID="footnote" ParentID="Footnote tag root" Tag="footnote"></FootnoteTag>
+    </TagList>
+</STEP-ProductInformation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="450581">
+            <Name>JLG-41</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig14631987836905629247.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">4793</Value>
+                <Value AttributeID="asset.uploaded">2024-01-23 15:20:46</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="draj_classification"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAL1Y21LjOBB9Jl+h8gNvTAjMbBVLLhXiMJWthKRyYXdqs0UJuwHt2JJHljPk77dlyRAntsNw2Qcou3X66LTUarfS7DyGAVmBjJngLafx6djptGvNQRgJqUaU03uQPcHv2D25zkAnDrmiIbScP4Zfjz43HIIABY9q4Lac/hXpBoH+c8ifQn6PI+qBHhhRxh3SjSIpcLaWM5v3J7NvM4dM4V/w1BX8nEjhJ56KWw4XmdnaFpFPFdiREVXew4IzFV+sNbO29UTC1YKHNIrANyZ09SCO5xBGATq3HBMTSIfMIVbmLZsLIR7MQYY4R2/Y705vxlfDbzeX4+nNYDQZT+d992YyHbuL3hwlu3BHkyATN6ESeBq8NZAHBpJK72FNpBBqGz9fR7CJTmKQRwqNFn2h43OZxPCFTCN0yAwCfAV/MR1q95YTGWenXSOkOROJ9MBuyiULIDXjAEpDG8a8McbxyWn3fl8ucN54uWI8WI45uJKtgByRmWK3YulC/F2JaIk7fPO5scTduQbuC6kJPmHGNOtP1KmCupGQPl8KGVJlZ/wKHCTz/hoNMUlw4/X6l4ibUdwplHYYqPPZmnuzJIoCXEnEqfWIxog8vFfn2llDXKpoVwLNbNZc5nVghjtT8IT0Oxte1jF1GLixQWvLwCXU83RmMX7fx/9q3Tr8kQh1/nfHxNv5x7yTFZWMKjwduF3FEE2bCrDm7L0+cPNasvBYjEm5NqOFjjlEPpZ6LpjckF7rUspsMO8yFF4a2/vqfJ0e69X1fYmHe2csG1YKjyRKHt9V8hfgCunMbEPGgcTwIwHugd3mxp7d3XB9BfvJh7Kffij75w9l//J29h6e58rs2AQUEujSINez5NZlK6a/jT3hV9CVwivIX8JYRTMRsaKBRpCAxerXy9MzQeFBrJedxLQ2QOxJFmW1o7g65DFbday49Jj14Yp66h1rSk+EYcJZSa2zIPxo5rZkhN91tj3FBqiIw2U0uErCW/NlKqfJ42oHBweZiOlgjwAD2N2tihjteMGqmq/jOsRSqVukilK/g8qTvDkfLhmn3MNlSb9vhSE+Qbrm0116vhKJbZu354BtgXYXtHq6PORZtM0kudW/bCy3FBFkaNx427pEgJ3sdvPy7KVT+5oGCRDd5G2d9IG796w/+RfHmhOVHyoOJu3HFFVJcXnYU9u2lzw1F9Fttn2N47OzAfd1hgtZSl6Krm1OVd1/1nMNqPEo71p3GmbTJafP9iIwwssLNpq2Ozb7mN51smsP97XMtXnF1kWy20SlVwnoBTSOby66/bMvvx0fnyJal4WUYwYRzoyOLefctt5In17ZuIrb9vJgpsuR6mxw6u1m/QlrlNVT7GtkbpztX1Ky6bdfEHbitwGQ7MFcLiYPgoO+OjWccrUoAfdOdbnff1QS6yDe3AIWMgXp4hFMFXjES7JTodXW/lTnFltbKzWiXij25O1iT/43sadvF3v6bmJt/lcrjisUl54gm7YTCSlipRFzSXl8l55ozFFM5W4U4X35UoqQmHhy65SNkzk8qpS00uGkyCELyd79s9dcpuuVMo5PD3qGUmtlTLUXT5lbe1Ptdktc0/7oovuFaRJAbIC71ma94Meodu0/x+qWfLkSAAA=</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

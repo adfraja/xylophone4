@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Publication group root" ManuallySorted="false">
+            <Name>Publication group types</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMLgtj5AOVzj////i6+vAJIMMKD4k4WRgYGFQQfEAallYDb02HXnn8Eph+yAbU2KuyQYBHlSZmYmr1yXcGpTw+9VH3lOl82+vEOW+cCCAgkJqdblKaqMDNYAkrigSGwAAAA=</Icon>
+            <UserTypeLink UserTypeID="Publication group root"></UserTypeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

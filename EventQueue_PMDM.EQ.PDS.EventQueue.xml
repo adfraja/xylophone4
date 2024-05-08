@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <EventQueues>
+        <EventQueue ID="PMDM.EQ.PDS.EventQueue" QueueStatus="Discard" DaysRetained="7">
+            <Name>PDX: Event Queue</Name>
+            <Configuration>H4sIAAAAAAAAANVUTXObMBC951douAfa6aUHcMYJduuZ0DCGpGeM1h61QtLow3X767uAgNhpU2d6STjBsu9p3+5bzY0BW0KjeGUhia8ODSd70IZJkQTvw3cBAVFLysQuCe7L5eXH4Gp2ERflIr/MtaSutiuxlbqpLCLIGozke1gJzgSsYWuSYFtxAwFZSs7ljzuk1oxC4TYePWUsDkpqm4Jme6Bza/X4a3ZBSDxvCzU+q2C/IAkyJljjmoCkUtj+gBteGcO2rO7qKWWHwkJAowyEWO16voEx6sijnh2VRX+RNouN4szO2sLYxll4Ez0bir1lplX6T3Un7XsDEo8r/rM//LyPU8lK1NxRyCu0hvXO8G44IT2ncZjmGtCFMwoEBerjd5tvUNvyp4JPWjqF/TJJPAXXjoPpzjyJESSkrD1hlSZBnqVZeL2+CfO0CBd7rHfJuAU9KJvAZHodgfk6DRcHTBcVL6TTNY6glpoOap+U8zTk1Xj9r9YXfrvjIfk5N/icUxtM1uqf+KHirp/R9PRBMq7X2Op52Y1IUcNoQKLzURkYU+3AlLJwCnuNs30JvD10AKKwGtm+SAvmxSRfpf6+xc4XtvofeOfRI3QcPW5kHPn2t2YbpnXGmpWa7XY4crFrTzKqwjt9rpSW+3Hj7gV7vQZ9dHG1dZ57LT94AR/8t+zW0+J6Js9u+JDurHK2Z00+l9ntwPMbvQqFCv0HAAA=</Configuration>
+        </EventQueue>
+    </EventQueues>
+</STEP-ProductInformation>

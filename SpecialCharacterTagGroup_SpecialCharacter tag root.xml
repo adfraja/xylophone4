@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagGroupList>
+        <SpecialCharacterTagGroup ID="SpecialCharacter tag root">
+            <Name>Special Characters</Name>
+        </SpecialCharacterTagGroup>
+    </TagGroupList>
+</STEP-ProductInformation>

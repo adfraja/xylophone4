@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="Qualifier root">
+            <DimensionPointLink DimensionPointID="Qualifier root"></DimensionPointLink>
+            <Context ID="Context1" Priority="4"></Context>
+            <Context ID="DE-de" Priority="3"></Context>
+            <Context ID="EN All All" Priority="3"></Context>
+            <Context ID="FR All All" Priority="3"></Context>
+            <Context ID="GL" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="CHAB_L3122414" UserTypeID="CHAB_L3" ParentID="CHAB_L2102503">
+            <Name>i10v</Name>
+            <Values>
+                <Value AttributeID="CHAB_ED_Check">Disable</Value>
+                <Value AttributeID="CHAB_KEY">1</Value>
+                <MultiValue AttributeID="CHAB_test2">
+                    <Value ID="SC102507" QualifierID="Qualifier root">BLUE</Value>
+                </MultiValue>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

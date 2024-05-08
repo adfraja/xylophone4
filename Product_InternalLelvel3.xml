@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="InternalLelvel3" UserTypeID="InternalLevel3" ParentID="InternalLevel2">
+            <Name>InternalLelvel3</Name>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

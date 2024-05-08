@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="LogisiticsModify" Type="user">
+            <Name>Logisitics, Modify</Name>
+            <ActionLink ActionID="Create data container"></ActionLink>
+            <ActionLink ActionID="Create entity reference"></ActionLink>
+            <ActionLink ActionID="Delete data container"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Planned Page"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Publication Section"></ActionLink>
+            <ActionLink ActionID="Modify Basket for Publication"></ActionLink>
+            <ActionLink ActionID="Modify Commercial Data"></ActionLink>
+            <ActionLink ActionID="Modify Commercial List Name"></ActionLink>
+            <ActionLink ActionID="Modify DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Modify Generic Page Template"></ActionLink>
+            <ActionLink ActionID="Modify Metadata Value Commercial List"></ActionLink>
+            <ActionLink ActionID="Modify Planned Page"></ActionLink>
+            <ActionLink ActionID="Modify Profile Configuration"></ActionLink>
+            <ActionLink ActionID="Modify Publication Document"></ActionLink>
+            <ActionLink ActionID="Modify Publication Group"></ActionLink>
+            <ActionLink ActionID="Modify Publication Section"></ActionLink>
+            <ActionLink ActionID="Modify Publication"></ActionLink>
+            <ActionLink ActionID="Modify Version"></ActionLink>
+            <ActionLink ActionID="Modify eCatalog Configuration"></ActionLink>
+            <ActionLink ActionID="Modify eCatalog Metadata"></ActionLink>
+            <ActionLink ActionID="Modify metadata for asset reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for asset"></ActionLink>
+            <ActionLink ActionID="Modify metadata for attribute to classif"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify metadata for context reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for data container"></ActionLink>
+            <ActionLink ActionID="Modify metadata for entity reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for entity"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of asset"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+            <ActionLink ActionID="Modify name/description of entity"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+            <ActionLink ActionID="Modify sub-product list of product-overr"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

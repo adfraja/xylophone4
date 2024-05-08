@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="SupplierAdminSetupActions" Type="setup">
+            <Name>Supplier Admin Setup Actions</Name>
+            <ActionLink ActionID="Maintain user password"></ActionLink>
+            <ActionLink ActionID="Maintain users and groups"></ActionLink>
+            <ActionLink ActionID="View and use STEP Workflow"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Subscriber" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Subscriber</Name>
+            <UserTypeLink UserTypeID="PromotionsCategoryLvl1"></UserTypeLink>
+            <AttributeLink AttributeID="S-City"></AttributeLink>
+            <AttributeLink AttributeID="S-Country"></AttributeLink>
+            <AttributeLink AttributeID="S-Email"></AttributeLink>
+            <AttributeLink AttributeID="S-FirstNames"></AttributeLink>
+            <AttributeLink AttributeID="S-LastName"></AttributeLink>
+            <AttributeLink AttributeID="S-Phone"></AttributeLink>
+            <AttributeLink AttributeID="S-State"></AttributeLink>
+            <AttributeLink AttributeID="S-Street"></AttributeLink>
+            <AttributeLink AttributeID="S-ZIP"></AttributeLink>
+            <AttributeLink AttributeID="Source"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

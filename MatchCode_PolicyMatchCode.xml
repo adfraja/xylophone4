@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <MatchCodes>
+        <MatchCode ID="PolicyMatchCode" ContextID="Context1" WorkspaceID="Main">
+            <SetupGroupLink SetupGroupID="MatchCodesAndMatchingAlgorithms"></SetupGroupLink>
+            <Name>PolicyMatchCode</Name>
+            <ValidObjectType ID="Policy"></ValidObjectType>
+            <Template>H4sIAAAAAAAAAHPKzEsptrWxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347JxAqr2TSzQBzKLC3IyS+xCUnMLchJLUm2LS1ILPF00NGHilQWpts6JOcmlINkUqCgAAQVxjW0AAAA=</Template>
+        </MatchCode>
+    </MatchCodes>
+</STEP-ProductInformation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="ag_DPIMOutbound" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="ag_OIEP">
+            <Name QualifierID="en-US">ag_DPIMOutbound</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

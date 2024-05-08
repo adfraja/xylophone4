@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="TIFFImage" ReferenceTargetLockPolicy="Strict">
+            <Name>TIFF Image</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABMxn+M5w5c+b///8Mo2AUjCSg+JOFkYGBiUEHxAHlCQaOaAZWDhaHDQscGZiEmRQObEh0ZmAW4op4cSHRsVXUWO7OCcOG4/0KjkI8FyaoOE9Wd5/0x+NA8ul+rfh1Li8N1bynKzE+WKJp3HBqgkNtkUxXQcKxLld1ua0rJmQcbGBgsAYAtj9VDH4DAAA=</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>image/tif</MIMEType>
+            <MIMEType>image/tiff</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

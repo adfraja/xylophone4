@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Country" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="Country_[id]">
+            <Name>Country</Name>
+            <Icon>H4sIAAAAAAAAAAEHBPj7R0lGODlhFAATAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwMDcwKbK8AEOSwMUTQEVUgAWWQQZVAEaWggcVgkdWRIfVAUcYQAeewshXBsgThImXgoiZgoneBQoYhwxaR4wcScaSDoVQScjTDYmQzslUz0xVSE0bSY4dStAdzFIe1YKLkcnPFcrOV4yP2UOLnoOJmcsMHUuLHYxLEAmQwwsgxAuhhY1ii5CgSpJlTdHiDJPmzlShDRUmkJPlERZikpYnFBank1boFFdokhgjlNom1dyn0hmpFVjpVp4qVt5sXh9mmRvrWV1rGJ7s253smx7snF8smWAq2mFtnODtHSFuHKLunqGun2Lu3iUu3qXwXycwHyey54IFJ44G4k0JJA1IK4ACKoFE6c4Gb8/Drs+ErVbZccPD8wAAc4GCMsLDM0PEccWHs4SE9IAANkAAcc+DN47AMAnLNg9O+I7AMI2Qc9DBstDE91DAt5TGd9aIt9qNeREAeBNEeFVGvFGAOBbIOBhLOVrN8VKT8BLU8llQ91+VbBygd6DV9yUduKGXemZeJ6AiICLvYCRv4OavI6jvruZkKydsrONpoWYw5SexYijyY+t0ZanzJmt0Jq414y24KCozK6vxKewz6Cw1KO406K92ai11am41aq+2LK71Z7A3JzE6KTC3qzD3bTG3KrG4rPL4rrO5bfQ5bHT7L3S5brR6L7Z6L3g9t6eg86lk92ghNurk9yxnse5ttWqs9a5vdq+s/CrivG7odq9wtzFu9fJzdnAxNjFydnM09rR1tnU29nZ0dnb28PU5sLV6cXd58bb68jS48jf58vb69bV59fc4NPd7Nvf4tje7Nrg3snh7MXk9sfj+M3m8s7p8dXi7tPr79rj4tjj7dns7dPk8dTr89rm89vq89nu+Nbx9drx9tvy+dv7/ufZ2PjdyvDc2/fi3/3k3eLr8+jt9O/v+eD19uL1+eP7/ezy9urx+er9/fL1+fX6/f7+/qCgpICAgP8AAAD/AP//AAAA//8A/wD//////1ipRiwAAAAAFAATAAAI7ADrCRxIsKDBg/XIkUHIMCGZVw0NjiNXhoybahEFhptohgyZPxnrvRM37oyXDgwiSvnBgwcUEix5MPnGkFyllj588OhBpMKGg8Tg4MEDZ9Y4Eg9S0KEDp5xBeuMEDcVjSMSeqXsWkFInEFoSHonEwWpDZyqePR8eAOlEs540eaxw8ugkLoWDETx+9PDxg8ayek8oVOrGRC8PShuI7M17wQGEU/XEkZSW422pljxIOMAQAwOECJDnXfsm+UkGS91KQODsGQKEBagKqpM8TlrrCBWcoLo27yA8bt3aaWAQoQgqbhmhVuiE6m/IjAEBADth+49ZBwQAAA==</Icon>
+            <UserTypeLink UserTypeID="Continent"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

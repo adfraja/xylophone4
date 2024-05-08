@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PAdb_Style_LOV" ParentID="AC_PAdb_LOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">AC_PAdb_Style_LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_Style_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="100">
+                <Value>Hanging</Value>
+            </ValueGroup>
+            <ValueGroup ID="110">
+                <Value>Vent Clip</Value>
+            </ValueGroup>
+            <ValueGroup ID="120">
+                <Value>Powered</Value>
+            </ValueGroup>
+            <ValueGroup ID="130">
+                <Value>Novelty</Value>
+            </ValueGroup>
+            <ValueGroup ID="140">
+                <Value>Refill</Value>
+            </ValueGroup>
+            <ValueGroup ID="150">
+                <Value>Bearing Race Cup</Value>
+            </ValueGroup>
+            <ValueGroup ID="160">
+                <Value>Angular Contact</Value>
+            </ValueGroup>
+            <ValueGroup ID="170">
+                <Value>Radial Ball Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="180">
+                <Value>Cylindrical</Value>
+            </ValueGroup>
+            <ValueGroup ID="190">
+                <Value>Double Row</Value>
+            </ValueGroup>
+            <ValueGroup ID="200">
+                <Value>Single Row</Value>
+            </ValueGroup>
+            <ValueGroup ID="210">
+                <Value>Cone Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="220">
+                <Value>Collar Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="230">
+                <Value>Clutch Release Thrust Control Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="240">
+                <Value>Clutch Release Angular Contact Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="250">
+                <Value>Clutch Release Hydraulic Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="260">
+                <Value>Clutch Pilot Roller Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="270">
+                <Value>Clutch Pilot Ball Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="280">
+                <Value>Clutch Pilot Bushing Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="290">
+                <Value>Hanger Bearings</Value>
+            </ValueGroup>
+            <ValueGroup ID="300">
+                <Value>Needle Bearings</Value>
+            </ValueGroup>
+            <ValueGroup ID="310">
+                <Value>Needle Thrust Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="320">
+                <Value>Loose Needle Bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="330">
+                <Value>Clutch Release Bearing Thrust Assemblies</Value>
+            </ValueGroup>
+            <ValueGroup ID="340">
+                <Value>Clutch Release Bearing Angular Contact Assemblies</Value>
+            </ValueGroup>
+            <ValueGroup ID="350">
+                <Value>Clutch Release Bearing Sealed Self Aligning</Value>
+            </ValueGroup>
+            <ValueGroup ID="360">
+                <Value>Automotive V-Ribbed Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="370">
+                <Value>Industrial V-Ribbed Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="380">
+                <Value>Classical Section V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="390">
+                <Value>Narrow Section V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="400">
+                <Value>Industrial V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="410">
+                <Value>Light Duty V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="420">
+                <Value>CVT V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="430">
+                <Value>Automotive V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="440">
+                <Value>Automotive Timing V-Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="450">
+                <Value>Industrial Synchronous Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="460">
+                <Value>Automotive Timing Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="470">
+                <Value>Grease Seal</Value>
+            </ValueGroup>
+            <ValueGroup ID="480">
+                <Value>Oil Seal</Value>
+            </ValueGroup>
+            <ValueGroup ID="490">
+                <Value>Repair Sleeve</Value>
+            </ValueGroup>
+            <ValueGroup ID="500">
+                <Value>Bench</Value>
+            </ValueGroup>
+            <ValueGroup ID="510">
+                <Value>bearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="520">
+                <Value>Heavy Duty</Value>
+            </ValueGroup>
+            <ValueGroup ID="530">
+                <Value>Industrial</Value>
+            </ValueGroup>
+            <ValueGroup ID="540">
+                <Value>Racing</Value>
+            </ValueGroup>
+            <ValueGroup ID="550">
+                <Value>Light Duty</Value>
+            </ValueGroup>
+            <ValueGroup ID="60">
+                <Value>Universal Fit</Value>
+            </ValueGroup>
+            <ValueGroup ID="70">
+                <Value>Direct Fit</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

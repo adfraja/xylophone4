@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.ENT.PDS.AssetValidationObject" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
+            <Name>Asset Validation Object</Name>
+            <UserTypeLink UserTypeID="PMDM.ENT.PDS.AssetValidationObjects"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.AspectRatio"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.AssetObjectTypes"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.MaxPixelHeight"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.MaxPixelWidth"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.MinPixelHeight"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.MinPixelWidth"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.ValidColorSpaces"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDSMaxFileSize"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

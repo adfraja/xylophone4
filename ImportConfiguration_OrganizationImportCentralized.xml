@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="OrganizationImportCentralized">
+            <Name>OrganizationImport - Centralized</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">5066</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 17:04:08</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAN1YXY/aOBR9n19h+X2H0j7tLlBBwqhZAUEJtOoKaeQmF8a7iR3Zziz01/facUbM0G2bLZ2ueAF/netzz73+iAev92VB7kFpLsWQ9q9f0Nejq0FUVlKZORNsByqQYst35G076CUlC1bCkMZqxwT/yAw2NwjyCwlAGMUK/hFyShBqYG+icEh9sU/JO6n+1hXLwDbPGReUjKtKSWSB9XHyByUJ/AWZWcA/SyXzOjN6SIVsm33busqZAd8zZya7Wwtu9ORgzdq2QNbCrEXJqgrypgmhGWi9grIqEDykDW1QlKxAm6bWzoVDMliBKnGOYDYdJ7fxYvb+9iZObqP5Mk5W0/B2mcThOlillISwZXXRklsyhTpYJv1+/9WL/tP+1aFy7h9LGNTayNJymVhvQq7QWamcP5SkUGAV8nUys+AhRfvcHOjoipBBKmuVgQ/LDS/ANWMH8sA2dPCoT2CJjoLfNmuNId1YxTexgFDxe8AApoZ/kJvm99frl8cB3aQMhYNj0roJQ369L/R+0HuYz9HqNbxc+UaqkhlPY7rPoPg3jm+YfgMsRyFG70E/sfmZ8SvFy3d3HHPBJtU3gtB3637DynCxo6OFPOHfdLuyD9wcswlHe6tR2GTekB5A2ywUKAaGzKXQyIflLStqIGNjFP9QGxd2H68opL3RoBeF3lwz0lts0vrY4GMbM9ixYuFi6dCId2tMGP2FmR3KaeCmfkA0BHoO4SshM8z24woF9TVqjwa32W0X9zjPFS65R/1PPIlEVZvUKADTyRcPOfUD4SumdmC+AA6DKGz5ORMe4YU4df6nqBK0S/xbNXGAS1YkNbjddEwTi7hkTf7kVSdF7PhL1sOd/KrjwvGY59Wl044/xcNXHgBSPIs7+dYCiUN+bd/vxCmBexB1d0oe9wMYLcZRkAYy78bHoc5LJI2CzjQQ8wzn8gwr8XZSa/xvltPTu8WjAZG4lzyDNLuDvMa7JZnjRZZbWAoVXphwtiH9vZOf3iR5sPnfl91MTp53J+qo3jnkmsWTC1Yowu82zgqfE6E9rc+SYtYoaTMt/L5LQEcNu93kmTbTnBtLMYFMqrxbciCcWLzzEb/gvI3/wT4S1Aq/g7PDOeL5YOuSFsJSYW7OuHYPAudQyRkk1iJxJi9JLPcWE2+X7FCiO+dQy1kkcktam88j16B3+pow8A9OlkaCJ6JuBp62DnqfeZ0bXX0CqyZ/ecoTAAA=</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

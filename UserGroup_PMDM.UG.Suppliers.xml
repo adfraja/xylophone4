@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="PMDM.UG.Suppliers" ReadOnly="false">
+            <Name>Suppliers</Name>
+            <PrivilegeRule ActionSetID="PMDM.SA.Supplier"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierClassify" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierAssets" AttributeGroupID="PMDM.ATG.SupplierClassify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierClassify" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="PMDM.ATG.SupplierClassify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierClassifyProduct" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.SupplierClassify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierCreate" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.SupplierCreate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierCreate" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="PMDM.ATG.SupplierCreate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierDelete" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.SupplierDelete"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierDelete" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="PMDM.ATG.SupplierDelete"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierModify" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.CategorySpecificAttributes"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierModify" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.SupplierModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierModify" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="PMDM.ATG.SupplierModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.CategorySpecificAttributes"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="PMDM.AssetImportsPDS" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="PMDM.ProductImportsPDS" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierAssets" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierCategory" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierClassification" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierLocation" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierLocations" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierProducts" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SuppliersRoot" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="PMDM.PRD.ExternalSourceRecord" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="PMDM.ATG.SupplierView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="SuppliersRoot" UserTypeID="ProductImage" AttributeGroupID="Uncategorized"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.SupplierView" ClassificationID="PMDM.ConfigurationsRoot"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

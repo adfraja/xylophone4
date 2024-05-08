@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Translate classifications" Type="user">
+            <ActionLink ActionID="Modify metadata for attribute to classif"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

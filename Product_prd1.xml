@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="AllCountries">
+            <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
+            <Context ID="Context1" Priority="6"></Context>
+            <Context ID="DE-de" Priority="4"></Context>
+            <Context ID="EN All All" Priority="4"></Context>
+            <Context ID="FR All All" Priority="4"></Context>
+            <Context ID="GL" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="prd1" UserTypeID="prd1" ParentID="GOCH">
+            <Name>prd1</Name>
+            <ProductCrossReference ProductID="AMKP_SKU1" QualifierID="AllCountries" Type="phealth"></ProductCrossReference>
+            <Values>
+                <Value AttributeID="Modified_By">Gourishankar (GOCH)</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

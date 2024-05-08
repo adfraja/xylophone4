@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="SupplierCreate" Type="user">
+            <Name>Supplier, Create</Name>
+            <ActionLink ActionID="Create asset reference"></ActionLink>
+            <ActionLink ActionID="Create asset"></ActionLink>
+            <ActionLink ActionID="Create product"></ActionLink>
+            <ActionLink ActionID="Upload to asset"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

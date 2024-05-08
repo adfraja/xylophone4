@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierDelete" Type="user">
+            <Name>Supplier, Delete</Name>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete classification reference"></ActionLink>
+            <ActionLink ActionID="Delete product reference"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

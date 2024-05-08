@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC687008" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">measurement principle_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC687008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;measurement principle_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC687008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;measurement principle_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC687008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;measurement principle_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC687008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;measurement principle_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC687008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;measurement principle_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC687</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC687008</Value>
+            </MetaData>
+            <ValueGroup ID="AAK519002">
+                <Value QualifierID="std.lang.all">delay time measuring</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK572002">
+                <Value QualifierID="std.lang.all">conductivity measurement</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK766002">
+                <Value QualifierID="std.lang.all">mechanic measuring</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM231002">
+                <Value QualifierID="std.lang.all">photoelectric</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO185002">
+                <Value QualifierID="std.lang.all">thermal</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV196002">
+                <Value QualifierID="std.lang.all">magnetic-inductive</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV208002">
+                <Value QualifierID="std.lang.all">coriolis (mass)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAY638002">
+                <Value QualifierID="std.lang.all">FMCW HF</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK351002">
+                <Value QualifierID="std.lang.all">variable area flow</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK352002">
+                <Value QualifierID="std.lang.all">thickness</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK353002">
+                <Value QualifierID="std.lang.all">stagnation pressure</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK354002">
+                <Value QualifierID="std.lang.all">depth</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABM803002">
+                <Value QualifierID="std.lang.all">FMCW</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO022002">
+                <Value QualifierID="std.lang.all">FMCW</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO023002">
+                <Value QualifierID="std.lang.all">open jet radar</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB301004">
+                <Value QualifierID="std.lang.all">optical</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB433002">
+                <Value QualifierID="std.lang.all">Ultrasound</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="OrganizationUnmatchedWordFactorTable">
+            <Name>Organization Unmatched Word Factor Table</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">3645</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 16:50:37</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="MatchingLookupTables"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAL1Xu07EMBDs7yssPoC0IIVrTkKio0D0e/EmWeHYZm0nOr4e3yNCJxAVQxVtEo3X4/GM3e6C72UoSlmCN0+DD8o7Svxw05NLfLPdGNO+kiv8TKLHqtaPGqbTu21UmSmzcTJJZts2X5/Ov76Ec3V7f9c2a3HEbK5Afx0i9JxSbY/cOk590l6c5IPpwhTJHxAjU0qhkxMzoIlV+jiTHpD8jcFZ8QOSqKsl6oLGoDDWaGKVjhDQiXWWjtEzsDKDYCWBWr5oCAG9J/+GwF1qz5zIMQLcUaYJASx+Fd8/mCnY3ybypacuFwVJRzkxaTca8tZYntmFOLHPEDkFdXYRC5HTInn8Hm0Qk+BImlEkDRpKRADPteGi1ZkpSiYH2dK4BF5XFpjAxQP7pySQvAXn7E9nRWywc4RsK54Ywv9CymMoCeJpI5N9L9VsWBMC30MoqZlFA6P88Ri39bxvIquhj6pCgWf85Uyb/kD7bXN1WdxuPgEhdV84PQ4AAA==</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>

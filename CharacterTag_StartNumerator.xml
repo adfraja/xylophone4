@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;StartNumerator/&gt;"></Tag>
+        <CharacterTag ID="StartNumerator" ParentID="Character tag root" Tag="StartNumerator" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAAsuSSwq8SvNTS1KLMkv0tE1REee6Xn5RakwyiczPaPEvSixUqc4My89J7UkP0/HAAjzSnNydIC0DgD8YYrjUAAAAA==</Configuration>
+            <Formatting Format="InDesign">&lt;cPosition:Superscript&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

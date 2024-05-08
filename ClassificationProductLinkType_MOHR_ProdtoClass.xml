@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="MOHR_ProdtoClass" Inherited="true" Accumulated="true" DefinesValidAttributes="true" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="true" Referenced="true">
+            <Name>MOHR ProdtoClass</Name>
+            <UserTypeLink UserTypeID="MOHR_SKU"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Class1"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

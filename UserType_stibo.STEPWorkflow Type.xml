@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.STEPWorkflow Type" Referenced="true">
+            <Name>STEP Workflow Type</Name>
+            <UserTypeLink UserTypeID="DGNA_SG_TR"></UserTypeLink>
+            <UserTypeLink UserTypeID="DnBWorkflowsType"></UserTypeLink>
+            <UserTypeLink UserTypeID="RADBSUB"></UserTypeLink>
+            <UserTypeLink UserTypeID="RADBSUBA"></UserTypeLink>
+            <UserTypeLink UserTypeID="RADBSetUpGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="SBALroot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Setup Group user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Uncategorized Setup Group Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="WorkflowSetupGroupCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="Workflows"></UserTypeLink>
+            <UserTypeLink UserTypeID="draj_workflows"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.PDS.SupplierFacingStates"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

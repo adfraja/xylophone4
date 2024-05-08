@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="CHABC" ForceAuthentication="true">
+            <Name>CHABC</Name>
+            <UserGroupLink UserGroupID="CHAB_User_Group"></UserGroupLink>
+            <GUISetup>
+                <GUISetupDisabled>/Workspaces/step://workspace?id=Main</GUISetupDisabled>
+            </GUISetup>
+            <SystemSetup>
+                <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">GL</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

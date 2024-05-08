@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="VIGA_Test2" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="VIGA1-[id]">
+            <Name>VIGA_Test2</Name>
+            <UserTypeLink UserTypeID="VIGA_Classifications"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

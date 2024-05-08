@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.ContentManagersModify" Type="user">
+            <Name>Content Managers, Modify</Name>
+            <ActionLink ActionID="Modify metadata for asset reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for asset"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify name/description of asset"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

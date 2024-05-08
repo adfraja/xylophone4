@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <Unit ID="unece.unit.TNE" Referenced="true" ParentID="Mass">
+            <Name>t</Name>
+            <UnitConversion BaseUnitID="unece.unit.GRM" Factor="1000000" Offset="0"></UnitConversion>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="UnitDescription">tonne (metric ton)</Value>
+            </MetaData>
+        </Unit>
+    </UnitList>
+</STEP-ProductInformation>

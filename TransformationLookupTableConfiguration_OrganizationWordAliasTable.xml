@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="OrganizationWordAliasTable">
+            <Name>Organization Word Alias Table</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">4571</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 16:50:37</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="MatchingLookupTables"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAL1Yy67TQAzd36+I7oId6oIlpZsrIbFjgdi7EzexmNf1TBLK1+OkBVRBTDXTdlWlHvmMj48fyfYl+AN1A0Om4JtPnQ+ML5Dww/MBbMLn3VPTbL+CHfAzEM9P8vyRg1v+26U34OL7ELebP/+dznwJ5xNgMTXg2yZEPMGk7eaXdfa+uXCvgO2HtI4jRvKYSn3HZNZ9Rw4HcS1XB9sk5JGMxGQCx3CKqBB09rCOWu9/5uR+jFl7LWWWHGVs5Rf2ZCkfhTsXwR8LoQdvc7uOLeYTYKH7/nXdd4/Qvg7AGbmUOBOOWtJriCGn6EmMgXPprbX6OJfEDSoiijbU3IquIhNm4GNTl+U2KhG1mKjzzYWKbxEd/i86GmE+VBUZpBSU2BYz1cQx9cGu+5+tOLf9Qu/4XRGxGCtErJJfRzp5hXIxnsVTk1R/z5yaqLivl746LP41H6prbcyPqLUUQemLkhNpVY0sPg38kFioEGXZspTs+9Lrs1cYYkwIbPple2txRBuiQ59LuwbbdlLgpjAfoLa0b5hwr7E6KtodhZCBZfZBpAy2EMEdunUIB344gBEY8l1p++iMsnVAh96UsqNVwMUArW9SvBTC4yTLSuJZKpts5SbrOpfVxEtmau7/OKq0berGa5SJS6Gt1npVJUarbB+/Zwbs0c7bYTuY4nZotR2Kcv/3a1Pp7L1i9NbJ2PTapDX98r5UPmOXqnfXfGNwwN8wl7dJ+07jKkxvZylTvvkb7cR9QkUOwNiHISmjcbu5+JSze/oJyIJS0NsRAAA=</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>

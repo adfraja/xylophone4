@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="NPI_SellingPackageDim_Initate" ShowInWorkbench="false" ManuallySorted="false" Referenced="true" ParentID="ISN_WebUI_Att_Group">
+            <Name QualifierID="en-US">Selling Package Dimensions</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">ISN WebUI screens</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

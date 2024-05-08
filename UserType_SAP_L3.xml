@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SAP_L3" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SAP Level 3</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zsAg63NNzu92ToLv8tVbFyzfph50pWni3ofPfyn6Xf/w+Y+i77XGiXtr+w6wW5yziL/mkXVRw/t0QXJATO09Tttrim4n0xtPNpWnV0597pByXdrporTrxUXL1h/etSSi4sLh818+fv7DbXOF3fKcUejZtMaThkGnXROPyNked0y+ahZ1UcnvumvGZc/sy4HFFxSCbnFYX+ycfSGx+mT5lGehZRcrssML2k9+/PLHOuJUdOWp5dOrDaJvBhade/76p1ncrenzNq/fuK135k794Msv3/6Q9LplFnulffKupy9/RJWd23nstYr3ORWPk6Hll5PrTndO2jlp7v6C9HCr6AvzluyavWjj8lXrSluO7Dj0uHP+04aZz6bP3+qWc2XyvB2T5m6bPHtbSPZBt+w7/GbnIqseSttfsAo7GFd9rrhjv7j1sYopz0XMjlvGXVF1P94zc0fTpL3Nk/bqhV/UD7vIaXOTw/Lioxc/Nf3PqgddU/C9rOx78dC5L72zDjRXZjx69mXBsm0q7ier82P7Zu9KrDi+7+SrkNILRuFXAgsuGwUeMQ67MHne/vlLtlrEnFP0OaUScv3hi59qAZfZrS6o+F5cu+PWunVrV+54q+x2PK/52I+P9/yKLnctfMpvck7P/3h9Udy8JZuXb7srYH62aeKejKZTGXG+XNY3TaMuPHz6pWrq877mgumL9sg5nK7oPGkSfZnf5HTjpL3ZcT7H9i6ftvKBccTpo+ffhZWdO7hrZXFaMLv5Oa2Ac/M2PHz9/ruw2fGijiOqwTdZdc+VTnxuEn6hd9ZOn6zTK3c8Ebc+peh2WsPn7KkDy9mtzumGXOmduT+z+ZR21D0O6wscphdMok7/+/fv////DIMYKP5kAdM6IAKUJxg4/jOoanIveyXKnsohrBXCxsmrKZxgxMBo4iHOJe1fURAYlsHQaFN24sGqklPdy6L2nVEJPnYksF83aErAhcksnjLeTYc+BJmlOovo2q8TyHbKEGHUYK6ZEiSWybuKlUdCxyChwWNWbKTBxQC1Y2FqUaIWotWN6Tc3uWX90An8ln5kjcK6lJIPl7nZRAOSzSQDlz06tkqWX27NjCNO7quVG38lBJSxcS9V4pPh+ZmyrY3FWdVFY/LUw1xzmFhFHBsY3lxsT1zmofG7VPtKIwOjwIXAAy+ObNI7dkvjcsMLJyWGA7ZTZgarOnJZ5kzhzBQ8/GaT1U4hHesProxMYacm7KwU1m7ZwMYrJitVbMjYstz5lEvkjccqTQ0hc1lcGkwfX5KVYWRksAYArmcQET0EAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="SAP_L2"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

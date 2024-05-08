@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="SmartsheetTemplateProduct" Inherited="true" Accumulated="false" Revised="true" Mandatory="false" MultiValued="false">
+            <Name QualifierID="std.lang.all">Smartsheet Template Product</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;SmartsheetTemplateProduct
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Smartsheet Template Product
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;SmartsheetTemplateProduct
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Smartsheet Template Product
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;SmartsheetTemplateProduct
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Smartsheet Template Product
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;SmartsheetTemplateProduct
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Smartsheet Template Product
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;SmartsheetTemplateProduct
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Smartsheet Template Product
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <TargetUserTypeLink UserTypeID="BusinessUnitRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="BuySideRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Case"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="DiscontinuedProducts"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExternalItem"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExternalItemGoldenRecord"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExternalItemGoldenRecords"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExternalProducts"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Level1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Level2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Level3"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Level4"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="OverrideLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="OverrideLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Pack"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PackagingHierarchyRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Pallet"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Product user-type root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ProductOverrides"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Products"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SalesItem"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SalesItemFamily"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SellSideRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="std.AdaptorType"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

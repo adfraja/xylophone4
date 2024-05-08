@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ClassificationProductLinkType ID="SupplierLink" Inherited="true" Accumulated="true" DefinesValidAttributes="true" IgnoreLOVFilters="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name>Supplier Link</Name>
+            <AttributeGroupLink AttributeGroupID="SupplierClassify"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplierLink"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="SalesItem"></UserTypeLink>
+            <UserTypeLink UserTypeID="SalesItemFamily"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierProducts"></TargetUserTypeLink>
+        </ClassificationProductLinkType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

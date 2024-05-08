@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;multisep/&gt;"></Tag>
+        <CharacterTag ID="multisep" ParentID="Character tag root" Tag="multisep" GuiRendering="/">
+            <Formatting Format="InDesign">&lt;0x000D&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

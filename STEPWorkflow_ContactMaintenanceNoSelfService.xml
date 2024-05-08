@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ContactMaintenanceNoSelfService" Referenced="true">
+            <BusinessRuleLink ID="ConditionalContactAssign"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsNotSalesProcurement"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Contact Maintenance (Centralized No Self Service)</Name>
+            <ValidUserTypeLink UserTypeID="ContactPerson"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAI1U3WvbMBB/71+hmb0qdj6cj2EHSmAQ2NrSUPYwRlHscyImS0aS7WZ//c6ynSxZQ/NicdKd7vdxFiutWktuObPwKFcacI0zJgxEphDcLuENktLCJtG8sN94zi2kT5pXXMAOzFmq4MaCfJTrvFDagn4p0svbTPKWizhyC+Gur4i9FoDwiGQ5xN5KScsS+51xifcxmcCD2oDINqArnoBHKtCGKxl7wWDhEbxKmtjbW1t88f26rgf1eKD0zh8FQegHM99185bRJ0oJIVKlQA3/A5TJlBbKYG8lyVscDAJycN86nk7muO7jcN7EhNLlHYmQDcuxWmDQRoSnDXrkKpkgK5XnIC128pvD5V27diV4ATOG7ySAK/uclFo36cQeCmRdGtBNaZ/kKoxFBUnKTYKacFkCFjo9va71mXB9+CHV0bglO2vZDsPAsZ2cyJLIaia7gm1puATTgEjdTtMbAzqC6ZQlyZROhwtGJ4t5QNk2S+h4CNssXKABDA2CCmnG3n1RaFUhcsv0Dk4b6REvpDugBbN78rM/+0UQbovvEC+a5RSOZj3eyD+hbXT7GP2qFf8FRV+bB2U3TIB50gpNAWdij3pTbnHmXzOlX5+h4lCf8F/WdOcXaCLfmejszHgzJ1ftPArS+fmfQNcNnXSShJ2j43ccVRJB6sNREPzHOjWeIcc+X7XKfyj9OxPKsejyGwoO+C0TeUWTjpA7JT75J4EcVbtxZofh+dBOb6O46t1nontf7t2Pdkb0YnJuGNz3rY7aN2fZvXp/AZksLbBlBQAA</Configuration>
+            <LocalBusinessRule ID="con-2e66acc6-619a-4980-abfc-31ebf59200a9" Scope="Local" Type="Condition" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAAI2RQWsDIRCF7/kVMves7S0HNZCGQqClIU3PiySzYnFV1A3tv68bN9KlFHKcz3lvxjfeDErbVnpvNMZWd+3J2U4rFjNIwpfnwjhbf/WGXDBE7SyHx+YBCNqTO2urOHwcn5crWIsF2wxRW4zxMBgUC0Iq2F/tyO/3gnZbDm/hxp+cPeuUZ8Cozvq9DLLHlAcXkNGLjomMsj+iCOT47ZHDp7zIZkjaNGMz0Hu0G+cMyn89bhaTyS5hLzppIjJa6/tbCqlV/eV1twOmIdjXvJ1UOFvHSKua9xRy6iAYrbIpLDpPi9F5+vk+dH6g6dY/y3YArwsCAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

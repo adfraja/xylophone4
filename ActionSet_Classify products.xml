@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Classify products" Type="user">
+            <ActionLink ActionID="Classify product"></ActionLink>
+            <ActionLink ActionID="Declassify product"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

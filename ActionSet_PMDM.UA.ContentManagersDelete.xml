@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.ContentManagersDelete" Type="user">
+            <Name>Content Managers, Delete</Name>
+            <ActionLink ActionID="Delete Collection Group"></ActionLink>
+            <ActionLink ActionID="Delete Collection"></ActionLink>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete asset"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

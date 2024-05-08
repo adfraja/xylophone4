@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="DnBOrganizationIdentification" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="DnBOrganizationIdentification [id]">
+            <Name>DnBOrganizationIdentification</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationIdentification
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="DnBRecordAttributes"></AttributeGroupLink>
+            <AttributeLink AttributeID="DnBDisplaySequence"></AttributeLink>
+            <AttributeLink AttributeID="DnBFilingOrganizationName"></AttributeLink>
+            <AttributeLink AttributeID="DnBOrgIdentificationStartDate"></AttributeLink>
+            <AttributeLink AttributeID="DnBOrganizationIdentificationNumber"></AttributeLink>
+            <AttributeLink AttributeID="DnBOrganizationIdentificationNumberType"></AttributeLink>
+            <AttributeLink AttributeID="DnBRegistrationIssuerName"></AttributeLink>
+            <AttributeLink AttributeID="DnBRegistrationLocation"></AttributeLink>
+            <UserTypeLink UserTypeID="DnBOrganization"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

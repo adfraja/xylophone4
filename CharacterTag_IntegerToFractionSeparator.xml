@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;IntegerToFractionSeparator/&gt;"></Tag>
+        <CharacterTag ID="IntegerToFractionSeparator" ParentID="Character tag root" Tag="IntegerToFractionSeparator" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAPPMK0lNTy0KyXcrSkwuyczPC04tSCxKLMkv0tE1REee6Xn5RakwyiczPaPEvSixUqc4My89J7UkP0/HAAjzSnNydIC0DgClzaD9XAAAAA==</Configuration>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

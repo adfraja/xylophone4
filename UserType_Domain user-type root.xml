@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Domain user-type root" Referenced="true">
+            <Name>Domains</Name>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="Domain user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="List Of Values group type"></UserTypeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="AttributeHelpText"></AttributeLink>
+            <AttributeLink AttributeID="EclassDescription"></AttributeLink>
+            <AttributeLink AttributeID="EclassID"></AttributeLink>
+            <AttributeLink AttributeID="EclassImportVersion"></AttributeLink>
+            <AttributeLink AttributeID="EclassNote"></AttributeLink>
+            <AttributeLink AttributeID="EclassPrimaryKey"></AttributeLink>
+            <AttributeLink AttributeID="EclassRemark"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

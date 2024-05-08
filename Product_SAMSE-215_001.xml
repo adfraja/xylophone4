@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SAMSE-215_001" UserTypeID="drak_sku" ParentID="SAMSE-215">
+            <Name>SAMSE-215_001</Name>
+            <Values>
+                <Value AttributeID="draj_general">Without Reference</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

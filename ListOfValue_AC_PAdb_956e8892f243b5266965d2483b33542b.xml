@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PAdb_956e8892f243b5266965d2483b33542b" ParentID="AC_PAdb_LOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">AC_PAdb_All;Cog;Cogged;Flat;Grooved;No;Rib;Serpentine;Toothed;V;V Belt;V-belt;Yes_LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_956e8892f243b5266965d2483b33542b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;AC_PAdb_All;Cog;Cogged;Flat;Grooved;No;Rib;Serpentine;Toothed;V;V Belt;V-belt;Yes_LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_956e8892f243b5266965d2483b33542b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_956e8892f243b5266965d2483b33542b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_956e8892f243b5266965d2483b33542b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_956e8892f243b5266965d2483b33542b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="ALL">
+                <Value>All</Value>
+            </ValueGroup>
+            <ValueGroup ID="COG">
+                <Value>Cog</Value>
+            </ValueGroup>
+            <ValueGroup ID="COGGED">
+                <Value>Cogged</Value>
+            </ValueGroup>
+            <ValueGroup ID="FLAT">
+                <Value>Flat</Value>
+            </ValueGroup>
+            <ValueGroup ID="GROOVED">
+                <Value>Grooved</Value>
+            </ValueGroup>
+            <ValueGroup ID="NO">
+                <Value>No</Value>
+            </ValueGroup>
+            <ValueGroup ID="RIB">
+                <Value>Rib</Value>
+            </ValueGroup>
+            <ValueGroup ID="SERPENTINE">
+                <Value>Serpentine</Value>
+            </ValueGroup>
+            <ValueGroup ID="TOOTHED">
+                <Value>Toothed</Value>
+            </ValueGroup>
+            <ValueGroup ID="V">
+                <Value>V</Value>
+            </ValueGroup>
+            <ValueGroup ID="V-BELT">
+                <Value>V-belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="V_BELT">
+                <Value>V Belt</Value>
+            </ValueGroup>
+            <ValueGroup ID="YES">
+                <Value>Yes</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

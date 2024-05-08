@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Item_Header" ShowInWorkbench="true" ManuallySorted="true" Referenced="true" ParentID="ISN_AttributeGroup">
+            <Name QualifierID="en-US">Item Header</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="AC_PIES_EXPIOSP"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMPartNumber"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPILTM"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPICTO"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMItemLevelGTIN"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPIHTS"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

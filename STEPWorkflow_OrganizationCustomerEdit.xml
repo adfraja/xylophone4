@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="OrganizationCustomerEdit" Referenced="true">
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsSales"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Organization Customer Maintenance (Centralized)</Name>
+            <ValidUserTypeLink UserTypeID="OrganizationCustomer"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJ1V32/aMBB+71/hWXsNCVAonWKkjnUS0iqmomoP01S5yRGsJrZlO/zoX1/bSUhbaAt74XSXO99333c2tDRiyplh1MCMTxRYSxY01xBrmTMzhg0kpYF5opg0v1jBDKS/FVuxHDLQxKiyycyZNsBnfFpIoQyoO5m+PUwnmyInsTeI+bY5wdcpMzciBYw4LYDgmcooZ0/UMMEnpTaiAOVyMFqB0jZIcNS5xMgewjXBS2PktzBcr9eddb8jVBb2omgQRheh74PH8ZcgQAhx2yLQ7AkCytNACs1cA7QhUSdCW/+7JsPzkbVLMri4tBYFwfgMxXYOWtjq3DqVh1hK8JTbKTnN0UQUBXBjO4Xu4/issnWJPYBqzTIO4Mu+JqVSLh2ZrbTjlhqUK22SfIU2ljuUMp0IbhgvwRZ6JrE/4y1lzkc+8Om0vWE176gauNuL/MDn0W5eFBtFeV3wUGrGQTscqY+49pNqgjuLfKrnNAeNEaxshOB5+VA4qQxVGThfQmJVtrtxJaUSK9oKAmkGgaRmif7uZ/1DFuugW2HtRs62fm/QoI3DFqsj7hX29yA5wLewYrDGBw44Uaw49Fodo9rLxrVwPoR2YI7Urjs8TrxTNPmYB4/T6a0bJjIlSvn/VOxDaBjZfUF7G/MpMb3+aVtNk2alq15w5QO7ba6jLXXXPD3E1T7n32nyeG/EfX07Du/e/j1oP/sL0B29XPjWr+zhC/BKt5sfNy2hp+i3YO5le/8Bsjw0b4+n5EiB+tEHAgluqVPbA+rcQmFl+KlE8Ueox0Uu/M2t8x1wD9dP4N78cf1/8wyGxlMF3gYAAA==</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

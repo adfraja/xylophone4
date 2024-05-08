@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start=" "></Tag>
+        <SpecialCharacterTag ID="00A0" ParentID="SpecialCharacter tag root">
+            <Formatting Format="HTML3">&amp;nbsp;</Formatting>
+            <Formatting Format="InDesign">&lt;0x00A0&gt;</Formatting>
+        </SpecialCharacterTag>
+    </TagList>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="CompletenessMetric">
+            <Name>Completeness Metric</Name>
+            <UserTypeLink UserTypeID="CompletenessMetrics"></UserTypeLink>
+            <UserTypeLink UserTypeID="Metrics"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

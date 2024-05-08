@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="100320" UserTypeID="Level4" ParentID="100306">
+            <Name>Level4_101</Name>
+            <Values>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">100320</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">100320</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">100320</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">100320</Value>
+                    <Value Derived="true" DerivedContextID="GL">100320</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="asset.creator" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">asset.creator</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="GL">asset.creator</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="GL">asset.creator</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;asset.creator
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="GL">asset.creator</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="GL">asset.creator</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">asset.creator</Value>
+                    <Value Derived="true" DerivedContextID="GL">asset.creator</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Uncategorized"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Configuration"></UserTypeLink>
+            <UserTypeLink UserTypeID="EPSImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="EUMDRrepresentativeaddressicon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Icon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustration"></UserTypeLink>
+            <UserTypeLink UserTypeID="Logo"></UserTypeLink>
+            <UserTypeLink UserTypeID="MSDS"></UserTypeLink>
+            <UserTypeLink UserTypeID="OwnersManual"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductImage"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

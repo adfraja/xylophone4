@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Other Attributes" ShowInWorkbench="true" ManuallySorted="false">
+            <Name QualifierID="en-US">Publication Attributes (restricted)</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Attribute Description">Please do not translate the attribute grouping name! Just the attributes should be translated.</Value>
+            </MetaData>
+            <Configuration>H4sIAAAAAAAAAH1QQQ6CQAy884rNPkD0DiQIaki4abiSBQpphIVsuzH+XhCBi+HWaWfamXohs8HCMtxMb4cM4RVDjRoZey2uvekUZ2BoRL48HY4ycITwNgqJhzIN8LqGIqXPcKmQofJlrVoC6X5FUd/aTtNUjyikAUqee2IGvkzimTvNl4ULZcFJPPI61UAeqWGykJ9WUYr6uSu8s2JLIsUSdAnbsX9mMiQssEV+/wK4awLP3Xtb4HwAliJwvFYBAAA=</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

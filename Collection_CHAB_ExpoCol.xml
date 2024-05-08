@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="CHAB_ExpoCol" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3dCHAB_L2102503&amp;search0.2=ValueCriteria&amp;args0.2=IncludeDataContainers%3dno%2csearchString%3dCHAB+ED+Check%c2%a0%28CHAB_ED_Check%29%253DEnable%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;args0.1=nodetype%3dproduct%2cobjecttype%3dCHAB_L3&amp;search0.0=BelowCriteria&amp;search0.1=ObjectTypeCriteria">
+            <Name>CHAB ExpoCol</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

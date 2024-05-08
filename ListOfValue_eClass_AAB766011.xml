@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB766011" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Material</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB766011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB766011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB766011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB766011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB766011
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Material
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB766</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB766011</Value>
+            </MetaData>
+            <ValueGroup ID="AAA354002">
+                <Value QualifierID="std.lang.all">Wood</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA446004">
+                <Value QualifierID="std.lang.all">Iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA877006">
+                <Value QualifierID="std.lang.all">Metal film</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC448002">
+                <Value QualifierID="std.lang.all">Real glas</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB011002">
+                <Value QualifierID="std.lang.all">Sheet steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB069002">
+                <Value QualifierID="std.lang.all">Thermoplast</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB410004">
+                <Value QualifierID="std.lang.all">Miscellaneous</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC038003">
+                <Value QualifierID="std.lang.all">Aluminum+lacquer</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC157005">
+                <Value QualifierID="std.lang.all">Manmade fiber</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC367004">
+                <Value QualifierID="std.lang.all">Housing: cast iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC368004">
+                <Value QualifierID="std.lang.all">Housing: cast light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC369004">
+                <Value QualifierID="std.lang.all">Housing: cast light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC370004">
+                <Value QualifierID="std.lang.all">Housing: cast brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC492002">
+                <Value QualifierID="std.lang.all">Box/rotating lever: stainless steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC493002">
+                <Value QualifierID="std.lang.all">Box/rotating lever: cast light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC494002">
+                <Value QualifierID="std.lang.all">Box/pressure plate: cast light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC495002">
+                <Value QualifierID="std.lang.all">Box/lever handle: cast light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC555004">
+                <Value QualifierID="std.lang.all">Light metal cast</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC596004">
+                <Value QualifierID="std.lang.all">Material combinations</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC880003">
+                <Value QualifierID="std.lang.all">Check plate: steel, galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC896002">
+                <Value QualifierID="std.lang.all">Steel, plastic-coated</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC903002">
+                <Value QualifierID="std.lang.all">Steel parts: stainless steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC983003">
+                <Value QualifierID="std.lang.all">Connecting rod: steel, galvanized</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD090004">
+                <Value QualifierID="std.lang.all">Ornamental sleeve made from plastic</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD091004">
+                <Value QualifierID="std.lang.all">Ornamental sleeve made from light metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD092004">
+                <Value QualifierID="std.lang.all">Ornamental sleeve made from brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA132002">
+                <Value QualifierID="std.lang.all">Stone</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA108003">
+                <Value QualifierID="std.lang.all">Steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA109002">
+                <Value QualifierID="std.lang.all">Stainless steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA113005">
+                <Value QualifierID="std.lang.all">Plastic</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA114004">
+                <Value QualifierID="std.lang.all">Glass</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA006005">
+                <Value QualifierID="std.lang.all">Brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA007005">
+                <Value QualifierID="std.lang.all">Bronze</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA009002">
+                <Value QualifierID="std.lang.all">Cast iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA010003">
+                <Value QualifierID="std.lang.all">aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA151002">
+                <Value QualifierID="std.lang.all">White malleable cast iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA208006">
+                <Value QualifierID="std.lang.all">Porcelain</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA279005">
+                <Value QualifierID="std.lang.all">Zink print cast</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

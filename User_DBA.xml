@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="DBA" ForceAuthentication="true">
+            <Name>DBA</Name>
+            <MetaData>
+                <Value AttributeID="UserInformation">Stibo standard user</Value>
+            </MetaData>
+            <UserGroupLink UserGroupID="Stibo"></UserGroupLink>
+            <UserGroupLink UserGroupID="Super user"></UserGroupLink>
+            <SystemSetup>
+                <SystemSetupValue Type="UserSet" Name="CurrentContext">GL</SystemSetupValue>
+                <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">ENG SUB</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabAssetImpl">Images &amp; Documents</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabAttributeImpl">Validity</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabClassificationImpl">Images &amp; Documents</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabMultiAssetImpl">Multi Editor</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabProductImpl">Product</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentWorkspace">Main</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorClassificationsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedExceptionsDialogDetailsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedExtraProcessEditorAuditFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProcessEditorReportFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedQueueReportFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedproductLinksFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="MainDividerPosition">325</SystemSetupValue>
+                <SystemSetupValue Type="LOCALESETT" Name="ORACLELOCALE">WEST_EUROPEAN</SystemSetupValue>
+                <SystemSetupValue Type="CLASSSET" Name="PRIMCLASS">Product hierarchy root</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="WindowPosSize">111,71,1088,771</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

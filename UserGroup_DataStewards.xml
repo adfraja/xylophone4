@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="DataStewards" ReadOnly="false">
+            <Name>Data Stewards</Name>
+            <PrivilegeRule ActionSetID="DataSteward"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardApprove" ProductID="I-Products" UserTypeID="SalesItem"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardApprove" ProductID="I-Products" UserTypeID="SalesItemFamily"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardClassify" ProductID="I-Products" UserTypeID="SalesItem"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardClassify" ProductID="I-Products" UserTypeID="SalesItemFamily"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardCreate" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardCreate" ProductID="I-Products" UserTypeID="SalesItem"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardCreate" ProductID="I-Products" UserTypeID="SalesItemFamily"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardDelete" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardDelete" ProductID="I-Products" UserTypeID="SalesItem"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardDelete" ProductID="I-Products" UserTypeID="SalesItemFamily"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" ProductID="I-Products" UserTypeID="Level3"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" ProductID="I-Products" UserTypeID="SalesItem"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" ProductID="I-Products" UserTypeID="SalesItemFamily"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" ClassificationID="AssetsRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" ClassificationID="ConfigurationsRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" ClassificationID="Websites"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" EntityID="CustomerDataRoot"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" ProductID="I-Products"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

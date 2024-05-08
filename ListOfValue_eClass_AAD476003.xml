@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD476003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">insert mounting style code_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD476003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;insert mounting style code_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD476003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;insert mounting style code_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD476003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;insert mounting style code_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD476003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;insert mounting style code_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD476003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;insert mounting style code_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD476</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD476003</Value>
+            </MetaData>
+            <ValueGroup ID="AAR596002">
+                <Value QualifierID="std.lang.all">with countersunk hole for screws with 40° - 60° head angle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR597002">
+                <Value QualifierID="std.lang.all">rectangular</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR598002">
+                <Value QualifierID="std.lang.all">with countersunk hole for screws with 70° - 90° head angle</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR599002">
+                <Value QualifierID="std.lang.all">without fixing hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR600002">
+                <Value QualifierID="std.lang.all">prismatic clamp, concave</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR601002">
+                <Value QualifierID="std.lang.all">prismatic clamp, convex</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR602002">
+                <Value QualifierID="std.lang.all">special clamp, e.g. notch clamp</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR603002">
+                <Value QualifierID="std.lang.all">with cylindrical hole</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

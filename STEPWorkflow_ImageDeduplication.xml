@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ImageDeduplication" Referenced="true">
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Image Deduplication</Name>
+            <ValidUserTypeLink UserTypeID="Applicablemarkicon"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Asset user-type root"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="AutoClassificationRuleSet"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="BMP Image"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="BusinessRuleExample"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Configuration"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="CustomerFile"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="DAM Asset"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="DEFAULT"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="EPSImage"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="EUMDRrepresentativeaddressicon"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="GIF Image"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="HTML"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Icon"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Illustration"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Illustrator File"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="InDesign File"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="InstallationManual"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="JPG Image"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Logo"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="MSDS"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Manual"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="OwnersManual"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="PDF"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="PNG Image"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="PPT"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="ProductImage"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="ProductVideo"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="QXD"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="RTF"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="RuleSet"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="STEPdirector"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="SpecificationDocument"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="TIFFImage"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Thumbnail"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="TrainingMaterial"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="UTF8"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="WORD"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="XLS"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="XML"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="ZIP"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAI1TwW6cMBS85ytcq1cvLIXNUmEuSQ4rVUrVVT/A2G/Jk8Ag2yy7/frahiRKlba58Pwsz7yZsRGTGw4aHQoHj/rOgK/8JDoLlR07dDVcQE4OjtLg6L5hjw7Ud4Nn7KAF++Zoh9aBftSHfhyMA/NzVH+yWXnpO17FQjDO7Ti968CgFN0POCPMlGjRA6eHXrRwD2rySCkcDpqSMxjrF5ymm5IST6Itp0/OjV+TZJ7nzfxlM5g2ydK0SNLbJM6hdfWJMUKIHhQwi7+ACa3YOFgMpOTC001KrvE7812+9/WJF/vQE8bqG1J5H6L36M43S0eEcwYbn8x7Qh+MGYylBBWn67qukoCrbz7GcL8u4Qhu4Xmz88K21FWbVyqsxVYDRMhnORkD2hO46+jHTBZMgD4figjrPCdRaOWgHeoJPDBe2TL2/bt53iXr9n8jzool5G22xLxN0xhzVrykTCpnhF4RcPa6OT1OjX9xXr8wLfj+Qatg4PVgSCA6iF5OqL2mv3oJ6NXAQvRB0Vn5D9GD9krNlTSTRQ3WChnQYZyQmp22Su6KZsdUrhTLy7Jhzb7MWZoqkYvdfqe2t8HRyhLsRBPRV3i99frn/AamVFoLqQMAAA==</Configuration>
+            <LocalBusinessRule ID="acn-f1dc65b6-d4dd-499b-b894-00da4a686d17" Scope="Local" Type="Action" RunPrivileged="true">
+                <Name>Remove Object from Workflow</Name>
+                <Configuration>H4sIAAAAAAAAAHWQy27CMBBF93yF5X2TdteFHdSCkFggEFB1GbnOxDL1S7YT2r/vhLQoqGJ7rubM1Q2mU9rVIgSjIdW6raV3rVYsIchVGOORcTb/sob0EJP2jtOn4pEScNI32ilO346rh2c6r2bstUvaQUr7zkA1I+QKdhcdmeYjWi853YP1PWw/TiDzKnr77uNna/z5RWZ8RwcRqnYiCgsZO4xgisig+Tuj5PgdgNOT6EVhhFPFIUcsSitWXi/uODZYTii4r1hbjMkSmg5nkmIoSBbeBoOK5p9/Ai6tWXk7CE5W3m72O/8PUaVljp4BAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ConfigurationSystem" IDPattern="[id]">
+            <Name>Configuration System</Name>
+            <UserTypeLink UserTypeID="ConfigurationType"></UserTypeLink>
+            <AttributeLink AttributeID="AddressTypeaheadEntityReferences"></AttributeLink>
+            <AttributeLink AttributeID="AddressTypeaheadSystem"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

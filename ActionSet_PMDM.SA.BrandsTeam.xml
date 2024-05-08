@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.SA.BrandsTeam" Type="setup">
+            <Name>Brands Team Setup Actions</Name>
+            <ActionLink ActionID="Access Web UI"></ActionLink>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Disable STEP Workflow Auto-initiation in"></ActionLink>
+            <ActionLink ActionID="Enable Value Search/Values in typeahead"></ActionLink>
+            <ActionLink ActionID="Initiate Item in STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Maintain event queues"></ActionLink>
+            <ActionLink ActionID="Perform Bulk Update"></ActionLink>
+            <ActionLink ActionID="Re-Assign STEP Workflow Tasks"></ActionLink>
+            <ActionLink ActionID="Remove Item from STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Use tag"></ActionLink>
+            <ActionLink ActionID="View Administration"></ActionLink>
+            <ActionLink ActionID="View Background Processes of Other Users"></ActionLink>
+            <ActionLink ActionID="View Data Container Type"></ActionLink>
+            <ActionLink ActionID="View Integration Endpoint"></ActionLink>
+            <ActionLink ActionID="View STEP Workflow Advanced tab"></ActionLink>
+            <ActionLink ActionID="View STEP Workflow Profile"></ActionLink>
+            <ActionLink ActionID="View Setup Entity"></ActionLink>
+            <ActionLink ActionID="View and use STEP Workflow"></ActionLink>
+            <ActionLink ActionID="View attribute group"></ActionLink>
+            <ActionLink ActionID="View attribute"></ActionLink>
+            <ActionLink ActionID="View context"></ActionLink>
+            <ActionLink ActionID="View domain"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute"></ActionLink>
+            <ActionLink ActionID="View metadata for domain"></ActionLink>
+            <ActionLink ActionID="View setup group"></ActionLink>
+            <ActionLink ActionID="View unit"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="160673" ParentID="102100" QueryURL="step://search?args0.0=searchString%3dCountry%c2%a0%28InputCountry%29%253DUS%2cRegExp%3dno%2cMatchCase%3dno%2cDataContainerTypeIDs%3dMainAddressDataContainer&amp;args0.1=searchString%3dCountry%c2%a0%28InputCountry%29%253DUSA%2cRegExp%3dno%2cMatchCase%3dno%2cDataContainerTypeIDs%3dMainAddressDataContainer&amp;search0.0=DataContainerCriteria&amp;search0.1=DataContainerCriteria">
+            <Name>Marketing Campaign</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

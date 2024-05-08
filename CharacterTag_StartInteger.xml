@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;StartInteger/&gt;"></Tag>
+        <CharacterTag ID="StartInteger" ParentID="Character tag root" Tag="StartInteger" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAAsuSSwq8cwrSU1PLdLRNURHnul5+UWpMMonMz2jxL0osVKnODMvPSe1JD9PxwAI80pzcnSAtA4AtPgJ+k4AAAA=</Configuration>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

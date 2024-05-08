@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Accessory" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="L3-[id]">
+            <Name>Accessory</Name>
+            <UserTypeLink UserTypeID="Part"></UserTypeLink>
+            <AttributeLink AttributeID="Applicability10Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability11Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability12Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability13Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability14Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability15Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability1Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability2Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability3Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability4Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability5Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability6Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability7Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability8Calc"></AttributeLink>
+            <AttributeLink AttributeID="Applicability9Calc"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="TrimId1"></AttributeLink>
+            <AttributeLink AttributeID="TrimId10"></AttributeLink>
+            <AttributeLink AttributeID="TrimId11"></AttributeLink>
+            <AttributeLink AttributeID="TrimId12"></AttributeLink>
+            <AttributeLink AttributeID="TrimId13"></AttributeLink>
+            <AttributeLink AttributeID="TrimId14"></AttributeLink>
+            <AttributeLink AttributeID="TrimId15"></AttributeLink>
+            <AttributeLink AttributeID="TrimId2"></AttributeLink>
+            <AttributeLink AttributeID="TrimId3"></AttributeLink>
+            <AttributeLink AttributeID="TrimId4"></AttributeLink>
+            <AttributeLink AttributeID="TrimId5"></AttributeLink>
+            <AttributeLink AttributeID="TrimId6"></AttributeLink>
+            <AttributeLink AttributeID="TrimId7"></AttributeLink>
+            <AttributeLink AttributeID="TrimId8"></AttributeLink>
+            <AttributeLink AttributeID="TrimId9"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

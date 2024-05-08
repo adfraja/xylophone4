@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="SourceSystem" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
+            <Name QualifierID="en-US">Source System</Name>
+            <Configuration>H4sIAAAAAAAAAH2OywrCMBBF9/2KkA8wuk8K2qgUXKl0H5upDLaJTCb4+9YHceduDvfew+g1M+ElM+wp5nuH8LAwYEDGGMQu0uS4A0ozGblaLGVdCaF/lSTOjq7ARZMaFzaw9cjgjRzcmECq96iJY55Cet0zHTDcyugTicKtNfIUM/VwhD6Sb+3XoYpEq3+f19UT0UPULtkAAAA=</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

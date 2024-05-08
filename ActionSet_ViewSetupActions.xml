@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="ViewSetupActions" Type="setup">
+            <Name>View Setup Actions</Name>
+            <ActionLink ActionID="Access Web UI"></ActionLink>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Enable Value Search/Values in typeahead"></ActionLink>
+            <ActionLink ActionID="Maintain STEP Workflow Profile"></ActionLink>
+            <ActionLink ActionID="Remove Item from STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Run Reports"></ActionLink>
+            <ActionLink ActionID="STEP Workflow Administrator"></ActionLink>
+            <ActionLink ActionID="View Background Processes of Other Users"></ActionLink>
+            <ActionLink ActionID="View Data Container Type"></ActionLink>
+            <ActionLink ActionID="View Event Processor"></ActionLink>
+            <ActionLink ActionID="View GDSN Data Pool Publisher metadata"></ActionLink>
+            <ActionLink ActionID="View GDSN Data Pool Receiver metadata"></ActionLink>
+            <ActionLink ActionID="View GDSN Recipient meta-data"></ActionLink>
+            <ActionLink ActionID="View GDSN Subscription meta-data"></ActionLink>
+            <ActionLink ActionID="View Integration Endpoint"></ActionLink>
+            <ActionLink ActionID="View STEP Workflow Advanced tab"></ActionLink>
+            <ActionLink ActionID="View STEP Workflow Profile"></ActionLink>
+            <ActionLink ActionID="View System Setup Logs"></ActionLink>
+            <ActionLink ActionID="View and use STEP Workflow"></ActionLink>
+            <ActionLink ActionID="View attribute group"></ActionLink>
+            <ActionLink ActionID="View attribute"></ActionLink>
+            <ActionLink ActionID="View context"></ActionLink>
+            <ActionLink ActionID="View domain"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute"></ActionLink>
+            <ActionLink ActionID="View metadata for domain"></ActionLink>
+            <ActionLink ActionID="View setup group"></ActionLink>
+            <ActionLink ActionID="View table types"></ActionLink>
+            <ActionLink ActionID="View tasks assigned to other users in my"></ActionLink>
+            <ActionLink ActionID="View unit"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

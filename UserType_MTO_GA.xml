@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="MTO_GA" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>MTO Generic Article</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zsAQ9bLC4lGT5aMmxiPrmI6uYdgxifHwOvW7E12e1jAfncd8aBLDznmq5wUZds0zedjOLCvKsGNe8qtyBl5ujYvC/FcWM+zexKojl/emgunIGrbTK5mOLWfYvXj6h2SW4/OYDk1jOra1810aw541DHtWMsmI+z8r939WIn1rntE1aUZNFdendXxpbgy7FiudE2TYNpPz9HTGQ2uEry9i2L5I8sY80RuLvJ5Vy96cJHR9Oce5zfzNMXxzq8QmpzCZ64Y8L9S4P03jkrjYDaAtMxm2zWM+PI1xYqvq3T6mY+sYYwJFMxyYJtcwVRVwnl2U+zpb634f/5Xl/JcXMe2byehs6fy0mnH3dMYjm2Nf5gmXBbKfWcSUE8N+diXziZXyt2cqbSpiPraIeecM5pPrGLNiGfctYpYVc3naznh4DevpxbwX+liOL7a8qWh1S4n15HKmo8uZD01TOSfIcnzOxPfJrnc12GpT2XVk2E7MZGwuDn9Rwliewbh/Mee5lUz+ttK35ng9rTC7Ls12ok/7fhvDjjkMG+cJrW1iOraGaV5T5ItywSsze97F815eziIrzBxkn/zEyOFRDePuieEv6riKgkSvdLKfmSl1czrHmcVez9oY9mxim1rAdHQeEz8X04nNTNnxLLkxnOfmMR2dzn56ptjN5Z7PKhilxdn3z+G+uI711OLkV7n+zxtFyvwYDy5m0FBmP72I/dQilqMz2U7N0b4kyrB7ke69Ppenbe//7LZ61MS0Z5LAznbW45MYdi2yfNSof0Wc81Sn/v1pjE6Wdo/rPJ+1/fn3h2FYAMWfLGBaB0SA8gQDx3+GxK+PHrC5LIzjENZ6s9ThoHBkwpslJydwhaqIe+VZvDLVYGJgSBL7y3mJqWk+UxCXzaulGZ6ctoutKiOUVRylo2oKBF897eLi9+fw2PNItVOEwU1Q78mrUoWwBgY+GRYBhYRwERaTF19epDZ5anrvqwlVLEroXq/MFJTx0tS5XV/GnqG1cYq76xzn2pyTL1JPOCmri2iYbGR8fHANu2VWy6vSdBYZ38TayIVbmL3VXFLDvr5qeNQ1U8ejZuUh4UgmDcu9DQmfQp8fFoiPVeHwOvA0WChwr0/lT6HI63OCpbRWGjK1+qzXnM4hIPH5UEMj4wVDFq1DK8N7PLUVTDI2JDiuDZN26hBbsWHl9dnG6jU+CQfaWJs51+S9dZysocBgDQCU7lNDOQQAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="MTO"></UserTypeLink>
+            <UserTypeLink UserTypeID="SAP_MTO_ARCHIVE"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

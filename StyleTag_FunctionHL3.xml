@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;FunctionHL3&gt;" Stop="&lt;/FunctionHL3&gt;"></Tag>
+        <StyleTag ID="FunctionHL3" ParentID="Style tag root" Tag="FunctionHL3">
+            <Configuration>H4sIAAAAAAAAAHMrzUsuyczP8/Ax1jHU0UVFmel5+UWpOr6J6al5JYk6nhBuXn5JcWZeek5qSX6ejgEQ6oAwABIK/uVJAAAA</Configuration>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

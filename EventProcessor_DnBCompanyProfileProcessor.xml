@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="DnBCompanyProfileProcessor" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="DnBEventProcessors"></SetupGroupLink>
+            <Name>D&amp;B Detailed Company Profile Processor</Name>
+            <Configuration>H4sIAAAAAAAAAKVSyW7bMBC9+ysIovCtkt1DEdSyDGtBe4gbVUmXW0FTY4coTaocMrDz9aUWq7ED9VJeyBm+ebO9VKud2DvDrNBqGa2OB0mewGBj0XkwowQU15VQ+yV1dvf2hq7iSVRLtxeKiGpJ8ydQtjCaA6I2CUNIX1LSeEJIhOJQS2jxJWCtFYqthK8IhsZoof4Qhs4bKw/IknUUdvjr0IRZ/ngvnoHG89lsNgbL2AkfdAmWCdVWhzR+Nwb+4sB5vvxbUd6lY6ANO97Jqm8SsE0/hv2knRnSX0W9vxmLuhUKsACTfCz+3dw9f4TKSfixuf2Z5UWZp+uHPKPxVNrFxfKmv522C7/B7rGa7u1i0qD8QIwAbG1Czp4T4ZIh9mFcHwK0YqsDZ4UMsE9awU4o0aw1ONeRDa43Z5efuTlthHIWOjafpj/QfJ1L665wKCx8Wdnf/qOwU5t/YS2FjXNjtCmh1saC6X1FC0n/V8yJw2YRuOYNw6W0uxSv9HwZMsh527uNH0gra5Wk+lAzdfKEOyGhw4+t2Xdi4WgHOt7ZDVP/NR8L/a7NL6wZB0qUk3JJrfEKD69hXEvJLHzWlZfmFfLVyP8ArU40MSYEAAA=</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="2">
+                <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8voPb4cLBDpNJoPUMNJnE0LNib1wVWfLsSmng11e2JdzE7hBucJP2S++t3u6UCHQGVS2YhiS+3lci2AESVzIJv158CQOQuSq4LJPwIbs9vwqvJ2fxOrtZni9RFSbXqdwqrJi2GcEKSIkdpFJwCSvYUhJumSAIg1slhPqzsKWRF7A2G5fdR9zsa4V6Dsh3UEy1xlfX5CwI4mkDlFzUmr9AEt5zyStThcFcSd09MBOMiG953uLJVJtlgQBaGjZFo+nq+YpRWzzqqltm0X+oTWKqBdeTBhjfGA13XD5RhrwsLWJZHrs/RUt7LtQ04k3yR939BBQPEY/Lx8nhMDRIZS5MAUtmlaOdcJxYjoqe0LhUFrD/qbD4zgEZ5r+eB8r5wSoYGBeb35Dr7LmGb6hMbR2UxL1xZQRQi2nEdmAN+mM6T8IFlkzylxbjzJBWFaBnNyg1NDl0XW8GoF0bPrw8Yh/93qXi8sbWiq85Kh/3K81PR34H/btOolElvj7j3UO+3uOuM1REg7R2xY27HpkwQP42Z5rNLHlm24301qtx5K6denxPTxiKXjh2Mp6oZraT07pGZb/KhTxI/vF1ZGk3OE9doo+OwKW7q3a4tB2uZGwsXdRfFPXj0KgHAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

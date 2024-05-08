@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.SA.ContentManagMainAssetImportCon" Type="setup">
+            <Name>Content Managers Maintain Asset Import Configurations</Name>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Maintain Setup Entity"></ActionLink>
+            <ActionLink ActionID="View Setup Entity"></ActionLink>
+            <ActionLink ActionID="View setup group"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

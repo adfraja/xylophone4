@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;ft/&gt;"></Tag>
+        <CharacterTag ID="ft" ParentID="Character tag root" Tag="ft" GuiRendering="'">
+            <Formatting Format="HTML3">&lt;font face = "Symbol"&gt;&amp;#162&lt;/font&gt;</Formatting>
+            <Formatting Format="InDesign">′</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

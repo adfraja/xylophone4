@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="eng">
+            <DimensionPointLink DimensionPointID="eng"></DimensionPointLink>
+            <Context ID="EN All All" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="TestOrphanAttributeGroup" ShowInWorkbench="true" ManuallySorted="false" ParentID="Auto Test Attribute Group">
+            <Name QualifierID="eng">TestOrphanAttributeGroup</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

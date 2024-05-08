@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PPT" ReferenceTargetLockPolicy="Strict">
+            <Name>Powerpoint File</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgAC/xkYWlqAqOXYsWP/f3/4//8/wygYBSMDKP5kYWRgYGXQAXFAeYKBo4yBm0PGYcMCx0YObh6DAxsUnZuYmDkmeBQuamhnYxPZ8WJDIkMbgxPTj4jARYyMLEFSCgwPHrkwqyRapUh+XuI5RStyV0nEZEXfGTL5y1Q2bFrq223bXffmhIB64FzViedYGgoenprqPD9I9kRJ1tU1CcF5oRqb1txsYGCwBgDfhP8xmQMAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <MIMEType>application/vnd.ms-powerpoint</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

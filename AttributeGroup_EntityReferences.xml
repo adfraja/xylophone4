@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="EntityReferences" ShowInWorkbench="true" ManuallySorted="false" Referenced="true" ParentID="PartyData">
+            <Name QualifierID="en-US">Entity References</Name>
+            <Configuration>H4sIAAAAAAAAAH2OQQ6CMBBF95yimQNY3bckCGLcG/ZVBjMJtGRmGq8visGdu3k/7/+Mq1SZblnxzCnPHeGzwYEiKaVo2sRT0A5ZFvJw2O2hLIxxP0XMNfADdZuROsQjnnpS7D0MYRQE+ynVacxTlPe9UCUz3nXNzAoeLs3XtZvs7L8Py+IF55pqTcEAAAA=</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

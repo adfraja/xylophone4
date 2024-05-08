@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Publication root" ManuallySorted="false">
+            <Name>Publication types</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMLgtj5AOVzj////i6+vAJIMMKD4k4WRgYGFQQfEAallYDb02HXnn8Eph+yAbU2KuyQYBHlSZmYmr1yXcGpTw+9VH3lOl82+vEOW+cCCAgkJqdblKaqMDNYAkrigSGwAAAA=</Icon>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+            <AttributeLink AttributeID="PRINT_AppToAssyReferenceTypeID"></AttributeLink>
+            <AttributeLink AttributeID="PRINT_AssemblyYearObjectTypeID"></AttributeLink>
+            <AttributeLink AttributeID="PRINT_PartTypeLinkReferenceTypeID"></AttributeLink>
+            <AttributeLink AttributeID="PRINT_StructureMakeID"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

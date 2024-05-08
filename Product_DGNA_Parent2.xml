@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="DGNA_Parent2" UserTypeID="DGNA_Lev1" ParentID="Product hierarchy root">
+            <Name>DGNA_Parent2</Name>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

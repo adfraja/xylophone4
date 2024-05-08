@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="MOHR_SKU" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]" Referenced="true">
+            <Name>MOHR SKU</Name>
+            <UserTypeLink UserTypeID="MOHR_root"></UserTypeLink>
+            <AttributeLink AttributeID="MOHR_Desc"></AttributeLink>
+            <AttributeLink AttributeID="MOHR_LOV"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="Sysco_TestLOV"></AttributeLink>
+            <AttributeLink AttributeID="Sysco_TestLov2"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

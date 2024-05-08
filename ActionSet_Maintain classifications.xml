@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Maintain classifications" Type="user">
+            <ActionLink ActionID="Create classification reference"></ActionLink>
+            <ActionLink ActionID="Create classification"></ActionLink>
+            <ActionLink ActionID="Delete classification reference"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+            <ActionLink ActionID="Link (product) attribute into classifica"></ActionLink>
+            <ActionLink ActionID="Modify metadata for attribute to classif"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+            <ActionLink ActionID="Move classification from"></ActionLink>
+            <ActionLink ActionID="Move classification to"></ActionLink>
+            <ActionLink ActionID="Unlink (product) attribute from classifi"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

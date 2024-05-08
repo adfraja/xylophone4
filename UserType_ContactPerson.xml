@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="ContactPerson" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Workspace" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]" Referenced="true">
+            <Name>Contact Person</Name>
+            <Icon>H4sIAAAAAAAAAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMEGJOU//08EUpM9XRxDKuK29h/kPazA41r72mFms2iVSncJJ9/NDuf0E0w9D74I39wUwLksa98XVqb97Qq7tAsVt+W+12dWWH5CU2+OXfWavJPmO9YtT9BpdFgQ1CWW/kTM5MMUhZYDHa3F57Y+EVSYEFHAZSb4wjxC6f6BSOsr3Pbf14ax3LC/t9p7kQFDZSzr+o/lJRJbjbY7sFfLcs75G893fdXTye9UE3mBzmPwdPVzWeeU0AQA3x1NWMwAAAA=</Icon>
+            <UserTypeLink UserTypeID="ContactPersonRoot"></UserTypeLink>
+            <AttributeLink AttributeID="CalcAQI"></AttributeLink>
+            <AttributeLink AttributeID="CalcName"></AttributeLink>
+            <AttributeLink AttributeID="CalcNameCollection"></AttributeLink>
+            <AttributeLink AttributeID="DeactivatedRecord"></AttributeLink>
+            <AttributeLink AttributeID="EmailOptOutDate"></AttributeLink>
+            <AttributeLink AttributeID="EmailOptOutFlag"></AttributeLink>
+            <AttributeLink AttributeID="FirstName"></AttributeLink>
+            <AttributeLink AttributeID="GdprLastUpdateDate"></AttributeLink>
+            <AttributeLink AttributeID="GdprStatus"></AttributeLink>
+            <AttributeLink AttributeID="GetSimilarContactOrgID"></AttributeLink>
+            <AttributeLink AttributeID="InternalComment"></AttributeLink>
+            <AttributeLink AttributeID="JobTitle"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateName"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateOrgRef"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateRecord"></AttributeLink>
+            <AttributeLink AttributeID="LastName"></AttributeLink>
+            <AttributeLink AttributeID="MatchingDataSource"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

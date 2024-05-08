@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="BusinessUnitRoot" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Business Unit Root</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGBYxMKw//5/ILCPr6/fD2IwwIDiTxZGBgYWBh0QB6SWgVnHY9edfwZejqsDtvEJVDEwK/KkzMxMXrmO+ei+XK7V73xOl82ZvSP2/f47mRmeDAzWAADZTF9nAAAA</Icon>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="Text_Number2"></AttributeLink>
+            <AttributeLink AttributeID="Test_ISODATE3"></AttributeLink>
+            <AttributeLink AttributeID="Test_LOV4"></AttributeLink>
+            <AttributeLink AttributeID="Desc_2"></AttributeLink>
+            <AttributeLink AttributeID="Text_Test1"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

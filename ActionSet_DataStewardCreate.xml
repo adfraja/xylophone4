@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataStewardCreate" Type="user">
+            <Name>Data Steward, Create</Name>
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Classify product"></ActionLink>
+            <ActionLink ActionID="Create Collection"></ActionLink>
+            <ActionLink ActionID="Create Version"></ActionLink>
+            <ActionLink ActionID="Create asset reference"></ActionLink>
+            <ActionLink ActionID="Create asset"></ActionLink>
+            <ActionLink ActionID="Create classification reference"></ActionLink>
+            <ActionLink ActionID="Create classification"></ActionLink>
+            <ActionLink ActionID="Create context reference"></ActionLink>
+            <ActionLink ActionID="Create data container"></ActionLink>
+            <ActionLink ActionID="Create entity reference"></ActionLink>
+            <ActionLink ActionID="Create entity"></ActionLink>
+            <ActionLink ActionID="Create product reference"></ActionLink>
+            <ActionLink ActionID="Create product"></ActionLink>
+            <ActionLink ActionID="Supplier Web UI functions"></ActionLink>
+            <ActionLink ActionID="Upload to asset"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

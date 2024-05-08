@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Manual" ReferenceTargetLockPolicy="Strict" IDPattern="Manual-[id]">
+            <Name>Manual</Name>
+            <Icon>H4sIAAAAAAAAAJ1TT2jTUBiPDGSMzX/oYYIQM/APs8lLlqRNWDfXJnWFtda2uIIeliava1iTF5M3m+00RQ8DhZ0EbzsMvIngZSI63Ulvgid38riboochwurL1k6RMcEP3p/ve9/v+773/Vks5K/09ZzuoSiqLzuuFcl5LFrdXWS/EDtaIkc/1iu4hGq4afiQGrNQFdJZx5iGRWhYc7few2GK6qrZ5Qqu5CZUEzmsEemwoeNREQ2Php5hzkBMV+G07SaZLy/XGNq2ksyklAM5Lw3r9vi8D0vz+bI5P2MqFjM6Qg+HKjHgQGzQodNwAzVMMjt2VXKPxBxD76jgmSSzG1QlV6DTyIe0xIKYCWSelkWWF4EiKpdoAfCA4wUOxGM8UKW4Cni6TQzx5ls1tahl2r4Il2TqGHsqxzWbTbY5xCJ/muMVReGAwAlCjGjEgjkXG2HMDQY6FjQYmL7tYRu5dMQbVTSLkwzT+YLj5XJ7ht2gnSiSMi40PI5nAec4XEc7wEVYO1g7KM95kCvCAM36JqlHbeAPVwdDI0USjXrVt0lRjIaGzFkHujirJRnywlq2pYoiGAJSRpYkWddFnldkSdeUMSHOi+mEBtIdG/thE5IoxNNCRtYlmed1MQWGZE1QEmJcSSTklNbBZt0AG64JO1j7N1Y/EKumfWhg5JcRanQ6oFBHGAV15NHpksTy9KTtWqgZROVpRwp9+za0Mj5y6J38qvY+/v/9712s9T8540gw3F/N0hGRDoyue61PmL3hgS6ZGJ+MxvcX4CEZqxOFibJOCctUf2Hh8YdWq0UalewTeClFXg/jYr7Uioh6vrayRiT5rDZWDjduLl078gZ0py4Obq19a2yei22/+vrg+PrmeOrOj8THBf316tvNytnt3sHzl0/2Pqq+u77a/alna2W9tHjmhr388xkTL4x8PjVFtTYOPdm49/F+NOFZPa89TU3d/QUZM/LpTgQAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

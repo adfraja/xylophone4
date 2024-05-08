@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <MatchCodes>
+        <MatchCode ID="I-CaseBMatchCode" ContextID="Context1" WorkspaceID="Main">
+            <SetupGroupLink SetupGroupID="MatchingAndLinking"></SetupGroupLink>
+            <Name>I Case B Match Code</Name>
+            <ValidObjectType ID="Subscriber"></ValidObjectType>
+            <ValidForEntityHierarchy ID="I-Subscribers"></ValidForEntityHierarchy>
+            <Template>H4sIAAAAAAAAAJWTS0/jMBSF15NfYXmBGjEtMKsRqYtCH6KIlmrKsACxMMlta+Q4lu1UwGj++/iRoGZUobKJ4nvO/XzujXLJRK5J/+K14GgLSrNSEHzWO8UIRFbmTKwJ/n036f7EF4Oof2ndMyoHEUL+HWWlMIpmZjoieFgpBcLcPr9AZpw6rEWMUs6oJliUOWC0oIoWYEANOdWuWnGOTyz95APf15IzMxiBBJHbIAw0KVbJjJpsYyNNKpEZm1TXvjsoJKcGyJYqJEpVTJjSZm5vQQQVq54rUc7e4Z7yCjouRm8NJpzwsvth1zh2wpJZXm2OvyOjKoiTqIHf0K+wG/de8opyvYselpVd2dth5Np8EPiBycOgD9PFp8BAtPOkea4sEuMkYqtOe+lHR+1F1edmuvpoM8XoT/Rth9bGHCN8ju2zxdotNsDdmqUm0d+Qs6CMe+p/Q46dsGfMsC+5KQXsa1s4YW9buC1LlRvi8SmspB4rDkJPVnrTwfN0Nk5Ho19dn7ex+AYXqm2epdMbb/SSN/lwbdfi6nY+9rYg2jiO5h0cxNps0ACdxkiBqZQIrUkE9ns2JfsRmz/pTQK5plu6zBST5kdd/gfEkXObJgQAAA==</Template>
+        </MatchCode>
+    </MatchCodes>
+</STEP-ProductInformation>

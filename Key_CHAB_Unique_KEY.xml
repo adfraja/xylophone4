@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Keys>
+        <Key ID="CHAB_Unique_KEY" State="Inactive">
+            <Name>CHAB Unique KEY</Name>
+            <KeyFormula>value('CHAB_KEY')</KeyFormula>
+            <UserTypeLink UserTypeID="CHAB_L3"></UserTypeLink>
+            <AttributeLink AttributeID="CHAB_KEY"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

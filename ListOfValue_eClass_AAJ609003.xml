@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAJ609003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Clauses for delivery_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAJ609003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Clauses for delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAJ609003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Clauses for delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAJ609003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Clauses for delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAJ609003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Clauses for delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAJ609003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Clauses for delivery_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAJ609</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAJ609003</Value>
+            </MetaData>
+            <ValueGroup ID="AAW077002">
+                <Value QualifierID="std.lang.all">Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA186002">
+                <Value QualifierID="std.lang.all">free house</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA187002">
+                <Value QualifierID="std.lang.all">free stock</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA188002">
+                <Value QualifierID="std.lang.all">carriage free</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA189002">
+                <Value QualifierID="std.lang.all">free there</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA190002">
+                <Value QualifierID="std.lang.all">free wagon/car</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA191002">
+                <Value QualifierID="std.lang.all">not free</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA192002">
+                <Value QualifierID="std.lang.all">from here</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA193002">
+                <Value QualifierID="std.lang.all">from factory</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA194002">
+                <Value QualifierID="std.lang.all">from stock</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA195002">
+                <Value QualifierID="std.lang.all">ex works</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA196002">
+                <Value QualifierID="std.lang.all">free location</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA197002">
+                <Value QualifierID="std.lang.all">free construction</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA198002">
+                <Value QualifierID="std.lang.all">off laden tape</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;FractionBar/&gt;"></Tag>
+        <CharacterTag ID="FractionBar" ParentID="Character tag root" Tag="FractionBar" GuiRendering="/">
+            <Configuration>H4sIAAAAAAAAAHMrSkwuyczPc0os0tE1REee6Xn5RakwyiczPaPEvSixUqc4My89J7UkP0/HAAjzSnNydIC0DgC3V3OLTQAAAA==</Configuration>
+            <Formatting Format="InDesign">&lt;cPosition:&gt;&lt;ck:-50&gt;&lt;0x2044&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

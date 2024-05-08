@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SAP_L7" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SAP Level 7</Name>
+            <Icon>H4sIAAAAAAAAAM2T/VOaBQCAEc0PlEYOF3d26nQlktu5mpc7T7u0Od1taeCJqdMpUriVA7+p3S4R3cvALz5kwyUODeYHtiGtXQoauHdTqakHk6EJvF+8fqyfurq6nXXrr+j54Xn+gud0QV7GyWoKgUL4k0BgArj+lrRYstt4AzdZPDP29WmLR3wbfexwOZ44v5vdiEnKjoqOr+oO0Bvh6mvQyE3gWNv2iQJhpgDum8ByBF6zUSu5Mc8WQXMLrrfTMq0PXbzewP0594x9o1OH5Z+X/mh/qprwJzfAWpOvRobX98GfSHC+EmpUwb1jCKcXLwVws9XTrEJ6dZtlIm9WA5zWul3Zs53SgjCaUDaAPV52DRjhd9oCjFa0sBMfNXsT0s+brJ5pyzPb4jPNlA9ccpfVAR8KvMwu3PHLSnmHr1jobe7fFI0E2rVYJh/6vBtqUgcE6p162VbNF10FLd6VlSfJTXBhO3pnqCerRCrTY5M6uUAB8aTuS6rtenkgnSl12KZYV6AyAL1nUHOVzx8tOTWT3tU1V+FXCLjkfJclPc6URsfERUbHv5mapZ6CjwrxQ7Q46utxF/vRTD5Mjo7/+4/nbJGv8CrKlyNnOIPTE9rL/QiFGlfVjVf04vr7vrHvtyquwWe7dujNSIvCb33oEQwEVEb/HOiZXXD3j8NXvsEZfGTY7H9gXf/VvaTXyqukGL0ZnrF7+sbROjkqM8BJPLhWCrdrthSTCF+FlXTvDJl8fCVy6y5UKsHfKx9kA/hlBaRTA8fzhZUAMgc+9W84tGqAVQtUdngrxL5Zs77uundxedX2yClQomwJLjFgnOuw4YetjJzyhcU1r8ehHIenvh0IIx1gXnUWtPo33T9PPvDJ7iDaaf85Mc4G/DbQKddaLvZglxo6gNsQ+WD8/v4+4f/N4b9C/mvqS718ghD+D2GXntu5vJ7EDT/IKA7lxNCOfPYbbdcUVpiac2xotijvrSBRbNxohcZemyMjWYDhIoxHuheVR3eftDEoR9lF8gRWKO4ykl+5cI4hDg8nHo5wvGCCI50HiCQqJe3CcC5ANKy8+BjTl1AzjojS1+5O7pk4kuwU1mpd/hunlCck868hNlPN+w0p5Q35Lk1wWLaD+OliSWwq91BKoy4kRBsUHCVcM3HZQ9SbZ+n2BfSMKZScmNWW0P5RxKuDGro9zR4ZG0Ss7az+aVg5FsNB6BNQMjmYMB8kLgOXQUm2ShkBjYJ7xOrIL/foiSQnnStLdNI+OCUPDuvg4bQ2RS6YxjX+jouoBOJYMYVYupgI2tRfEzL/BU3PSBQ7BAAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="SAP_L6"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

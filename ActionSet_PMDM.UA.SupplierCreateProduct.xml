@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierCreateProduct" Type="user">
+            <Name>Supplier, Create Product</Name>
+            <ActionLink ActionID="Create product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

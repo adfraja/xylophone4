@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;bullet&gt;" Stop="&lt;/bullet&gt;"></Tag>
+        <StyleTag ID="bullet" ParentID="Style tag root" Tag="bullet">
+            <Configuration>H4sIAAAAAAAAAEsqzclJLdHRNURHmel5+UWpOp4oVF5+SXFmXjpQR36ejiEQHtqukwQ2ISezuETHQEcHAKD5tp5QAAAA</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;li&gt;</FormattingStart>
+                <FormattingStop>&lt;/li&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;0x2022&gt;&lt;0x2002&gt;&lt;0x0007&gt;</FormattingStart>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

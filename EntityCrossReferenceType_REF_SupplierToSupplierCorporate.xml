@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <EntityCrossReferenceType ID="REF_SupplierToSupplierCorporate" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" ParentChildRelation="NONE" MultiValued="true">
+            <Name QualifierID="std.lang.all">Supplier To Supplier Corporate Group</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="AttributeHelpText">This field is maintained if the hierarchy between suppliers need to be set up. The "mother" company number should be entered in the Group Key field on the level of the "child" company. If there is a change on the group key, Supplier Master Data team will always require a confirmation about the connection between the mother company and the "chiild" company.
+
+ </Value>
+            </MetaData>
+            <AttributeLink AttributeID="AT_ReplicationActionFlag"></AttributeLink>
+            <AttributeGroupLink AttributeGroupID="SAKM"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier"></TargetUserTypeLink>
+        </EntityCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

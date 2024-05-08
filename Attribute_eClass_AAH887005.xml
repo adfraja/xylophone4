@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="eClass_AAH887005" MultiValued="true" DefaultUnitID="eClass_AAA220004" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">welding current (at 40% ED/40°C)</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask="">
+                <UnitLink UnitID="eClass_AAA220004"></UnitLink>
+            </Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Ahlsell">
+                    <Value Derived="true" DerivedContextID="Context1">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="GL">welding current (at 40% ED/40°C)</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Attribute Name Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="GL">welding current (at 40% ED/40°C)</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAH887005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;welding current (at 40% ED/40°C)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAH887005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;welding current (at 40% ED/40°C)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAH887005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;welding current (at 40% ED/40°C)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAH887005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;welding current (at 40% ED/40°C)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAH887005
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;welding current (at 40% ED/40°C)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;eCl@ss Description = &lt;/b&gt;percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">eClass_AAH887005</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">eClass_AAH887005</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">eClass_AAH887005</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">eClass_AAH887005</Value>
+                    <Value Derived="true" DerivedContextID="GL">eClass_AAH887005</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc - Gelia">
+                    <Value Derived="true" DerivedContextID="Context1">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="GL">welding current (at 40% ED/40°C)</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="Table Header Calc">
+                    <Value Derived="true" DerivedContextID="Context1">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">welding current (at 40% ED/40°C)</Value>
+                    <Value Derived="true" DerivedContextID="GL">welding current (at 40% ED/40°C)</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="atr_attributeInfoText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;br&gt;</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;br&gt;</Value>
+                </ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="EclassDescription">percentage specification of the permitted operating interval of an operating medium at the specified welding current after an obligatory rest period</Value>
+                <Value AttributeID="EclassID">AAH887</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAH887005</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="eClass14.0Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="eClassAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="SalesItem"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

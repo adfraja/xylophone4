@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="SAINT-2744_A_P_EVP" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="DRAJ_EVP"></SetupGroupLink>
+            <Name>SAINT-2744_A_P_EVP</Name>
+            <Configuration>H4sIAAAAAAAAAKVUXU/bMBR951dEUcQbTdnQhkaTqrQBKpWStQFte0FucpvezbUz22F0v3620xTSETZtb417zj3nfg45W2JeCqKQs6DXf1xT5wGENF/ucafrOsBSniHLA/c2uTg6dfvhQa+gZY7MwSxwowdgKhY8BSm5OCcShs9DuuGB4/QkrgsKFj8DWXAmcUHhVoJwQ6mg+OD7pf7oa8A8ieL553nPrzj79HOi0tUcf4IbHne73TbYiGxkwmegCDLrULphKzgWyAWqjQ7ZBvlYQqklo7t4djNsA12TxxuabWsB0jpsw17xUuwc7rHenbaxJshAxiDOL+PX878gSHVssYkY0ZXO3FCJEv6I1qGRa/DbbtaGvSkUrlEqTCc8/dbUWBIqW0VeINZybZR5uoKspPDpenI/iuJZNBwk0cgND6k6a0zq4feSqzM9rtWP/mGuzg4MSndeIEj77Tj1y8ZJKZFyS0v5uqNtLXinVEg7ciuawRIZmhnu1D5GuyevfpqC9lDF8Xeq/nPZp+R6frU3+pcsKKowEoKLGRRcKBD/snzaECmpau5gI6rr79Riyxv+78IP9JSquFxQlCsQTelK4vnOa5SytPGa5OY0bLWkBWmY7Ue492+yKSCIsdB0BqaiNgNTzilZQ5BE86TxOldc6AAJaEmiIPDGo4KolXfvEeN2PPI6HjwqYCa416DeVYoDpTu2KDV3e49I/WCOUibIV5v3Ft2I0POrHEzS/lPWLxVhyhUuMbW1t5Wzd0WaJu1NfpWQLuwDZuZK7j3ULi91tj/IZswU5FVLI5YVHJmyt3QwniZHb96fnNwPvtzOoj3bLy9dZOqUQTbhue5l/vrl2M7BmOlRQAWZbqFmKzcc4bqqdmzMyIZyCymw5+OvPF4Rlpl1pKCgPu9Nm7/t2i95febT6QYAAA==</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="0">
+                <Configuration>H4sIAAAAAAAAANVUTXPTMBC991d4dC+G4cLBTicTt+AZoJnELWfF3gS1suTZlULKr0e2pZrEZhpu7U3aL723ertzIjAF1I3kBtLk6lDLaA9IQquUfXj3nkWgSl0JtUvZXXFz+YldzS6SdXG9vFyirmxpcrXVWHPjMqIVkJZ7yJUUClawpZRtuSRg0Y2WUv+6daVRVLC2G589RFwfGo0mAxR7qObG4LNrdhFFybwFSj5qLX5Dyr4JJWpbsyjTyvQPLCQnEltRdngK3WU5IICOhksxaPt6oWLcFY/76o5Z/A9qs4QaKcysBSY21sBXoR6pQLHbOcRqd+p+Ey0duFDbiBfJn3T3DVA8RjwtHy+H49AoV6W0FSy5U47xwvFiOSl6RuNyVcHhh8bqiwDkWP58GinnO69hZLzdPEBpiqcGPqO2jXNQmgzGlZVAHaYJ25E1Go55lrIK+UOmS1s7bhRojWqMTR5W35QRWs//1esiCdH/u0183tQ+CTUndeO/o/3iOCyfv/dIPCnB52eCe8w3ePx1gZpolNbttmnXPZcWKNwybvjCkeeu3UgvvZrE/tqrJ/T0jGkYhONG4pEa7jo5bxrU7qt8yJ0Sr19HjnaL89ztee8JfPR33Q2XccOVHs2jd/8BIRUgvpoHAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

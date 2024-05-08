@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.BrandsTeamModifyExt" Type="user">
+            <Name>M&amp;S Brands Team, Modify External Source Record</Name>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

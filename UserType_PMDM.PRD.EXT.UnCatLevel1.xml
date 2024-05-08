@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.PRD.EXT.UnCatLevel1" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>External UnCatLevel1</Name>
+            <Icon>H4sIAAAAAAAAAAEBAv79iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAAAXNSR0IArs4c6QAAAbtJREFUOBFjYBgFhEKAEZuCw01N5p8eP654f++ezfu7d4VAagSVld8JKikd4ZOV7bCtqzuJrg/DoL3l5akvL15senLsmETQjh0MMnp6DOzc3Ax3jx9nODl9OsP3tx8YrsrrM5z7xsxwcGEjhv7/QBvAeI6X7/8uPj4wvnPs2P9za9b8f33v3n8Q+PTyJVh8XWTk/wOnn/yv3/8fpAcMWGAMZuO5DAv8fjA8762ECTGs8/AAs1WSkhgC+/vh4ne2bmVg5RJhOPBHiAFkWKMjIyPcIJCqf2f2whUjM/TCwsDcK9u2wYWFXj1lOPLMgOGgI8R3THAZIOPTlQvIXDDbpKmJQdnSEhxGR/Lz4fLoalEMgqtCYsiZmYF5B5ubkUQxmSgG8ekYYKh4dOoUw/EFCxjeHj2KIoeuFsUgJhNnFMUgzocHD8BinEpKYBpGoKtFMShhEweDhKs3TC2Y9mppYbBMSGAwRgofkBqQWmSAYhBI4pt/AYphTy5dYvj59SvD/X37wPpAhoDUoANYyvwPSkfIAJSmQMkBFjugMAF5B90lf88mg7Qx4jQI2VB8bAyD8CkmQg7mICKUElACAGxipHFHXTThAAAAAElFTkSuQmCC7ACyJQECAAA=</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.EXT.DataSource"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

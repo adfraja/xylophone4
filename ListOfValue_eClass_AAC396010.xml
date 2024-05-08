@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC396010" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">milling shape_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC396010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;milling shape_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC396010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;milling shape_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC396010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;milling shape_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC396010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;milling shape_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC396010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;milling shape_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC396</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC396010</Value>
+            </MetaData>
+            <ValueGroup ID="AAD696002">
+                <Value QualifierID="std.lang.all">BD</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI438002">
+                <Value QualifierID="std.lang.all">KEL</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ737002">
+                <Value QualifierID="std.lang.all">KSJ</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ738002">
+                <Value QualifierID="std.lang.all">KSK</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ743002">
+                <Value QualifierID="std.lang.all">KUD</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK194006">
+                <Value QualifierID="std.lang.all">R</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK196005">
+                <Value QualifierID="std.lang.all">V</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL625002">
+                <Value QualifierID="std.lang.all">N</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM559002">
+                <Value QualifierID="std.lang.all">RBF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN245002">
+                <Value QualifierID="std.lang.all">SKM</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN369002">
+                <Value QualifierID="std.lang.all">SPG</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO723002">
+                <Value QualifierID="std.lang.all">TRE</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP262002">
+                <Value QualifierID="std.lang.all">WKN</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP269002">
+                <Value QualifierID="std.lang.all">WRC</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP397002">
+                <Value QualifierID="std.lang.all">ZYA</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP398002">
+                <Value QualifierID="std.lang.all">ZYA-S</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAT828002">
+                <Value QualifierID="std.lang.all">B</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA264007">
+                <Value QualifierID="std.lang.all">E</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA915008">
+                <Value QualifierID="std.lang.all">A</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA941007">
+                <Value QualifierID="std.lang.all">C</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA943009">
+                <Value QualifierID="std.lang.all">D</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA963006">
+                <Value QualifierID="std.lang.all">F</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

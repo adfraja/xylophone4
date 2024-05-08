@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="IMPORTCONFIGURATION" ForceAuthentication="false">
+            <Name>Import Configuration</Name>
+            <UserGroupLink UserGroupID="BackgroundProcessUsers"></UserGroupLink>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="ContactImportConfiguration">
+            <Name>Contact Import</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">3422</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 17:04:08</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAM1Xy27bOBTd5ysIbrLpRHUXxWAqu3Ate+pB/IBst2hhIGCkG4dTiVRJKrXn6+fyISOO7TQuijZZBNJ98ZzLI146frsuC3IHSnMp2rR18ZK+7ZzFw7KSyoyYYCtQPSlu+Ip8aIJeUTJmJbQpOgzLDPHRlNh3WJth4l342KLko1RfdMUysOYR44KSblUpiWviezf9h5IU/oXMjOHbVMm8zoxuUyEbc7AtqpwZCJ4RM9ntQnCj321sWWvryVqYhShZVUHuTZiagdZzKKsCk9vUAwVFyRy08W/NWhiSwRxUiWv0Lvvd9Goyvvx0NZikV8PRdJLO+8nVNJ0ki958RkkCN6wuGnBTpkA43q1W6/Xrlw/9800FTVewYVPspMQ+vLM0Eq6QpVSOCCUzKPAV8kV6abPaFAtzs6GdM0LimaxVBqH7A16AM6MDAaANmd3zCXyind5fy4XG9Za21cuJgETxOyB/kJnh13Lp//958QrfmW0Nwa36QhKZ1SWurJeNeYpmFAOZZVhYcYkehm2FQElfrAu9jqMtEIc38oDd80CqkpmAr7/OoDgG/j3T74HluE2dT6Af1DwQP1e8/HjLUR1WZk9MwqbYvnhUhosV7YzlHn7vds9hK0eoL4wOVVO4Adz6DEZgWMIM89JsVCpQs7izjcRuBqzkxcbva9/tKxqdZ6uQWhtZgvKNm220gRI/GGMUv66NC/GuFDKp8mFiFfN1XJcoPVwRJcc/sKKGGVTIBBdv0zehzwjXfZW4q52gJBe6W90CIFg26sTRNrzJnzO1AvO97KDSAN4WCnm+Z9Fe04LD1zvewJ2VBlxpM3YSP4Gdy3IKOEAwjlzGj6C5ZD8AxiY9DYttkvvQuAD1PWA7wY2u7MHbzXOFx+GO/wGPoahqMzMKwJxEJaQc4rGP/beQ6jWH6JM/BJvwjAnhwWxO05vPeMaUPvPqJEI2/hnTcTcSdaLqQs5JtLajxB+rxA+YncvGRK2Y4P8xw+3F4zjpgxMEGRxH3M0yixkRk/AXjwCP+79lkYPwY+r+NCPN/CocGIf1/NDYOyf3J912zfb57gA8b9pLthek4yj3ZtM2N44eRY0diB60+adpanor8Vr2iJpcAM74a+txO2Sj723Qi5M05srpX/3l9EvGi8dYuoABhyL/GSRdtVNI4t1v74YXh58F9iqc1gVoH7hvjaMDv5g6Z/8D2samWF4NAAA=</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

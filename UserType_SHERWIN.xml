@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SHERWIN" ReferenceTargetLockPolicy="Strict">
+            <Name>SHERWIN</Name>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <MIMEType>application/vnd.openxmlformats-officedocument.wordprocessingml.document</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

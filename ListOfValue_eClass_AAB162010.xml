@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB162010" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">thread form type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB162010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;thread form type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB162010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;thread form type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB162010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;thread form type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB162010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;thread form type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB162010
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;thread form type
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB162</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB162010</Value>
+            </MetaData>
+            <ValueGroup ID="AAH001002">
+                <Value QualifierID="std.lang.all">gas-thread</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI738006">
+                <Value QualifierID="std.lang.all">API - American Petroleum Institute</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI739004">
+                <Value QualifierID="std.lang.all">API Rd - American Patrol Institute round</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI740005">
+                <Value QualifierID="std.lang.all">Buttres - Buttres</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI741005">
+                <Value QualifierID="std.lang.all">GHOST - Russian petrol pressure</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI742005">
+                <Value QualifierID="std.lang.all">metric</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI743005">
+                <Value QualifierID="std.lang.all">round thread</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI744005">
+                <Value QualifierID="std.lang.all">trapezoid thread</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI745005">
+                <Value QualifierID="std.lang.all">Unified National</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI746005">
+                <Value QualifierID="std.lang.all">Unified National Coarse</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI747005">
+                <Value QualifierID="std.lang.all">Unified National Fine</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI748005">
+                <Value QualifierID="std.lang.all">Withwort pressure tight</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI749005">
+                <Value QualifierID="std.lang.all">G - Withwort pressure not tight</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK194006">
+                <Value QualifierID="std.lang.all">R</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAL823003">
+                <Value QualifierID="std.lang.all">NPT</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM162003">
+                <Value QualifierID="std.lang.all">PG</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP144003">
+                <Value QualifierID="std.lang.all">W</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP766003">
+                <Value QualifierID="std.lang.all">BSF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP768003">
+                <Value QualifierID="std.lang.all">BSW</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP799002">
+                <Value QualifierID="std.lang.all">CTG G</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ641002">
+                <Value QualifierID="std.lang.all">NPSN</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ642003">
+                <Value QualifierID="std.lang.all">NPTF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ813003">
+                <Value QualifierID="std.lang.all">Rd</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR179003">
+                <Value QualifierID="std.lang.all">Tr</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR210003">
+                <Value QualifierID="std.lang.all">UNC</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR212003">
+                <Value QualifierID="std.lang.all">UNEF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR213003">
+                <Value QualifierID="std.lang.all">UNF</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR218003">
+                <Value QualifierID="std.lang.all">UNS</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABJ762003">
+                <Value QualifierID="std.lang.all">BSPF</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABJ763002">
+                <Value QualifierID="std.lang.all">BSPT</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABJ764002">
+                <Value QualifierID="std.lang.all">NPSM (National Pipe Straight Mechanical)</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA266004">
+                <Value QualifierID="std.lang.all">MF</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA050004">
+                <Value QualifierID="std.lang.all">without</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD836003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Type of batteries/accumulators_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD836003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of batteries/accumulators_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD836003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of batteries/accumulators_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD836003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of batteries/accumulators_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD836003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of batteries/accumulators_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD836003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of batteries/accumulators_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD836</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD836003</Value>
+            </MetaData>
+            <ValueGroup ID="AAS954002">
+                <Value QualifierID="std.lang.all">Nickel cadmium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS957002">
+                <Value QualifierID="std.lang.all">Nickel Metallhydrid</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAS959002">
+                <Value QualifierID="std.lang.all">Lithium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU984002">
+                <Value QualifierID="std.lang.all">not rechargeable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU985002">
+                <Value QualifierID="std.lang.all">rechargeable</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU986002">
+                <Value QualifierID="std.lang.all">9V alkaline</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU987002">
+                <Value QualifierID="std.lang.all">Lithium CR1616 3V</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU988002">
+                <Value QualifierID="std.lang.all">Accu-NiMH 1,2 V</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU989002">
+                <Value QualifierID="std.lang.all">Al/Mn</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU990002">
+                <Value QualifierID="std.lang.all">Accu Li-Ion</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU991002">
+                <Value QualifierID="std.lang.all">CR2032-LITHIUM/3V</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU992002">
+                <Value QualifierID="std.lang.all">CR1620-LITHIUM</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU993002">
+                <Value QualifierID="std.lang.all">Coin cell LITHIUM/3V</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

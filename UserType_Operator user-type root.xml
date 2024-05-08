@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Operator user-type root" Referenced="true">
+            <Name>User</Name>
+            <AttributeLink AttributeID="AddressTypeaheadEntityReferences"></AttributeLink>
+            <AttributeLink AttributeID="Attribute Description Documentation"></AttributeLink>
+            <AttributeLink AttributeID="UserInformation"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

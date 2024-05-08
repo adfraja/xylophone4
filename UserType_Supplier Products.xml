@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Supplier Products" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Supplier Products</Name>
+            <UserTypeLink UserTypeID="Supplier Root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

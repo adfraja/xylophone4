@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.BulkUpdateConfig" ReferenceTargetLockPolicy="Strict">
+            <Name>Bulk Update Configuration</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgABLQwMcxgY/hsmzzFM/m8IZLa0GM75b3juv+H//y0tLUvPfT927Nj379////7w//9/hlEwCoYLUPzJwsjAwM+gA+KA8gQDRyODvI6Ex4YHB9g5WJ0iTmxIbGblFDdJecHQ1MwmoKC15cTGJFcGBUaNkgMLHjUys+pMa1EIUmJmFOBzCGhQYGBhVI3et6XCwZGJmVHrUQ5nYjojCxvbjSMvGzROdjEuWvVnx8Xk431+nBl3d01ddWR1mG3a01NXXx/akDC3aa+W0ZLb2xWZmRisAZLhV3ekAwAA</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

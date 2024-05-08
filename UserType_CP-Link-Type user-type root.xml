@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="CP-Link-Type user-type root" Referenced="true">
+            <Name>CP-Link-Type</Name>
+            <AttributeLink AttributeID="AttributeCompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="BasicDataCompletenessMetrics"></AttributeLink>
+            <AttributeLink AttributeID="Completeness Score"></AttributeLink>
+            <AttributeLink AttributeID="CompletenessMetricValue"></AttributeLink>
+            <AttributeLink AttributeID="LifeCycleCompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.CompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="Product Variant Priority"></AttributeLink>
+            <AttributeLink AttributeID="ProductMarketingCompletenessMetrics"></AttributeLink>
+            <AttributeLink AttributeID="Purpose"></AttributeLink>
+            <AttributeLink AttributeID="VIKS_CompletenessScore"></AttributeLink>
+            <AttributeLink AttributeID="pm_CompletenessScore"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

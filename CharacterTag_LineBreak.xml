@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;LineBreak/&gt;"></Tag>
+        <CharacterTag ID="LineBreak" ParentID="Character tag root" Tag="LineBreak" GuiRendering="←">
+            <Formatting Format="HTML3">&lt;BR&gt;</Formatting>
+            <Formatting Format="InDesign">&lt;0x000A&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="US">
+            <DimensionPointLink DimensionPointID="US"></DimensionPointLink>
+            <Context ID="Context1" Priority="5"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="DGNA_sku1" UserTypeID="DGNA_Lev2" ParentID="DGNA_Parent1">
+            <Name>DGNA_sku1</Name>
+            <AttributeLink AttributeID="DGNA_attr1">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="DGNA_attr2">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AssetCrossReference AssetID="DGNA_test_Asset1" QualifierID="US" Type="Main"></AssetCrossReference>
+            <ProductCrossReference ProductID="DGNA_sku2" Type="DGNA_P2P_Ref"></ProductCrossReference>
+            <Values>
+                <Value AttributeID="DGNA_attr1">123</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

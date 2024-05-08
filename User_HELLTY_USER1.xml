@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="HELLTY_USER1" ForceAuthentication="false">
+            <Name>HELLTY_USER1</Name>
+            <UserGroupLink UserGroupID="HELLTY_3568_Test_UG"></UserGroupLink>
+            <GUISetup>
+                <GUISetupDisabled>/Contexts/step://context?id=Brady+Belguim+-+French+%282100%2f50%29</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context1</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context2</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context3</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context4</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context5</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context6</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Context7</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=DE-de</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=EN+All+All</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=EN+All+USA</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=ENG+main</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=FR+All+All</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=GL</GUISetupDisabled>
+                <GUISetupDisabled>/Contexts/step://context?id=Seton+Belgium+-+French+%282120%2f10%2fF%29</GUISetupDisabled>
+            </GUISetup>
+            <SystemSetup></SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

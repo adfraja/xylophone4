@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC263006" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">particle type_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC263006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;particle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC263006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;particle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC263006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;particle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC263006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;particle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC263006
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;particle type_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC263</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC263006</Value>
+            </MetaData>
+            <ValueGroup ID="AAA870005">
+                <Value QualifierID="std.lang.all">Rubber</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE071002">
+                <Value QualifierID="std.lang.all">CBN</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE387002">
+                <Value QualifierID="std.lang.all">diamond</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG467002">
+                <Value QualifierID="std.lang.all">flint</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI442002">
+                <Value QualifierID="std.lang.all">ceramic</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ687002">
+                <Value QualifierID="std.lang.all">corundum</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ689002">
+                <Value QualifierID="std.lang.all">corundum/SIC</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ691002">
+                <Value QualifierID="std.lang.all">corundum/silicon carbide</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ692002">
+                <Value QualifierID="std.lang.all">corundum-agglomerate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN195002">
+                <Value QualifierID="std.lang.all">SiC-agglomerate</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN224002">
+                <Value QualifierID="std.lang.all">silicon carbide</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP342002">
+                <Value QualifierID="std.lang.all">zircon/corundum</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP343002">
+                <Value QualifierID="std.lang.all">zircon corundum</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA115002">
+                <Value QualifierID="std.lang.all">Ceramic</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

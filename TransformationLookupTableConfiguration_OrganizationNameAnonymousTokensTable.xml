@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TransformationLookupTableConfigurations>
+        <TransformationLookupTableConfiguration ID="OrganizationNameAnonymousTokensTable">
+            <Name>OrganizationNameAnonymousTokensTable</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ValueSubstitutionTransformationConfiguration.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">135</Value>
+                <Value AttributeID="asset.uploaded">2023-10-27 16:50:37</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="AssetsRoot"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAALNxzs9Ly0wvLUosyczPU/BMz8svSnVOLE61VSopKk1VsuNSULAJS8wpTQ1IzCwC8YB8t6L8XLCYXU5Jio0+gguRDsmH8Gz0YSyQIfpIptjoo1hrxwUAYsOpNYcAAAA=</Configuration>
+        </TransformationLookupTableConfiguration>
+    </TransformationLookupTableConfigurations>
+</STEP-ProductInformation>

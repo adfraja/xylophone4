@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="DGNA_Parent1" UserTypeID="DGNA_Lev1" ParentID="Product hierarchy root">
+            <Name>DGNA_Parent1</Name>
+            <AttributeLink AttributeID="DGNA_Match_code_attr">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="DGNA_attr1">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="DGNA_attr2">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <Value AttributeID="DGNA_Match_code_attr">Test</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

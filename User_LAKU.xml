@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserList>
+        <User ID="LAKU" ForceAuthentication="false" EMail="stepsys@domain.com">
+            <Name>laku</Name>
+            <MetaData>
+                <Value AttributeID="UserInformation">Stibo standard user</Value>
+            </MetaData>
+            <UserGroupLink UserGroupID="Stibo"></UserGroupLink>
+            <UserGroupLink UserGroupID="Super user"></UserGroupLink>
+            <SystemSetup>
+                <SystemSetupValue Type="BasketView" Name="BasketView.Default">&lt;View Name="Default"&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="ID"/&gt;&lt;Plugin ID="Name"/&gt;&lt;Plugin ID="Image"&gt;&lt;Parameter ID="reftype"&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID="pipeline"&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="OnPages"/&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>
+                <SystemSetupValue Type="BasketView" Name="BasketView.Student X">&lt;View Name="Student X"&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="ID"/&gt;&lt;Plugin ID="Name"/&gt;&lt;Plugin ID="Image"&gt;&lt;Parameter ID="reftype"&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID="pipeline"&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="OnPages"/&gt;&lt;/View&gt;</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentContext">EN All USA</SystemSetupValue>
+                <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">Context1</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabAssetImpl">History</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabAttributeGroupImpl">Attribute</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabAttributeImpl">Attribute</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabClassificationImpl">References</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabDomainImpl">List of Values</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabGroupImpl">Group</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabMultiAssetImpl">Multi Editor</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabMultiClassificationImpl">Product</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabMultiProductImpl">Product</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabProductImpl">Product</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabRecycleBinImpl">Classification</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabUnitImpl">Units</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentEditorTabUserTypeImpl">Object Type</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="CurrentWorkspace">Main</SystemSetupValue>
+                <SystemSetupValue Type="CONFIG" Name="DefaultLoginPublication">428</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="DownloadDir">C:\Documents and Settings\niwe\Desktop\Documentation\PM\Images</SystemSetupValue>
+                <SystemSetupValue Type="BookMrk" Name="EXE Line of Chairs">step://search?match_case=FALSE&amp;type_dodocsearch=TRUE&amp;viewing_context=GL&amp;type_isdextype=TRUE&amp;searchbelow=step%3a%2f%2fproduct%3fid%3d4580&amp;searchtype=basic&amp;type_type=Product&amp;searchstring=EXE*&amp;searchimmediately=FALSE&amp;current_workspace=Main</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="ExportManagerSaveConfigParentClass">step://classification?id=Configurations</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedApplied Privileges">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAssetEditorPropertiesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAssetEditorSystemPropertiesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeGroupValuesEditorPropertiesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeRefAttributeGroupsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorAttributeFormattingRulesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorClassificationsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorModulesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorTableTemplatesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeReferencesEditorValueReferencesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeValidForEditorValidForAssetFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeValidForEditorValidForClassFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeValidForEditorValidForLinkFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedAttributeValidForEditorValidForProductFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedContextValuesEditorContextValuesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedExceptionsDialogAdditionalFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedExceptionsDialogDetailsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedExtraProcessEditorAuditFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedGroups">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedObjectTypeReferencesEditorObjectsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProcessEditorReportFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProcessTemplateEditorPropsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProcessTemplateEditorSummaryFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorAttributeReferencesFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorClassificationFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorDocumentReferencesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorModuleReferencesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorNonApprovedRelinkedChildrenFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorProductReferencesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorReferncedByFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductReferencesEditorVisibleElseWhereFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductValuesEditorAttributeGlobal Product Attributes">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedProductValuesEditorInheritedAttributesFlipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedQueueReportFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedRevisionHistoryEditorInWorkspacesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedRevisionHistoryEditorRevisionsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedSystemSetupEditorValuesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedTagDefinitionEditorTagDefinitionsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedTranslation">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedUploadWizardDetailsFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedafTaskTypeObjectProperties">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedattributeColumnsSubtypeFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="Flippeddetails_flipper">true</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedproductLinksFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="FlippedrelatedProcessesFlipper">false</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="HelpWindowHeight">906.0</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="HelpWindowWidth">1185.0</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="ImportManagerSaveConfigParentClass">step://classification?id=stibo.IMConfigFolder</SystemSetupValue>
+                <SystemSetupValue Type="CONFIG" Name="LoginViewingPublication">428</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="MainDividerPosition">413</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="ModeContextFR All All">GL</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="ModeTranslationTarget">AllLanguages</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="ModeWorkspaceMain">Approved</SystemSetupValue>
+                <SystemSetupValue Type="LOCALESETT" Name="ORACLELOCALE">WEST_EUROPEAN</SystemSetupValue>
+                <SystemSetupValue Type="StBookView" Name="StBookView.Default">&lt;View Name="Default"&gt;&lt;Plugin ID="ProductCount"/&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="Image"&gt;&lt;Parameter ID="reftype"&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID="pipeline"&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="ID"/&gt;&lt;Plugin ID="Name"/&gt;&lt;/View&gt;</SystemSetupValue>
+                <SystemSetupValue Type="StBookView" Name="StBookView.Student X">&lt;View Name="Student X"&gt;&lt;Plugin ID="Image"&gt;&lt;Parameter ID="reftype"&gt;Primary Image&lt;/Parameter&gt;&lt;Parameter ID="pipeline"&gt;smallThumbnail&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;Plugin ID="ID"/&gt;&lt;Plugin ID="Name"/&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>
+                <SystemSetupValue Type="CONFIG" Name="StepGUI/ViewSinglyLinkedInItalicsMenuItem">N</SystemSetupValue>
+                <SystemSetupValue Type="SumRolView" Name="SumRolView.Default">&lt;View Name="Default"&gt;&lt;Plugin ID="TermsList"&gt;&lt;Parameter ID="termslisttype"&gt;Price&lt;/Parameter&gt;&lt;Parameter ID="breakno"&gt;1&lt;/Parameter&gt;&lt;/Plugin&gt;&lt;/View&gt;</SystemSetupValue>
+                <SystemSetupValue Type="UserSet" Name="WindowPosSize">13,77,1216,899</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

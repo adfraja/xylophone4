@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC872004" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">text height_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC872004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;text height_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC872004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;text height_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC872004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;text height_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC872004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;text height_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC872004
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;text height_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC872</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC872004</Value>
+            </MetaData>
+            <ValueGroup ID="AAC056002">
+                <Value QualifierID="std.lang.all">1.0-5.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC125002">
+                <Value QualifierID="std.lang.all">10.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC202002">
+                <Value QualifierID="std.lang.all">12.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC241002">
+                <Value QualifierID="std.lang.all">15.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC353002">
+                <Value QualifierID="std.lang.all">2.5</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC971002">
+                <Value QualifierID="std.lang.all">6.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD082002">
+                <Value QualifierID="std.lang.all">8.0</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA027002">
+                <Value QualifierID="std.lang.all">1</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA028002">
+                <Value QualifierID="std.lang.all">2</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA029002">
+                <Value QualifierID="std.lang.all">3</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA047002">
+                <Value QualifierID="std.lang.all">4</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA060005">
+                <Value QualifierID="std.lang.all">5</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

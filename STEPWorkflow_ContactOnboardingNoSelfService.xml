@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="ContactOnboardingNoSelfService" Referenced="true">
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Contact Onboarding (Centralized No Self Service)</Name>
+            <ValidUserTypeLink UserTypeID="ContactPerson"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJVUXW/bMAx876/QjL06dhM7H4MdoCg2oECxFMuGPSs2kwq1KUOSk6a/fpQsN8naIumLBco6kndHibdG3qEwghtY4K0CWvM1rzRkuqmEmcMzFK2BZaFEY+5FLQyUD0psRQUb0LlRbX+yEtoALvCubqQyoP40pU12dEIXz3WVZ25hwlWt8qArXwUMeQ15cCvR8MIscCW5KgVufsolVOslqK0oIGBbUFpIzIN4MAsYZUKdB4/GNN+iaLfbDXajgVSbaBjHaRRPIlcsmGdfwpAxhrKEUIsXCDmWYSM1lZbInvN4ELO9++7ycTKl9TFPpzZmYTi/Yhlx4TWhKwq6iInSNk9MkVfsVtY1oKFKkf05v+pWD6EEXGuxQQAH+1q0StnjzOwbIt1qUBbaH3IIbUg/VgpdkCQCWyCgsybwpU9068OzVIfTjuy4Y3udxI5tciDLMonUnNqzVasFgtZkCIFtVV5gOE35NL0ex2E64eMwGQOEs2EK4Xq65rPJKhnBqLRsfBZLhmVGcfQ9wJb2yWmOBVD/hqsNHGICHs5+hF22KxrFA9az/45KFI+9Ef+nqUkJbqTa3wt8+k3Ca0v2nX2nrx/EB5o3iQu14SheuE1mU7+BWMPfy59FzkZn6FrYSfnQ0JumUXILZe/oa3ze0kln6TDxno4/5ekvqKnODyXrv1I9rSu5O3Evi1zjl8xkb6m/yr2hZ9pPfPvXqW9/2LU/6ts/FvGyW3E0CKf3g52MyDldZ+83dqLr0XC+ldZ7eOM2gn56/e5hfI+svmD4L784n3x0XnXOundz7h/ufxIqXh8mBgAA</Configuration>
+            <LocalBusinessRule ID="acn-85a85160-57a6-46ee-925e-f8fa97b43e3d" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAALVUXW/aMBR9Hr/CywMCqXO2t0kEELBW6rR2VWHaIzLmJr2VsTP7BrWb9t9nxyElqlqmSXuzz/045zg3t1RVgXotylIhuDXma2l0jkXmPECTMoYjNs6mDzvF9mAdGj1OPvD3CQMtzRZ1MU6+rS7efUymk142rxxqcO62UjDpMdYCN3U7dhyP0OWncfJZ7MVSWizpEJ9J8kTfke7mqLcuCb18txthxQ7Iy4jAMcRCp5jNVo8ljJN735YroQu+JOuFJpO+olHHSf9HZWjk7cTDk6d4r43F47Rf0KgXGgSOK1HWd8YOCPMvRVZI8jJixaKyFjR93dyDpJCyaDIarplC4ZpcbbbQwK2hhRKujVdKxVN6kvcWcvDEEsIrnOC1kIes16il2XFHuDFcGgt8a3YCNcddqXiH6dIjsSIoXFb1XNmZlKbSFNSmQcvpVwvUmKMUYQJOPtsSVL4Eu0cJ55qQHrv1/2jswnrObqeuvetnxP4f6ppsb4dZydJWxgvTe26tsVd+/EUB/3uKvxgpFP4UGwUN4wq8RUEwr/RWQfqXmp/+3ZcFY84Gb8OI8wKoHRo3aKZvyNF3E2TsYMjvhLuGBxoMh+xX701dJC14WW3d4ORXP2OHzqPe72cWjoB6jWRpd0n5NZZ291izEv8AcEYanDIFAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

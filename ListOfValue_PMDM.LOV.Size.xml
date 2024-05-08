@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.Size" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="std.lang.all">Size</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Size
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Size
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Size
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Size
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Size
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Size
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Size
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Size
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.Size
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Size
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup>
+                <Value>10</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>10.5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>100</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>105</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>110</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>115</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>120</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>125</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>32</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>34</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>35</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>35-36</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>36</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>36 1/4″</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>36-37</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>37</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>37-38</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>38</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>38-39</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>39</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>39-40</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>3XL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>4</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>40</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>40-41</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>41</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>41 3/4”</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>41-42</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>42</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>42-43</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>44</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>46</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>47</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>48</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>49</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>75</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>8</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>8.5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>80</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>85</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>9</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>9.5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>90</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>95</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>L</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>M</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>S</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T1</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T2</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T3</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T4</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>T5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>XL</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>XS</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>XXL</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

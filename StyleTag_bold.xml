@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;bold&gt;" Stop="&lt;/bold&gt;"></Tag>
+        <StyleTag ID="bold" ParentID="Style tag root" Tag="bold">
+            <Configuration>H4sIAAAAAAAAAEvKz0nRMdTRRUKGBjohiRn5uYk6TjmJydk6nul5+UWpOnn5JcWZeek5qSX5eUAdBjo6QAwA1wWZDT8AAAA=</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;B&gt;</FormattingStart>
+                <FormattingStop>&lt;/B&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;ct:Bold&gt;</FormattingStart>
+                <FormattingStop>&lt;ct:&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

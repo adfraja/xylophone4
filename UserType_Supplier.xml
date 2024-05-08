@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Supplier" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Workspace" IsCategory="true" ReferenceTargetLockPolicy="Strict" IDPattern="SUPL_[id]" Referenced="true">
+            <Name>Supplier</Name>
+            <Icon>H4sIAAAAAAAAAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMIMJN/efQQSYCwOcndiWHdO5iWQw5Lu6OvIwLCxn/tPIiuQLxHgE+L6//9/ZWVlIO/w4cOZmZnLly+/e/euu7u78enCG0BRzgKPyGIGBr7DIMx4PH9FClAw1NPFMUTicvIBlh4vhwSGFANGw+5JDFMEE6YwpG6wcpDMYRU46uXVlSC4QU7NTJWdTd1UoVlz4ZStChM7GwMnKnpoMngYGaju2GSlwjjVsPmKRnLE2QMMDCVRnDf2hGfWAS1g8HT1c1nnlNAEABodGcrkAAAA</Icon>
+            <UserTypeLink UserTypeID="SupplierEntityRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuppliersFolder"></UserTypeLink>
+            <AttributeLink AttributeID="AT_CC_TextDescription"></AttributeLink>
+            <AttributeLink AttributeID="AT_DCID"></AttributeLink>
+            <AttributeLink AttributeID="AT_Name1"></AttributeLink>
+            <AttributeLink AttributeID="AT_Purchasingblock"></AttributeLink>
+            <AttributeLink AttributeID="AT_SUPL_TextDescription"></AttributeLink>
+            <AttributeLink AttributeID="AT_Text"></AttributeLink>
+            <AttributeLink AttributeID="CORP-119043"></AttributeLink>
+            <AttributeLink AttributeID="CORP-119045"></AttributeLink>
+            <AttributeLink AttributeID="CalcNameCollection"></AttributeLink>
+            <AttributeLink AttributeID="DeactivatedRecord"></AttributeLink>
+            <AttributeLink AttributeID="EmployeeSize"></AttributeLink>
+            <AttributeLink AttributeID="ErrorODBMS"></AttributeLink>
+            <AttributeLink AttributeID="Event"></AttributeLink>
+            <AttributeLink AttributeID="ExternalComment"></AttributeLink>
+            <AttributeLink AttributeID="InternalComment"></AttributeLink>
+            <AttributeLink AttributeID="Language"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateRecord"></AttributeLink>
+            <AttributeLink AttributeID="LegalName"></AttributeLink>
+            <AttributeLink AttributeID="MatchingDataSource"></AttributeLink>
+            <AttributeLink AttributeID="NAICSCode"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.IsActive"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ProviderGLN"></AttributeLink>
+            <AttributeLink AttributeID="RevenueSize"></AttributeLink>
+            <AttributeLink AttributeID="SICCode"></AttributeLink>
+            <AttributeLink AttributeID="SupplierAdminUserName"></AttributeLink>
+            <AttributeLink AttributeID="TaxNumber"></AttributeLink>
+            <AttributeLink AttributeID="UUID"></AttributeLink>
+            <AttributeLink AttributeID="glnCondition"></AttributeLink>
+            <AttributeLink AttributeID="isProductOnboardingGLN"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

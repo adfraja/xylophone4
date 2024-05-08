@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierViewMetadataProdRef" Type="user">
+            <Name>Supplier, View Metadata for Product Reference</Name>
+            <ActionLink ActionID="View metadata for product reference"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

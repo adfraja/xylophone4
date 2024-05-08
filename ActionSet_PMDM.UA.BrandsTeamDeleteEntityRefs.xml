@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.BrandsTeamDeleteEntityRefs" Type="user">
+            <Name>M&amp;S Brands Team, Delete Entity References</Name>
+            <ActionLink ActionID="Delete entity reference"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

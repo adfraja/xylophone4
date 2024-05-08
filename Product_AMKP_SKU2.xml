@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="AllCountries">
+            <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
+            <Context ID="Context1" Priority="6"></Context>
+            <Context ID="DE-de" Priority="4"></Context>
+            <Context ID="EN All All" Priority="4"></Context>
+            <Context ID="FR All All" Priority="4"></Context>
+            <Context ID="GL" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="AMKP_SKU2" UserTypeID="AMKP_SKU" ParentID="AMKP_Folder">
+            <Name>AMKP_SKU2</Name>
+            <Values>
+                <Value AttributeID="AMKP_Price" QualifierID="AllCountries">5000</Value>
+                <Value AttributeID="AMKP_serialnumber">2345</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

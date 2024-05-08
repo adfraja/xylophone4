@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Keys>
+        <Key ID="AssetDownload.AssetURLKey" State="Active">
+            <Name>Asset URL Key</Name>
+            <KeyFormula>prodval('AssetDownload.AssetURLAttribute')</KeyFormula>
+            <UserTypeLink UserTypeID="Applicablemarkicon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="AutoClassificationRuleSet"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMECat_OT_Schema"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMECat_OT_Template"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMP Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="BusinessRuleExample"></UserTypeLink>
+            <UserTypeLink UserTypeID="Configuration"></UserTypeLink>
+            <UserTypeLink UserTypeID="CustomerFile"></UserTypeLink>
+            <UserTypeLink UserTypeID="DAM Asset"></UserTypeLink>
+            <UserTypeLink UserTypeID="DEFAULT"></UserTypeLink>
+            <UserTypeLink UserTypeID="DGNA_Assets"></UserTypeLink>
+            <UserTypeLink UserTypeID="EPSImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="EUMDRrepresentativeaddressicon"></UserTypeLink>
+            <UserTypeLink UserTypeID="GIF Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="HTML"></UserTypeLink>
+            <UserTypeLink UserTypeID="Icon"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustration"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustrator File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InDesign File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InstallationManual"></UserTypeLink>
+            <UserTypeLink UserTypeID="JPG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="Logo"></UserTypeLink>
+            <UserTypeLink UserTypeID="MSDS"></UserTypeLink>
+            <UserTypeLink UserTypeID="Manual"></UserTypeLink>
+            <UserTypeLink UserTypeID="OwnersManual"></UserTypeLink>
+            <UserTypeLink UserTypeID="PDF"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PPT"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="ProductVideo"></UserTypeLink>
+            <UserTypeLink UserTypeID="QXD"></UserTypeLink>
+            <UserTypeLink UserTypeID="RTF"></UserTypeLink>
+            <UserTypeLink UserTypeID="RuleSet"></UserTypeLink>
+            <UserTypeLink UserTypeID="STEPdirector"></UserTypeLink>
+            <UserTypeLink UserTypeID="SpecificationDocument"></UserTypeLink>
+            <UserTypeLink UserTypeID="TIFFImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="Thumbnail"></UserTypeLink>
+            <UserTypeLink UserTypeID="TrainingMaterial"></UserTypeLink>
+            <UserTypeLink UserTypeID="UTF8"></UserTypeLink>
+            <UserTypeLink UserTypeID="WORD"></UserTypeLink>
+            <UserTypeLink UserTypeID="XLS"></UserTypeLink>
+            <UserTypeLink UserTypeID="XML"></UserTypeLink>
+            <UserTypeLink UserTypeID="ZIP"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

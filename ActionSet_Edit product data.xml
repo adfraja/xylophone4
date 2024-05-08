@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Edit product data" Type="user">
+            <ActionLink ActionID="Create product reference"></ActionLink>
+            <ActionLink ActionID="Delete product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

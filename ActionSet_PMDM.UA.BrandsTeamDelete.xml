@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.BrandsTeamDelete" Type="user">
+            <Name>M&amp;S Brands Team, Delete</Name>
+            <ActionLink ActionID="Delete Collection Group"></ActionLink>
+            <ActionLink ActionID="Delete Collection"></ActionLink>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Delete asset"></ActionLink>
+            <ActionLink ActionID="Delete classification"></ActionLink>
+            <ActionLink ActionID="Delete data container"></ActionLink>
+            <ActionLink ActionID="Delete entity reference"></ActionLink>
+            <ActionLink ActionID="Delete product reference"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

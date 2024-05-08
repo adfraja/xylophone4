@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="OrganizationCustomerOnboarding" Referenced="true">
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsSales"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Organization Customer Onboarding (Centralized)</Name>
+            <ValidUserTypeLink UserTypeID="OrganizationCustomer"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAL1XXW/aMBR976/wor2GfBAGTAlSx1apUiumsWoP01SZxA1WEzuyHWj762cndiCFQmDVXrCu7et7zrn32gGWgl4TLDAUaEamDMkxeoAZRyEvMiwm6AnFpUDzmOFC3OAcC5R8Z3iFM5QiHglWmp0Z5gKRGbnOC8oEYndF8vowHj/lWRRWA8BV2Cyy6viZBQjMUWTNWAoJfoECUzItuaA5YjOyoJAlmKQWWCHG5VJkub2xBeRJhEfWUojis+Os1+veut+jLHV81x047tCpglmT8INtAwAITZDN8QuyIUnsgnKswoCnyO254Ln6XUefgpEcl9FgpGxg25MLEEoyMJfemTRqC+BEgZdUCczAlOY5IkJGctTi5KIetYs8AHKOU4JQ5fYxLhlT24F4LiTpkiOmXM2myoMLKSBIMI8pEZiUSDpWclo6dEs3Yx6l6g9qsv2arRe4FdtgQxaElEhw7BksSo4J4hzGyllFhTGx/dEg8T3o2n13kdiBNxzai34Abei5fW8cIP/TwFVs9CmKDAgFg0RjQCs5H1nzciHrSUoAWYpEw+AbYTheGjE3bm8dM4UkRtnmGG3v8W2lYA4zxO+k7twkIWW0LNpZCJ0qCV3ScYWJCryFXidGL4AWr4458r0DSTqu6A1NZVfimB/WtKWLhvuOyuxDobVpls5TZ/RP6swLFMt6kwAui4LRFTxeNA3ed5RnDwytzmYFbCHs2t7DbuLstngdC11WE5ZRT89u5NMTSbcu/QLjx/uf9L5R8FiV1jRRkiK7gGIJfu/Z9gdIwp4hPFbjlu0axqfg0+W/Qbfb13uw7WyqkAWjNjJj+/1zkFUX1lb1KvMwqldbKkyDYY0h8GtMxvaCtzG1WuD26+2mLk9pgwes3sk326ApJ138W+V1rOINJVPx7kkv2g+UyzhXjOa/KHt8yOi69XaFTgW8Uye/SolpYzV91gVXJ+XsC25f6f7fR9G8zbUQzct8hH4Q1PTH7Xz6g6ZCOwPY/aZofy6dlpbhYVxv3KwSWYJNtU3rDz+l8TXXLX1C+jrePJ7palfficNzbp7uX1YdHtud66p1SJPSsP5in+i/DH8BLlWTyqEMAAA=</Configuration>
+            <LocalBusinessRule ID="acn-285d21a0-30bd-4177-b34a-a103194e2650" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAALVUXW/aMBR9Hr/CywMCqXO2t0kEELBW6rR2VWHaIzLmJr2VsTP7BrWb9t9nxyElqlqmSXuzz/045zg3t1RVgXotylIhuDXma2l0jkXmPECTMoYjNs6mDzvF9mAdGj1OPvD3CQMtzRZ1MU6+rS7efUymk142rxxqcO62UjDpMdYCN3U7dhyP0OWncfJZ7MVSWizpEJ9J8kTfke7mqLcuCb18txthxQ7Iy4jAMcRCp5jNVo8ljJN735YroQu+JOuFJpO+olHHSf9HZWjk7cTDk6d4r43F47Rf0KgXGgSOK1HWd8YOCPMvRVZI8jJixaKyFjR93dyDpJCyaDIarplC4ZpcbbbQwK2hhRKujVdKxVN6kvcWcvDEEsIrnOC1kIes16il2XFHuDFcGgt8a3YCNcddqXiH6dIjsSIoXFb1XNmZlKbSFNSmQcvpVwvUmKMUYQJOPtsSVL4Eu0cJ55qQHrv1/2jswnrObqeuvetnxP4f6ppsb4dZydJWxgvTe26tsVd+/EUB/3uKvxgpFP4UGwUN4wq8RUEwr/RWQfqXmp/+3ZcFY84Gb8OI8wKoHRo3aKZvyNF3E2TsYMjvhLuGBxoMh+xX701dJC14WW3d4ORXP2OHzqPe72cWjoB6jWRpd0n5NZZ291izEv8AcEYanDIFAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;italic&gt;" Stop="&lt;/italic&gt;"></Tag>
+        <StyleTag ID="italic" ParentID="Style tag root" Tag="italic">
+            <Configuration>H4sIAAAAAAAAAMssSczJTNbRNdQxBBEQZGig45mel1+Uikbl5ZcUZ+al56SW5OfpGAIAaWnujDsAAAA=</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;i&gt;</FormattingStart>
+                <FormattingStop>&lt;/i&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;ct:Italic&gt;</FormattingStart>
+                <FormattingStop>&lt;ct:&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

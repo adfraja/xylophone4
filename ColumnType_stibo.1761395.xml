@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ColumnTypes>
+        <ColumnType ID="stibo.1761395" ParentID="stibo.1761393" VerticalAlignment="0" CellImageScale="0" HeadingLevel="1">
+            <Name>Header</Name>
+            <TableTypeLink TableTypeID="stibo.1761407"></TableTypeLink>
+            <PublicationTypeValidity IsInNewPublicationTypes="true">
+                <IncludedPublicationType PublicationTypeID="Default publication type"></IncludedPublicationType>
+            </PublicationTypeValidity>
+        </ColumnType>
+    </ColumnTypes>
+</STEP-ProductInformation>

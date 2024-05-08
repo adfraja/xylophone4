@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataSteward" Type="setup">
+            <Name>Data Steward</Name>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Delete background-processes"></ActionLink>
+            <ActionLink ActionID="Empty recycle bin"></ActionLink>
+            <ActionLink ActionID="Enable Value Search/Values in typeahead"></ActionLink>
+            <ActionLink ActionID="Initiate Item in STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Maintain Possible Duplicates"></ActionLink>
+            <ActionLink ActionID="Perform Bulk Update"></ActionLink>
+            <ActionLink ActionID="Purge revisions"></ActionLink>
+            <ActionLink ActionID="Remove Item from STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Use tag"></ActionLink>
+            <ActionLink ActionID="View and use STEP Workflow"></ActionLink>
+            <ActionLink ActionID="View attribute group"></ActionLink>
+            <ActionLink ActionID="View attribute"></ActionLink>
+            <ActionLink ActionID="View context"></ActionLink>
+            <ActionLink ActionID="View domain"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute"></ActionLink>
+            <ActionLink ActionID="View metadata for domain"></ActionLink>
+            <ActionLink ActionID="View unit"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

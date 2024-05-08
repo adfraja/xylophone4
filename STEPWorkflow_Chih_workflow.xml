@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="Chih_workflow" Referenced="true">
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Chih_workflow</Name>
+            <ValidUserTypeLink UserTypeID="Chih_Parent"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Chih_child1"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Chih_child2"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJ2Sy2rDMBBF9/kKVXTrR9y4bYrlTVaBQgql6yLsSTLUlow0jp1+fRXZ6YuGhG50YZiZe+4g2ZJeKiSUBCu1MOBUrGVlIbNNhZRDD0VL8FwYbOgRayQonwzusIINWEGmPXZWaAnUSi3rRhsC89KUv5fZoq8rkXlh6G0rwRdb3L5akoY4U7KGsdJp87audMfZDoxFrQSPwzlnblZZwbdEzUMUdV0XdjehNpsoieM0iu8iv57n2VUQMMaULiGw+A6BVGXQaOtctWK9iMOY7f3bidv0oFuR3k+dsiDIJyyT1uJGATAsBb8uWmNAOUTaNw6xtWCcR3RsyiduwoUgYCXaQitC1YIb9Pm533Ei6FA5y5vMBuLpbGCexgNzkn4is4yMVOOE27oBGj0aowuw9kD81ZJPssgje/g1KlmdgYcef7L7wsXoyfwEehZ594uPeIzzHeUr4qU0yT8OOQb++4rZ8Pfy8bt/AGCWlsNdAwAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

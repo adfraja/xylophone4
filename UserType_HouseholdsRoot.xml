@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="HouseholdsRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]">
+            <Name>Households Root</Name>
+            <Icon>H4sIAAAAAAAAAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMEGJOU//08EUtM8XRxDKuLmTrjL26DA01JbrlyewNuWoPAsgaE8keXrKtWlf25XNF67N/1y7uorX20mzPMX7Vm+dUmqh9HjP+/mpHFMTntvy/l9pcstmWSVrUK6s1MXMRklP6sUXTQ96plei7j7MykV5g/d82am9iy8yyRwaCKDReSm9AO/xdkZvpx7u7J9I/eBIu4F9orMCQei2F5c6qxjTFk0bUM1c2Mq2/0QLW4loAsZPF39XNY5JTQBACGVXITPAAAA</Icon>
+            <UserTypeLink UserTypeID="PartyDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD054003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">cutting materials_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD054003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;cutting materials_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD054003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;cutting materials_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD054003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;cutting materials_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD054003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;cutting materials_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD054003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;cutting materials_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD054</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD054003</Value>
+            </MetaData>
+            <ValueGroup ID="AAE097002">
+                <Value QualifierID="std.lang.all">cermet</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE191002">
+                <Value QualifierID="std.lang.all">CV</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH627002">
+                <Value QualifierID="std.lang.all">HM</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH628002">
+                <Value QualifierID="std.lang.all">HM mounted</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH730002">
+                <Value QualifierID="std.lang.all">HSCO</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH743002">
+                <Value QualifierID="std.lang.all">HSS</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI071002">
+                <Value QualifierID="std.lang.all">HSSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI072002">
+                <Value QualifierID="std.lang.all">HSS-E</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI073002">
+                <Value QualifierID="std.lang.all">HSS-E CO08</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI075002">
+                <Value QualifierID="std.lang.all">HSSE-PM</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK554002">
+                <Value QualifierID="std.lang.all">alloyed tool steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK707002">
+                <Value QualifierID="std.lang.all">M42</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM258002">
+                <Value QualifierID="std.lang.all">PKD</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM276002">
+                <Value QualifierID="std.lang.all">PM HSS-E</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP091002">
+                <Value QualifierID="std.lang.all">VHM</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP271002">
+                <Value QualifierID="std.lang.all">WS</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

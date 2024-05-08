@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <MatchCodes>
+        <MatchCode ID="Individual Matching Algorithm - RL289" ContextID="GL" WorkspaceID="Main">
+            <SetupGroupLink SetupGroupID="MatchCodesAndMatchingAlgorithms"></SetupGroupLink>
+            <Name>Individual Matching Algorithm - RL289</Name>
+            <ValidObjectType ID="IndividualCustomer"></ValidObjectType>
+            <Template>H4sIAAAAAAAAAHPKzEsptrWxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347JxAqr2TSzQBzKLC3IyS+xCUnMLchJLUmHcyoJUW+fEnORSkGAKVBQAhyQUd2QAAAA=</Template>
+        </MatchCode>
+    </MatchCodes>
+</STEP-ProductInformation>

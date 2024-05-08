@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Household" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]" Referenced="true">
+            <Name>Household</Name>
+            <Icon>H4sIAAAAAAAAAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMEGJOU//08EUrWeLo4hFXFbJ7zlbVDgcfn53u3dBVOJpsYZzYx3WgUvmG076M0j+vVQa/+HOCbFPzPLePTm7T70QGzxl41HEuad3xp96bBl+sropoK1oa8m3Tmod5KjzNNtw7QOl6JGU60L5w/v5Zqw+YuDZrZ35kbb5stMNUxF0/xZefw5fxxacWLvKT5XpzSnOeWld4EOYfB09XNZ55TQBAARsMXgtgAAAA==</Icon>
+            <UserTypeLink UserTypeID="HouseholdsRoot"></UserTypeLink>
+            <AttributeLink AttributeID="CalcAQI"></AttributeLink>
+            <AttributeLink AttributeID="CalcHouseholdMemberNames"></AttributeLink>
+            <AttributeLink AttributeID="CalcNameCollection"></AttributeLink>
+            <AttributeLink AttributeID="LastEditDateRecord"></AttributeLink>
+            <AttributeLink AttributeID="LastName"></AttributeLink>
+            <AttributeLink AttributeID="MatchingDataSource"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

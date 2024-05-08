@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="ETIM Attribute Groups" ShowInWorkbench="true" ManuallySorted="false" ParentID="Technical Specification Attributes">
+            <Name QualifierID="en-US">ETIM Attributes Groups</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

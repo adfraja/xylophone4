@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;bulletlist&gt;" Stop="&lt;/bulletlist&gt;"></Tag>
+        <StyleTag ID="bulletlist" ParentID="Style tag root" Tag="bulletlist">
+            <Configuration>H4sIAAAAAAAAAEsqzclJLcnJLC7R0TVER5npeflFqTqeKFRefklxZl46UFd+no4BEOroGOoAAJaWIoxHAAAA</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;ul&gt;</FormattingStart>
+                <FormattingStop>&lt;/ul&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

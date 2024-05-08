@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ClassificationCrossReferenceType ID="REF_SupplierToSupplierCategory" Inherited="false" Accumulated="false" Revised="false" Mandatory="false" MultiValued="true">
+            <Name QualifierID="std.lang.all">Supplier To Supplier Category</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;REF_SupplierToSupplierCategory
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier To Supplier Category
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;REF_SupplierToSupplierCategory
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier To Supplier Category
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;REF_SupplierToSupplierCategory
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier To Supplier Category
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;REF_SupplierToSupplierCategory
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier To Supplier Category
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;REF_SupplierToSupplierCategory
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Supplier To Supplier Category
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <UserTypeLink UserTypeID="Supplier"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="AKAH_L1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AKAH_L2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AKAH_L3"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ALXA_Class_L1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ALXA_Class_L2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ALXA_Classification_Root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AlternateViewColor"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AlternateViewType"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AlternateViews"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Asset Tree Folder"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AssetLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AssetLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AssetPushConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AssetRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="AutoClassificationRuleSetsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="BulkUpdateConfigurationRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="BulkUpdateConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="BusinessRulesDownloadsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="CFTO_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="CFTO_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="CFTO_NP_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="CFTO_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Chab_classification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Chab_root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Class1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ClassFolder"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Classification 1 user-type root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="DAM"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="DGNA_CLS_Lev1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="DGNA_CLS_Lev2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="EU_CuratedSubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="EU_SC_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="EU_SC_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="EU_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="EclassFolder"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExportConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExportConfigurationsLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ExportConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="FR_CuratedSubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="FR_SC_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="FR_SC_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="FR_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="GPC Root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="HTAssetTreeFolder"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="HealthTechAssetTreeRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_CFTO_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_CFTO_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_CFTO_NP_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_CFTO_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_CuratedSubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_SC_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_SC_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IE_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IN_SC_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IN_SC_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IN_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IconRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="IllustrationRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ImportConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ImportConfigurationsLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ImportConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="InstallationManualRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="LogoRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="LookupTableRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="MOHR_Classification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="MSDSRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ManualRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="NP_SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="OwnersManualRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.AssetPushConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.AutoClassificationRuleSetsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.BulkUpdateConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ExportConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ExportConfigurationsLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ExportConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ImportConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ImportConfigurationsLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.ImportConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.PortalConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.PortalConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SmartSheetConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierAssets"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierLocation"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierLocations"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SupplierProducts"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.SuppliersRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PMDM.CLS.TransformationLookupTablesRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PortalConfigurationsLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="PortalConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="ProductImageRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SC_Level_0"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SC_Level_1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SH"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="STEP_Thumbnails"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SmartSheetConfigurationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier Assets"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier Batch"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier Batches"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier Products"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Supplier Root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierAssets"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierAssetsClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierBatch"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierBatches"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierClassificationsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierEntitiesClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierLocationClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierLocationsClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierProducts"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierProductsClassification"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SupplierRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="SuppliersRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Topic"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="TrainingDataRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="TransformationLookupTablesRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="UK_CuratedSubCategory"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="VideoRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="WebHierarchyRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="WebLevel1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="WebLevel2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="WebUIAssetsRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="WebsiteRoot"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="draj_cl_level1"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="draj_cl_level2"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="eClass_14.0_CommodityClass"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="eClass_14.0_Group"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="eClass_14.0_MainGroup"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="eClass_14.0_Root"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="eClass_14.0_Segment"></TargetUserTypeLink>
+        </ClassificationCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

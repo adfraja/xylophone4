@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Keys>
+        <Key ID="BankMasterUniqueKey" State="Active">
+            <Name>Bank Master Unique Key</Name>
+            <KeyFormula>concatenate(value('BankKey'),value('BankCountry'))</KeyFormula>
+            <UserTypeLink UserTypeID="BankMaster"></UserTypeLink>
+            <AttributeLink AttributeID="BankCountry"></AttributeLink>
+            <AttributeLink AttributeID="BankKey"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

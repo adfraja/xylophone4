@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Keys>
+        <Key ID="Additional EAN" State="Inactive">
+            <Name>Additional EAN</Name>
+            <KeyFormula>value('PMDM.AT.AdditionalEAN')</KeyFormula>
+            <UserTypeLink UserTypeID="PMDM.PRD.InternalSourceRecord"></UserTypeLink>
+            <AttributeLink AttributeID="PMDM.AT.AdditionalEAN"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

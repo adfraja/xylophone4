@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB536012" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Color of housing</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB536012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Color of housing
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB536012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Color of housing
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB536012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Color of housing
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB536012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Color of housing
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB536012
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Color of housing
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB536</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB536012</Value>
+            </MetaData>
+            <ValueGroup ID="AAA070002">
+                <Value QualifierID="std.lang.all">Titanium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA092006">
+                <Value QualifierID="std.lang.all">Gold</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA354002">
+                <Value QualifierID="std.lang.all">Wood</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA357003">
+                <Value QualifierID="std.lang.all">Transparent</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA382003">
+                <Value QualifierID="std.lang.all">Chromium</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA865005">
+                <Value QualifierID="std.lang.all">Copper</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA871005">
+                <Value QualifierID="std.lang.all">orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA872003">
+                <Value QualifierID="std.lang.all">white</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA873003">
+                <Value QualifierID="std.lang.all">black</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA874003">
+                <Value QualifierID="std.lang.all">brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA875005">
+                <Value QualifierID="std.lang.all">gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA876005">
+                <Value QualifierID="std.lang.all">Natural</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAD822002">
+                <Value QualifierID="std.lang.all">cyan (blue-green)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE171002">
+                <Value QualifierID="std.lang.all">cream-white</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAE172002">
+                <Value QualifierID="std.lang.all">cream white/electro white</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH604002">
+                <Value QualifierID="std.lang.all">sky blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ703005">
+                <Value QualifierID="std.lang.all">olive-green</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ710005">
+                <Value QualifierID="std.lang.all">slate blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ711005">
+                <Value QualifierID="std.lang.all">blue lilac</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ712005">
+                <Value QualifierID="std.lang.all">gentian blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ715005">
+                <Value QualifierID="std.lang.all">light blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ717005">
+                <Value QualifierID="std.lang.all">pastel orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ718005">
+                <Value QualifierID="std.lang.all">white</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ719005">
+                <Value QualifierID="std.lang.all">chocolate brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ721005">
+                <Value QualifierID="std.lang.all">deep black</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ723005">
+                <Value QualifierID="std.lang.all">white green</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM039005">
+                <Value QualifierID="std.lang.all">Lilac/violet</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM040005">
+                <Value QualifierID="std.lang.all">Without housing</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN220002">
+                <Value QualifierID="std.lang.all">silver gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ958002">
+                <Value QualifierID="std.lang.all">black-transparent</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU751002">
+                <Value QualifierID="std.lang.all">coral red</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAU758002">
+                <Value QualifierID="std.lang.all">moss green</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW969002">
+                <Value QualifierID="std.lang.all">blue/black</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW983002">
+                <Value QualifierID="std.lang.all">yellow green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA424002">
+                <Value QualifierID="std.lang.all">sulfur yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA426002">
+                <Value QualifierID="std.lang.all">traffic red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA428002">
+                <Value QualifierID="std.lang.all">traffic orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABA429002">
+                <Value QualifierID="std.lang.all">deep orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABK557002">
+                <Value QualifierID="std.lang.all">black/green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL426002">
+                <Value QualifierID="std.lang.all">yellow orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL427002">
+                <Value QualifierID="std.lang.all">signal violet</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL428002">
+                <Value QualifierID="std.lang.all">turquoise green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL429002">
+                <Value QualifierID="std.lang.all">pastel turquoise</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL430002">
+                <Value QualifierID="std.lang.all">signal grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL431002">
+                <Value QualifierID="std.lang.all">iron grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL432002">
+                <Value QualifierID="std.lang.all">basalt grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL433002">
+                <Value QualifierID="std.lang.all">pebble grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL434002">
+                <Value QualifierID="std.lang.all">agate grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL435002">
+                <Value QualifierID="std.lang.all">grey brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL436002">
+                <Value QualifierID="std.lang.all">grey white</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABL437002">
+                <Value QualifierID="std.lang.all">graphite black</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN512002">
+                <Value QualifierID="std.lang.all">ocean blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN564002">
+                <Value QualifierID="std.lang.all">zinc yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN566002">
+                <Value QualifierID="std.lang.all">carmine red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO059002">
+                <Value QualifierID="std.lang.all">fire red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO060002">
+                <Value QualifierID="std.lang.all">turquoise blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO061002">
+                <Value QualifierID="std.lang.all">anthracite gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO062002">
+                <Value QualifierID="std.lang.all">pearl white</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO063002">
+                <Value QualifierID="std.lang.all">rape yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO064002">
+                <Value QualifierID="std.lang.all">blood orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO065002">
+                <Value QualifierID="std.lang.all">ruby red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO066002">
+                <Value QualifierID="std.lang.all">tomato red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO067002">
+                <Value QualifierID="std.lang.all">rose</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO068002">
+                <Value QualifierID="std.lang.all">ericaceous violet</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO069002">
+                <Value QualifierID="std.lang.all">burgundy violet</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO070002">
+                <Value QualifierID="std.lang.all">signal blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO071002">
+                <Value QualifierID="std.lang.all">steel blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO072002">
+                <Value QualifierID="std.lang.all">pigeon blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO073002">
+                <Value QualifierID="std.lang.all">water blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO074002">
+                <Value QualifierID="std.lang.all">light green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO075002">
+                <Value QualifierID="std.lang.all">squirrel grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO076002">
+                <Value QualifierID="std.lang.all">graphite gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO077002">
+                <Value QualifierID="std.lang.all">traffic gray B</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO078002">
+                <Value QualifierID="std.lang.all">telegrey 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO079002">
+                <Value QualifierID="std.lang.all">beige brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABO080002">
+                <Value QualifierID="std.lang.all">signal white</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU201002">
+                <Value QualifierID="std.lang.all">pale green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU202002">
+                <Value QualifierID="std.lang.all">pure orange</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU203002">
+                <Value QualifierID="std.lang.all">signal red</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU204002">
+                <Value QualifierID="std.lang.all">telemagenta</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU205002">
+                <Value QualifierID="std.lang.all">terra brown</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU206002">
+                <Value QualifierID="std.lang.all">traffic gray A</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABU207002">
+                <Value QualifierID="std.lang.all">traffic white</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABZ753002">
+                <Value QualifierID="std.lang.all">bottle green</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABZ754002">
+                <Value QualifierID="std.lang.all">black gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABZ755002">
+                <Value QualifierID="std.lang.all">window gray</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABZ756002">
+                <Value QualifierID="std.lang.all">steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA186002">
+                <Value QualifierID="std.lang.all">anthracite</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA242002">
+                <Value QualifierID="std.lang.all">beige</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA425004">
+                <Value QualifierID="std.lang.all">ivory</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA573004">
+                <Value QualifierID="std.lang.all">green-yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA761005">
+                <Value QualifierID="std.lang.all">multi-colored</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA799004">
+                <Value QualifierID="std.lang.all">Nickel</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA894004">
+                <Value QualifierID="std.lang.all">pink</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAA985005">
+                <Value QualifierID="std.lang.all">Silver</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB084002">
+                <Value QualifierID="std.lang.all">turquoise</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB406003">
+                <Value QualifierID="std.lang.all">Zinc</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAD057003">
+                <Value QualifierID="std.lang.all">white-aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAA115004">
+                <Value QualifierID="std.lang.all">Transparent</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA288005">
+                <Value QualifierID="std.lang.all">metallic</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA367005">
+                <Value QualifierID="std.lang.all">dusky pink</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA392005">
+                <Value QualifierID="std.lang.all">light grey</Value>
+            </ValueGroup>
+            <ValueGroup ID="WAA109002">
+                <Value QualifierID="std.lang.all">Stainless steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="WDA055005">
+                <Value QualifierID="std.lang.all">red</Value>
+            </ValueGroup>
+            <ValueGroup ID="WDA056003">
+                <Value QualifierID="std.lang.all">yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="WDA057003">
+                <Value QualifierID="std.lang.all">blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="WDA058005">
+                <Value QualifierID="std.lang.all">green</Value>
+            </ValueGroup>
+            <ValueGroup ID="WDA060003">
+                <Value QualifierID="std.lang.all">violet</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA005004">
+                <Value QualifierID="std.lang.all">Platinum</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA006005">
+                <Value QualifierID="std.lang.all">Brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA007005">
+                <Value QualifierID="std.lang.all">Bronze</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA010003">
+                <Value QualifierID="std.lang.all">aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPA050004">
+                <Value QualifierID="std.lang.all">without</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

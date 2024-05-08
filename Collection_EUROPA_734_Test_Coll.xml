@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="EUROPA_734_Test_Coll" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=searchString%3dEUROPA_734_Test%0aEUROPA_734_Test1%0aEUROPA_734_Test2%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria">
+            <Name>EUROPA_734_Test_Coll</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

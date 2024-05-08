@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="IE_CFTO_SubCategory" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="CFTO_IE_SubCategory_[id]">
+            <Name>IE CFTO SubCategory</Name>
+            <Icon>H4sIAAAAAAAAAAEIAvf9iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABuklEQVQ4T62SyyvEURTHf94G4814pyHsLPwNFrK2sLDAAkVChkYReVuQV1FCoRgRFuOxMORVQrLRNAtrUzZIsfi63zN+4xFKWXy655z7vd9777lXi5yYg6F1ACHdQzB0DSJMjSG9wwi2dsO3phn+tdZf0ZK291GIZxThxUu5Iu3wHD6ldfCravoRbqDFr28j8+YW2ff37zw+It3pBOdMGzvfkmjfRVj/KLSYxTUkbDqQ4jhB8u7xO/unSD25ROrRxbekXVzDODylDGZsiJqcR/TCCjLv7lCrjk9yAUTPLQvpl04Uv9WrFMxjlZ4907iYR0nc2hNBljIxDk4hXxmYVu0C63kqZ525xGp3Q0sP5BWCVMBmUpjz8CDOOsxZl9f6UCeBlg5oEeOzCGhsl2fja1DMkX3QaxWqxvgrAQ1t0MLHZuBfbZWEmF0uWUCjOJsdBW8G+rwOd5d/QAPPh2n1YhydFgPzlQsZbrfEoX0jnzQelAHF/BTJB2fSXRbjbBuyiDU9zn56kjk2T495cs8JKi0Ibu6U7lJMxEwJCD+Nfq0SRezSumfOewVloIv/xP8YDE3Ct6xeTP6OBa/3ojrK9OkJjgAAAABJRU5ErkJgguqraSkIAgAA</Icon>
+            <UserTypeLink UserTypeID="IE_CFTO_Level_1"></UserTypeLink>
+            <UserTypeLink UserTypeID="IE_CFTO_NP_SubCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="IE_CFTO_SubCategory"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

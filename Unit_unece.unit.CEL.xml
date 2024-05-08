@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UnitList>
+        <Unit ID="unece.unit.CEL" Referenced="true" ParentID="Temperature">
+            <Name>°C</Name>
+            <UnitConversion BaseUnitID="unece.unit.KEL" Factor="1" Offset="273.15"></UnitConversion>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="UnitDescription">degree Celsius</Value>
+            </MetaData>
+        </Unit>
+    </UnitList>
+</STEP-ProductInformation>

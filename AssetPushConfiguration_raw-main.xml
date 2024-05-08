@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AssetPushConfigurations>
+        <AssetPushConfiguration ID="raw-main" AssetPushEventQueueID="DTPConfiguration" RelativePathTemplate="$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$" AutoCleanup="true">
+            <Name>raw-main</Name>
+            <AssetPushMIMETypes>
+                <AssetPushMIMEType>image/*</AssetPushMIMEType>
+            </AssetPushMIMETypes>
+            <AssetPushAttributes></AssetPushAttributes>
+            <AssetPushClassifications>
+                <AssetPushClassification>AssetsRoot</AssetPushClassification>
+            </AssetPushClassifications>
+        </AssetPushConfiguration>
+    </AssetPushConfigurations>
+</STEP-ProductInformation>

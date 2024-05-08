@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b" ParentID="AC_PAdb_LOVGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">AC_PAdb_Aluminum;Concrete;Concrete Fabrics;ConcreteFabrics;Fabrics;Fiberglass;Gel Coat;Glass;Plastic;Stainless Steel;Wood_LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;AC_PAdb_Aluminum;Concrete;Concrete Fabrics;ConcreteFabrics;Fabrics;Fiberglass;Gel Coat;Glass;Plastic;Stainless Steel;Wood_LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PAdb_0287bd27b9b3721a2bebc0aeec130f8b
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="ALUMINUM">
+                <Value>Aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="CONCRETE">
+                <Value>Concrete</Value>
+            </ValueGroup>
+            <ValueGroup ID="CONCRETEFABRICS">
+                <Value>ConcreteFabrics</Value>
+            </ValueGroup>
+            <ValueGroup ID="CONCRETE_FABRICS">
+                <Value>Concrete Fabrics</Value>
+            </ValueGroup>
+            <ValueGroup ID="FABRICS">
+                <Value>Fabrics</Value>
+            </ValueGroup>
+            <ValueGroup ID="FIBERGLASS">
+                <Value>Fiberglass</Value>
+            </ValueGroup>
+            <ValueGroup ID="GEL_COAT">
+                <Value>Gel Coat</Value>
+            </ValueGroup>
+            <ValueGroup ID="GLASS">
+                <Value>Glass</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLASTIC">
+                <Value>Plastic</Value>
+            </ValueGroup>
+            <ValueGroup ID="STAINLESS_STEEL">
+                <Value>Stainless Steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="WOOD">
+                <Value>Wood</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

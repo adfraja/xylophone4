@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="DnBOrganizationPrimaryAddress" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="DnBOrganizationPrimaryAddress [id]">
+            <Name>DnBOrganizationPrimaryAddress</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBOrganizationPrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="DnBRecordAttributes"></AttributeGroupLink>
+            <AttributeLink AttributeID="DnBAddressUsageTenureDetail"></AttributeLink>
+            <AttributeLink AttributeID="DnBCountryGroupName"></AttributeLink>
+            <AttributeLink AttributeID="DnBCountryISOAlpha2Code"></AttributeLink>
+            <AttributeLink AttributeID="DnBCountyOfficialName"></AttributeLink>
+            <AttributeLink AttributeID="DnBGeographicalPrecisionText"></AttributeLink>
+            <AttributeLink AttributeID="DnBLatitudeMeasurement"></AttributeLink>
+            <AttributeLink AttributeID="DnBLongitudeMeasurement"></AttributeLink>
+            <AttributeLink AttributeID="DnBMetropolitanStatAreaUSCensusCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBMinorTownName"></AttributeLink>
+            <AttributeLink AttributeID="DnBPoliticalDistrict"></AttributeLink>
+            <AttributeLink AttributeID="DnBPostalCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBPremisesFunctionText"></AttributeLink>
+            <AttributeLink AttributeID="DnBPrimaryTownName"></AttributeLink>
+            <AttributeLink AttributeID="DnBRegisteredAddressIndicator"></AttributeLink>
+            <AttributeLink AttributeID="DnBResidentialAddressIndicator"></AttributeLink>
+            <AttributeLink AttributeID="DnBStreetAddressLine"></AttributeLink>
+            <AttributeLink AttributeID="DnBTerritoryAbbreviatedName"></AttributeLink>
+            <AttributeLink AttributeID="DnBTerritoryOfficialName"></AttributeLink>
+            <AttributeLink AttributeID="DnBUndeliverableIndicator"></AttributeLink>
+            <UserTypeLink UserTypeID="DnBOrganization"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

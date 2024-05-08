@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;bolditalic&gt;" Stop="&lt;/bolditalic&gt;"></Tag>
+        <StyleTag ID="bolditalic" ParentID="Style tag root" Tag="bolditalic">
+            <Configuration>H4sIAAAAAAAAAEvKz0nJLEnMyUzWMQRCXRgyNNDxTM/LL0rVccpJTM6GcfLyS4oz89JzUkvy84DKDXR0gBgAllkho0QAAAA=</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;B&gt;&lt;I&gt;</FormattingStart>
+                <FormattingStop>&lt;/I&gt;&lt;/B&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;ct:bolditalic&gt;</FormattingStart>
+                <FormattingStop>&lt;ct:&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

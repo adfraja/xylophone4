@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="PMDM.UG.BrandsTeam" ReadOnly="false">
+            <Name>M&amp;S Brands Team</Name>
+            <PrivilegeRule ActionSetID="PMDM.SA.BrandsTeam"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.SA.BrandsTeamWorkflowAdministrator" SetupGroupID="PMDM.WorkflowsExternal"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamClassify" ClassificationID="PMDM.ConfigurationsRoot" AttributeGroupID="PMDM.ATG.BrandsTeamClassify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamCreate" ClassificationID="PMDM.ConfigurationsRoot" AttributeGroupID="PMDM.ATG.BrandsTeamCreate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamCreate" EntityID="PMDM.StrokeNumberRoot" UserTypeID="PMDM.ENT.StrokeNumber" AttributeGroupID="PMDM.ATG.BrandsTeamCreate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamDeleteEntityRefs" EntityID="PMDM.StrokeNumberRoot" UserTypeID="PMDM.ENT.StrokeNumber" AttributeGroupID="PMDM.ATG.BrandsTeamCreate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamModify" ClassificationID="PMDM.ConfigurationsRoot" AttributeGroupID="PMDM.ATG.BrandsTeamModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamModify" ClassificationID="SuppliersRoot" UserTypeID="PMDM.CLS.SupplierClassification" AttributeGroupID="PMDM.ATG.BrandsTeamModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamView" ClassificationID="PMDM.ConfigurationsRoot" AttributeGroupID="PMDM.ATG.BrandsTeamView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamView" ClassificationID="SuppliersRoot" AttributeGroupID="PMDM.ATG.BrandsTeamView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamView" ProductID="Product hierarchy root" AttributeGroupID="PMDM.ATG.BrandsTeamView"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamView" ClassificationID="SuppliersRoot" AttributeGroupID="Uncategorized"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="PMDM.UA.BrandsTeamView" EntityID="Entity hierarchy root"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

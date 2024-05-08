@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESOrientationView" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Orientation View</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="150" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PIESOrientationView
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Orientation View
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PIESOrientationView
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESOrientationView
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIESOrientationView
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PIESOrientationView
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="360">
+                <Value>360 rotation</Value>
+            </ValueGroup>
+            <ValueGroup ID="3DS">
+                <Value>3D Models</Value>
+            </ValueGroup>
+            <ValueGroup ID="ANG">
+                <Value>Angle</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC">
+                <Value>Back</Value>
+            </ValueGroup>
+            <ValueGroup ID="BOT">
+                <Value>Bottom</Value>
+            </ValueGroup>
+            <ValueGroup ID="CON">
+                <Value>Connector</Value>
+            </ValueGroup>
+            <ValueGroup ID="FRO">
+                <Value>Front</Value>
+            </ValueGroup>
+            <ValueGroup ID="KIT">
+                <Value>Kit</Value>
+            </ValueGroup>
+            <ValueGroup ID="LEF">
+                <Value>Left</Value>
+            </ValueGroup>
+            <ValueGroup ID="LIF">
+                <Value>Lifestyle</Value>
+            </ValueGroup>
+            <ValueGroup ID="NUL">
+                <Value>Not Applicable</Value>
+            </ValueGroup>
+            <ValueGroup ID="OTH">
+                <Value>Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="RIT">
+                <Value>Right</Value>
+            </ValueGroup>
+            <ValueGroup ID="SID">
+                <Value>Side</Value>
+            </ValueGroup>
+            <ValueGroup ID="TOP">
+                <Value>Top</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ1">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ2">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ3">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ4">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ5">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ6">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ7">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ8">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ9">
+                <Value>User Defined</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

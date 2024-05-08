@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAD916007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">conductor cross-section (AWG/KCMIL)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD916007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;conductor cross-section (AWG/KCMIL)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD916007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;conductor cross-section (AWG/KCMIL)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD916007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;conductor cross-section (AWG/KCMIL)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD916007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;conductor cross-section (AWG/KCMIL)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAD916007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;conductor cross-section (AWG/KCMIL)
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAD916</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAD916007</Value>
+            </MetaData>
+            <ValueGroup ID="AAC447002">
+                <Value QualifierID="std.lang.all">26</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC627002">
+                <Value QualifierID="std.lang.all">38</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC721002">
+                <Value QualifierID="std.lang.all">42</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAC736002">
+                <Value QualifierID="std.lang.all">44</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR454002">
+                <Value QualifierID="std.lang.all">20</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR455002">
+                <Value QualifierID="std.lang.all">24</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR457002">
+                <Value QualifierID="std.lang.all">28</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR458002">
+                <Value QualifierID="std.lang.all">300</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR459002">
+                <Value QualifierID="std.lang.all">32</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR461002">
+                <Value QualifierID="std.lang.all">350</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAR462002">
+                <Value QualifierID="std.lang.all">40</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV214002">
+                <Value QualifierID="std.lang.all">(4/0)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV215002">
+                <Value QualifierID="std.lang.all">(3/0)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV216002">
+                <Value QualifierID="std.lang.all">(2/0)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV217002">
+                <Value QualifierID="std.lang.all">(1/0)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV218002">
+                <Value QualifierID="std.lang.all">14</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV219002">
+                <Value QualifierID="std.lang.all">18</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV220002">
+                <Value QualifierID="std.lang.all">22</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAV221002">
+                <Value QualifierID="std.lang.all">34</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAW411002">
+                <Value QualifierID="std.lang.all">not specified</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAY528002">
+                <Value QualifierID="std.lang.all">1000</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAY536002">
+                <Value QualifierID="std.lang.all">900</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC677002">
+                <Value QualifierID="std.lang.all">550</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC678002">
+                <Value QualifierID="std.lang.all">600</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABC679002">
+                <Value QualifierID="std.lang.all">750</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB302002">
+                <Value QualifierID="std.lang.all">36</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB476002">
+                <Value QualifierID="std.lang.all">500</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB775002">
+                <Value QualifierID="std.lang.all">250</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA006002">
+                <Value QualifierID="std.lang.all">30</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA012002">
+                <Value QualifierID="std.lang.all">12</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA027002">
+                <Value QualifierID="std.lang.all">1</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA028002">
+                <Value QualifierID="std.lang.all">2</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA031002">
+                <Value QualifierID="std.lang.all">16</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA045002">
+                <Value QualifierID="std.lang.all">6</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA047002">
+                <Value QualifierID="std.lang.all">4</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA051002">
+                <Value QualifierID="std.lang.all">8</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAA054002">
+                <Value QualifierID="std.lang.all">10</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

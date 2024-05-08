@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;stibo.diff.DeleteMarker&gt;" Stop="&lt;/stibo.diff.DeleteMarker&gt;"></Tag>
+        <StyleTag ID="stibo.diff.DeleteMarker" ParentID="Style tag root" Tag="stibo.diff.DeleteMarker">
+            <Configuration>H4sIAAAAAAAAAMvLLyktTk3JS8xN1dE1REee6Xn5RakwKiAzL1unODMvPSe1JD9PxxAAXCCMTDwAAAA=</Configuration>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

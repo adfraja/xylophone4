@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="AggregateRoot" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="[id]">
+            <Name>Aggregate Root</Name>
+            <Icon>H4sIAAAAAAAAAAH0Agv9iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKJSURBVDhPpZNrU5JBFMf7NvbSF2ZjH8AcRcXICzUqjYYpAjo2laKJWo4YCDzgKBcttfuUeKGALEDu4IUAnQzT5AvY4Hvm3+46E/quqZ05s/vs7vmd/zl7ngv4z8EA2WwWiUQS+/v7f2WpVAonJyd5gNPlgtvjRWxjE/FEAju7u/i2t4e972lmdE336Bm941334YvbnQf4fH709vWjs1MGmawLcnk35F3EyCyVyjHwUAnr7DNMm6wwGKeg0xsQjkTyAL8/AAlxFgpvoq6uAQJBLfj8a6isrEZ5OQ89d+8TJyMmtBzUGh3GVE8QiUTzgGAohE4SSXC9DvwaAXNsbhahtrYeNeRbNa6Gon8QfYoBPOhVYFA5zFL5A6ByOiRSVFXxUVpahpFHj8EZjDCbrZibX8CHj068fvMWra1itLSIiaJ72NrazgMi0SjaOyTg8aqgmdBi4cUrLC6twOFaQyAYRiKZYra8vIL6BiHa7rRjezt+HnBb3IbR0THm/O69Dd3dPRCJbpG63IBKNc5eg8o2GI1s/xyApqBWa0iRdCzy0PAISq+WwWKdgXFyEiUlVzA1NQ1/IMhSGybnm2dTCAZDEBMFs0/nYCOA4uLLcDhdSKZ2WOS1tc8oLCzEom2JQRsbmxCLbeQBtA/SadJlPw5IQ3lQVHQJn4gTdY5/TTLHgoKLsJGZNtTB4SFC4TN9QBWYTBbo9RyOj3/BZDZDqRwiMuPweNdZU3Ech8OfR9BoJmCxzJCnD58CcrkcVlftmH/+EnpuEk4indakupoPmVzO5FZU8AhsCw6HE1rShbTQdrsd1JcBMpkMvCQSjbbu8zFFFBKNxpjRNd2jZ+wO+RcyR5lTANPxzwP4DRn1I3ZoYcrtAAAAAElFTkSuQmCCnHh2J/QCAAA=</Icon>
+            <UserTypeLink UserTypeID="PartyDataRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

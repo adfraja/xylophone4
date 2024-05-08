@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="WebLevel2" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="WebLevel2-[id]">
+            <Name>Web Level 2</Name>
+            <Icon>H4sIAAAAAAAAAJ1UT2jTUBiPVnTU+QcPgp5CVBC1SV6bpk1c1aRJtWBrbStWFDRLXrewJS8mbzbbxX+I8+bJmyCIoFN30KPilOFBGVPUgyiiVw+yoyhCfZntFJEdfJC873v5/b7ve9+fXKqU966Kb4xTFLWquE+rkn1t9PTEyHtrYk2NbBuw3sA11MQtw4eUYqF+SBcdYwBWoWGNnnwG+ygq1rTrDdwo7ZdN5LBGhGFDx6Oi1bc79AxzCGK6Hw7Ybo6ZezDF0LaVYw6nS3zJy8NBe9+YD2tj5bo5NmRKFrN7F90XysSAA7FBh86wG8hhjpm3KxM5OuYYeh6Ch3LMr6AapQqdRz6k0yyfMHkR0KLAAoGXBGkHneQBz4Ekx2cSgJfTGZkHdGcxxJtvNeWqVuj4IlqOGcTYkzmu1WqxrRSL/AEOSJLE8UkumUwQRCIYdbERJtxgU9eCBgPTtz1sI5eOdKMfjeAcw3Sv4Hil0oJhN+gkiqSMCw2PAyzPOQ7XRQe4CpuLo4P6qAe5KgzQiG+SejQ3/eFqcWoEJNHIB3ybFMUY1pA54kAXF7UcQ76wlm3JoJDlVU0Rhbyo6AIAqiiIBaFQACkho2fVZNfGv7hqQdN1oOZFXUwBoAvZbIqX0noyKSgZRUnlu9yiG2DDNWGXa//mqoty5bwPDYz8OkLD3Q6oDCKMgkHk0flamgX0Ydu1UCuIytOJFPr2KWgVfOTQ8/mV7X/4B7qeUjTiHYh6dO+soGe0rKgCSVUllVeYDtf6n5xxJBjur2bpHpEOjMSF1ifKwvBAl0yMT0bjy7JiLxmrzZX9db3dbhOx/fnMaZuaukq1X1Hj4+MTExMMw2iaNjMzQwDPvasfCKgXV8u19u9Frfs4O0vOjxc1pR6+O/biyOrHdA918HJ829cptOTJ2/IPnpu8tvPdLXV2LHZ75Pz6G69rlS2fblH3VoblR2dXvD8zd+VbbMO6l4mLF5ZmeiYfPp1uzO1Ze/z+0R+HTt1c/2Y6Xv4e56m7y2Pyne2916NfQVEva5PqiXM/AY0Q3zB3BAAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="WebLevel1"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

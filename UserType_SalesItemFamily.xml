@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SalesItemFamily" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="SalesItemFamily-[id]" Referenced="true">
+            <Name>Sales Item Family</Name>
+            <Icon>H4sIAAAAAAAAAJ1TvW/TQBR3GxVQ1U9VqlqmkyshBuK7c5zEthqq1E5pUBOiJFIzMNSxL4nV2mfsK3E7RWz8CTAg/gJGFgY+BiQ2ZhZ2FmbUIZzbJCBUtRIn3ce7+/3ee/c+nteqD+Znb88KgjBf3jXrfF9K5q0UX++mFxt8W2elFmvQDutbIRGKDm0TUPasLqkTyzl58oVsCkKq4zZbrFXZ023qSVaCkWIvEJKxuRUHln1IGGiTrusXxJ/v3ovAdQrifraCKoFBeu7uaUgap9WmfXpoa464dR9sxjpX4BFmgdg78iM9LojnenV+Tq6hCM4h7LAgXjjVqtSAQUMCshJK2yiHQU6RsII0RbsHZIQRxDJE+TRGejavIwxGQ+TWQqej182dkS0uFcQeY4EOYb/fl/oZiYZdiDVNg0iGspzmiHR04jMrTvvRxliDSSI7dAPmUh8kstWmx6wgiuMveEGlMlHsR6NA8ZDB2AoglhD0PDhGR6xOOlejo+ZJQGCdRPQ4tHk+Oht/mbqamgC5N/qj0OVJsY5Mah97xGdlsyDyF8lxHT2jZYtqDufMYk4tKRirRs40ssqOWsznVW0bjXVcxlWLhpxHCmea2xiXFNUwNQOV8jlNNU1TnXDLfsQs3yZjrvuHq13J1Y2QWIyGTUqPxhVQ61FGox4NgNHIShjsu75D+1GSnpGnJHSfEmcnpB44j6/uXmJfwdf9+4Lr/E/MIHcG/lMs4ytegclxUvpcmDQP8XnHhLw1Ht/89IO31WJtr1kS5NfCem04HA5efOWrHZ19508zrF5tcHEonL1dSFpYLpvFZvytfVBMzdVeLk8PpmurqczKEsoIM2sfBst3plYGU58/bgxurAW/VheE6TnhVXMKDR52V5MOLpeq5pvtg2e/ATPkHWguBAAA</Icon>
+            <UserTypeLink UserTypeID="Level3"></UserTypeLink>
+            <AttributeLink AttributeID="3D"></AttributeLink>
+            <AttributeLink AttributeID="AspectRatio"></AttributeLink>
+            <AttributeLink AttributeID="AudioPowerOutput"></AttributeLink>
+            <AttributeLink AttributeID="Battery"></AttributeLink>
+            <AttributeLink AttributeID="Color"></AttributeLink>
+            <AttributeLink AttributeID="ConsumerShortDescription"></AttributeLink>
+            <AttributeLink AttributeID="Depth"></AttributeLink>
+            <AttributeLink AttributeID="Desc_1"></AttributeLink>
+            <AttributeLink AttributeID="DigitalTuner"></AttributeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="DisplayLanguage"></AttributeLink>
+            <AttributeLink AttributeID="DisplayType"></AttributeLink>
+            <AttributeLink AttributeID="FeatureBullets"></AttributeLink>
+            <AttributeLink AttributeID="FullHD3D"></AttributeLink>
+            <AttributeLink AttributeID="Height"></AttributeLink>
+            <AttributeLink AttributeID="LEDBacklight"></AttributeLink>
+            <AttributeLink AttributeID="LongAdvertisingCopy"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="RechargingTime"></AttributeLink>
+            <AttributeLink AttributeID="SellPackDepth"></AttributeLink>
+            <AttributeLink AttributeID="SellPackHeight"></AttributeLink>
+            <AttributeLink AttributeID="SellPackWeight"></AttributeLink>
+            <AttributeLink AttributeID="SellPackWidth"></AttributeLink>
+            <AttributeLink AttributeID="Series"></AttributeLink>
+            <AttributeLink AttributeID="ShortAdvertisingCopy"></AttributeLink>
+            <AttributeLink AttributeID="SoundMode"></AttributeLink>
+            <AttributeLink AttributeID="SupportedAudioFormats"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+            <AttributeLink AttributeID="Weight"></AttributeLink>
+            <AttributeLink AttributeID="Width"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

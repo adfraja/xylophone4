@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ContextList>
+        <Context ID="Context5" Locale="it">
+            <Name>it-IT</Name>
+            <DimensionPointLink DimensionPointID="All Channels"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="Italian"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="Italy"></DimensionPointLink>
+        </Context>
+    </ContextList>
+</STEP-ProductInformation>

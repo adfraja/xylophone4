@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SU1-Level3-111" UserTypeID="Level3" ParentID="SU1-Level2-11">
+            <Name>3D Glasses</Name>
+            <AttributeLink AttributeID="Battery">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="SyncProtocol">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <ValueGroup AttributeID="Event">
+                    <Value Derived="true" DerivedContextID="Context1">SU1-Level3-111</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">SU1-Level3-111</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">SU1-Level3-111</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">SU1-Level3-111</Value>
+                    <Value Derived="true" DerivedContextID="GL">SU1-Level3-111</Value>
+                </ValueGroup>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

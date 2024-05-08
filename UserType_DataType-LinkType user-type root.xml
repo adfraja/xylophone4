@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="DataType-LinkType user-type root">
+            <Name>DataType-LinkType</Name>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

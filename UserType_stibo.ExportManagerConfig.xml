@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="stibo.ExportManagerConfig" ReferenceTargetLockPolicy="Strict">
+            <Name>Export Manager Configuration</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACaTPPzASCM/+BcOb/mWln0v7//5+Wlvb/TNqZmcb/Z878f+YMUAXDf6BShjNnwJyZQHljhlEwCoY4UPzJwsjAwMegA+KA8gQDRyGDLIeMx4YHDpxssgoRHgGHGFtYBGUYAgQOtLQzqwaJ7LgI1CGkxOESkKDc1CfjrKUTkLCQcYqmqpiBg3DaMWZj+1synZ9TD822DFWb8lJY5XCHrTWTQifDivONDDwKE6w2LTu4gkPO5OuOy4+bl9svDOLhYLAGAARQ4YKUAwAA</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationConfirmedNonDuplicates"></AttributeLink>
+            <AttributeLink AttributeID="ImageDeduplicationDeleteFlag"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="Purpose"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="100900" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=searchString%3dSU4-Level3-111%0aSU5-Level3-111%0aSU6-Level3-111%2cuniqueKey%3dIDKey&amp;search0.0=IDListCriteria">
+            <Name>SCHNEI_collection</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAB144007" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Construction attribute</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB144007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction attribute
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB144007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction attribute
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB144007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction attribute
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB144007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction attribute
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAB144007
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Construction attribute
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAB144</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAB144007</Value>
+            </MetaData>
+            <ValueGroup ID="AAI776005">
+                <Value QualifierID="std.lang.all">double chamfered</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI777005">
+                <Value QualifierID="std.lang.all">hardmetal (carbide) shank w/ steel head</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI778005">
+                <Value QualifierID="std.lang.all">hardmetal (carbide) shank w/ steel head and lubrication hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI779005">
+                <Value QualifierID="std.lang.all">hardmetal (carbide) shank w/ steel head and antivibration device</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI780006">
+                <Value QualifierID="std.lang.all">hardmetal (carbide) shank w/ steel head, antivib device and lubrication hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI781005">
+                <Value QualifierID="std.lang.all">Heavy metal with lubrication hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI782005">
+                <Value QualifierID="std.lang.all">solid steel with lubrication hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI783005">
+                <Value QualifierID="std.lang.all">solid steel with antivibration device</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAI784005">
+                <Value QualifierID="std.lang.all">solid steel with antivibration device and lubrication hole</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB028004">
+                <Value QualifierID="std.lang.all">Carbide shank with Stahl head, no design characteristics</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB029004">
+                <Value QualifierID="std.lang.all">Carbide shank with Stahl head, with internal coolant lubricant feed</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB030005">
+                <Value QualifierID="std.lang.all">Carbide shank w. steel head, w. vibration damper+internal cooling lubric</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB031004">
+                <Value QualifierID="std.lang.all">Carbide shank with Stahl head, with vibration damper</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB179006">
+                <Value QualifierID="std.lang.all">Heavy metal, no design characteristics</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB180006">
+                <Value QualifierID="std.lang.all">Heavy metal, with internal cooling lubrication feed</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB255004">
+                <Value QualifierID="std.lang.all">Sold steel, with internal cooling lubrication feed</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB256004">
+                <Value QualifierID="std.lang.all">Sold steel, with vibration damping</Value>
+            </ValueGroup>
+            <ValueGroup ID="WPB257004">
+                <Value QualifierID="std.lang.all">Sold steel, with vibration damping and internal cooling lubrication feed</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

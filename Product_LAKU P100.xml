@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="LAKU P100" UserTypeID="laku products" ParentID="LAKU Products">
+            <Name>LAKU P100</Name>
+            <Values>
+                <Value AttributeID="laku text">test3</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

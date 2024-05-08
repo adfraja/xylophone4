@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.ContentManagersCreate" Type="user">
+            <Name>Content Managers, Create</Name>
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Create Collection Group"></ActionLink>
+            <ActionLink ActionID="Create Collection"></ActionLink>
+            <ActionLink ActionID="Create asset reference"></ActionLink>
+            <ActionLink ActionID="Create asset"></ActionLink>
+            <ActionLink ActionID="Create classification"></ActionLink>
+            <ActionLink ActionID="Upload to asset"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SubCategory" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="SubCategory_[id]">
+            <Name>SubCategory</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4xsBQHWby4uG93iyfRCuRi4d2FHipbZnVGm8uvH1e+5za5KMbF26f353pLDezInpZZ0FFsEFLomNXumdDjPX1k3t2LZ6wtCO/KtQk30NlZkXMnNrEimDDpR25Sdai7SmuPVm+2a7KlcFG1eGmh9bNvXR4y4WD2xKthAu8NZZ3FRX7adVEmPdm+9VHWWa5yEUYCHSkuk0pDs/3VK2LMG9JcEixFZ9REfvg+pnJRSGpdpLpjjIFXqpx5sI3Tu99/fRJkpVIdbjJ1JLwc3vWTy2JuHX2aF+O/+zq+Nvnj1eGGKU5SIXr808qDC3205xSFDqxIHhxa+b8hpQVPSUbpjVunNGwfX5HW6JTkY9GhpPckQ0Ldy7qKQsymlERXR6kXxdl2ZnmOSEvYF59cr6nSoaTbIqdRLKNWKypUFWocYyJ0PevvxIshRmoBBR/soBpHRABihMG9qMN2vKslqxqoezpXd1d9srWwsKmkh7J06YnszsHBnFwhEtrxS5eYqah5y3Byxvp4he3YaOvlJFQMFtampKAgKhTmo2obLyQl34aG78DE1MaFz8TlxtPtI5jGnf8Le40w1viBu6aiQksaSwmTxkT3iTwGCumJyb6M6bJqTB+/mwuY2eVxDTJsJipS1KLkZmPwUCtsZlR8IxKh0ciAweXrZfBkUTV6cyunm9EHy7qUFw8Wd13UczKpa4zpxskH0tpau05O9siN2qDAAeDNQAaU0RoaAIAAA==</Icon>
+            <UserTypeLink UserTypeID="NP_SubCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="SC_Level_1"></UserTypeLink>
+            <UserTypeLink UserTypeID="SubCategory"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

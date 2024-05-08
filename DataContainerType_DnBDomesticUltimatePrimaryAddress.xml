@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="DnBDomesticUltimatePrimaryAddress" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="DnBDomesticUltimatePrimaryAddress [id]">
+            <Name>DnBDomesticUltimatePrimaryAddress</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;DnBDomesticUltimatePrimaryAddress
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="DnBRecordAttributes"></AttributeGroupLink>
+            <AttributeLink AttributeID="DnBCountryISOAlpha2Code"></AttributeLink>
+            <AttributeLink AttributeID="DnBPostalCode"></AttributeLink>
+            <AttributeLink AttributeID="DnBPrimaryTownName"></AttributeLink>
+            <AttributeLink AttributeID="DnBStreetAddressLine"></AttributeLink>
+            <AttributeLink AttributeID="DnBTerritoryAbbreviatedName"></AttributeLink>
+            <AttributeLink AttributeID="DnBTerritoryName"></AttributeLink>
+            <UserTypeLink UserTypeID="DnBOrganization"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="AdminAttributesIntegration" ShowInWorkbench="false" ManuallySorted="false" Referenced="true" ParentID="AdminAttributes"></AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

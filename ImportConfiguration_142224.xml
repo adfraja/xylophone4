@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ImportConfigurations>
+        <ImportConfiguration ID="142224">
+            <Name>UPM-68</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig5504808836526007765.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">1514</Value>
+                <Value AttributeID="asset.uploaded">2023-11-16 20:20:41</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAK1UXW/aMBR951dYfl/pNq3aB0kVEljRCKCQUCEhITfc0ozEjmxng3+/Gzspa2mrtdpbfH3uOed+xL3LfZGTXyBVJrhD35+d00u30xsVpZA6ZJxtQfqC32ZbsmhBHyiZsAIcmszCdxefKUGAhr0eBQ79PqbkWsidKlkKdSBkGafEK0spUMWh83gwmy/nlETwE1I9gd8zKTZVqpVDuWjDTSwpN0xDcxMynd4lPNOqf6iZ65gvKq4TXrCyhI0NYWoKSsVQlDkmO9TWApKSGJS2p1YLISnEIAvU8McDL1pPJ+PlejiN1qNwNo3iQbCeRdMg8WO0HMAtq/LW3IxJ4KboPuO7kCnUiITQj3HxoYSHKEr6dS1BJrFUIU01lMwhxyNskmhcpzgU2TN9oG6HkN5cVDKFpu/DLAcTxgt0gTEk/euO4xd1/a+rROHMVoHX91YBqJ0W5crOzLSC2F6c7XO173XviYxe1wqa76GQBdMN/2CfQv6c+BVTV8A2WKG7BPWI8wl8LLPi+i7DEdfr8o9JWFRdl3WlM76l7kSc+LfX5ruZQ4hLgugjK/a3ubK71a4Zx6XDqZij23R+wfIKiKe1zG4qbeZpGcgooF3XyB/5Go3pTb3L9TDfJGDTSZ1vJI50Db/NeZb6IRv4OVNq3fcGXz5dnJ9/RDTuaGY45lBi9zDRod+a2SK9+a25Vi9YrCdivN1jrbOuwb7FZv2X/IDDq1y0Of/diHle5KF5ewZ73C7O8tFmxMfThUMPoF7ts6V80Suu08nO9prXqsCMqMpBWeBptNd94vV2O38Ae16f7OoFAAA=</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

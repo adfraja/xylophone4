@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="SpecialistCreate" Type="user">
+            <Name>Specialist, Create</Name>
+            <ActionLink ActionID="Create Collection Group"></ActionLink>
+            <ActionLink ActionID="Create Collection"></ActionLink>
+            <ActionLink ActionID="Create Commercial List"></ActionLink>
+            <ActionLink ActionID="Create DTP Template Document"></ActionLink>
+            <ActionLink ActionID="Create Generic Page Template"></ActionLink>
+            <ActionLink ActionID="Create Planned Page"></ActionLink>
+            <ActionLink ActionID="Create Publication Document"></ActionLink>
+            <ActionLink ActionID="Create Publication Group"></ActionLink>
+            <ActionLink ActionID="Create Publication Section"></ActionLink>
+            <ActionLink ActionID="Create Publication"></ActionLink>
+            <ActionLink ActionID="Create Version"></ActionLink>
+            <ActionLink ActionID="Create asset reference"></ActionLink>
+            <ActionLink ActionID="Create asset"></ActionLink>
+            <ActionLink ActionID="Create classification reference"></ActionLink>
+            <ActionLink ActionID="Create classification"></ActionLink>
+            <ActionLink ActionID="Create context reference"></ActionLink>
+            <ActionLink ActionID="Create data container"></ActionLink>
+            <ActionLink ActionID="Create entity reference"></ActionLink>
+            <ActionLink ActionID="Create entity"></ActionLink>
+            <ActionLink ActionID="Create product reference"></ActionLink>
+            <ActionLink ActionID="Create product"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

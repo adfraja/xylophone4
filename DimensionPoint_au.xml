@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DimensionList>
+        <Dimension ID="Language">
+            <DimensionPoint ID="au">
+                <Name>English(AU)</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+        </Dimension>
+    </DimensionList>
+</STEP-ProductInformation>

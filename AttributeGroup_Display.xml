@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Display" ShowInWorkbench="false" ManuallySorted="false" Referenced="true" ParentID="MBHA_MATCH">
+            <Name QualifierID="en-US">Display</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">Used to group attributes that should be displayed together in the STEPWorkbench.</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

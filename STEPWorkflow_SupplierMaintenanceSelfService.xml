@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="SupplierMaintenanceSelfService" Referenced="true">
+            <BusinessRuleLink ID="ApproveAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserCanManageSelfServiceLink"></BusinessRuleLink>
+            <BusinessRuleLink ID="CurrentUserIsNotProcurement"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Supplier Maintenance for Centralized Self-Service</Name>
+            <ValidUserTypeLink UserTypeID="Supplier"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAK1WXW/aMBR936/wor2GjySQMhGkjnVSpbJWRdUepqlynUuwmtiR7QDdr5+dOBCgFJh4urJzfT/OOb4OLhS/ZVRRrOCejQVoG81wKmEo85SqEayAFAqmRNBc3dGMKogfBF3QFBKQkRJF7ZlSqYDds9ss50KBeMrj3WCSrLI0GpYG0TJtGjlV/tRBDGcQOdMi184gJpgyHRAzAlNIZ1MQC0rAQQsQknIWOZ3WwEE6EpORM1cq/9puL5fL1tJvcZG0vU6n1+6E7TKZMxp+dl2EEOMxuJL+BRez2M251Kk5Q6uo22l10FvkGbOMBqGx8yj0jUWuO/qEhrodnOnzqV5UK0RjU75uluEUjXmWAVM6V9t8HH3acrtZHXKrrI2s80ilcUMxlYQzRVkB+nSJomPzbcFVL492GPhVi2HVYtevWgw2HaIhZ7oy8YZeCkkZSImJOWyyYsLcfifoErjy3Cvi+25AYs99If7AJVfdOAzxLAYcmLZslAoAJTCzNdRRdV8xrQOPCyG0+5MEcSt/cvUgOCkElBAhWGhjJPGihecghUUCet3wuWGCknkN6CbZ2cnHmE0ww0lTbHeUve4U8az4c63QTUH1ziMsKCzXXECcgJtjNUe/tz3+IE1IaAkZ1Ax8WP8BKKY5EE2/vnvXeS74oqGEZvY9r7ICL2hUsFkG3uGKsJQ0YQClFL+QCj9dzluutVhoHA0NtZPRdqnmU3T9PqlW5Y2PaIvyE0Xf7W+rvtdU/SGUL8h1v54vwcXJ/piiBnCVvIURu6wZSwQv8v+mbAeKnQGOdhA6SFI/tCTVo8l7ZzQdR+fQVNjj513HiibPVtI78QbUvWpA87RIKNtsmeFxbX0vBPc+/TXk6y9obwwcvRt+eNrd2H8UqlxwXW6sB6Xd3RBjN+IjE9oe/4bJq7l5Ww/BBTn2g2bbeu011XcC55Pvkw3e59ymGTXv/0F61zBZUhuwHWPSttTrWCa7Z73tj5DpPD8Ez35x8TpL+XLvFT977Je9lu2b/6+R/QH8B0NE4ZhvCgAA</Configuration>
+            <LocalBusinessRule ID="acn-6041ce82-8c33-4cd2-bc39-c81d77afdea4" Scope="Local" Type="Action" RunPrivileged="false">
+                <Configuration>H4sIAAAAAAAAAHWQwUoDMRCG732KMAfRg7t6E0y2UKQgiBTbel2Gdhqis0ncJIu+vdlGyhbpcb7h/zL5PSdtbIves6HQmkO7c/ZgtAwZxMaXdWFKzr87FgP1wTir4L66A0F25/bGagXbzfL2AebNTC5SMJZCeEtMzUyIE1gddWK6L+j5ScEi8efW7zHSmuIrdgRjNqdX2Ocp5mcLmCIxJpeu7xIjiM2PJwUfOGDFaHW1jn0+DZoBOdH11Vdy8fGFNPKoL+ONrE+yC/r3MX1Z/k8wAceLZX3+/9xQfV7RX9u/ar8LyY0BAAA=</Configuration>
+                <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+            </LocalBusinessRule>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

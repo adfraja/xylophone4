@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIES_DESC_TYPE_LOV" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Description Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="150" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_DESC_TYPE_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Description Code
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_DESC_TYPE_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_DESC_TYPE_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_DESC_TYPE_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;AC_PIES_DESC_TYPE_LOV
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="ABR">
+                <Value>Product Description - Abbreviated - 12</Value>
+            </ValueGroup>
+            <ValueGroup ID="ASC">
+                <Value>Associated Comments - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="ASM">
+                <Value>Application Summary - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="CAP">
+                <Value>Caption - 240</Value>
+            </ValueGroup>
+            <ValueGroup ID="DEF">
+                <Value>AAIA Part Type Description</Value>
+            </ValueGroup>
+            <ValueGroup ID="DES">
+                <Value>Product Description - Long - 80</Value>
+            </ValueGroup>
+            <ValueGroup ID="EXT">
+                <Value>Product Description - Extended 240</Value>
+            </ValueGroup>
+            <ValueGroup ID="FAB">
+                <Value>Features and Benefits - 240</Value>
+            </ValueGroup>
+            <ValueGroup ID="INV">
+                <Value>Product Description - Invoice - 40</Value>
+            </ValueGroup>
+            <ValueGroup ID="KEY">
+                <Value>Key Search Words - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="LAB">
+                <Value>Label Description - 80</Value>
+            </ValueGroup>
+            <ValueGroup ID="MKT">
+                <Value>Marketing Description - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="MTP">
+                <Value>Market Type</Value>
+            </ValueGroup>
+            <ValueGroup ID="SHO">
+                <Value>Product Description - Short - 20</Value>
+            </ValueGroup>
+            <ValueGroup ID="SHP">
+                <Value>Shipping Restrictions - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="SLA">
+                <Value>Slang Description - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="TLE">
+                <Value>Title Description - 80</Value>
+            </ValueGroup>
+            <ValueGroup ID="TRA">
+                <Value>Transcription - 2000</Value>
+            </ValueGroup>
+            <ValueGroup ID="UNS">
+                <Value>UN/SPSC Description - 80</Value>
+            </ValueGroup>
+            <ValueGroup ID="VMR">
+                <Value>VMRS Description</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="XX_Meta_Attributes" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
+            <Name QualifierID="en-US">XX Meta Attributes</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Attribute Description">Please do not translate the attribute grouping name! Just the attributes should be translated. Any Attributes added here will appear in each Attribute description area (DT)!</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

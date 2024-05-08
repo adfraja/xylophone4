@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DimensionList>
+        <Dimension ID="Channel">
+            <DimensionPoint ID="Website">
+                <Name>Website</Name>
+                <DimensionPointLink DimensionPointID="All Channels"></DimensionPointLink>
+            </DimensionPoint>
+        </Dimension>
+    </DimensionList>
+</STEP-ProductInformation>

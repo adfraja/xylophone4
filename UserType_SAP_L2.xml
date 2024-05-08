@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="SAP_L2" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>SAP Level 2</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zsBw/8l3AYszglaXp81eJmF+INrPJrduff+05eHelmpeZ/ad+Misdjinbr2I1Tkuld0Z1ZtNQo9L2J7umnNL2e0kv+FxKetD4pZH+XWONvRslLM7aR9/VN3ztITtGV6NnSqeF3k19zGpH37y4tvj59/yU4Jl7U+ruR8u6HxY37W8Z/IS29jDPsm7WbQuMKsff/jsG4v2GSWXA9X50VsPPAn2tOycsNAh4Zqu/zlho73Srtc1vM6LmezNrVvHoXpI2OLk/IXLDYNPqjtuqWzfLG53wS3h3L7N0xySTlZ3rhG2vWgVe7J1wjrHxMOxJTt6Zp3IjvVkVz6g5Hh07Y67FW0rd66f9v3tdaeEK9vWTFZ2PZoW5SFqvHfWymv59esbelZ2zbnpk7b3y9efcta7p7WmKToArdtXP+W+Z9rhaTPn+WUdmDdvDpPsYXHj3cyaxyu6jhU3rJkwdb6o0W6HxONhnhbLtr4KzNnLpHpYxeO0iuvx1t5lopbHc5MCFWwP2EaftI072jt52e0HH6KL97JqnWZXOVzU8ZBZ/Whl+2opm8OmYSfFbU4ahZ8WtjqXW7/eLWXfi9dfFW13LNvyqr5rY3KY85Y1M+auudfQuZxZ+ej561/iSjbyml3k1z/OrH6YRfMCs8bR5NK9is6n5RyPB+TslbI/p+x8NC7Arn/q8taeJYK6BwS1dz99+U3Y6IBL8tH4gh1yzsc1XPaV9TyQd7sQlHczv/2BmPnh6EDnuw8/iNmfC87d55p4WNn1QGXbRnW3oz2T16i4HDD02WERekDE/LBL/Pmc+vXsyofvP/mh5HY6In9naf3qyrbVzgnXQvL3TVx8yz5sy79//xgGPVD8yQKmdUAEKE8wcPxnWKoiLfRUcGoKh7CWzzW2sxpB4jqpN548EZYN3W6j4L0t/UBjgIPVnJ9Xn5znY5eXueJldqZnhUdKx40dkx6Hsup3173xaus62yN85NWNrBbGk4wxzFUZXmo63fps/HIGBgkJvCKOUQFfPM3cOMVcC9Mkg4W1I6erdnRN8Vy28PLGIM87c7oYO08L200pueD1TPmimKCAgoDVIvXWFoHKkCse2w5OmCHGKXRm5SRtCWUL1ZJGT7OOq1oMgkoiSg4OHAwyKmoPPNO0OBQSmFhkNgXzOOhzz8sr8HJznMbJwNh0eYZJq3g/m0yQ6uqUI6FOrFwi27I+KM1cIqrzpGHHlgTHBT6ZMT/EDoqoSfZYhyWIOnxwY2tiWiBjKPlRVYHBGgC6HABKOQQAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="SAP_L1"></UserTypeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

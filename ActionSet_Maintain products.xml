@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Maintain products" Type="user">
+            <ActionLink ActionID="Create product reference"></ActionLink>
+            <ActionLink ActionID="Create product"></ActionLink>
+            <ActionLink ActionID="Delete product reference"></ActionLink>
+            <ActionLink ActionID="Delete product"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+            <ActionLink ActionID="Move product from"></ActionLink>
+            <ActionLink ActionID="Move product to"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

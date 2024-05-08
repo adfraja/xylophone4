@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;b&gt;" Stop="&lt;/b&gt;"></Tag>
+        <StyleTag ID="b" ParentID="Style tag root" Tag="b">
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;b&gt;</FormattingStart>
+                <FormattingStop>&lt;/b&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

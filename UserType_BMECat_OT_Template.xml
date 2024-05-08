@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="BMECat_OT_Template" ReferenceTargetLockPolicy="Strict">
+            <Name>BMECat Template</Name>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <AttributeLink AttributeID="BMECat_ATTR_TemplateStandard"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

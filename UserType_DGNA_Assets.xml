@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="DGNA_Assets" ReferenceTargetLockPolicy="Strict">
+            <Name>DGNA_Assets</Name>
+            <Icon>H4sIAAAAAAAAAI2WTW8TMRCG7/wKaznjeMZje4yaHliEcqDXHnpDNDSRQltBaPj5zPhjsxuB6KXxOzt+/dgztnr18+XBnPb3x916QBrMbrt/2B3r+GW/PX14+r0enHEGyWjs2/5wWA+PT4/bwfz+fnj8uR52x+Pz+9XqdDrZk7dPPx5W6JxbifFw/ebq+ctxZ+7Xw02wKZhkMYxtBADZm2A56m8y0aRNGiXu2SXRmjulNYHhFvJYBGTNBNMniNaU+ruJYzeu8bJmn9LErfrc9T299Z/oY8BhNYfmvuzIcxq2vkGzlegm2zBmGxt4nu8v920reJ5T9AkVUCwauliOfYH6jef7beIV8H6C93N4P8H7Ak+yHk3wNIenOTzN4WkBTxO8WI5+Ae/n8P7V8DI35wwmWmkm5+XoPIdcJerhUQyZpJQ5yGJ6fACsmtkTS3oIKWndGVzSmoToXdTSQw6sGkPWVoiEzn+O4uNEO4vsHeYxWg4JSAKAPiDKypF1RWcdireXhrXB1TktIpM8BM6LHCCKPLdxi4U+e0spnUnk9IigkbKspzpk1eyy1/JRdrlsFFiygw8cyjkQsnyNQLGcS2bW04/zY9y0Y/1f4wSDrjZOLWVRtXoy1Ngkwq38Sa3HEG0gyto4ss2kr0ZUM9L7k0mdqF6JnlmFOqhPGLv2taq1y+ryuWNpl/17Bxp+9+PXYbseti/bx6f7+8F8PeyfL2O6UyA1dpvSqqOYuyRN5CqQ1CgmkDI2CbpXwR6rRDkclOw+S3ZWOx5pU3xHkFohxPIF51OaEq9biCWzBGSs904/69sl2oBco6h2csIQpK0ilHAoF0l6JGmgq5JTh4g+m2mGhOr1DRvw4+QfGol8ZGmns5JqyPgMhhdgWMDwEgw7CizA4AwGF2DQwWABNqG4BVhpEz5zcXun+jxWLL6g4oaRChNNqjMlReI4MaWGlOZEqSFE5XFnJTx05qELHlIeuuDpBH7B4ycef8HjG4+f8/jeQwseLIWzHWfq396IzrSGv7sBrl091oHTJwaSvDWutHFpxvreS4q8HtFBEQ5KWcuvzivxYEN3K0NoPrH6yrNX3RDHvobG+JzZaP56q/Vfies3fwA809uLqggAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+            <MIMEType>image/*</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

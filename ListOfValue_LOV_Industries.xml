@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_Industries" ParentID="BusinessPartnerGroup" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Industries LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_Industries
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Industries LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_Industries
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Industries LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_Industries
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Industries LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_Industries
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Industries LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_Industries
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Industries LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="0001">
+                <Value QualifierID="std.lang.all">Industry 0001</Value>
+            </ValueGroup>
+            <ValueGroup ID="0002">
+                <Value QualifierID="std.lang.all">Industry 0002</Value>
+            </ValueGroup>
+            <ValueGroup ID="0003">
+                <Value QualifierID="std.lang.all">Industry 0003</Value>
+            </ValueGroup>
+            <ValueGroup ID="0100">
+                <Value QualifierID="std.lang.all">CN Electrical Retail</Value>
+            </ValueGroup>
+            <ValueGroup ID="0101">
+                <Value QualifierID="std.lang.all">CN Independents</Value>
+            </ValueGroup>
+            <ValueGroup ID="0130">
+                <Value QualifierID="std.lang.all">CN Electr.buying gr.</Value>
+            </ValueGroup>
+            <ValueGroup ID="0170">
+                <Value QualifierID="std.lang.all">CN Exclusive dealers</Value>
+            </ValueGroup>
+            <ValueGroup ID="0200">
+                <Value QualifierID="std.lang.all">CN Electr. Multip.</Value>
+            </ValueGroup>
+            <ValueGroup ID="0300">
+                <Value QualifierID="std.lang.all">CN Department Stores</Value>
+            </ValueGroup>
+            <ValueGroup ID="0400">
+                <Value QualifierID="std.lang.all">CN Mail Order</Value>
+            </ValueGroup>
+            <ValueGroup ID="0500">
+                <Value QualifierID="std.lang.all">CN Hyper/Supermarket</Value>
+            </ValueGroup>
+            <ValueGroup ID="0600">
+                <Value QualifierID="std.lang.all">CN C&amp;C Cash &amp; Carry</Value>
+            </ValueGroup>
+            <ValueGroup ID="0700">
+                <Value QualifierID="std.lang.all">CN DIY(DoItYourself)</Value>
+            </ValueGroup>
+            <ValueGroup ID="0800">
+                <Value QualifierID="std.lang.all">CN Kitchen spec.</Value>
+            </ValueGroup>
+            <ValueGroup ID="0900">
+                <Value QualifierID="std.lang.all">CN Furniture Stores</Value>
+            </ValueGroup>
+            <ValueGroup ID="1000">
+                <Value QualifierID="std.lang.all">CN Kitchen Manuf.</Value>
+            </ValueGroup>
+            <ValueGroup ID="1100">
+                <Value QualifierID="std.lang.all">CN Electr. Distrib.</Value>
+            </ValueGroup>
+            <ValueGroup ID="1200">
+                <Value QualifierID="std.lang.all">CN Plumbers Distrib.</Value>
+            </ValueGroup>
+            <ValueGroup ID="1300">
+                <Value QualifierID="std.lang.all">CN Contract Business</Value>
+            </ValueGroup>
+            <ValueGroup ID="1400">
+                <Value QualifierID="std.lang.all">CN eCommerce</Value>
+            </ValueGroup>
+            <ValueGroup ID="1500">
+                <Value QualifierID="std.lang.all">CN others</Value>
+            </ValueGroup>
+            <ValueGroup ID="BEWE">
+                <Value QualifierID="std.lang.all">sheltered workshop</Value>
+            </ValueGroup>
+            <ValueGroup ID="E001">
+                <Value QualifierID="std.lang.all">0111 AGRIC. GAN. CAZ</Value>
+            </ValueGroup>
+            <ValueGroup ID="E002">
+                <Value QualifierID="std.lang.all">0112 AGRIC. GAN. CAZ</Value>
+            </ValueGroup>
+            <ValueGroup ID="E003">
+                <Value QualifierID="std.lang.all">0113 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E004">
+                <Value QualifierID="std.lang.all">0121 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E005">
+                <Value QualifierID="std.lang.all">0122 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E006">
+                <Value QualifierID="std.lang.all">0123 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E007">
+                <Value QualifierID="std.lang.all">0124 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E008">
+                <Value QualifierID="std.lang.all">0125 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E009">
+                <Value QualifierID="std.lang.all">0130 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E010">
+                <Value QualifierID="std.lang.all">0141 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E011">
+                <Value QualifierID="std.lang.all">0142 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E012">
+                <Value QualifierID="std.lang.all">0150 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E013">
+                <Value QualifierID="std.lang.all">0201 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E014">
+                <Value QualifierID="std.lang.all">0202 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E015">
+                <Value QualifierID="std.lang.all">0501 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E016">
+                <Value QualifierID="std.lang.all">0502 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E017">
+                <Value QualifierID="std.lang.all">1010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E018">
+                <Value QualifierID="std.lang.all">1020 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E019">
+                <Value QualifierID="std.lang.all">1030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E020">
+                <Value QualifierID="std.lang.all">1110 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E021">
+                <Value QualifierID="std.lang.all">1120 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E022">
+                <Value QualifierID="std.lang.all">1200 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E023">
+                <Value QualifierID="std.lang.all">1310 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E024">
+                <Value QualifierID="std.lang.all">1320 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E025">
+                <Value QualifierID="std.lang.all">1411 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E026">
+                <Value QualifierID="std.lang.all">1412 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E027">
+                <Value QualifierID="std.lang.all">1413 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E028">
+                <Value QualifierID="std.lang.all">1421 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E029">
+                <Value QualifierID="std.lang.all">1422 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E030">
+                <Value QualifierID="std.lang.all">1430 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E031">
+                <Value QualifierID="std.lang.all">1440 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E032">
+                <Value QualifierID="std.lang.all">1450 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E033">
+                <Value QualifierID="std.lang.all">1511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E034">
+                <Value QualifierID="std.lang.all">1512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E035">
+                <Value QualifierID="std.lang.all">1513 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E036">
+                <Value QualifierID="std.lang.all">1520 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E037">
+                <Value QualifierID="std.lang.all">1531 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E038">
+                <Value QualifierID="std.lang.all">1532 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E039">
+                <Value QualifierID="std.lang.all">1533 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E040">
+                <Value QualifierID="std.lang.all">1541 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E041">
+                <Value QualifierID="std.lang.all">1542 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E042">
+                <Value QualifierID="std.lang.all">1543 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E043">
+                <Value QualifierID="std.lang.all">1551 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E044">
+                <Value QualifierID="std.lang.all">1552 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E045">
+                <Value QualifierID="std.lang.all">1561 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E046">
+                <Value QualifierID="std.lang.all">1562 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E047">
+                <Value QualifierID="std.lang.all">1571 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E048">
+                <Value QualifierID="std.lang.all">1572 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E049">
+                <Value QualifierID="std.lang.all">1581 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E050">
+                <Value QualifierID="std.lang.all">1582 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E051">
+                <Value QualifierID="std.lang.all">1583 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E052">
+                <Value QualifierID="std.lang.all">1584 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E053">
+                <Value QualifierID="std.lang.all">1585 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E054">
+                <Value QualifierID="std.lang.all">1586 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E055">
+                <Value QualifierID="std.lang.all">1587 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E056">
+                <Value QualifierID="std.lang.all">1588 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E057">
+                <Value QualifierID="std.lang.all">1589 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E058">
+                <Value QualifierID="std.lang.all">1591 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E059">
+                <Value QualifierID="std.lang.all">1592 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E060">
+                <Value QualifierID="std.lang.all">1593 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E061">
+                <Value QualifierID="std.lang.all">1594 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E062">
+                <Value QualifierID="std.lang.all">1595 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E063">
+                <Value QualifierID="std.lang.all">1596 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E064">
+                <Value QualifierID="std.lang.all">1597 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E065">
+                <Value QualifierID="std.lang.all">1598 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E066">
+                <Value QualifierID="std.lang.all">1600 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E067">
+                <Value QualifierID="std.lang.all">1711 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E068">
+                <Value QualifierID="std.lang.all">1712 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E069">
+                <Value QualifierID="std.lang.all">1713 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E070">
+                <Value QualifierID="std.lang.all">1714 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E071">
+                <Value QualifierID="std.lang.all">1715 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E072">
+                <Value QualifierID="std.lang.all">1716 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E073">
+                <Value QualifierID="std.lang.all">1717 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E074">
+                <Value QualifierID="std.lang.all">1721 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E075">
+                <Value QualifierID="std.lang.all">1722 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E076">
+                <Value QualifierID="std.lang.all">1723 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E077">
+                <Value QualifierID="std.lang.all">1724 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E078">
+                <Value QualifierID="std.lang.all">1725 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E079">
+                <Value QualifierID="std.lang.all">1730 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E080">
+                <Value QualifierID="std.lang.all">1740 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E081">
+                <Value QualifierID="std.lang.all">1751 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E082">
+                <Value QualifierID="std.lang.all">1752 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E083">
+                <Value QualifierID="std.lang.all">1753 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E084">
+                <Value QualifierID="std.lang.all">1754 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E085">
+                <Value QualifierID="std.lang.all">1760 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E086">
+                <Value QualifierID="std.lang.all">1771 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E087">
+                <Value QualifierID="std.lang.all">1772 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E088">
+                <Value QualifierID="std.lang.all">1810 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E089">
+                <Value QualifierID="std.lang.all">1821 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E090">
+                <Value QualifierID="std.lang.all">1822 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E091">
+                <Value QualifierID="std.lang.all">1823 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E092">
+                <Value QualifierID="std.lang.all">1824 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E093">
+                <Value QualifierID="std.lang.all">1830 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E094">
+                <Value QualifierID="std.lang.all">1910 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E095">
+                <Value QualifierID="std.lang.all">1920 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E096">
+                <Value QualifierID="std.lang.all">1930 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E097">
+                <Value QualifierID="std.lang.all">2010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E098">
+                <Value QualifierID="std.lang.all">2020 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E099">
+                <Value QualifierID="std.lang.all">2030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E100">
+                <Value QualifierID="std.lang.all">2040 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E101">
+                <Value QualifierID="std.lang.all">2051 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E102">
+                <Value QualifierID="std.lang.all">2052 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E103">
+                <Value QualifierID="std.lang.all">2111 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E104">
+                <Value QualifierID="std.lang.all">2112 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E105">
+                <Value QualifierID="std.lang.all">2121 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E106">
+                <Value QualifierID="std.lang.all">2122 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E107">
+                <Value QualifierID="std.lang.all">2123 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E108">
+                <Value QualifierID="std.lang.all">2124 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E109">
+                <Value QualifierID="std.lang.all">2125 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E110">
+                <Value QualifierID="std.lang.all">2211 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E111">
+                <Value QualifierID="std.lang.all">2212 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E112">
+                <Value QualifierID="std.lang.all">2213 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E113">
+                <Value QualifierID="std.lang.all">2214 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E114">
+                <Value QualifierID="std.lang.all">2215 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E115">
+                <Value QualifierID="std.lang.all">2221 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E116">
+                <Value QualifierID="std.lang.all">2222 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E117">
+                <Value QualifierID="std.lang.all">2223 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E118">
+                <Value QualifierID="std.lang.all">2224 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E119">
+                <Value QualifierID="std.lang.all">2225 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E120">
+                <Value QualifierID="std.lang.all">2231 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E121">
+                <Value QualifierID="std.lang.all">2232 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E122">
+                <Value QualifierID="std.lang.all">2233 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E123">
+                <Value QualifierID="std.lang.all">2310 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E124">
+                <Value QualifierID="std.lang.all">2320 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E125">
+                <Value QualifierID="std.lang.all">2330 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E126">
+                <Value QualifierID="std.lang.all">2411 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E127">
+                <Value QualifierID="std.lang.all">2412 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E128">
+                <Value QualifierID="std.lang.all">2413 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E129">
+                <Value QualifierID="std.lang.all">2414 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E130">
+                <Value QualifierID="std.lang.all">2415 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E131">
+                <Value QualifierID="std.lang.all">2416 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E132">
+                <Value QualifierID="std.lang.all">2417 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E133">
+                <Value QualifierID="std.lang.all">2420 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E134">
+                <Value QualifierID="std.lang.all">2430 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E135">
+                <Value QualifierID="std.lang.all">2441 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E136">
+                <Value QualifierID="std.lang.all">2442 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E137">
+                <Value QualifierID="std.lang.all">2451 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E138">
+                <Value QualifierID="std.lang.all">2452 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E139">
+                <Value QualifierID="std.lang.all">2461 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E140">
+                <Value QualifierID="std.lang.all">2462 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E141">
+                <Value QualifierID="std.lang.all">2463 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E142">
+                <Value QualifierID="std.lang.all">2464 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E143">
+                <Value QualifierID="std.lang.all">2465 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E144">
+                <Value QualifierID="std.lang.all">2466 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E145">
+                <Value QualifierID="std.lang.all">2470 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E146">
+                <Value QualifierID="std.lang.all">2511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E147">
+                <Value QualifierID="std.lang.all">2512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E148">
+                <Value QualifierID="std.lang.all">2513 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E149">
+                <Value QualifierID="std.lang.all">2521 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E150">
+                <Value QualifierID="std.lang.all">2522 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E151">
+                <Value QualifierID="std.lang.all">2523 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E152">
+                <Value QualifierID="std.lang.all">2524 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E153">
+                <Value QualifierID="std.lang.all">2611 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E154">
+                <Value QualifierID="std.lang.all">2612 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E155">
+                <Value QualifierID="std.lang.all">2613 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E156">
+                <Value QualifierID="std.lang.all">2614 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E157">
+                <Value QualifierID="std.lang.all">2615 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E158">
+                <Value QualifierID="std.lang.all">2621 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E159">
+                <Value QualifierID="std.lang.all">2622 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E160">
+                <Value QualifierID="std.lang.all">2623 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E161">
+                <Value QualifierID="std.lang.all">2624 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E162">
+                <Value QualifierID="std.lang.all">2625 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E163">
+                <Value QualifierID="std.lang.all">2626 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E164">
+                <Value QualifierID="std.lang.all">2630 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E165">
+                <Value QualifierID="std.lang.all">2640 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E166">
+                <Value QualifierID="std.lang.all">2651 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E167">
+                <Value QualifierID="std.lang.all">2652 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E168">
+                <Value QualifierID="std.lang.all">2653 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E169">
+                <Value QualifierID="std.lang.all">2661 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E170">
+                <Value QualifierID="std.lang.all">2662 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E171">
+                <Value QualifierID="std.lang.all">2663 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E172">
+                <Value QualifierID="std.lang.all">2664 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E173">
+                <Value QualifierID="std.lang.all">2665 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E174">
+                <Value QualifierID="std.lang.all">2666 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E175">
+                <Value QualifierID="std.lang.all">2670 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E176">
+                <Value QualifierID="std.lang.all">2681 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E177">
+                <Value QualifierID="std.lang.all">2682 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E178">
+                <Value QualifierID="std.lang.all">2710 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E179">
+                <Value QualifierID="std.lang.all">2721 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E180">
+                <Value QualifierID="std.lang.all">2722 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E181">
+                <Value QualifierID="std.lang.all">2731 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E182">
+                <Value QualifierID="std.lang.all">2732 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E183">
+                <Value QualifierID="std.lang.all">2733 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E184">
+                <Value QualifierID="std.lang.all">2734 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E185">
+                <Value QualifierID="std.lang.all">2735 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E186">
+                <Value QualifierID="std.lang.all">2741 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E187">
+                <Value QualifierID="std.lang.all">2742 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E188">
+                <Value QualifierID="std.lang.all">2743 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E189">
+                <Value QualifierID="std.lang.all">2744 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E190">
+                <Value QualifierID="std.lang.all">2745 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E191">
+                <Value QualifierID="std.lang.all">2751 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E192">
+                <Value QualifierID="std.lang.all">2752 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E193">
+                <Value QualifierID="std.lang.all">2753 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E194">
+                <Value QualifierID="std.lang.all">2754 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E195">
+                <Value QualifierID="std.lang.all">2811 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E196">
+                <Value QualifierID="std.lang.all">2812 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E197">
+                <Value QualifierID="std.lang.all">2821 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E198">
+                <Value QualifierID="std.lang.all">2822 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E199">
+                <Value QualifierID="std.lang.all">2830 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E200">
+                <Value QualifierID="std.lang.all">2840 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E201">
+                <Value QualifierID="std.lang.all">2851 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E202">
+                <Value QualifierID="std.lang.all">2852 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E203">
+                <Value QualifierID="std.lang.all">2861 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E204">
+                <Value QualifierID="std.lang.all">2862 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E205">
+                <Value QualifierID="std.lang.all">2863 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E206">
+                <Value QualifierID="std.lang.all">2871 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E207">
+                <Value QualifierID="std.lang.all">2872 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E208">
+                <Value QualifierID="std.lang.all">2873 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E209">
+                <Value QualifierID="std.lang.all">2874 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E210">
+                <Value QualifierID="std.lang.all">2875 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E211">
+                <Value QualifierID="std.lang.all">2911 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E212">
+                <Value QualifierID="std.lang.all">2912 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E213">
+                <Value QualifierID="std.lang.all">2913 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E214">
+                <Value QualifierID="std.lang.all">2914 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E215">
+                <Value QualifierID="std.lang.all">2921 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E216">
+                <Value QualifierID="std.lang.all">2922 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E217">
+                <Value QualifierID="std.lang.all">2923 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E218">
+                <Value QualifierID="std.lang.all">2924 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E219">
+                <Value QualifierID="std.lang.all">2931 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E220">
+                <Value QualifierID="std.lang.all">2932 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E221">
+                <Value QualifierID="std.lang.all">2940 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E222">
+                <Value QualifierID="std.lang.all">2951 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E223">
+                <Value QualifierID="std.lang.all">2952 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E224">
+                <Value QualifierID="std.lang.all">2953 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E225">
+                <Value QualifierID="std.lang.all">2954 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E226">
+                <Value QualifierID="std.lang.all">2955 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E227">
+                <Value QualifierID="std.lang.all">2956 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E228">
+                <Value QualifierID="std.lang.all">2960 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E229">
+                <Value QualifierID="std.lang.all">2971 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E230">
+                <Value QualifierID="std.lang.all">2972 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E231">
+                <Value QualifierID="std.lang.all">3001 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E232">
+                <Value QualifierID="std.lang.all">3002 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E233">
+                <Value QualifierID="std.lang.all">3110 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E234">
+                <Value QualifierID="std.lang.all">3120 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E235">
+                <Value QualifierID="std.lang.all">3130 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E236">
+                <Value QualifierID="std.lang.all">3140 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E237">
+                <Value QualifierID="std.lang.all">3150 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E238">
+                <Value QualifierID="std.lang.all">3161 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E239">
+                <Value QualifierID="std.lang.all">3162 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E240">
+                <Value QualifierID="std.lang.all">3210 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E241">
+                <Value QualifierID="std.lang.all">3220 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E242">
+                <Value QualifierID="std.lang.all">3230 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E243">
+                <Value QualifierID="std.lang.all">3310 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E244">
+                <Value QualifierID="std.lang.all">3320 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E245">
+                <Value QualifierID="std.lang.all">3330 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E246">
+                <Value QualifierID="std.lang.all">3340 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E247">
+                <Value QualifierID="std.lang.all">3350 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E248">
+                <Value QualifierID="std.lang.all">3410 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E249">
+                <Value QualifierID="std.lang.all">3420 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E250">
+                <Value QualifierID="std.lang.all">3430 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E251">
+                <Value QualifierID="std.lang.all">3511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E252">
+                <Value QualifierID="std.lang.all">3512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E253">
+                <Value QualifierID="std.lang.all">3520 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E254">
+                <Value QualifierID="std.lang.all">3530 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E255">
+                <Value QualifierID="std.lang.all">3541 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E256">
+                <Value QualifierID="std.lang.all">3542 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E257">
+                <Value QualifierID="std.lang.all">3543 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E258">
+                <Value QualifierID="std.lang.all">3550 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E259">
+                <Value QualifierID="std.lang.all">3611 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E260">
+                <Value QualifierID="std.lang.all">3612 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E261">
+                <Value QualifierID="std.lang.all">3613 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E262">
+                <Value QualifierID="std.lang.all">3614 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E263">
+                <Value QualifierID="std.lang.all">3615 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E264">
+                <Value QualifierID="std.lang.all">3621 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E265">
+                <Value QualifierID="std.lang.all">3622 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E266">
+                <Value QualifierID="std.lang.all">3630 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E267">
+                <Value QualifierID="std.lang.all">3640 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E268">
+                <Value QualifierID="std.lang.all">3650 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E269">
+                <Value QualifierID="std.lang.all">3661 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E270">
+                <Value QualifierID="std.lang.all">3662 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E271">
+                <Value QualifierID="std.lang.all">3663 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E272">
+                <Value QualifierID="std.lang.all">3710 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E273">
+                <Value QualifierID="std.lang.all">3720 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E274">
+                <Value QualifierID="std.lang.all">4010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E275">
+                <Value QualifierID="std.lang.all">4020 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E276">
+                <Value QualifierID="std.lang.all">4030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E277">
+                <Value QualifierID="std.lang.all">4100 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E278">
+                <Value QualifierID="std.lang.all">4511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E279">
+                <Value QualifierID="std.lang.all">4512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E280">
+                <Value QualifierID="std.lang.all">4521 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E281">
+                <Value QualifierID="std.lang.all">4522 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E282">
+                <Value QualifierID="std.lang.all">4523 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E283">
+                <Value QualifierID="std.lang.all">4524 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E284">
+                <Value QualifierID="std.lang.all">4525 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E285">
+                <Value QualifierID="std.lang.all">4531 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E286">
+                <Value QualifierID="std.lang.all">4532 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E287">
+                <Value QualifierID="std.lang.all">4533 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E288">
+                <Value QualifierID="std.lang.all">4534 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E289">
+                <Value QualifierID="std.lang.all">4541 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E290">
+                <Value QualifierID="std.lang.all">4542 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E291">
+                <Value QualifierID="std.lang.all">4543 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E292">
+                <Value QualifierID="std.lang.all">4544 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E293">
+                <Value QualifierID="std.lang.all">4545 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E294">
+                <Value QualifierID="std.lang.all">4550 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E295">
+                <Value QualifierID="std.lang.all">5010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E296">
+                <Value QualifierID="std.lang.all">5020 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E297">
+                <Value QualifierID="std.lang.all">5030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E298">
+                <Value QualifierID="std.lang.all">5040 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E299">
+                <Value QualifierID="std.lang.all">5050 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E300">
+                <Value QualifierID="std.lang.all">5111 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E301">
+                <Value QualifierID="std.lang.all">5112 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E302">
+                <Value QualifierID="std.lang.all">5113 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E303">
+                <Value QualifierID="std.lang.all">5114 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E304">
+                <Value QualifierID="std.lang.all">5115 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E305">
+                <Value QualifierID="std.lang.all">5116 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E306">
+                <Value QualifierID="std.lang.all">5117 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E307">
+                <Value QualifierID="std.lang.all">5118 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E308">
+                <Value QualifierID="std.lang.all">5119 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E309">
+                <Value QualifierID="std.lang.all">5121 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E310">
+                <Value QualifierID="std.lang.all">5122 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E311">
+                <Value QualifierID="std.lang.all">5123 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E312">
+                <Value QualifierID="std.lang.all">5124 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E313">
+                <Value QualifierID="std.lang.all">5125 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E314">
+                <Value QualifierID="std.lang.all">5131 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E315">
+                <Value QualifierID="std.lang.all">5132 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E316">
+                <Value QualifierID="std.lang.all">5133 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E317">
+                <Value QualifierID="std.lang.all">5134 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E318">
+                <Value QualifierID="std.lang.all">5135 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E319">
+                <Value QualifierID="std.lang.all">5136 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E320">
+                <Value QualifierID="std.lang.all">5137 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E321">
+                <Value QualifierID="std.lang.all">5138 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E322">
+                <Value QualifierID="std.lang.all">5139 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E323">
+                <Value QualifierID="std.lang.all">5141 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E324">
+                <Value QualifierID="std.lang.all">5142 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E325">
+                <Value QualifierID="std.lang.all">5143 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E326">
+                <Value QualifierID="std.lang.all">5144 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E327">
+                <Value QualifierID="std.lang.all">5145 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E328">
+                <Value QualifierID="std.lang.all">5146 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E329">
+                <Value QualifierID="std.lang.all">5147 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E330">
+                <Value QualifierID="std.lang.all">5151 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E331">
+                <Value QualifierID="std.lang.all">5152 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E332">
+                <Value QualifierID="std.lang.all">5153 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E333">
+                <Value QualifierID="std.lang.all">5154 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E334">
+                <Value QualifierID="std.lang.all">5155 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E335">
+                <Value QualifierID="std.lang.all">5156 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E336">
+                <Value QualifierID="std.lang.all">5157 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E337">
+                <Value QualifierID="std.lang.all">5161 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E338">
+                <Value QualifierID="std.lang.all">5162 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E339">
+                <Value QualifierID="std.lang.all">5163 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E340">
+                <Value QualifierID="std.lang.all">5164 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E341">
+                <Value QualifierID="std.lang.all">5165 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E342">
+                <Value QualifierID="std.lang.all">5166 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E343">
+                <Value QualifierID="std.lang.all">5170 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E344">
+                <Value QualifierID="std.lang.all">5211 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E345">
+                <Value QualifierID="std.lang.all">5212 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E346">
+                <Value QualifierID="std.lang.all">5221 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E347">
+                <Value QualifierID="std.lang.all">5222 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E348">
+                <Value QualifierID="std.lang.all">5223 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E349">
+                <Value QualifierID="std.lang.all">5224 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E350">
+                <Value QualifierID="std.lang.all">5225 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E351">
+                <Value QualifierID="std.lang.all">5226 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E352">
+                <Value QualifierID="std.lang.all">5227 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E353">
+                <Value QualifierID="std.lang.all">5231 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E354">
+                <Value QualifierID="std.lang.all">5232 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E355">
+                <Value QualifierID="std.lang.all">5233 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E356">
+                <Value QualifierID="std.lang.all">5241 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E357">
+                <Value QualifierID="std.lang.all">5242 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E358">
+                <Value QualifierID="std.lang.all">5243 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E359">
+                <Value QualifierID="std.lang.all">5244 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E360">
+                <Value QualifierID="std.lang.all">5245 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E361">
+                <Value QualifierID="std.lang.all">5246 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E362">
+                <Value QualifierID="std.lang.all">5247 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E363">
+                <Value QualifierID="std.lang.all">5248 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E364">
+                <Value QualifierID="std.lang.all">5250 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E365">
+                <Value QualifierID="std.lang.all">5261 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E366">
+                <Value QualifierID="std.lang.all">5262 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E367">
+                <Value QualifierID="std.lang.all">5263 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E368">
+                <Value QualifierID="std.lang.all">5271 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E369">
+                <Value QualifierID="std.lang.all">5272 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E370">
+                <Value QualifierID="std.lang.all">5273 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E371">
+                <Value QualifierID="std.lang.all">5274 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E372">
+                <Value QualifierID="std.lang.all">5511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E373">
+                <Value QualifierID="std.lang.all">5512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E374">
+                <Value QualifierID="std.lang.all">5521 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E375">
+                <Value QualifierID="std.lang.all">5522 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E376">
+                <Value QualifierID="std.lang.all">5523 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E377">
+                <Value QualifierID="std.lang.all">5530 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E378">
+                <Value QualifierID="std.lang.all">5540 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E379">
+                <Value QualifierID="std.lang.all">5551 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E380">
+                <Value QualifierID="std.lang.all">5552 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E381">
+                <Value QualifierID="std.lang.all">6010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E382">
+                <Value QualifierID="std.lang.all">6021 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E383">
+                <Value QualifierID="std.lang.all">6022 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E384">
+                <Value QualifierID="std.lang.all">6023 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E385">
+                <Value QualifierID="std.lang.all">6024 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E386">
+                <Value QualifierID="std.lang.all">6030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E387">
+                <Value QualifierID="std.lang.all">6110 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E388">
+                <Value QualifierID="std.lang.all">6120 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E389">
+                <Value QualifierID="std.lang.all">6210 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E390">
+                <Value QualifierID="std.lang.all">6220 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E391">
+                <Value QualifierID="std.lang.all">6230 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E392">
+                <Value QualifierID="std.lang.all">6311 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E393">
+                <Value QualifierID="std.lang.all">6312 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E394">
+                <Value QualifierID="std.lang.all">6321 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E395">
+                <Value QualifierID="std.lang.all">6322 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E396">
+                <Value QualifierID="std.lang.all">6323 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E397">
+                <Value QualifierID="std.lang.all">6330 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E398">
+                <Value QualifierID="std.lang.all">6340 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E399">
+                <Value QualifierID="std.lang.all">6411 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E400">
+                <Value QualifierID="std.lang.all">6412 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E401">
+                <Value QualifierID="std.lang.all">6420 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E402">
+                <Value QualifierID="std.lang.all">6511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E403">
+                <Value QualifierID="std.lang.all">6512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E404">
+                <Value QualifierID="std.lang.all">6521 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E405">
+                <Value QualifierID="std.lang.all">6522 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E406">
+                <Value QualifierID="std.lang.all">6523 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E407">
+                <Value QualifierID="std.lang.all">6601 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E408">
+                <Value QualifierID="std.lang.all">6602 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E409">
+                <Value QualifierID="std.lang.all">6603 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E410">
+                <Value QualifierID="std.lang.all">6711 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E411">
+                <Value QualifierID="std.lang.all">6712 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E412">
+                <Value QualifierID="std.lang.all">6713 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E413">
+                <Value QualifierID="std.lang.all">6720 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E414">
+                <Value QualifierID="std.lang.all">7011 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E415">
+                <Value QualifierID="std.lang.all">7012 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E416">
+                <Value QualifierID="std.lang.all">7020 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E417">
+                <Value QualifierID="std.lang.all">7031 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E418">
+                <Value QualifierID="std.lang.all">7032 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E419">
+                <Value QualifierID="std.lang.all">7110 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E420">
+                <Value QualifierID="std.lang.all">7121 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E421">
+                <Value QualifierID="std.lang.all">7122 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E422">
+                <Value QualifierID="std.lang.all">7123 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E423">
+                <Value QualifierID="std.lang.all">7131 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E424">
+                <Value QualifierID="std.lang.all">7132 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E425">
+                <Value QualifierID="std.lang.all">7133 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E426">
+                <Value QualifierID="std.lang.all">7134 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E427">
+                <Value QualifierID="std.lang.all">7140 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E428">
+                <Value QualifierID="std.lang.all">7210 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E429">
+                <Value QualifierID="std.lang.all">7220 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E430">
+                <Value QualifierID="std.lang.all">7230 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E431">
+                <Value QualifierID="std.lang.all">7240 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E432">
+                <Value QualifierID="std.lang.all">7250 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E433">
+                <Value QualifierID="std.lang.all">7260 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E434">
+                <Value QualifierID="std.lang.all">7310 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E435">
+                <Value QualifierID="std.lang.all">7320 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E436">
+                <Value QualifierID="std.lang.all">7411 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E437">
+                <Value QualifierID="std.lang.all">7412 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E438">
+                <Value QualifierID="std.lang.all">7413 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E439">
+                <Value QualifierID="std.lang.all">7414 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E440">
+                <Value QualifierID="std.lang.all">7415 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E441">
+                <Value QualifierID="std.lang.all">7420 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E442">
+                <Value QualifierID="std.lang.all">7430 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E443">
+                <Value QualifierID="std.lang.all">7440 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E444">
+                <Value QualifierID="std.lang.all">7450 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E445">
+                <Value QualifierID="std.lang.all">7460 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E446">
+                <Value QualifierID="std.lang.all">7470 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E447">
+                <Value QualifierID="std.lang.all">7481 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E448">
+                <Value QualifierID="std.lang.all">7482 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E449">
+                <Value QualifierID="std.lang.all">7483 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E450">
+                <Value QualifierID="std.lang.all">7484 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E451">
+                <Value QualifierID="std.lang.all">7511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E452">
+                <Value QualifierID="std.lang.all">7512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E453">
+                <Value QualifierID="std.lang.all">7513 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E454">
+                <Value QualifierID="std.lang.all">7514 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E455">
+                <Value QualifierID="std.lang.all">7521 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E456">
+                <Value QualifierID="std.lang.all">7522 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E457">
+                <Value QualifierID="std.lang.all">7523 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E458">
+                <Value QualifierID="std.lang.all">7524 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E459">
+                <Value QualifierID="std.lang.all">7525 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E460">
+                <Value QualifierID="std.lang.all">7530 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E461">
+                <Value QualifierID="std.lang.all">8010 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E462">
+                <Value QualifierID="std.lang.all">8021 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E463">
+                <Value QualifierID="std.lang.all">8022 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E464">
+                <Value QualifierID="std.lang.all">8030 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E465">
+                <Value QualifierID="std.lang.all">8041 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E466">
+                <Value QualifierID="std.lang.all">8042 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E467">
+                <Value QualifierID="std.lang.all">8511 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E468">
+                <Value QualifierID="std.lang.all">8512 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E469">
+                <Value QualifierID="std.lang.all">8513 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E470">
+                <Value QualifierID="std.lang.all">8514 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E471">
+                <Value QualifierID="std.lang.all">8520 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E472">
+                <Value QualifierID="std.lang.all">8531 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E473">
+                <Value QualifierID="std.lang.all">8532 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E474">
+                <Value QualifierID="std.lang.all">9000 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E475">
+                <Value QualifierID="std.lang.all">9111 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E476">
+                <Value QualifierID="std.lang.all">9112 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E477">
+                <Value QualifierID="std.lang.all">9120 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E478">
+                <Value QualifierID="std.lang.all">9131 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E479">
+                <Value QualifierID="std.lang.all">9132 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E480">
+                <Value QualifierID="std.lang.all">9133 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E481">
+                <Value QualifierID="std.lang.all">9211 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E482">
+                <Value QualifierID="std.lang.all">9212 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E483">
+                <Value QualifierID="std.lang.all">9213 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E484">
+                <Value QualifierID="std.lang.all">9220 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E485">
+                <Value QualifierID="std.lang.all">9231 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E486">
+                <Value QualifierID="std.lang.all">9232 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E487">
+                <Value QualifierID="std.lang.all">9233 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E488">
+                <Value QualifierID="std.lang.all">9234 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E489">
+                <Value QualifierID="std.lang.all">9240 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E490">
+                <Value QualifierID="std.lang.all">9251 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E491">
+                <Value QualifierID="std.lang.all">9252 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E492">
+                <Value QualifierID="std.lang.all">9253 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E493">
+                <Value QualifierID="std.lang.all">9261 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E494">
+                <Value QualifierID="std.lang.all">9262 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E495">
+                <Value QualifierID="std.lang.all">9271 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E496">
+                <Value QualifierID="std.lang.all">9272 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E497">
+                <Value QualifierID="std.lang.all">9301 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E498">
+                <Value QualifierID="std.lang.all">9302 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E499">
+                <Value QualifierID="std.lang.all">9303 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E500">
+                <Value QualifierID="std.lang.all">9304 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E501">
+                <Value QualifierID="std.lang.all">9305 España CNAE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E630">
+                <Value QualifierID="std.lang.all">0100 AGRIC. GAN. CAZ</Value>
+            </ValueGroup>
+            <ValueGroup ID="E631">
+                <Value QualifierID="std.lang.all">0200 SELV Y EXPL.FOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E632">
+                <Value QualifierID="std.lang.all">0300 PESCA ACUICULT</Value>
+            </ValueGroup>
+            <ValueGroup ID="E633">
+                <Value QualifierID="std.lang.all">0500 EXTR. MINERAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E634">
+                <Value QualifierID="std.lang.all">0600 EXTR.CRUDO GAS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E635">
+                <Value QualifierID="std.lang.all">0700 EXTR. MINERAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E636">
+                <Value QualifierID="std.lang.all">0800 EXTR. MINERAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E637">
+                <Value QualifierID="std.lang.all">0900 APOY.EXT.MINER.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E638">
+                <Value QualifierID="std.lang.all">1000 IND. ALIMENTAC</Value>
+            </ValueGroup>
+            <ValueGroup ID="E639">
+                <Value QualifierID="std.lang.all">1100 FAB. BEBIDAS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E640">
+                <Value QualifierID="std.lang.all">1300 IND. TEXTIL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E641">
+                <Value QualifierID="std.lang.all">1400 CONF.PREN.VEST</Value>
+            </ValueGroup>
+            <ValueGroup ID="E642">
+                <Value QualifierID="std.lang.all">1500 IND.CUER.CALZ.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E643">
+                <Value QualifierID="std.lang.all">1600 IND.MAD.CORCH.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E644">
+                <Value QualifierID="std.lang.all">1700 IND. PAPEL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E645">
+                <Value QualifierID="std.lang.all">1800 ARTES GRAFICS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E646">
+                <Value QualifierID="std.lang.all">1900 COQ. REFIN.PETR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E647">
+                <Value QualifierID="std.lang.all">2000 IND. QUIMICA</Value>
+            </ValueGroup>
+            <ValueGroup ID="E648">
+                <Value QualifierID="std.lang.all">2200 FAB.CAUCH.PLAST</Value>
+            </ValueGroup>
+            <ValueGroup ID="E649">
+                <Value QualifierID="std.lang.all">2300 FAB.MIN.NO METL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E650">
+                <Value QualifierID="std.lang.all">2400 METAL.HIER.ACER</Value>
+            </ValueGroup>
+            <ValueGroup ID="E651">
+                <Value QualifierID="std.lang.all">2500 FAB. PROD.METAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="E652">
+                <Value QualifierID="std.lang.all">2600 FAB. PROD.INFOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E653">
+                <Value QualifierID="std.lang.all">2700 FAB.MAT.ELECTRI</Value>
+            </ValueGroup>
+            <ValueGroup ID="E654">
+                <Value QualifierID="std.lang.all">2800 FAB. MAQUINARI</Value>
+            </ValueGroup>
+            <ValueGroup ID="E655">
+                <Value QualifierID="std.lang.all">2900 FAB.VEHIC.MOTOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E656">
+                <Value QualifierID="std.lang.all">3000 FAB.OTR.MAT.TPT</Value>
+            </ValueGroup>
+            <ValueGroup ID="E657">
+                <Value QualifierID="std.lang.all">3200 OTR.IND.MANUFAC</Value>
+            </ValueGroup>
+            <ValueGroup ID="E658">
+                <Value QualifierID="std.lang.all">3300 REP.INS.MAQ.EQU</Value>
+            </ValueGroup>
+            <ValueGroup ID="E659">
+                <Value QualifierID="std.lang.all">3500 SUM.ELEC.GAS.AA</Value>
+            </ValueGroup>
+            <ValueGroup ID="E660">
+                <Value QualifierID="std.lang.all">3800 REC.TRAT.RESID</Value>
+            </ValueGroup>
+            <ValueGroup ID="E661">
+                <Value QualifierID="std.lang.all">4100 CONST.EDIFICIOS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E662">
+                <Value QualifierID="std.lang.all">4200 INGENIERIA CIVI</Value>
+            </ValueGroup>
+            <ValueGroup ID="E663">
+                <Value QualifierID="std.lang.all">4300 CONST.ESPECIALZ</Value>
+            </ValueGroup>
+            <ValueGroup ID="E664">
+                <Value QualifierID="std.lang.all">4500 VENT.REP.VEHIC.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E665">
+                <Value QualifierID="std.lang.all">4600 COM. POR MAYOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E666">
+                <Value QualifierID="std.lang.all">4700 COM. POR MENOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E667">
+                <Value QualifierID="std.lang.all">4900 TPTE.TERRESTRE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E668">
+                <Value QualifierID="std.lang.all">5000 TPTE. MARITIMO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E669">
+                <Value QualifierID="std.lang.all">5100 TPTE. AEREO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E670">
+                <Value QualifierID="std.lang.all">5200 ACT.ANEX.TPTE.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E671">
+                <Value QualifierID="std.lang.all">5300 ACT.POST.CORREO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E672">
+                <Value QualifierID="std.lang.all">5500 SERV.ALOJAMIEN.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E673">
+                <Value QualifierID="std.lang.all">5600 SERV.COM.BEBID.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E674">
+                <Value QualifierID="std.lang.all">5800 EDICION</Value>
+            </ValueGroup>
+            <ValueGroup ID="E675">
+                <Value QualifierID="std.lang.all">5900 ACT.CINE,VID.TV</Value>
+            </ValueGroup>
+            <ValueGroup ID="E676">
+                <Value QualifierID="std.lang.all">6000 ACT.EMIS.RAD.TV</Value>
+            </ValueGroup>
+            <ValueGroup ID="E677">
+                <Value QualifierID="std.lang.all">6100 TELECOMUNICAC.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E678">
+                <Value QualifierID="std.lang.all">6200 PROG.CONS.INFOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E679">
+                <Value QualifierID="std.lang.all">6300 SERV.INFORMACI</Value>
+            </ValueGroup>
+            <ValueGroup ID="E680">
+                <Value QualifierID="std.lang.all">6400 SERV.FINANCIER.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E681">
+                <Value QualifierID="std.lang.all">6500 SEGUROS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E682">
+                <Value QualifierID="std.lang.all">6600 ACT.AUX.SER.FIN</Value>
+            </ValueGroup>
+            <ValueGroup ID="E683">
+                <Value QualifierID="std.lang.all">6800 ACT. INMOBILIAR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E684">
+                <Value QualifierID="std.lang.all">6900 ACT.JURID.CONT.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E685">
+                <Value QualifierID="std.lang.all">7000 ACT.CONSULTOR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E686">
+                <Value QualifierID="std.lang.all">7100 SERV.ARQ.ING.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E687">
+                <Value QualifierID="std.lang.all">7200 INV.DESARROLLO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E688">
+                <Value QualifierID="std.lang.all">7300 PUBLIC.EST.MCDO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E689">
+                <Value QualifierID="std.lang.all">7400 OTR.ACT.PROFES.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E690">
+                <Value QualifierID="std.lang.all">7700 ACT. ALQUILER</Value>
+            </ValueGroup>
+            <ValueGroup ID="E691">
+                <Value QualifierID="std.lang.all">7800 ACT.REL.EMPLEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="E692">
+                <Value QualifierID="std.lang.all">7900 ACT.AG.VIAJES</Value>
+            </ValueGroup>
+            <ValueGroup ID="E693">
+                <Value QualifierID="std.lang.all">8000 ACT.SEGURID.INV</Value>
+            </ValueGroup>
+            <ValueGroup ID="E694">
+                <Value QualifierID="std.lang.all">8100 SERV.ACTIV.JARD</Value>
+            </ValueGroup>
+            <ValueGroup ID="E695">
+                <Value QualifierID="std.lang.all">8200 ACT.ADM.OFICINA</Value>
+            </ValueGroup>
+            <ValueGroup ID="E696">
+                <Value QualifierID="std.lang.all">8400 ADM.PCA.DEF.SS.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E697">
+                <Value QualifierID="std.lang.all">8500 EDUCACION</Value>
+            </ValueGroup>
+            <ValueGroup ID="E698">
+                <Value QualifierID="std.lang.all">8600 ACT. SANITARIAS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E699">
+                <Value QualifierID="std.lang.all">8700 ASIST.EST.RESID</Value>
+            </ValueGroup>
+            <ValueGroup ID="E700">
+                <Value QualifierID="std.lang.all">8800 ACT.SERV.SOC.</Value>
+            </ValueGroup>
+            <ValueGroup ID="E701">
+                <Value QualifierID="std.lang.all">9000 ACT.ARTIST.ESPE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E702">
+                <Value QualifierID="std.lang.all">9100 ACT.BIBLIO.MUSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="E703">
+                <Value QualifierID="std.lang.all">9300 ACT.DEPORT.RECR</Value>
+            </ValueGroup>
+            <ValueGroup ID="E704">
+                <Value QualifierID="std.lang.all">9400 ACT.ASOCIATIVAS</Value>
+            </ValueGroup>
+            <ValueGroup ID="E705">
+                <Value QualifierID="std.lang.all">9500 REP.ORD.ART.DOM</Value>
+            </ValueGroup>
+            <ValueGroup ID="E706">
+                <Value QualifierID="std.lang.all">9600 OTR.SERV.PERSON</Value>
+            </ValueGroup>
+            <ValueGroup ID="E707">
+                <Value QualifierID="std.lang.all">9800 ACTIV. HOGARES</Value>
+            </ValueGroup>
+            <ValueGroup ID="E708">
+                <Value QualifierID="std.lang.all">2100 FAB. PROD.FARMA</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES01">
+                <Value QualifierID="std.lang.all">Mueblista</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES02">
+                <Value QualifierID="std.lang.all">Bosch</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES03">
+                <Value QualifierID="std.lang.all">Gaggenau</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES04">
+                <Value QualifierID="std.lang.all">Varios</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES05">
+                <Value QualifierID="std.lang.all">Siemens</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES06">
+                <Value QualifierID="std.lang.all">Balay</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES07">
+                <Value QualifierID="std.lang.all">Lynx</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES08">
+                <Value QualifierID="std.lang.all">Balay</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES09">
+                <Value QualifierID="std.lang.all">Vertical</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES10">
+                <Value QualifierID="std.lang.all">Gaggenau</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES11">
+                <Value QualifierID="std.lang.all">Canarias</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES12">
+                <Value QualifierID="std.lang.all">Mueblistas Bosch</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES15">
+                <Value QualifierID="std.lang.all">CP</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES17">
+                <Value QualifierID="std.lang.all">KAM VERTICALES - ECI</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES20">
+                <Value QualifierID="std.lang.all">Comercio BY BO SE WL</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES21">
+                <Value QualifierID="std.lang.all">BSH-WL</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES22">
+                <Value QualifierID="std.lang.all">PAE Venta telefónica</Value>
+            </ValueGroup>
+            <ValueGroup ID="NCS">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NCSC">
+                <Value QualifierID="std.lang.all">CS-Consulting</Value>
+            </ValueGroup>
+            <ValueGroup ID="NCSS">
+                <Value QualifierID="std.lang.all">CS-Services</Value>
+            </ValueGroup>
+            <ValueGroup ID="NCST">
+                <Value QualifierID="std.lang.all">CS-Training</Value>
+            </ValueGroup>
+            <ValueGroup ID="NCSW">
+                <Value QualifierID="std.lang.all">CS-(Temp)Workers</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFM">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFMB">
+                <Value QualifierID="std.lang.all">FM-Building</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFMC">
+                <Value QualifierID="std.lang.all">FM-Catering</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFMD">
+                <Value QualifierID="std.lang.all">FM-Disposal</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFME">
+                <Value QualifierID="std.lang.all">FM-Energy,Heating</Value>
+            </ValueGroup>
+            <ValueGroup ID="NFMS">
+                <Value QualifierID="std.lang.all">FM-Service,Craftsman</Value>
+            </ValueGroup>
+            <ValueGroup ID="NIT">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NITC">
+                <Value QualifierID="std.lang.all">IT-Consulting</Value>
+            </ValueGroup>
+            <ValueGroup ID="NITH">
+                <Value QualifierID="std.lang.all">IT-Hardware,Networks</Value>
+            </ValueGroup>
+            <ValueGroup ID="NITS">
+                <Value QualifierID="std.lang.all">IT-Software</Value>
+            </ValueGroup>
+            <ValueGroup ID="NITT">
+                <Value QualifierID="std.lang.all">IT-Telco</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMA">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMAC">
+                <Value QualifierID="std.lang.all">MA-Media Creation</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMAD">
+                <Value QualifierID="std.lang.all">MA-Design,Modelling</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMAP">
+                <Value QualifierID="std.lang.all">MA-Media Production</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMAT">
+                <Value QualifierID="std.lang.all">MA-Fairs,Event,Deco</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMT">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTD">
+                <Value QualifierID="std.lang.all">MT-Dies</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTG">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTM">
+                <Value QualifierID="std.lang.all">MT-Machinery;Equip.</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTO">
+                <Value QualifierID="std.lang.all">MT-Operating suppl.</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTP">
+                <Value QualifierID="std.lang.all">MT-Production equip.</Value>
+            </ValueGroup>
+            <ValueGroup ID="NMTV">
+                <Value QualifierID="std.lang.all">MT-Vehicles</Value>
+            </ValueGroup>
+            <ValueGroup ID="NTM">
+                <Value QualifierID="std.lang.all">deleted--do not use</Value>
+            </ValueGroup>
+            <ValueGroup ID="NTMF">
+                <Value QualifierID="std.lang.all">TM-Fleet</Value>
+            </ValueGroup>
+            <ValueGroup ID="NTMS">
+                <Value QualifierID="std.lang.all">TM-Travel Services</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZR01">
+                <Value QualifierID="std.lang.all">Sales representative</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZR02">
+                <Value QualifierID="std.lang.all">Sales clerk</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZR03">
+                <Value QualifierID="std.lang.all">Sales manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZR04">
+                <Value QualifierID="std.lang.all">Key account manager</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZR05">
+                <Value QualifierID="std.lang.all">Sales representative</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="StandardWorkflow" Referenced="true">
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>StandardWorkflow</Name>
+            <Configuration>H4sIAAAAAAAAAKWU0WrbMBSG7/MUmu4dK068tsMyjG2FwqCjZfRa2CeOmCwJ6ThO9/RTZKXbQtO09MbHBun/v08YiQHNjZYoBcKt/uIgTL4WykPlrZJYww6aAeG+cdLid9lLhPaHk1upoAPP0Q2HlUp6BH2rb3prHIL7advjMN/sesWrOIiMtYrTqV9RokUPnN6j0K1w7YNxv9bKjJRswXlpNKdsfkVJ2Ks9pxtE+ynPx3Gcj8u5cV1eMFbm7CKP8bSuPmQZIUSbFjIvf0MWYjNrfCgzmuw4mzPyGJ8j/7gqwtzwslyGSbKsnpFKeC87DUBkG6gGC44MHhwl+GgDZ+fMYENNflhXz8Imj0GatNI3RqPUA4S98QhojDlyPXyehS1WZcS9LCLvgrHIW5RPuKRCJ3TagMJ1gJx+0042m68CxR7074J6VuWR9DXM/4Qk7P9iz5GX00EvSvYm9DvYShjfgZ0CEvJT3Ctxi8XbcK+lFmoqCYmfrXVmC++gfz4vyZwqO/sTJbeL5Laa3JbsZbdUENLuoA8va2f6h+uX5NZ7wNNyJwPPCRSTwHKVBC6PBKo8NkeY/S1Qp4vnD/cdS7nnBAAA</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

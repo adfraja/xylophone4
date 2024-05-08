@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SKU_2_L2" UserTypeID="SAKM_L2" ParentID="SAKM_L1">
+            <Name>SKU_2_L2123432</Name>
+            <AttributeLink AttributeID="SAKM_1">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

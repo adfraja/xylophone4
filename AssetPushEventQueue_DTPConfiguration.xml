@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <AssetPushEventQueues>
+        <AssetPushEventQueue ID="DTPConfiguration" QueueStatus="Discard" DaysRetained="0">
+            <Name>DTPConfiguration</Name>
+        </AssetPushEventQueue>
+    </AssetPushEventQueues>
+</STEP-ProductInformation>

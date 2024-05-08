@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Chab_classification" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Chab classification</Name>
+            <UserTypeLink UserTypeID="Chab_root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

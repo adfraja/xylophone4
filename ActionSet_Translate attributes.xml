@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Translate attributes" Type="setup">
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product attribute"></ActionLink>
+            <ActionLink ActionID="Modify name/description of domain"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product attri"></ActionLink>
+            <ActionLink ActionID="Modify value in hard/medium domain"></ActionLink>
+            <ActionLink ActionID="Run Reports"></ActionLink>
+            <ActionLink ActionID="View Background Processes of Other Users"></ActionLink>
+            <ActionLink ActionID="View System Setup Logs"></ActionLink>
+            <ActionLink ActionID="View table types"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierModify" Type="user">
+            <Name>Supplier, Modify</Name>
+            <ActionLink ActionID="Delete asset reference"></ActionLink>
+            <ActionLink ActionID="Maintain packaging hierarchy"></ActionLink>
+            <ActionLink ActionID="Modify metadata for asset reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for asset"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification refer"></ActionLink>
+            <ActionLink ActionID="Modify metadata for classification"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product classificati"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product reference"></ActionLink>
+            <ActionLink ActionID="Modify metadata for product"></ActionLink>
+            <ActionLink ActionID="Modify name/description of asset"></ActionLink>
+            <ActionLink ActionID="Modify name/description of classificatio"></ActionLink>
+            <ActionLink ActionID="Modify name/description of product"></ActionLink>
+            <ActionLink ActionID="Modify product attribute value"></ActionLink>
+            <ActionLink ActionID="Supplier Web UI functions"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

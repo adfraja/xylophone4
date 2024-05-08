@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.PatternTypeEcom" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Pattern Type Ecom</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.PatternTypeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Pattern Type Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.PatternTypeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Pattern Type Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.PatternTypeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Pattern Type Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.PatternTypeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Pattern Type Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.PatternTypeEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Pattern Type Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27273141">
+                <Value>Plain</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273142">
+                <Value>Sparkly</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273143">
+                <Value>Textured</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273144">
+                <Value>Checked</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273145">
+                <Value>Striped</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273146">
+                <Value>Jacquard</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273147">
+                <Value>Floral</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273148">
+                <Value>Animal print</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273149">
+                <Value>Leopard print</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273150">
+                <Value>Embroidered</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273151">
+                <Value>Embellished</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273152">
+                <Value>Lace</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273153">
+                <Value>Printed</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273154">
+                <Value>Colour block</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273155">
+                <Value>Tartan</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273156">
+                <Value>Stars</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273157">
+                <Value>Polka dot</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273158">
+                <Value>Glitter</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273159">
+                <Value>Crinkle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273160">
+                <Value>Pleated</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273161">
+                <Value>Geometric</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273162">
+                <Value>Knitted</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273163">
+                <Value>Poppy</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273164">
+                <Value>Heart</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273165">
+                <Value>Tassel</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273166">
+                <Value>Metallic</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273167">
+                <Value>Studded</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273168">
+                <Value>Patent</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273169">
+                <Value>Reversible</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273170">
+                <Value>Camouflage</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273171">
+                <Value>Snakeskin print</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273172">
+                <Value>Laser cut</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273173">
+                <Value>Monochrome</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273174">
+                <Value>Ruffle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273175">
+                <Value>Cable knit</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273176">
+                <Value>Ribbed</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273177">
+                <Value>Gingham</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273178">
+                <Value>Plisse</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273179">
+                <Value>Slogan</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273180">
+                <Value>Herringbone</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273181">
+                <Value>High shine</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273182">
+                <Value>Side stripe</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273183">
+                <Value>Sequin</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273184">
+                <Value>Frill</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273185">
+                <Value>Distressed</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273186">
+                <Value>Na</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273187">
+                <Value>Polka Dot</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273188">
+                <Value>Striped</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273189">
+                <Value>Animal</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273190">
+                <Value>Patterned</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273191">
+                <Value>Character</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274687">
+                <Value>Novelty</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274688">
+                <Value>Argyle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274689">
+                <Value>Fairisle</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274927">
+                <Value>Paisley</Value>
+            </ValueGroup>
+            <ValueGroup ID="31281637">
+                <Value>Velvet</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

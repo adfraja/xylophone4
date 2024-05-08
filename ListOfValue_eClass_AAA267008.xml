@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAA267008" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">Type of packaging</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA267008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of packaging
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA267008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of packaging
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA267008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of packaging
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA267008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of packaging
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAA267008
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Type of packaging
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAA267</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAA267008</Value>
+            </MetaData>
+            <ValueGroup ID="AAA303004">
+                <Value QualifierID="std.lang.all">Ring</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAA441002">
+                <Value QualifierID="std.lang.all">Cardboard</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAB746002">
+                <Value QualifierID="std.lang.all">Canister</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAJ125002">
+                <Value QualifierID="std.lang.all">case</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAM497005">
+                <Value QualifierID="std.lang.all">Pallet</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO018002">
+                <Value QualifierID="std.lang.all">bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ379002">
+                <Value QualifierID="std.lang.all">box</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ447002">
+                <Value QualifierID="std.lang.all">plastic suitcase</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ560002">
+                <Value QualifierID="std.lang.all">metal box</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAQ562002">
+                <Value QualifierID="std.lang.all">metal suitcase</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB659002">
+                <Value QualifierID="std.lang.all">Skeleton container</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABB660002">
+                <Value QualifierID="std.lang.all">without packaging</Value>
+            </ValueGroup>
+            <ValueGroup ID="ABN631002">
+                <Value QualifierID="std.lang.all">rod material</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAB205004">
+                <Value QualifierID="std.lang.all">Film</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC474004">
+                <Value QualifierID="std.lang.all">Jute sack</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC574002">
+                <Value QualifierID="std.lang.all">Bubble wrap film</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAA563005">
+                <Value QualifierID="std.lang.all">bag</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

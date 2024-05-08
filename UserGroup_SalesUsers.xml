@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="SalesUsers" ReadOnly="false">
+            <Name>Sales Users</Name>
+            <PrivilegeRule ActionSetID="DataContainerApprove" EntityID="100305"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataContainerCreate" EntityID="100305"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataContainerModify" EntityID="100305"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataContainerView" EntityID="100305"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerApprove" STEPWorkflowID="ContactMaintenanceNoSelfService" STEPWorkflowStateID="Initial" UserTypeID="ContactPerson"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerApprove" STEPWorkflowID="ContactOnboardingNoSelfService" STEPWorkflowStateID="Initial" UserTypeID="ContactPerson"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerCreate" EntityID="100305" UserTypeID="ContactPerson"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerCreate" EntityID="100305" UserTypeID="OrganizationCustomer"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" UserTypeID="ContactPerson" ObjectCreation="true" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" UserTypeID="OrganizationCustomer" ObjectCreation="true" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="ContactMaintenanceNoSelfService" STEPWorkflowStateID="Initial" UserTypeID="ContactPerson" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="ContactOnboardingNoSelfService" STEPWorkflowStateID="Initial" UserTypeID="ContactPerson" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="OrganizationCustomerEdit" STEPWorkflowStateID="EditMode" UserTypeID="OrganizationCustomer" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="OrganizationCustomerEdit" STEPWorkflowStateID="SalesReview" UserTypeID="OrganizationCustomer" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="OrganizationCustomerOnboarding" STEPWorkflowStateID="Initial" UserTypeID="OrganizationCustomer" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" STEPWorkflowID="OrganizationCustomerOnboarding" STEPWorkflowStateID="SalesEnrichment" UserTypeID="OrganizationCustomer" AttributeGroupID="SalesModify"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerModify" EntityID="100305" UserTypeID="Aggregate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerView" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerView" EntityID="100305"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerView" EntityID="100305" UserTypeID="Aggregate"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerView" EntityID="100305" UserTypeID="ContactPerson"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesManagerView" EntityID="100305" UserTypeID="OrganizationCustomer"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="SalesSetupActions"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;stibo.warning&gt;" Stop="&lt;/stibo.warning&gt;"></Tag>
+        <StyleTag ID="stibo.warning" ParentID="Style tag root" Tag="stibo.warning">
+            <Configuration>H4sIAAAAAAAAAMvLLyktTk3JS8xN1dE1REee6Xn5Rak6vonpqXkliTBucWZeek5qSX6ejgEAPFE6fD8AAAA=</Configuration>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

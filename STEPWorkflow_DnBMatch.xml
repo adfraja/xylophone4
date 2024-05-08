@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="DnBMatch" Referenced="true">
+            <BusinessRuleLink ID="DnBRemoveNodeAction"></BusinessRuleLink>
+            <BusinessRuleLink ID="DnBRepublishMatchingAction"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="DnBWorkflows"></SetupGroupLink>
+            <Name>D&amp;B Match</Name>
+            <ValidUserTypeLink UserTypeID="OrganizationCustomer"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAKVUbW/aMBD+3l/hWfuaFyiMdYqptq6qKq1rVdQfYJIDLCXnyHYI7NfvsMMoaBXpFilxfPbdPc9zZ8vG6XtUTkkHj3hjgEaxkKWFzNalclPYQN44mOVG1e6HqpSD4smotSphCVY40+x3lso6wEe8r2ptHJiXujgNZvNNVYrsmr5sDcYqjYIP4pRfTy8yv8joRSv4yrn6S5K0bRu3l7E2y2SYpuMknSR+G2fKgy4FfwKz0KZ6kC5fcYayAsG/47du/idLGl/x6QWjJ/sQRTSgLiCy6hdEEouo1pbiaWQbkcYp2/pvKz6NRzSuxPjzFY0siroQ0lq1RACmCsE/5o0xgI4zt60pe2PB8KTbaR2JwAplc41OYQPk4CXh3vdv6DsbC8YQpw/wwSRAnwTsgzT12Ifj19B9II0E12zZvLEKwVqZ70Ls8JByz1A3cyrmyudXuPzqV/eMfABnJHZ5YU2xBJ81c+oNkkCaJdD8FoszHnd6BiXkr3zC/IZoqV3rnPW/NUabg/sebzDvC5D4CnSThUJZvl2NHeiuCLvf/tJfDoP0o8H/al/pNfykNMeiZ4lH3q+nTmXsGAUzO9j70xv17qx3NcZxbc6wOq5ux2lvZOCt7zgraWA0+BdKd/oZqIQHTken+JRcFq6saXcH/gbc3jMicgUAAA==</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SKU1" UserTypeID="L1" ParentID="Vinl_SKU">
+            <Name>SKU1</Name>
+            <AttributeLink AttributeID="NewProp65Warning">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <AttributeLink AttributeID="NewProposition65Compliant">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <Value AttributeID="NewProposition65Compliant">yes</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

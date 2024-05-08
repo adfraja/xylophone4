@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="LOV_SortKey" ParentID="LOVG_AccountManagement" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="std.lang.all">Sort Key LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;LOV_SortKey
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Sort Key LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;LOV_SortKey
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Sort Key LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;LOV_SortKey
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Sort Key LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;LOV_SortKey
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Sort Key LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;LOV_SortKey
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Sort Key LOV
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="000">
+                <Value QualifierID="std.lang.all">000 - Allocation number</Value>
+            </ValueGroup>
+            <ValueGroup ID="001">
+                <Value QualifierID="std.lang.all">001 - Posting date</Value>
+            </ValueGroup>
+            <ValueGroup ID="002">
+                <Value QualifierID="std.lang.all">002 - Doc.no., fiscal year</Value>
+            </ValueGroup>
+            <ValueGroup ID="003">
+                <Value QualifierID="std.lang.all">003 - Document date</Value>
+            </ValueGroup>
+            <ValueGroup ID="004">
+                <Value QualifierID="std.lang.all">004 - Branch account</Value>
+            </ValueGroup>
+            <ValueGroup ID="005">
+                <Value QualifierID="std.lang.all">005 - Loc.currency amount</Value>
+            </ValueGroup>
+            <ValueGroup ID="006">
+                <Value QualifierID="std.lang.all">006 - Doc.currency amount</Value>
+            </ValueGroup>
+            <ValueGroup ID="007">
+                <Value QualifierID="std.lang.all">007 - Bill/exch.due date</Value>
+            </ValueGroup>
+            <ValueGroup ID="008">
+                <Value QualifierID="std.lang.all">008 - Cost center</Value>
+            </ValueGroup>
+            <ValueGroup ID="009">
+                <Value QualifierID="std.lang.all">009 - External doc.number</Value>
+            </ValueGroup>
+            <ValueGroup ID="010">
+                <Value QualifierID="std.lang.all">010 - Purchase order no.</Value>
+            </ValueGroup>
+            <ValueGroup ID="011">
+                <Value QualifierID="std.lang.all">011 - Plant number</Value>
+            </ValueGroup>
+            <ValueGroup ID="012">
+                <Value QualifierID="std.lang.all">012 - Vendor number</Value>
+            </ValueGroup>
+            <ValueGroup ID="014">
+                <Value QualifierID="std.lang.all">014 - Purchase order</Value>
+            </ValueGroup>
+            <ValueGroup ID="015">
+                <Value QualifierID="std.lang.all">015 - Personnel number</Value>
+            </ValueGroup>
+            <ValueGroup ID="016">
+                <Value QualifierID="std.lang.all">016 - Settlement period</Value>
+            </ValueGroup>
+            <ValueGroup ID="017">
+                <Value QualifierID="std.lang.all">017 - Settl.per., pers.no.</Value>
+            </ValueGroup>
+            <ValueGroup ID="018">
+                <Value QualifierID="std.lang.all">018 - Asset number</Value>
+            </ValueGroup>
+            <ValueGroup ID="021">
+                <Value QualifierID="std.lang.all">021 - Segment text</Value>
+            </ValueGroup>
+            <ValueGroup ID="022">
+                <Value QualifierID="std.lang.all">022 - One-time name / city</Value>
+            </ValueGroup>
+            <ValueGroup ID="023">
+                <Value QualifierID="std.lang.all">023 - One-time city / name</Value>
+            </ValueGroup>
+            <ValueGroup ID="024">
+                <Value QualifierID="std.lang.all">024 - Document header text</Value>
+            </ValueGroup>
+            <ValueGroup ID="025">
+                <Value QualifierID="std.lang.all">025 - CPU date</Value>
+            </ValueGroup>
+            <ValueGroup ID="026">
+                <Value QualifierID="std.lang.all">026 - Pmnt per.bslne date</Value>
+            </ValueGroup>
+            <ValueGroup ID="027">
+                <Value QualifierID="std.lang.all">027 - Value date</Value>
+            </ValueGroup>
+            <ValueGroup ID="028">
+                <Value QualifierID="std.lang.all">028 - Asset number</Value>
+            </ValueGroup>
+            <ValueGroup ID="029">
+                <Value QualifierID="std.lang.all">029 - Pstng month, vendor</Value>
+            </ValueGroup>
+            <ValueGroup ID="031">
+                <Value QualifierID="std.lang.all">031 - Customer number</Value>
+            </ValueGroup>
+            <ValueGroup ID="032">
+                <Value QualifierID="std.lang.all">032 - Pstng yr,month,curr.</Value>
+            </ValueGroup>
+            <ValueGroup ID="033">
+                <Value QualifierID="std.lang.all">033 - Cost center</Value>
+            </ValueGroup>
+            <ValueGroup ID="034">
+                <Value QualifierID="std.lang.all">034 - Month, cost center</Value>
+            </ValueGroup>
+            <ValueGroup ID="035">
+                <Value QualifierID="std.lang.all">035 - Contract number</Value>
+            </ValueGroup>
+            <ValueGroup ID="036">
+                <Value QualifierID="std.lang.all">036 - Order</Value>
+            </ValueGroup>
+            <ValueGroup ID="037">
+                <Value QualifierID="std.lang.all">037 - Currency key</Value>
+            </ValueGroup>
+            <ValueGroup ID="039">
+                <Value QualifierID="std.lang.all">039 - Project number</Value>
+            </ValueGroup>
+            <ValueGroup ID="055">
+                <Value QualifierID="std.lang.all">055 - Fiscal year, month</Value>
+            </ValueGroup>
+            <ValueGroup ID="060">
+                <Value QualifierID="std.lang.all">060 - Test0</Value>
+            </ValueGroup>
+            <ValueGroup ID="061">
+                <Value QualifierID="std.lang.all">061 - Test1</Value>
+            </ValueGroup>
+            <ValueGroup ID="065">
+                <Value QualifierID="std.lang.all">065 - Test5</Value>
+            </ValueGroup>
+            <ValueGroup ID="101">
+                <Value QualifierID="std.lang.all">101 - Cash discnt clearing</Value>
+            </ValueGroup>
+            <ValueGroup ID="102">
+                <Value QualifierID="std.lang.all">102 - Year, Period, Vendor</Value>
+            </ValueGroup>
+            <ValueGroup ID="103">
+                <Value QualifierID="std.lang.all">103 - Year,Period,Customer</Value>
+            </ValueGroup>
+            <ValueGroup ID="105">
+                <Value QualifierID="std.lang.all">105 - Test</Value>
+            </ValueGroup>
+            <ValueGroup ID="122">
+                <Value QualifierID="std.lang.all">122 - One-time name</Value>
+            </ValueGroup>
+            <ValueGroup ID="124">
+                <Value QualifierID="std.lang.all">124 - Document header text</Value>
+            </ValueGroup>
+            <ValueGroup ID="125">
+                <Value QualifierID="std.lang.all">125 - Header Text Currency</Value>
+            </ValueGroup>
+            <ValueGroup ID="126">
+                <Value QualifierID="std.lang.all">126 - Documen header 10dig</Value>
+            </ValueGroup>
+            <ValueGroup ID="127">
+                <Value QualifierID="std.lang.all">127 - Exter doc.numb 10dig</Value>
+            </ValueGroup>
+            <ValueGroup ID="201">
+                <Value QualifierID="std.lang.all">201 - Italian customer</Value>
+            </ValueGroup>
+            <ValueGroup ID="IL0">
+                <Value QualifierID="std.lang.all">IL0 - Doc.no., fiscal year</Value>
+            </ValueGroup>
+            <ValueGroup ID="Z02">
+                <Value QualifierID="std.lang.all">Z02 - Doc.no., 10 digits</Value>
+            </ValueGroup>
+            <ValueGroup ID="Z05">
+                <Value QualifierID="std.lang.all">Z05 - Due base date</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

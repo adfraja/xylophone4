@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.SupplierClassify" Type="user">
+            <Name>Supplier, Classify</Name>
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Classify product"></ActionLink>
+            <ActionLink ActionID="Declassify asset"></ActionLink>
+            <ActionLink ActionID="Download asset"></ActionLink>
+            <ActionLink ActionID="Move product from"></ActionLink>
+            <ActionLink ActionID="Move product to"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

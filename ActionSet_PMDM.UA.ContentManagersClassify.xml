@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.UA.ContentManagersClassify" Type="user">
+            <Name>Content Managers, Classify</Name>
+            <ActionLink ActionID="Classify asset"></ActionLink>
+            <ActionLink ActionID="Declassify asset"></ActionLink>
+            <ActionLink ActionID="Move classification from"></ActionLink>
+            <ActionLink ActionID="Move classification to"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="DataStewardView" Type="user">
+            <Name>Data Steward, View</Name>
+            <ActionLink ActionID="Download asset"></ActionLink>
+            <ActionLink ActionID="Supplier Web UI functions"></ActionLink>
+            <ActionLink ActionID="View Category Profile"></ActionLink>
+            <ActionLink ActionID="View Collection Group"></ActionLink>
+            <ActionLink ActionID="View Collection"></ActionLink>
+            <ActionLink ActionID="View Version"></ActionLink>
+            <ActionLink ActionID="View asset reference"></ActionLink>
+            <ActionLink ActionID="View asset"></ActionLink>
+            <ActionLink ActionID="View attribute to classification link"></ActionLink>
+            <ActionLink ActionID="View classification reference"></ActionLink>
+            <ActionLink ActionID="View classification"></ActionLink>
+            <ActionLink ActionID="View data container"></ActionLink>
+            <ActionLink ActionID="View entity reference"></ActionLink>
+            <ActionLink ActionID="View entity"></ActionLink>
+            <ActionLink ActionID="View metadata for asset (property value)"></ActionLink>
+            <ActionLink ActionID="View metadata for asset reference"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute to classific"></ActionLink>
+            <ActionLink ActionID="View metadata for classification referen"></ActionLink>
+            <ActionLink ActionID="View metadata for classification"></ActionLink>
+            <ActionLink ActionID="View metadata for data container"></ActionLink>
+            <ActionLink ActionID="View metadata for entity reference"></ActionLink>
+            <ActionLink ActionID="View metadata for entity"></ActionLink>
+            <ActionLink ActionID="View metadata for product classification"></ActionLink>
+            <ActionLink ActionID="View metadata for product reference"></ActionLink>
+            <ActionLink ActionID="View metadata for product"></ActionLink>
+            <ActionLink ActionID="View product attribute value"></ActionLink>
+            <ActionLink ActionID="View product reference"></ActionLink>
+            <ActionLink ActionID="View product"></ActionLink>
+            <ActionLink ActionID="View queued events"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

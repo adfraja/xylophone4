@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <InBoundIntegrationEndpoint ID="PDSInboundIntegrationEndpoint" UserTypeID="PDS Inbound Integration Endpoint Type" ProcessPluginID="TaggloMessageProcessorPlugin" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="-1" MaximumAgeOfFailedBackgroundProcesses="-1" MaximumNumberOfFailedBackgroundProcesses="-1" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="NONE" ResponsibleUserID="DBA" EnableRetry="false" ReceiverPluginID="TaggloReceiverPlugin" MessagesPerBackgroundProcess="1">
+            <SetupGroupLink SetupGroupID="PDS Inbound Setup Group"></SetupGroupLink>
+            <Name>PDS Inbound Integration Endpoint</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IKTM1JTSnNSXVLTMvMyS4BmqMCEXIGGVvpm5pWWpCoBjYGCVJAo0B4lfaAt+jBrADtwci2GAAAA</ScheduleSpecification>
+            <ReceiverPluginConfiguration>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</ReceiverPluginConfiguration>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</ProcessPluginConfiguration>
+            <SampleFileConfiguration SampleFileName="">
+                <SampleFileContents>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</SampleFileContents>
+            </SampleFileConfiguration>
+            <ContextLink ContextID="GL"></ContextLink>
+            <WorkspaceID>Main</WorkspaceID>
+        </InBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>

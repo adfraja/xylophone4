@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="FR_SubCategory" ClassificationOwnsProductLinks="false" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="FR_SubCategory_[id]">
+            <Name>French SubCategory</Name>
+            <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGB4xsCQUTfDP6M1tWrq+h0ntXwyD524quObk9s42yu1Kal8ctvUtY8evfZJbZqzck9UUd/CNQdCc7uK2xe2Tl3jl94yd+W+qu4ldtHlwdnt6t5peU1z8hpn+2e0WISWmIUWO8ZUheR0nLt0r7JnSXXfMj2/3POX7+v657sl1HZMW9cyZU1Qdkd+y1z72KoT525OXbjdMrx07bYTJ87eaJi06trNR8ZBhSXtC+as2DNjyc7E8kmRhb2PHr+2i6lyiK40CiywCC/V9M3W9suNL5s4Y+muko6FB49dOXTyql96a0xx//Pn7/Ob5znH15a0LXCOrTIIyPdNa8qpn+mf2eqZ0hRXMuHho9caPum+qY3pNdPLuxZl1Ew7cf52Zt2MqYu2GQUXusTXdc1YP2/lXsuw0j2HLjnGVgVlten559nHVBkG5lf3LjMPLdb0ydLyyfZLb9b0yfz+9Ze2b462Xw4D6UDxJwuY1gERoDhhYL/YIC+WaC3nLZPZ2dWl5RKhY2CkKJExdVpGZmiUKS9vnEY4w6JFkexqDlJOgoImYUppGzYa8lgIuDnm5Ojz8Qkp5LgLBaYIxEjmmHEkMDHlMHMwMfvGi+t55Iik3BLJ0bxlpW2cZJPOmsPq9dQy/U26rY9/XmpqLHcOkzP358/Ryox2yUxiicWLWGerMB6fYrCB0ZeVlU1ow0qFj42MbPx1WzgdFhxuiOG6s8NSoZW3UzrPTChDedPS09O0bp+Y4xmc5qURfO3FnZOTlwtrZTVxyUqVHGpxYLAGAEwWQ8J0AgAA</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="FR_SC_Level_1"></UserTypeLink>
+            <UserTypeLink UserTypeID="FR_SubCategory"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

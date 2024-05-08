@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.ENT.SystemMessages" AllowInDesignTemplate="false" AllowQuarkTemplate="false" Revisability="Global" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>System Messages</Name>
+            <UserTypeLink UserTypeID="PMDM.ENT.ConfigurationObjects"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.ENT.SystemMessages"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

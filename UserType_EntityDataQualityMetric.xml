@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="EntityDataQualityMetric">
+            <Name>Entity data quality metric</Name>
+            <UserTypeLink UserTypeID="Metrics"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

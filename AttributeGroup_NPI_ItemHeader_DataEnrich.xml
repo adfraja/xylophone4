@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="NPI_ItemHeader_DataEnrich" ShowInWorkbench="false" ManuallySorted="true" Referenced="true" ParentID="ISN_WebUI_Att_Group">
+            <Name QualifierID="en-US">Item Header</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">ISN WebUI screens</Value>
+            </MetaData>
+            <AttributeSequence>
+                <AttributeLink AttributeID="AC_PIES_EXPIOSP"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMPartNumber"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPICTO"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPILTM"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPIHTS"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMItemLevelGTIN"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_ITEMHazardousMaterialCode"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_EXPIOEP"></AttributeLink>
+                <AttributeLink AttributeID="AC_PIES_PACKPackageLevelGTIN"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

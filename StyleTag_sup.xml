@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;sup&gt;" Stop="&lt;/sup&gt;"></Tag>
+        <StyleTag ID="sup" ParentID="Style tag root" Tag="sup">
+            <Configuration>H4sIAAAAAAAAACsuLdDRNUQgMOGZnpdflIpG5eWXFGfmpeekluTn6RgCAK93s1g4AAAA</Configuration>
+            <TagFormat Format="HTML3">
+                <FormattingStart>&lt;sup&gt;</FormattingStart>
+                <FormattingStop>&lt;/sup&gt;</FormattingStop>
+            </TagFormat>
+            <TagFormat Format="InDesign">
+                <FormattingStart>&lt;cp:Superscript&gt;</FormattingStart>
+                <FormattingStop>&lt;cp:&gt;</FormattingStop>
+            </TagFormat>
+        </StyleTag>
+    </TagList>
+</STEP-ProductInformation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DataContainerTypes>
+        <DataContainerType ID="PDS Status Data Container" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false">
+            <Name>PDS Status Data Container</Name>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;PDS Status Data Container
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PDS Status Attribute Group"></AttributeGroupLink>
+            <AttributeLink AttributeID="PDS Channel"></AttributeLink>
+            <AttributeLink AttributeID="PDS Date Time"></AttributeLink>
+            <AttributeLink AttributeID="PDS External Status"></AttributeLink>
+            <AttributeLink AttributeID="PDS Product Channel URL"></AttributeLink>
+            <AttributeLink AttributeID="PDS Status Details"></AttributeLink>
+            <AttributeLink AttributeID="PDS Status"></AttributeLink>
+            <AttributeLink AttributeID="PDX Channel ID"></AttributeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

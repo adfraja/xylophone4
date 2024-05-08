@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TableColors>
+        <TableColor Name="Black" Color="0"></TableColor>
+        <TableColor Name="Light Blue" Color="11058379"></TableColor>
+        <TableColor Name="Grey" Color="13421772"></TableColor>
+        <TableColor Name="White" Color="16777215"></TableColor>
+        <TableColor Name="Blue" Color="6724095"></TableColor>
+    </TableColors>
+</STEP-ProductInformation>

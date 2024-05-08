@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="Create values in medium domain" Type="setup">
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Create value in medium domain"></ActionLink>
+            <ActionLink ActionID="Run Reports"></ActionLink>
+            <ActionLink ActionID="View Background Processes of Other Users"></ActionLink>
+            <ActionLink ActionID="View System Setup Logs"></ActionLink>
+            <ActionLink ActionID="View table types"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

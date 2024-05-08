@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="PMDM.PRD.INT.Level6" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name>Item</Name>
+            <Icon>H4sIAAAAAAAAAH1UXWgcVRQeUwmhNv48KNQ+OJ1CaYp3Z+7Mzs6P2dZkZtcudJO42WKkKXjnzp3smMxPZybdSRBqGy0p+CQEa6o+tC+2oAXxpRrQVkEt7UMfSqUKin9gFeJDW7L0xTvpbixScmHm3nPu+b5z5vzM8ZGhF3o3Pr2RYZjeyh6zRvdH6fNITzd9D7+5ZNFtc1IaS0YDJ2miiDADdmARtuKhCVIjyJ45+B3pZ5gNx9z6WDJW3avjwMuhzCaXeiGTrf7daYjwJElYi0y4fpFb/vwLjnXtIveSXBWqoUEa7p7ZiIzODtXx7CTWbG73LrY/1SmBRxLEpt6UH+tpkVvl1ek5U/Mcu2qSTBa5e0GNVUdYI4gIK+cKAENJZRUtB2VNFfPPsqIAC7yg8TAPBKgLmi5Atr046i2yHb1mltu+qFTkGkkS6jzfbDZzTSkXRBM81DSNF0ReFAG1APGMn6AU+PG2DoNJYhy5YeIGPpvJyAqmkyLHdT7BC6vVNWI/bieKpoxPUcjDnMB7Ht+xjpMacda3juszIeFrJA6mI0zr4Wy7z9X60MyQRqMPRy4tCpoyAzztET+pmEWO3uRs19aRKmANEghE20IgL1sOsCxRAVhT8qqILRuqWofnQXjJLOdhwRAVc1CBsKQMlGTZUEqGYUA4KEkDHWzFjxPkY9LBuv9h4bpY3YgISoKoHgRTnS4YaQRJEDeCkDWMrOoKu6OKsOtnyr6sUO14SeQeInY5Cjx2NdO6+4AoYAFCR7Q1gB1FAHmEbaAJsgMkG2JLk2RVsmyujbfvy8C9TqUayhF2AtIFXEAFy3EAonQAQgUBq2BhYCmq4yiyohUUi+NpiPz/mqmjoh2aHddGgwprw0V8OlERHR3xuZ++p2P3WcUcqKc3pl488sRFoeeN8Tv/jJsfzaX6/LW9p07+ph/3j24Ft7YY5765feTwB5/Mj/DH/jq9/9vlrxdb6fnr3c6dU2+/Hwzrf88P3f155daTi7sGf31cvfk8OndFHT/R9857r19++NKH5obzfTvfvf7p5vmF/MrilbMnDpx5bctTN+Sb+y9MMwvgl6U/unq2f7l108niq5PLK0s7/5w7+9DvVx8r3y7/sG9OOtRzufurgz+e7motNFrPbG813+p9+cLhrk1Ma4d7Ud43ejf7e1RKQ+bHg68c/Rf/BCHaqgQAAA==</Icon>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.INT.Level5"></UserTypeLink>
+            <AttributeLink AttributeID="Display Sequence"></AttributeLink>
+            <AttributeLink AttributeID="Last used EAN codes"></AttributeLink>
+            <AttributeLink AttributeID="Modified_At"></AttributeLink>
+            <AttributeLink AttributeID="Modified_By"></AttributeLink>
+            <AttributeLink AttributeID="OverrideMetaAttribute"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.BusinessUnit"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.DepartmentID"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.ExternalIdentifier"></AttributeLink>
+            <AttributeLink AttributeID="PMDM.AT.Purpose"></AttributeLink>
+            <AttributeLink AttributeID="VESK Cond"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

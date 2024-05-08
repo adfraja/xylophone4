@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="SAKM" UserTypeID="SAKm" ParentID="Product hierarchy root">
+            <Name>SAKM</Name>
+            <AttributeLink AttributeID="SAKM_1">
+                <MetaData>
+                    <ValueGroup AttributeID="AT_ConditionAttribute"></ValueGroup>
+                </MetaData>
+            </AttributeLink>
+            <Values>
+                <Value AttributeID="SAKM_1" UnitID="unece.unit.CEL">-40-80</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

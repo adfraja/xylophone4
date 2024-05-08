@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="datastewards" ReadOnly="false">
+            <Name>Data Stewards</Name>
+            <PrivilegeRule ActionSetID="DataStewardCreate" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardCreate" EntityID="Entity hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardDelete" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardDelete" EntityID="Entity hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardModify" EntityID="Entity hierarchy root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardSetupActions"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" CollectionGroupID="CollectionGroup root"></PrivilegeRule>
+            <PrivilegeRule ActionSetID="DataStewardView" EntityID="Entity hierarchy root"></PrivilegeRule>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>

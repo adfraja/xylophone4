@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="GDS_automatedvalidation" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="PMDM.EventProcessors"></SetupGroupLink>
+            <Name>GDS_automatedvalidation</Name>
+            <Configuration>H4sIAAAAAAAAAKVTTXPaMBC98ys8ngy32qSHTKaAKRjTZiZOXEOa9tQR8gKaypKrlVLor6/8gROScXKIL9au9r3dfdoNpdiwrVFEMynGo8k+584DKCwt99wbuA4IKjMmtmPX6M2HS3cS9EYFN1smHJaN3egBhE6UpIAo1YwghE8p3aDnOCNkecGhik8BCymQrTncISg3QA3FJ9831pjYgOUqSpY/lyO/xjyHz4imuyX7B25wPhgMusLm5IArmYImTFQVoht87Ar+ZsBYvuh7kt6GXUEx2d/yrGkUsErfFftVGtWmf4a6uOxCXTMBmICafUnq5jr5l3QHmeHwI77+NY+SNAqnq2juBn2uhycv2P9jpB7aZ6wPk/5WD3tllFVEMcDKdpyj5+BQThAbGJW5h5qtpWc04x42STPYMMHKt/WOdcxb19nRZUVXh5gJo6Fms2maD8qrY2n1z28L859W9tj/yK9Hzp6w4EwHkVJSpVBIpUG9Mbd3q8VbcxvlhPETzheDuyCa8CpummXKotxgK+nucyURHuwY5+hZzboe7R3QK0G5yeCeKGEbsmitDLwiTlKZ4XtXe2awHEmc0pLhVLA6xQuRTiHtcq8bt7KTUS55Es9jb5ZOvVAB0XAlrOCC8IWSebSvz11a2K407HVLTWu7ZG2uLrqg91L9xoJQaMF/j54SHttl7YJSybkt9EZm5RJvCMfX9P8PtGHs3FUFAAA=</Configuration>
+            <EventQueue QueueStatus="Discard" DaysRetained="2">
+                <Configuration>H4sIAAAAAAAAANVUTU/CQBC9+yua3rEaLx5aDOFDSVQIVDwv7YAr291mZovgr3dLtyC0BrzBcTof+96bN20RgQ4hSQXTEPgPq0Q4S0DiSgbu7fWN64CMVMzlPHDfwl7j3n1oXvnjsDtsDFHFWaT7cqYwYdp0OCMgJZbQl4JLGMGMAnfGBIHr9JQQ6mtgRiOPYZxNbfeuortKFeoOIF9C3NIat6nmleP4rRwo2aox/4bAfeGSJ1niOh0ldfFAWzAiPuPRBk+oNl0GCKChYVo0ZsW8cqK3Ge4V0w0z7w9qTZ9SwXUzB8anmYZnLhcUIp/PDWI5P0xfhKQ7LpQLcZT8gboXQHEfcb19rB32S52+jEQWw5AZ52hrHGuWg6EnCNeXMazeFcZPHJBh9LGuOOeVJVD5OJh+QqTDdQqPqLLUJMhmClyVBgvh7Ffjl9X/PWjbV3fS5cza1dkl5yp75f3/PmWv1gXbZ8p0lW+ZsWEbFVGlbfN7qU9NmMiAyqjDNGsb8szIjXTsVd+zYeHLUtMTDLkzjnHlglJmlGylKSqzKlvyJvn5+8jQznGe+gObWAJ3Nv4B4HfPUf4GAAA=</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

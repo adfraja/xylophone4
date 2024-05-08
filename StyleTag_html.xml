@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <TagList>
+        <Tag Start="&lt;html&gt;" Stop="&lt;/html&gt;"></Tag>
+        <StyleTag ID="html" ParentID="Style tag root" Tag="html"></StyleTag>
+    </TagList>
+</STEP-ProductInformation>

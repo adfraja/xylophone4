@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="std.attribute transformation type" Referenced="true">
+            <Name>Attribute Transformation</Name>
+            <UserTypeLink UserTypeID="std.attribute transformation type"></UserTypeLink>
+            <AttributeLink AttributeID="Attribute Description"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

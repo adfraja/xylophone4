@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="eClass_AAC973003" ParentID="eClassLOVGroup" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+            <Name QualifierID="std.lang.all">workable material_1</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC973003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;workable material_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC973003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;workable material_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC973003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;workable material_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC973003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;workable material_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;eClass_AAC973003
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;workable material_1
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+                <Value AttributeID="EclassID">AAC973</Value>
+                <Value AttributeID="EclassImportVersion">14.0</Value>
+                <Value AttributeID="EclassPrimaryKey">AAC973003</Value>
+            </MetaData>
+            <ValueGroup ID="AAD326002">
+                <Value QualifierID="std.lang.all">aluminum- and brass pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAF595002">
+                <Value QualifierID="std.lang.all">stainless steel pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG418002">
+                <Value QualifierID="std.lang.all">flat iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG419002">
+                <Value QualifierID="std.lang.all">flat iron for railing string wreaths</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG997002">
+                <Value QualifierID="std.lang.all">gas- and water pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAG998002">
+                <Value QualifierID="std.lang.all">gas- and water pipes DIN 2440/91</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAH085002">
+                <Value QualifierID="std.lang.all">area pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK150002">
+                <Value QualifierID="std.lang.all">copper tube</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK151002">
+                <Value QualifierID="std.lang.all">copper tube DIN/EN 1057</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAK784002">
+                <Value QualifierID="std.lang.all">multi-layer composite pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN207002">
+                <Value QualifierID="std.lang.all">smoke tubes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN208002">
+                <Value QualifierID="std.lang.all">smoke tubes DIN 2448</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN482002">
+                <Value QualifierID="std.lang.all">steel- and stainless steel pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN483002">
+                <Value QualifierID="std.lang.all">steel- and stainless steel pipes (max. wall thickness 1.5 mm)</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAN528002">
+                <Value QualifierID="std.lang.all">steel conduit</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO004002">
+                <Value QualifierID="std.lang.all">tank pipe</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO006002">
+                <Value QualifierID="std.lang.all">tank pipes DIN 2448</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAO947002">
+                <Value QualifierID="std.lang.all">sheathed steel pipes</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP217002">
+                <Value QualifierID="std.lang.all">soft-, durable- and coated copper pipe</Value>
+            </ValueGroup>
+            <ValueGroup ID="AAP221002">
+                <Value QualifierID="std.lang.all">soft steel pipes</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

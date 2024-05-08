@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="SAKM_MISUMI" UserTypeID="Event Processor user-type root">
+            <SetupGroupLink SetupGroupID="EventProcessorRoot"></SetupGroupLink>
+            <Name>SAKM_MISUMI</Name>
+            <Configuration>H4sIAAAAAAAAAKVTW2/aMBR+51dE1sTbCNWkqRoQxCXtHqBkhO7yNBnnkB5h7MwXBvv1cwhkTVt30vYWH303O+ebSLHB3CpqUIpBf3jY8WAPSpcnctXpkgAEkxmKfEDuVzdvr8kwavULbnMUAWYDEu9BmERJBlpLNaYaJo8lSdQKgr7GXcHhhF+CLqTQuOZwr0GRSBsoPoShdYehA6SrOEm/pf2w4jylj6lhDyn+AhJddbtdH2xKj3oll2AoilNCTSIvOFEoFZqjk/RBPlmwzjL+nCwXEx9oTg8Lnp3fAvQpoQ/7UVpVJ3zCen/tY81QgE5AjW+T1+9/Q5E7bXWMBXUvnZHIKAt/RTtplA78rpv5sIvC4A61QTaTbNv02FCuvSYvEC92PkrKHiCzHL7OZ9+ncbKMJ6NVPCVRm5teY1PbP6w0Pbeu1cewnZteq0S5P68Q9OkcBJfJMWCcan2mMbnruFhr2bEGeUefTTPYoMByhzuXHNN69OYyugOXodIJa9fwse2fy/XDqjfuSxccTRQrJdUSCqkMqH8pnwtELTfNDjZUSVi7JSfe5H8LP7a63EI9YqVC07qyeNb5JqWu/Po8Vu4dy+qPikLJPVQo3064/AYOphZh1bnk3858pC9SbXVBGdS0n5dJSZy7DvqoTHJODdzJrOzmqxteu6wU5rnbbZGTqNQeiex8N2+t0i0WU+BgIHvZ6tny/AbmBlFGugUAAA==</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="0">
+                <Configuration>H4sIAAAAAAAAANVUwXKbMBC95ysY3VNi59IDOMPYSco0aTw2SY8dGdauGiExWuE6/foKkMzYomP3ltzQvt3lvdVbJYigMygrTjXE0c2u5MEWFDIpYjL6dEUCELksmNjE5Dm7u/xMbiYX0TK7nV/OlSzqXKdiLVVJtakIFoCSbyEVnAlYwBpjsqYcgQR3knP5+8m0VqyAZb2y1X3G7a6SSs9AsS0UidZqD00ugiBKGqJos5bsD8TkkQlW1iUJZlLo7gdTThHZmuUtn0y2VYYIKCPDlGhVd/1cx7BtHnbdjbLwH9ImEVac6UlDjK1qDQ9MvGKm2GZjGIvNMfwhRtprwWYQJ8UfTfcDSDxkPGwfa4fD1CAVOa8LmFPjHG2NY81y1PSMwaWigN13qYovDBRV+c83zznfaAle8Gn1C3KdvVVwr2RdGQDjqA8uag7YchqIHUSD/jOdxWSZfH388TDqBJ1OHJ+dOHYz8gj5Iauxm7An3Q7z3Zssctn/+zTZuqHHyfUcNKG9icYv7lYOHqVw0M/73+xv0tPrEHucKonolbUP5TD0QnkN6E4zqunUiKdm3ApP/TUK7bFzj5vpGavVG8fs1ytW1EwyqSolzVXZlGfB3r+PjOyG57lP8YsVcG3P1FkgbjfRELOAbLdOm62L7dZ7wJVFxh4ycoiD/gJ2C5dGLwgAAA==</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

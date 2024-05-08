@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.SA.BrandsTeamWorkflowAdministrator" Type="setup">
+            <Name>Brands Team Workflow Administrator</Name>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="STEP Workflow Administrator"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="3"></Context>
+            <Context ID="DE-de" Priority="2"></Context>
+            <Context ID="EN All All" Priority="2"></Context>
+            <Context ID="FR All All" Priority="2"></Context>
+            <Context ID="GL" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PMDM.LOV.ProductLengthsEcom" ParentID="PMDM.LOVG.ProductAttributeLOVs" AllowUserValueAddition="false" UseValueID="true" IDPattern="[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">Product Lengths Ecom</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductLengthsEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Lengths Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="DE-de">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductLengthsEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Lengths Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="EN All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductLengthsEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Lengths Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="FR All All">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductLengthsEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Lengths Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                    <Value Derived="true" DerivedContextID="GL">&lt;b&gt;ID = &lt;/b&gt;PMDM.LOV.ProductLengthsEcom
+&lt;br/&gt;&lt;b&gt;Name = &lt;/b&gt;Product Lengths Ecom
+&lt;br/&gt;&lt;b&gt;Description = &lt;/b&gt;N/A
+&lt;br/&gt;&lt;b&gt;Help URL = &lt;/b&gt;&lt;a href="N/A"&gt;N/A&lt;/a&gt;
+&lt;br/&gt;&lt;b&gt;Wiki = &lt;/b&gt;&lt;a href="</Value>
+                </ValueGroup>
+            </MetaData>
+            <ValueGroup ID="27273192">
+                <Value>Mini</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273193">
+                <Value>Knee length</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273194">
+                <Value>Midi</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273195">
+                <Value>Midaxi</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273196">
+                <Value>Maxi</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273197">
+                <Value>Cropped</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273198">
+                <Value>7/8</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273199">
+                <Value>Standard</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273200">
+                <Value>Ankle grazer</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273201">
+                <Value>Longline</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273202">
+                <Value>Long</Value>
+            </ValueGroup>
+            <ValueGroup ID="27273203">
+                <Value>Short</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274712">
+                <Value>NA</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274950">
+                <Value>On the knee</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274951">
+                <Value>Above the knee</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274952">
+                <Value>¾ length</Value>
+            </ValueGroup>
+            <ValueGroup ID="27274953">
+                <Value>Ankle length</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

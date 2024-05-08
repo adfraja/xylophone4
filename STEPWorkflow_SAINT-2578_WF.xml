@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="SAINT-2578_WF" Referenced="true">
+            <SetupGroupLink SetupGroupID="DRAJ_WORKFLOW"></SetupGroupLink>
+            <Name>SAINT-2578_WF</Name>
+            <ValidUserTypeLink UserTypeID="drak_sku"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAJWSUUvDMBDH3/cpYt7bZtW6TZqCiMJAVJjio8T1Vg/apCTXdfPTm2ZTmSLqSw7C3f1/vxDVkZlrJFQEt/rCgq9ypWoHuWtrpAI2sOwIFkuLLV1jgwTlncU11lCBk2S7984aHYG+1fOmNZbAPrTl12VuuWlqmYfCMMTWki/O5zf3UZpNpk8LUpY406qBg/vHK87WYB0aLbmIZ5z5DdpJ/kLUniVJ3/dxfxwbWyWpEFkiJkkI4UV+FEWMMW1KiBy+QqR0GbXG+Wyj2UaKWLBtOHt5ejL19UVmk5mvLIqKEcsdeQtWolsaTag7KCUPTpxh+Sf43f2vJONpFljG4jTQjIUINGn2AcNyskrvJ/zWCugg6VKXPif5bCpGw5ByDisNsAMmfDac0bb1lJU1XTuMvLcUozwJxsNkvkKt6j+5D8nfzXc8v3in4dW3MhXiZ+9/KgTw4DL8gmL//d4A//7Sl+0CAAA=</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

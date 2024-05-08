@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <DimensionList>
+        <Dimension ID="Country">
+            <DimensionPoint ID="DE">
+                <Name>Germany</Name>
+                <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
+            </DimensionPoint>
+        </Dimension>
+    </DimensionList>
+</STEP-ProductInformation>

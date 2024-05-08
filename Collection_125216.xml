@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="125216" ParentID="102100" QueryURL="step://search?args0.0=mode%3ddate%2csince%3d2018-01-12+14%3a58%3a43&amp;args0.1=nodetype%3dentity%2cobjecttype%3dIndividualCustomer&amp;args1.0=nodetype%3dentity%2cobjecttype%3dOrganizationCustomer&amp;search0.0=ChangedSinceCriteria&amp;search0.1=ObjectTypeCriteria&amp;search1.0=ObjectTypeCriteria">
+            <Name>Recently Updated Records</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

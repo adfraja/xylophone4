@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <ActionSetList>
+        <ActionSet ID="PMDM.SA.PlanA" Type="setup">
+            <Name>Plan A Setup Actions</Name>
+            <ActionLink ActionID="Access Web UI"></ActionLink>
+            <ActionLink ActionID="Access Workbench"></ActionLink>
+            <ActionLink ActionID="Initiate Item in STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Perform Bulk Update"></ActionLink>
+            <ActionLink ActionID="Re-Assign STEP Workflow Tasks"></ActionLink>
+            <ActionLink ActionID="Remove Item from STEP Workflow"></ActionLink>
+            <ActionLink ActionID="Use tag"></ActionLink>
+            <ActionLink ActionID="View and use STEP Workflow"></ActionLink>
+            <ActionLink ActionID="View attribute group"></ActionLink>
+            <ActionLink ActionID="View attribute"></ActionLink>
+            <ActionLink ActionID="View context"></ActionLink>
+            <ActionLink ActionID="View domain"></ActionLink>
+            <ActionLink ActionID="View metadata for attribute"></ActionLink>
+        </ActionSet>
+    </ActionSetList>
+</STEP-ProductInformation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="DE-de" WorkspaceID="Approved" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="CFTO_Level_1" ClassificationOwnsProductLinks="false" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="CFTO_Level_1_[id]">
+            <Name>CFTO Level 1</Name>
+            <Icon>H4sIAAAAAAAAAAELAvT9iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABvUlEQVQ4T6WTSyhEYRTHvzwyZLySZ+QRS0mRhR2FhZC8lZFSHiMSi8krr7wamUkZhJoRiY2EWMgzEY3UEAuWykaRZOHPOeNeI4/C4te593/O9z/f/b5zxVytB4aKnDBWosBwsQIjKgU/D+bZoyNVoCvtZ8SONgg4zQLOCt+5UsM8GgZNkkBbyvdQA7He7Y/rxSjcrka/EsPcb0TjwhgByq33BH7JVn8gxstcIJaafbCrDcCBPhT7uhCZI0MIjsfCv8UyGYmpKiXEgsYL8w2eWGz0AW7qgZNELGi8ZTb7AgBLJvDYhHNjpKwvNXnzmQlaPFHqjPl6dy56NifAWKmUwWU57jZjOXdoCJd16q7PdQTfgi7fAaYKFy562otnZ1t2B4I5R1HSDCpnaLPsIGZrPNCfKTCqcuKih+04DGbbf4AOjXIUJU2X48DrxEy1G9/nUJEjF91vxXHClrU2f85RlDTq3p3+ZkD3qS+wGtD39maID6x2+nGOoq3OgzStVvJQ0LYkA9tJI1barQYUJY26U+QdtCZbX3Bdx4USyy2+nzRY0mWTTwZ/4f8GpkpX/mnI5C8IGlVTlRvoMH+PEi/2zjtAtiqMfAAAAABJRU5ErkJggssfJvsLAgAA</Icon>
+            <UserTypeLink UserTypeID="CFTO_Level_0"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
